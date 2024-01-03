@@ -1,1 +1,8 @@
+# Folders
 database_unification_data
+backups
+
+# Specific files
+data/lipid_structures.sdf
+metadisassembler5/data/BUL_v2.pkl
+lipidmaps/lipid_structures.sdf
