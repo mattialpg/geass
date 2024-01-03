@@ -1,0 +1,131 @@
+Myxochelin O
+     RDKit          2D
+
+ 19 20  0  0  0  0  0  0  0  0999 V2000
+   -4.9992   -1.1238    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6332    0.3308    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.9036    1.1284    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.0547    0.1666    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.5094    0.5326    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4958   -1.2253    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2413    0.8898    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0612   -0.0362    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6693    0.5228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5108   -0.4032    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9028    0.1558    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0828   -0.7702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8709   -2.2551    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4748   -0.2112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6549   -1.1372    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0468   -0.5782    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2587    0.9068    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0786    1.8328    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6867    1.2738    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  4  6  1  0
+  2  7  1  1
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  2  0
+ 12 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+  6  1  1  0
+ 19 14  1  0
+M  END
+
+>  <npaid>
+NPA033289
+
+>  <compound_name>
+Myxochelin O
+
+>  <compound_molecular_formula>
+C13H17N3O3
+
+>  <compound_molecular_weight>
+263.2970
+
+>  <compound_accurate_mass>
+263.1270
+
+>  <compound_m_plus_h>
+264.1343
+
+>  <compound_m_plus_na>
+286.1162
+
+>  <compound_inchi>
+InChI=1S/C13H17N3O3/c17-12(10-4-3-6-14-8-10)15-7-2-1-5-11-9-19-13(18)16-11/h3-4,6,8,11H,1-2,5,7,9H2,(H,15,17)(H,16,18)/t11-/m0/s1
+
+>  <compound_inchikey>
+DEJXNEHSTOCMNC-NSHDSACASA-N
+
+>  <compound_smiles>
+O=C1N[C@@H](CCCCNC(=O)C2=CN=CC=C2)CO1
+
+>  <compound_cluster_id>
+9745
+
+>  <compound_node_id>
+6502
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Archangium
+
+>  <origin_species>
+sp. SDU34
+
+>  <original_reference_author_list>
+Gao, Dong-Fang; Li, Yue-Zhong; Lin, Zhao-Min; Niu, Luo; Sui, Hai-Yan; Wang, De-Gao; Wang, Jing-Jing; Wu, Changsheng
+
+>  <original_reference_year>
+2021
+
+>  <original_reference_issue>
+10
+
+>  <original_reference_volume>
+84
+
+>  <original_reference_pages>
+2744-2748
+
+>  <original_reference_doi>
+10.1021/acs.jnatprod.1c00524
+
+>  <original_reference_pmid>
+34623817
+
+>  <original_reference_title>
+The Discovery and Biosynthesis of Nicotinic Myxochelins from an Archangium sp. SDU34
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Natural Products
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

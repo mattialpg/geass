@@ -1,0 +1,13 @@
+DATE            : 2023/04/12 12:37
+COMPOUND        : 4_SF_0069
+RUN TIME[s]     : 0.63
+MIN # FRAGMENTS : 2
+
+RESULTS (Total 1):
+>>> 0
+# fragments : 2
+Cut_bond_ID : [1]
+0 : ['C00025_mod_2', 'C01165']
+1 : ['C00001']
+
+END

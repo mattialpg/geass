@@ -1,0 +1,166 @@
+ripostatin A
+     RDKit          2D
+
+ 36 38  0  0  0  0  0  0  0  0999 V2000
+    4.9786   -2.8381    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8296   -3.8023    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4200   -3.2893    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1595   -1.8121    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4895   -2.7762    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2662    0.0602    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5055    0.9052    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.6051   -0.1151    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2555    2.2042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3676    3.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8196    5.0963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7200    6.1166    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2867    6.5587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8034    6.3352    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2554    7.7315    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2278    7.9550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7758    9.3514    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1631    6.7823    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4359    5.4902    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1859    4.1912    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6193    4.6333    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2980    2.6953    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0900   -5.2795    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4996   -5.7926    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7600   -7.2698    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6110   -8.2339    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8714   -9.7112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2810  -10.2242    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4300   -9.2600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1696   -7.7828    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  1
+  5  7  1  0
+  8  7  1  1
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  6
+ 11 12  1  0
+ 12 13  1  0
+ 12 14  2  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 21 23  2  0
+ 19 24  2  0
+ 24 25  1  0
+ 25 26  2  0
+ 25 27  1  0
+ 10 28  1  0
+  2 29  2  0
+ 29 30  1  0
+ 30 31  1  0
+ 31 32  2  0
+ 32 33  1  0
+ 33 34  2  0
+ 34 35  1  0
+ 35 36  2  0
+ 28  5  1  0
+ 36 31  1  0
+ 27  8  1  0
+M  END
+
+>  <npaid>
+NPA000748
+
+>  <compound_name>
+Ripostatin A
+
+>  <compound_molecular_formula>
+C30H38O6
+
+>  <compound_molecular_weight>
+494.6280
+
+>  <compound_accurate_mass>
+494.2668
+
+>  <compound_m_plus_h>
+495.2741
+
+>  <compound_m_plus_na>
+517.2560
+
+>  <compound_inchi>
+InChI=1S/C30H38O6/c1-22(13-14-24-10-6-4-7-11-24)15-16-30(34)21-27-20-26(36-30)17-23(2)9-5-3-8-12-25(18-28(31)32)19-29(33)35-27/h3-4,6-11,13,19,26-27,34H,5,12,14-18,20-21H2,1-2H3,(H,31,32)/b8-3-,22-13+,23-9-,25-19+/t26-,27-,30+/m1/s1
+
+>  <compound_inchikey>
+ROPGADFKOUALIE-DJIBYVLHSA-N
+
+>  <compound_smiles>
+C/C/1=C/C/C=C\C/C(=C\C(=O)O[C@@H]2C[C@@H](C1)O[C@](C2)(CC/C(=C/CC3=CC=CC=C3)/C)O)/CC(=O)O
+
+>  <compound_cluster_id>
+217
+
+>  <compound_node_id>
+204
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Sorangium
+
+>  <origin_species>
+cellulosum
+
+>  <original_reference_author_list>
+Augustiniak H;Höfle G;Irschik H;Reichenbach H
+
+>  <original_reference_year>
+1996
+
+>  <original_reference_issue>
+10
+
+>  <original_reference_volume>
+1996
+
+>  <original_reference_pages>
+1657-1663
+
+>  <original_reference_doi>
+10.1002/jlac.199619961026
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Antibiotics from Gliding Bacteria, LXXVIII. Ripostatin A, B, and C: Isolation and Structure and Structure Elucidation of Novel Metabolites from Sorangium cellulosum
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Liebigs Annalen der Chemie
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+10.1021/ol302219x
+
+>  <mibig_ids>
+BGC0001761
+
+>  <gnps_ids>
+

@@ -1,0 +1,150 @@
+TMC-169
+     RDKit          2D
+
+ 28 30  0  0  0  0  0  0  0  0999 V2000
+    3.6465    2.5548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1666    2.3098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6389    0.9057    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3291   -0.4260    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2759   -1.4940    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0653   -0.8223    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7731   -1.1892    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1590    0.6608    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7931    1.8199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2391    1.5805    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3078    1.2971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0535    0.4809    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2397   -0.6089    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8070   -1.6263    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8930   -2.2483    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7879   -2.2774    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8424   -1.7044    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3567   -0.7112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8290   -0.7163    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5683   -4.3421    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4480    3.1786    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2653    3.2240    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2146    3.4689    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7424    4.8730    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8123   -0.6503    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3596   -2.0469    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8427   -2.2712    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4237   -3.2192    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  1
+  3  2  1  1
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  2  0
+  8  6  1  1
+  8  9  1  0
+  9 10  1  1
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 15 20  1  0
+ 11 21  1  0
+  9 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+  4 25  1  6
+ 25 26  1  0
+ 26 27  1  0
+ 26 28  1  0
+ 23  2  1  0
+  8  3  1  0
+ 18  8  1  0
+M  END
+
+>  <npaid>
+NPA003204
+
+>  <compound_name>
+TMC-169
+
+>  <compound_molecular_formula>
+C24H35NO3
+
+>  <compound_molecular_weight>
+385.5480
+
+>  <compound_accurate_mass>
+385.2617
+
+>  <compound_m_plus_h>
+386.2690
+
+>  <compound_m_plus_na>
+408.2509
+
+>  <compound_inchi>
+InChI=1S/C24H35NO3/c1-14(2)11-20-22-17(5)16(4)13-18-12-15(3)7-6-8-19(26)9-10-21(27)24(18,22)23(28)25-20/h9-10,12-14,17-20,22,26H,6-8,11H2,1-5H3,(H,25,28)/b10-9-,15-12-/t17-,18+,19?,20+,22+,24-/m1/s1
+
+>  <compound_inchikey>
+PBMWGTZJDVBFGK-XSPGZUFDSA-N
+
+>  <compound_smiles>
+C[C@H]1[C@H]2[C@@H](NC(=O)[C@@]23[C@@H](/C=C(\CCCC(/C=C\C3=O)O)/C)C=C1C)CC(C)C
+
+>  <compound_cluster_id>
+58
+
+>  <compound_node_id>
+56
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Aspergillus
+
+>  <origin_species>
+flavipes
+
+>  <original_reference_author_list>
+KOHNO, JUN; NONAKA, NOBUAKI; NISHIO, MAKI; OHNUKI, TETSUO; KAWANO, KIMIO; OKUDA, TORU; KOMATSUBARA, SABURO
+
+>  <original_reference_year>
+1999
+
+>  <original_reference_issue>
+6
+
+>  <original_reference_volume>
+52
+
+>  <original_reference_pages>
+575-577
+
+>  <original_reference_doi>
+10.7164/antibiotics.52.575
+
+>  <original_reference_pmid>
+10470683
+
+>  <original_reference_title>
+TMC-169, a New Antibiotic of the Aspochalasin Group Produced by Aspergillus flavipes
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Antibiotics
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

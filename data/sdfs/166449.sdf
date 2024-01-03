@@ -1,0 +1,192 @@
+166449
+  -OEChem-11202219392D
+
+ 33 35  0     0  0  0  0  0  0999 V2000
+    7.3991   -1.3023    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3923   -1.7127    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5274    1.5583    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3364    0.9705    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0274    0.0194    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0274    0.0194    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3518    1.2027    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7183    0.9705    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0547    0.4340    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7123   -0.7653    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7328   -0.5566    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3424   -0.7653    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6498    2.1573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7029    1.2027    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0321    0.6457    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3219   -0.5566    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000    0.4340    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.3780   -1.0982    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5274    2.1783    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5408   -1.3527    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2416    1.9725    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8345    2.7491    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0580    2.3420    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5182    1.7946    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1633    0.0398    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6380    0.7770    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9008    1.2517    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9088   -1.0190    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3940    0.5653    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8018   -2.1783    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5046   -1.7051    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9850   -0.9716    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2515   -0.4912    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1 11  1  0  0  0  0
+  1 18  1  0  0  0  0
+  2 10  1  0  0  0  0
+  2 30  1  0  0  0  0
+  3  4  1  0  0  0  0
+  3  8  1  0  0  0  0
+  3 19  1  0  0  0  0
+  4  5  2  0  0  0  0
+  4  7  1  0  0  0  0
+  5  6  1  0  0  0  0
+  5 10  1  0  0  0  0
+  6  8  1  0  0  0  0
+  6 12  2  0  0  0  0
+  7  9  2  0  0  0  0
+  7 13  1  0  0  0  0
+  8 14  2  0  0  0  0
+  9 11  1  0  0  0  0
+  9 15  1  0  0  0  0
+ 10 11  2  0  0  0  0
+ 12 16  1  0  0  0  0
+ 12 20  1  0  0  0  0
+ 13 21  1  0  0  0  0
+ 13 22  1  0  0  0  0
+ 13 23  1  0  0  0  0
+ 14 17  1  0  0  0  0
+ 14 24  1  0  0  0  0
+ 15 25  1  0  0  0  0
+ 15 26  1  0  0  0  0
+ 15 27  1  0  0  0  0
+ 16 17  2  0  0  0  0
+ 16 28  1  0  0  0  0
+ 17 29  1  0  0  0  0
+ 18 31  1  0  0  0  0
+ 18 32  1  0  0  0  0
+ 18 33  1  0  0  0  0
+M  END
+> <PUBCHEM_COMPOUND_CID>
+166449
+
+> <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+> <PUBCHEM_CACTVS_COMPLEXITY>
+309
+
+> <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+2
+
+> <PUBCHEM_CACTVS_HBOND_DONOR>
+2
+
+> <PUBCHEM_CACTVS_ROTATABLE_BOND>
+1
+
+> <PUBCHEM_CACTVS_SUBSKEYS>
+AAADccByMAAAAAAAAAAAAAAAAAAAAWAAAAAwYAAAAAAAAFgB/AAAHgAQCAAADAyBngIyxvLJlgCgAyRiRACCiCAhIiAImSA07JgNJuLGsZuEcCtm0BnL+Aew0PMO4EADQgAaQADAgAaEADSAAAAAAAAAAA==
+
+> <PUBCHEM_IUPAC_OPENEYE_NAME>
+3-methoxy-1,2-dimethyl-9H-carbazol-4-ol
+
+> <PUBCHEM_IUPAC_CAS_NAME>
+3-methoxy-1,2-dimethyl-9H-carbazol-4-ol
+
+> <PUBCHEM_IUPAC_NAME_MARKUP>
+3-methoxy-1,2-dimethyl-9<I>H</I>-carbazol-4-ol
+
+> <PUBCHEM_IUPAC_NAME>
+3-methoxy-1,2-dimethyl-9H-carbazol-4-ol
+
+> <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+3-methoxy-1,2-dimethyl-9H-carbazol-4-ol
+
+> <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+3-methoxy-1,2-dimethyl-9H-carbazol-4-ol
+
+> <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C15H15NO2/c1-8-9(2)15(18-3)14(17)12-10-6-4-5-7-11(10)16-13(8)12/h4-7,16-17H,1-3H3
+
+> <PUBCHEM_IUPAC_INCHIKEY>
+OBMFXFPFPDTBHG-UHFFFAOYSA-N
+
+> <PUBCHEM_XLOGP3_AA>
+3.7
+
+> <PUBCHEM_EXACT_MASS>
+241.110278721
+
+> <PUBCHEM_MOLECULAR_FORMULA>
+C15H15NO2
+
+> <PUBCHEM_MOLECULAR_WEIGHT>
+241.28
+
+> <PUBCHEM_OPENEYE_CAN_SMILES>
+CC1=C(C(=C(C2=C1NC3=CC=CC=C32)O)OC)C
+
+> <PUBCHEM_OPENEYE_ISO_SMILES>
+CC1=C(C(=C(C2=C1NC3=CC=CC=C32)O)OC)C
+
+> <PUBCHEM_CACTVS_TPSA>
+45.2
+
+> <PUBCHEM_MONOISOTOPIC_WEIGHT>
+241.110278721
+
+> <PUBCHEM_TOTAL_CHARGE>
+0
+
+> <PUBCHEM_HEAVY_ATOM_COUNT>
+18
+
+> <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+> <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+> <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+> <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+> <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+> <PUBCHEM_COMPONENT_COUNT>
+1
+
+> <PUBCHEM_CACTVS_TAUTO_COUNT>
+17
+
+> <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+> <PUBCHEM_BONDANNOTATIONS>
+10  11  8
+12  16  8
+14  17  8
+16  17  8
+3  4  8
+3  8  8
+4  5  8
+4  7  8
+5  10  8
+5  6  8
+6  12  8
+6  8  8
+7  9  8
+8  14  8
+9  11  8
+
+$$$$

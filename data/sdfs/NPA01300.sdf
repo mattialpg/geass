@@ -1,0 +1,130 @@
+pseudopyronine A
+     RDKit          2D
+
+ 19 19  0  0  0  0  0  0  0  0999 V2000
+    8.2500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  8 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 11 17  1  0
+ 17 18  1  0
+ 18 19  2  0
+ 18  7  1  0
+M  END
+
+>  <npaid>
+NPA001300
+
+>  <compound_name>
+Pseudopyronine A
+
+>  <compound_molecular_formula>
+C16H28O3
+
+>  <compound_molecular_weight>
+268.3970
+
+>  <compound_accurate_mass>
+268.2038
+
+>  <compound_m_plus_h>
+269.2111
+
+>  <compound_m_plus_na>
+291.1930
+
+>  <compound_inchi>
+InChI=1S/C16H28O3/c1-3-5-7-9-11-14-15(17)12-13(19-16(14)18)10-8-6-4-2/h13,17H,3-12H2,1-2H3
+
+>  <compound_inchikey>
+KNHVGVOCIWZQPY-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CCCCCCC1=C(CC(OC1=O)CCCCC)O
+
+>  <compound_cluster_id>
+702
+
+>  <compound_node_id>
+619
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Pseudomonas
+
+>  <origin_species>
+sp. F92S91
+
+>  <original_reference_author_list>
+Kong, Fangming; Singh, Maya P.; Carter, Guy T.
+
+>  <original_reference_year>
+2005
+
+>  <original_reference_issue>
+6
+
+>  <original_reference_volume>
+68
+
+>  <original_reference_pages>
+920-923
+
+>  <original_reference_doi>
+10.1021/np050038v
+
+>  <original_reference_pmid>
+15974619
+
+>  <original_reference_title>
+Pseudopyronines A and B, α-pyrones produced by a marine Pseudomonas sp. F92S91, and evidence for the conversion of 4-hydroxy-α-pyrone to 3-furanone
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Natural Products
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001285
+
+>  <gnps_ids>
+

@@ -1,0 +1,149 @@
+Schizokinen
+     RDKit          2D
+
+ 29 28  0  0  0  0  0  0  0  0999 V2000
+  -10.5000    2.7532    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.0000    2.7532    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.2500    4.0523    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.2500    1.4542    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7500    1.4542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0000    0.1552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5000    0.1552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -1.1439    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2500   -1.1439    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.1552    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.4429    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -2.4429    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.4429    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2500   -1.1439    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.1552    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -1.1439    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5000    0.1552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000    0.1552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7500    1.4542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500    1.4542    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0000    2.7532    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500    4.0523    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5000    2.7532    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0000    0.1552    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.9429    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2990   -4.6929    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990   -4.6929    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -0.9429    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.0000    0.1552    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  2  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  2  0
+  9 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 14 16  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  2  0
+ 21 23  1  0
+ 20 24  1  0
+ 12 25  1  0
+ 25 26  2  0
+ 25 27  1  0
+ 12 28  1  0
+  4 29  1  0
+M  END
+
+>  <npaid>
+NPA027582
+
+>  <compound_name>
+Schizokinen
+
+>  <compound_molecular_formula>
+C16H28N4O9
+
+>  <compound_molecular_weight>
+420.4190
+
+>  <compound_accurate_mass>
+420.1856
+
+>  <compound_m_plus_h>
+421.1929
+
+>  <compound_m_plus_na>
+443.1748
+
+>  <compound_inchi>
+InChI=1S/C16H28N4O9/c1-11(21)19(28)7-3-5-17-13(23)9-16(27,15(25)26)10-14(24)18-6-4-8-20(29)12(2)22/h27-29H,3-10H2,1-2H3,(H,17,23)(H,18,24)(H,25,26)
+
+>  <compound_inchikey>
+YILWWVUXGMGOAM-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CC(=O)N(O)CCCNC(=O)CC(O)(CC(=O)NCCCN(O)C(C)=O)C(=O)O
+
+>  <compound_cluster_id>
+2439
+
+>  <compound_node_id>
+1915
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Bacillus
+
+>  <origin_species>
+megaterium ATCC 19213
+
+>  <original_reference_author_list>
+Mullis KB; Pollack JR; Neilands JB
+
+>  <original_reference_year>
+1971
+
+>  <original_reference_issue>
+26
+
+>  <original_reference_volume>
+10
+
+>  <original_reference_pages>
+4894-4898
+
+>  <original_reference_doi>
+10.1021/bi00802a010
+
+>  <original_reference_pmid>
+4332462
+
+>  <original_reference_title>
+Structure of schizokinen, an iron-transport compound from Bacillus megaterium.
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Biochemistry
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

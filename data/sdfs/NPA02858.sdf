@@ -1,0 +1,144 @@
+kiamycin
+     RDKit          2D
+
+ 24 28  0  0  0  0  0  0  0  0999 V2000
+    3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2500    3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8703    3.2082    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  1  1
+  9 11  1  0
+ 11 12  1  6
+ 11 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 17 16  1  1
+ 17 18  1  0
+ 18 19  1  1
+ 19 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  1  0
+ 22 24  2  0
+  8  3  1  0
+ 17 11  1  0
+ 18  7  1  0
+ 24 15  1  0
+ 20 16  1  0
+M  END
+
+>  <npaid>
+NPA002858
+
+>  <compound_name>
+Kiamycin
+
+>  <compound_molecular_formula>
+C20H18O4
+
+>  <compound_molecular_weight>
+322.3600
+
+>  <compound_accurate_mass>
+322.1205
+
+>  <compound_m_plus_h>
+323.1278
+
+>  <compound_m_plus_na>
+345.1097
+
+>  <compound_inchi>
+InChI=1S/C20H18O4/c1-10-8-11-6-7-20(22)17-15(11)14(9-10)24-18(17)12-4-3-5-13(23-2)16(12)19(20)21/h3-9,17-19,21-22H,1-2H3/t17-,18-,19+,20+/m1/s1
+
+>  <compound_inchikey>
+DZZWPZQOEKAGKX-ZRNYENFQSA-N
+
+>  <compound_smiles>
+CC1=CC2=C3[C@@H]4[C@H](O2)C5=C([C@@H]([C@@]4(C=CC3=C1)O)O)C(=CC=C5)OC
+
+>  <compound_cluster_id>
+1675
+
+>  <compound_node_id>
+1369
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+sp. strain M268
+
+>  <original_reference_author_list>
+Xie, Zeping; Liu, Bing; Wang, Hongpeng; Yang, Shengxiang; Zhang, Hongyu; Wang, Yipeng; Ji, Naiyun; Qin, Song; Laatsch, Hartmut
+
+>  <original_reference_year>
+2012
+
+>  <original_reference_issue>
+12
+
+>  <original_reference_volume>
+10
+
+>  <original_reference_pages>
+551-558
+
+>  <original_reference_doi>
+10.3390/md10030551
+
+>  <original_reference_pmid>
+22611353
+
+>  <original_reference_title>
+Kiamycin, a Unique Cytotoxic Angucyclinone Derivative from a Marine Streptomyces sp
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Marine Drugs
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000235
+
+>  <gnps_ids>
+

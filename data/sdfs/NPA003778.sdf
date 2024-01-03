@@ -1,0 +1,139 @@
+citridone A
+     RDKit          2D
+
+ 22 25  0  0  0  0  0  0  0  0999 V2000
+   -4.6494    1.7655    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3375    0.2982    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672   -0.3119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537   -2.4138    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240   -1.8037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2808   -3.2954    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5912   -2.1155    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3412   -0.8165    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8330   -0.6597    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  1
+  2  3  1  0
+  3  4  1  6
+  4  5  2  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  1
+  7  9  1  0
+  9 10  2  0
+ 10 11  1  0
+  5 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  2  0
+ 12 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  2  0
+ 10  2  1  0
+ 22 17  1  0
+  7  3  1  0
+ 15  4  1  0
+M  END
+
+>  <npaid>
+NPA003778
+
+>  <compound_name>
+Citridone A
+
+>  <compound_molecular_formula>
+C19H19NO2
+
+>  <compound_molecular_weight>
+293.3660
+
+>  <compound_accurate_mass>
+293.1416
+
+>  <compound_m_plus_h>
+294.1489
+
+>  <compound_m_plus_na>
+316.1308
+
+>  <compound_inchi>
+InChI=1S/C19H19NO2/c1-11-9-19(3)16(12(11)2)15-17(22-19)14(10-20-18(15)21)13-7-5-4-6-8-13/h4-10,12,16H,1-3H3,(H,20,21)/t12-,16-,19-/m1/s1
+
+>  <compound_inchikey>
+XFLJBHHWXWWOOI-SMNXXWJPSA-N
+
+>  <compound_smiles>
+C[C@H]1[C@@H]2C3=C(C(=CNC3=O)C4=CC=CC=C4)O[C@@]2(C=C1C)C
+
+>  <compound_cluster_id>
+2078
+
+>  <compound_node_id>
+1635
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Penicillium
+
+>  <origin_species>
+sp. FKI-1938
+
+>  <original_reference_author_list>
+Fukuda, Takashi; Yamaguchi, Yuichi; Masuma, Rokuro; Tomoda, Hiroshi; Omura, Satoshi
+
+>  <original_reference_year>
+2005
+
+>  <original_reference_issue>
+5
+
+>  <original_reference_volume>
+58
+
+>  <original_reference_pages>
+309-314
+
+>  <original_reference_doi>
+10.1038/ja.2005.38
+
+>  <original_reference_pmid>
+16060382
+
+>  <original_reference_title>
+Citridones, new potentiators of antifungal miconazole activity, produced by Penicillium sp. FKI-1938: I. Taxonomy, fermentation, isolation and biological properties
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Antibiotics
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+10.1021/ol200022a;10.1021/ol2017802
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

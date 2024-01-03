@@ -1,0 +1,125 @@
+Sodorifen
+     RDKit          2D
+
+ 16 17  0  0  0  0  0  0  0  0999 V2000
+    1.4313   -2.7151    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8163   -1.3469    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6936   -0.1303    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1859   -0.2817    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0786    1.2379    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4310    1.2191    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3236   -0.0772    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6761   -1.1955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0486   -0.5903    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8971    0.9020    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0154    1.9017    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3449   -1.3450    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3589   -2.6616    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1126    0.0366    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1741    2.5916    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9559    2.4546    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  1
+  2  3  1  0
+  3  4  2  0
+  3  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+  9 12  1  0
+  8 13  1  1
+  7 14  1  0
+  6 15  1  1
+  5 16  1  1
+  8  2  1  0
+ 10  6  1  0
+M  END
+
+>  <npaid>
+NPA031220
+
+>  <compound_name>
+Sodorifen
+
+>  <compound_molecular_formula>
+C16H26
+
+>  <compound_molecular_weight>
+218.3840
+
+>  <compound_accurate_mass>
+218.2035
+
+>  <compound_m_plus_h>
+219.2108
+
+>  <compound_m_plus_na>
+241.1927
+
+>  <compound_inchi>
+InChI=1S/C16H26/c1-9-10(2)15(7)12(4)13(5)16(8,11(9)3)14(15)6/h10-11,14H,1H2,2-8H3/t10-,11+,14?,15-,16+
+
+>  <compound_inchikey>
+GXPHTJFKVOCWKQ-PDLCYRHZSA-N
+
+>  <compound_smiles>
+C=C1[C@H](C)[C@@]2(C)C(C)=C(C)[C@](C)(C2C)[C@@H]1C
+
+>  <compound_cluster_id>
+9235
+
+>  <compound_node_id>
+6194
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Serratia
+
+>  <origin_species>
+odorifera
+
+>  <original_reference_author_list>
+Stephan H. von Reuß, Marco Kai, Birgit Piechulla, Wittko Francke
+
+>  <original_reference_year>
+2010
+
+>  <original_reference_issue>
+11
+
+>  <original_reference_volume>
+49
+
+>  <original_reference_pages>
+2009-2010
+
+>  <original_reference_doi>
+10.1002/anie.200905680
+
+>  <original_reference_pmid>
+20155769
+
+>  <original_reference_title>
+Octamethylbicyclo[3.2.1]octadienes from the rhizobacterium Serratia odorifera.
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Angewandte Chemie International Edition
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

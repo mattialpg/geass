@@ -1,0 +1,140 @@
+Nanangelenin B
+     RDKit          2D
+
+ 23 25  0  0  0  0  0  0  0  0999 V2000
+    0.7815    0.9629    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2810   -0.4511    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0744   -1.7241    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2718   -2.9913    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5644   -1.8974    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6289   -0.8405    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0015   -1.4453    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2116   -0.5589    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0490    0.9322    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6764    1.5370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4663    0.6506    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1991    1.4532    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3724    2.9432    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2102   -0.6137    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0966    0.5963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4918    1.9690    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5878    0.4338    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4741    1.6438    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.9653    1.4813    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.5701    0.1086    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.6837   -1.1015    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1925   -0.9389    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3061   -2.1490    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  3  5  1  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+  2 14  1  1
+ 14 15  1  0
+ 15 16  2  0
+ 15 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  2  0
+ 22 23  1  0
+ 12  1  1  0
+ 11  6  1  0
+ 22 17  1  0
+M  END
+
+>  <npaid>
+NPA032973
+
+>  <compound_name>
+Nanangelenin B
+
+>  <compound_molecular_formula>
+C17H15N3O3
+
+>  <compound_molecular_weight>
+309.3250
+
+>  <compound_accurate_mass>
+309.1113
+
+>  <compound_m_plus_h>
+310.1186
+
+>  <compound_m_plus_na>
+332.1005
+
+>  <compound_inchi>
+InChI=1S/C17H15N3O3/c18-12-7-3-1-5-10(12)16(22)20-14-9-15(21)11-6-2-4-8-13(11)19-17(14)23/h1-8,14H,9,18H2,(H,19,23)(H,20,22)/t14-/m0/s1
+
+>  <compound_inchikey>
+TVPLZAQWRYWFFT-AWEZNQCLSA-N
+
+>  <compound_smiles>
+NC1=CC=CC=C1C(=O)N[C@H]1CC(=O)C2=CC=CC=C2NC1=O
+
+>  <compound_cluster_id>
+9666
+
+>  <compound_node_id>
+6451
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Aspergillus
+
+>  <origin_species>
+nanangensis
+
+>  <original_reference_author_list>
+Chooi, Yit-Heng; Gilchrist, Cameron L. M.; Lacey, Ernest; Lacey, Heather J.; Li, Hang; Moggach, Stephen A.; Phan, Chin-Soon; Piggott, Andrew M.; Vuong, Daniel
+
+>  <original_reference_year>
+2020
+
+>  <original_reference_issue>
+15
+
+>  <original_reference_volume>
+142
+
+>  <original_reference_pages>
+7145-7152
+
+>  <original_reference_doi>
+10.1021/jacs.0c01605
+
+>  <original_reference_pmid>
+32182055
+
+>  <original_reference_title>
+Biosynthesis of a New Benzazepine Alkaloid Nanangelenin A from Aspergillus nanangensis Involves an Unusual l-Kynurenine-Incorporating NRPS Catalyzing Regioselective Lactamization
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of the American Chemical Society
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

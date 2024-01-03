@@ -1,0 +1,159 @@
+myxothiazol
+     RDKit          2D
+
+ 33 34  0  0  0  0  0  0  0  0999 V2000
+    7.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7760    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0260   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5260   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2458   -1.6317    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2458   -3.1317    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6724   -3.5952    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5541   -2.3817    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6724   -1.1682    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0541   -2.3817    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8041   -1.0826    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8041   -3.6807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.3041   -3.6807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.0541   -4.9798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.5541   -4.9798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.3041   -6.2788    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.8041   -6.2788    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.5541   -7.5778    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7760   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2760   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0260   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5260   -3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7760   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7760   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2760   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0260   -6.4952    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0260   -3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  1  0
+  9 10  2  0
+  9 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 14 16  1  0
+ 16 17  1  0
+ 16 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  1  0
+ 22 24  1  0
+  3 25  1  0
+ 25 26  1  0
+ 25 27  1  0
+ 27 28  1  0
+ 28 29  1  0
+ 27 30  2  0
+ 30 31  1  0
+ 31 32  1  0
+ 31 33  2  0
+ 10  6  1  0
+ 15 11  1  0
+M  END
+
+>  <npaid>
+NPA001854
+
+>  <compound_name>
+Myxothiazol
+
+>  <compound_molecular_formula>
+C25H33N3O3S2
+
+>  <compound_molecular_weight>
+487.6910
+
+>  <compound_accurate_mass>
+487.1963
+
+>  <compound_m_plus_h>
+488.2036
+
+>  <compound_m_plus_na>
+510.1855
+
+>  <compound_inchi>
+InChI=1S/C25H33N3O3S2/c1-16(2)9-7-8-10-17(3)24-28-20(15-33-24)25-27-19(14-32-25)11-12-21(30-5)18(4)22(31-6)13-23(26)29/h7-18,21H,1-6H3,(H2,26,29)/b9-7+,10-8+,12-11+,22-13+
+
+>  <compound_inchikey>
+XKTFQMCPGMTBMD-ARYLOLAOSA-N
+
+>  <compound_smiles>
+CC(C)/C=C/C=C/C(C)C1=NC(=CS1)C2=NC(=CS2)/C=C/C(C(C)/C(=C\C(=O)N)/OC)OC
+
+>  <compound_cluster_id>
+21
+
+>  <compound_node_id>
+20
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Myxococcus
+
+>  <origin_species>
+fulvus
+
+>  <original_reference_author_list>
+Trowitzsch, W; Reifenstahl, G; Wray, V; Gerth, K
+
+>  <original_reference_year>
+1980
+
+>  <original_reference_issue>
+12
+
+>  <original_reference_volume>
+33
+
+>  <original_reference_pages>
+1480-1490
+
+>  <original_reference_doi>
+10.7164/antibiotics.33.1480
+
+>  <original_reference_pmid>
+7271921
+
+>  <original_reference_title>
+Myxothiazol, an antibiotic from Myxococcus fulvus (myxobacterales). II. structure elucidation
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Antibiotics
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001024
+
+>  <gnps_ids>
+

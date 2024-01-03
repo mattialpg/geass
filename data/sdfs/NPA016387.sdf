@@ -1,0 +1,141 @@
+12-epi-hapalindole C isonitrile
+     RDKit          2D
+
+ 23 25  0  0  0  0  0  0  0  0999 V2000
+    4.5577    0.2855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4430   -0.7182    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0164   -0.2547    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7548   -2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1814   -2.6490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4933   -4.1162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3786   -5.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5606   -6.0434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6744   -6.4443    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1753   -6.4967    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8373   -5.6601    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7225   -6.6638    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1568   -5.0991    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5271   -5.7092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7406   -4.8275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5838   -3.3357    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  4  2  1  1
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  6
+  7  9  1  0
+  9 10  2  0
+  7 11  1  0
+ 11 12  1  6
+ 12 13  3  0
+ 11 14  1  0
+ 14 15  1  6
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  2  0
+ 14  4  1  0
+ 19 15  1  0
+ 23 18  1  0
+M  CHG  2  12   1  13  -1
+M  END
+
+>  <npaid>
+NPA016387
+
+>  <compound_name>
+12-epi-hapalindole C isonitrile
+
+>  <compound_molecular_formula>
+C21H24N2
+
+>  <compound_molecular_weight>
+304.4370
+
+>  <compound_accurate_mass>
+304.1939
+
+>  <compound_m_plus_h>
+305.2012
+
+>  <compound_m_plus_na>
+327.1831
+
+>  <compound_inchi>
+InChI=1S/C21H24N2/c1-6-21(4)12-11-15(14(2)3)19(20(21)22-5)17-13-23-18-10-8-7-9-16(17)18/h6-10,13,15,19-20,23H,1-2,11-12H2,3-4H3/t15-,19+,20-,21-/m1/s1
+
+>  <compound_inchikey>
+KGWATBYKCMCFLC-CGRMTHRGSA-N
+
+>  <compound_smiles>
+CC(=C)[C@H]1CC[C@@]([C@@H]([C@@H]1C2=CNC3=CC=CC=C32)[N+]#[C-])(C)C=C
+
+>  <compound_cluster_id>
+730
+
+>  <compound_node_id>
+637
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Hapalosiphon
+
+>  <origin_species>
+welwitschii
+
+>  <original_reference_author_list>
+Moore, Richard E.;Yang, Xu-Qiang G ; Patterson, Gregory M. L.
+
+>  <original_reference_year>
+1987
+
+>  <original_reference_issue>
+17
+
+>  <original_reference_volume>
+52
+
+>  <original_reference_pages>
+3773-3777
+
+>  <original_reference_doi>
+10.1021/jo00226a009
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Fontonamide and Anhydrohapaloxindole A, Two New Alkaloids from the Blue-Green Alga Hapalosiphon fontinalis
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of the American Chemical Society
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000668
+
+>  <gnps_ids>
+CCMSLIB00000424912%3%12-epi-hapalindole&C&isonitrile

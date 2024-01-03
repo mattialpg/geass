@@ -1,0 +1,149 @@
+Streptoketide A
+     RDKit          2D
+
+ 27 30  0  0  0  0  0  0  0  0999 V2000
+    5.7030    4.1719    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2091    4.3065    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3455    3.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8516    3.2147    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9880    1.9882    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5060    2.1228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3695    0.8963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7391   -0.4648    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6027   -1.6913    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9723   -3.0524    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5216   -3.1870    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1520   -4.5481    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6459   -4.6827    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5095   -3.4563    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8791   -2.0951    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7427   -0.8687    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3852   -1.9605    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7548   -0.5994    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6184    0.6271    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0967   -1.5566    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7270   -0.1955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8635    1.0310    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2210   -0.0609    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.8514    1.3002    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9878    2.5267    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.3453    1.4349    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9759    1.7189    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  3
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 15 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+  9 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 21 23  1  1
+ 23 24  1  0
+ 24 25  2  0
+ 24 26  1  0
+  3 27  1  0
+ 19  5  1  0
+ 22  7  1  0
+ 18  8  1  0
+ 17 11  1  0
+M  END
+
+>  <npaid>
+NPA032109
+
+>  <compound_name>
+Streptoketide A
+
+>  <compound_molecular_formula>
+C21H18O6
+
+>  <compound_molecular_weight>
+366.3690
+
+>  <compound_accurate_mass>
+366.1103
+
+>  <compound_m_plus_h>
+367.1176
+
+>  <compound_m_plus_na>
+389.0995
+
+>  <compound_inchi>
+InChI=1S/C21H18O6/c1-2-13(22)8-15-9-17-20-12(7-14(26-17)10-18(24)25)6-11-4-3-5-16(23)19(11)21(20)27-15/h3-6,8-9,14,22H,2,7,10H2,1H3,(H,24,25)/t14-/m0/s1
+
+>  <compound_inchikey>
+NRHYLMZFIKFXGT-AWEZNQCLSA-N
+
+>  <compound_smiles>
+CCC(O)=CC1=CC2=C3C(=CC4=CC=CC(=O)C4=C3O1)C[C@@H](CC(=O)O)O2
+
+>  <compound_cluster_id>
+9507
+
+>  <compound_node_id>
+6353
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+sp.
+
+>  <original_reference_author_list>
+Qian, Zhengyi; Bruhn, Torsten; D'Agostino, Paul M; Herrmann, Alexander; Haslbeck, Martin; Antal, Noémi; Fiedler, Hans-Peter; Brack-Werner, Ruth; Gulder, Tobias A M
+
+>  <original_reference_year>
+2020
+
+>  <original_reference_issue>
+2
+
+>  <original_reference_volume>
+85
+
+>  <original_reference_pages>
+664-673
+
+>  <original_reference_doi>
+10.1021/acs.joc.9b02741
+
+>  <original_reference_pmid>
+31746205
+
+>  <original_reference_title>
+Discovery of the Streptoketides by Direct Cloning and Rapid Heterologous Expression of a Cryptic PKS II Gene Cluster from Streptomyces sp. Tü 6314.
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Organic Chemistry
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

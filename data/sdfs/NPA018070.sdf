@@ -1,0 +1,124 @@
+paerucumarin
+     RDKit          2D
+
+ 15 16  0  0  0  0  0  0  0  0999 V2000
+    3.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  3  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  3  0
+  8 11  1  0
+ 11 12  2  0
+ 11 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 15  2  1  0
+ 14  6  1  0
+M  CHG  2   9   1  10  -1
+M  END
+
+>  <npaid>
+NPA018070
+
+>  <compound_name>
+Paerucumarin
+
+>  <compound_molecular_formula>
+C10H5NO4
+
+>  <compound_molecular_weight>
+203.1530
+
+>  <compound_accurate_mass>
+203.0219
+
+>  <compound_m_plus_h>
+204.0292
+
+>  <compound_m_plus_na>
+226.0111
+
+>  <compound_inchi>
+InChI=1S/C10H5NO4/c1-11-6-2-5-3-7(12)8(13)4-9(5)15-10(6)14/h2-4,12-13H
+
+>  <compound_inchikey>
+PBXVYKHISUQHKY-UHFFFAOYSA-N
+
+>  <compound_smiles>
+[C-]#[N+]C1=CC2=CC(=C(C=C2OC1=O)O)O
+
+>  <compound_cluster_id>
+6068
+
+>  <compound_node_id>
+4222
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Pseudomonas
+
+>  <origin_species>
+aeruginosa
+
+>  <original_reference_author_list>
+Clarke-Pearson, M. F.; Brady, S. F.
+
+>  <original_reference_year>
+2008
+
+>  <original_reference_issue>
+20
+
+>  <original_reference_volume>
+190
+
+>  <original_reference_pages>
+6927-6930
+
+>  <original_reference_doi>
+10.1128/jb.00801-08
+
+>  <original_reference_pmid>
+18689486
+
+>  <original_reference_title>
+Paerucumarin, a New Metabolite Produced by the pvc Gene Cluster from Pseudomonas aeruginosa
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Bacteriology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000923
+
+>  <gnps_ids>
+

@@ -1,0 +1,150 @@
+Macrolactin H
+     RDKit          2D
+
+ 29 29  0  0  0  0  0  0  0  0999 V2000
+    7.2460    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7460    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5502   -1.4872    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9762   -2.8730    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0630   -4.0630    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8730   -4.9762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4872   -5.5502    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -5.7460    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4872   -5.5502    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8730   -4.9762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6230   -6.2752    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0630   -4.0630    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9762   -2.8730    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.2752   -3.6230    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5502   -1.4872    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7460    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5502    1.4872    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9762    2.8730    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0630    4.0630    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8730    4.9762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6230    6.2752    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4872    5.5502    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    5.7460    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4872    5.5502    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8730    4.9762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0630    4.0630    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9762    2.8730    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2752    3.6230    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5502    1.4872    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  1  0
+ 10 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 13 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  1  0
+ 20 22  1  0
+ 22 23  1  0
+ 23 24  2  0
+ 24 25  1  0
+ 25 26  2  0
+ 26 27  1  0
+ 27 28  2  0
+ 27 29  1  0
+ 29  2  1  0
+M  END
+
+>  <npaid>
+NPA018354
+
+>  <compound_name>
+Macrolactin H
+
+>  <compound_molecular_formula>
+C24H34O5
+
+>  <compound_molecular_weight>
+402.5310
+
+>  <compound_accurate_mass>
+402.2406
+
+>  <compound_m_plus_h>
+403.2479
+
+>  <compound_m_plus_na>
+425.2298
+
+>  <compound_inchi>
+InChI=1S/C24H34O5/c1-20-13-7-3-2-4-8-16-22(26)19-23(27)17-11-5-9-14-21(25)15-10-6-12-18-24(28)29-20/h2,4-6,8-12,14,16,18,20-23,25-27H,3,7,13,15,17,19H2,1H3/b4-2-,10-6+,11-5-,14-9+,16-8+,18-12-
+
+>  <compound_inchikey>
+XXDIJWSZFWZBRM-BXXMKNEZSA-N
+
+>  <compound_smiles>
+CC1CCC/C=C\C=C\C(CC(C/C=C\C=C\C(C/C=C/C=C\C(=O)O1)O)O)O
+
+>  <compound_cluster_id>
+16
+
+>  <compound_node_id>
+16
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Bacillus
+
+>  <origin_species>
+sp. PP19-H3
+
+>  <original_reference_author_list>
+Nagao; Adachi; Sakai; Nishijima; Sano
+
+>  <original_reference_year>
+2001
+
+>  <original_reference_issue>
+4
+
+>  <original_reference_volume>
+54
+
+>  <original_reference_pages>
+333-339
+
+>  <original_reference_doi>
+10.7164/antibiotics.54.333
+
+>  <original_reference_pmid>
+11426657
+
+>  <original_reference_title>
+Novel macrolactins as antibiotic lactones from a marine bacterium
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Antibiotics
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000181;BGC0001383
+
+>  <gnps_ids>
+

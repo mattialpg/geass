@@ -1,0 +1,148 @@
+Homopiloquinone
+     RDKit          2D
+
+ 27 29  0  0  0  0  0  0  0  0999 V2000
+    5.8623    3.6193    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0827    2.3378    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8027    1.0219    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3023    0.9875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0231   -0.2596    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5235   -0.2252    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7439   -1.5067    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4639   -2.8226    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2443   -1.4723    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4647   -2.7538    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0349   -2.7194    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7549   -1.4035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9753   -0.1220    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5243   -0.1564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6953    1.1939    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9157    2.4754    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6357    3.7913    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1353    3.8257    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9149    2.5442    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1949    1.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9745   -0.0532    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4741   -0.0188    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2545   -1.3691    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0341   -2.6506    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4145    2.5786    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8145   -4.0009    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1847   -4.0697    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  3  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  2  0
+  7  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 13 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  2  0
+ 21 23  1  0
+ 23 24  2  0
+ 19 25  1  0
+ 11 26  1  0
+ 10 27  1  0
+ 14  9  1  0
+ 23 12  1  0
+ 20 15  1  0
+M  END
+
+>  <npaid>
+NPA033490
+
+>  <compound_name>
+Homopiloquinone
+
+>  <compound_molecular_formula>
+C22H24O5
+
+>  <compound_molecular_weight>
+368.4290
+
+>  <compound_accurate_mass>
+368.1624
+
+>  <compound_m_plus_h>
+369.1697
+
+>  <compound_m_plus_na>
+391.1516
+
+>  <compound_inchi>
+InChI=1S/C22H24O5/c1-4-11(2)8-9-16(23)14-10-15-13-6-5-7-17(24)18(13)21(26)22(27)19(15)20(25)12(14)3/h5-7,10-11,13,18,24-25H,4,8-9H2,1-3H3
+
+>  <compound_inchikey>
+ICVOQXUSMXDGEX-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CCC(C)CCC(=O)C1=C(C)C(O)=C2C(=O)C(=O)C3C(O)=CC=CC3C2=C1
+
+>  <compound_cluster_id>
+9791
+
+>  <compound_node_id>
+6527
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+sp. FXJ8.102
+
+>  <original_reference_author_list>
+Zhang, Qian; Ren, Jin-Wei; Wang, Weishan; Zhai, Ji'an; Yang, Jing; Liu, Ning; Huang, Ying; Chen, Yihua; Pan, Guohui; Fan, Keqiang
+
+>  <original_reference_year>
+2020
+
+>  <original_reference_issue>
+9
+
+>  <original_reference_volume>
+15
+
+>  <original_reference_pages>
+2551-2557
+
+>  <original_reference_doi>
+10.1021/acschembio.0c00581
+
+>  <original_reference_pmid>
+32786260
+
+>  <original_reference_title>
+A Versatile Transcription-Translation in One Approach for Activation of Cryptic Biosynthetic Gene Clusters
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+ACS Chemical Biology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

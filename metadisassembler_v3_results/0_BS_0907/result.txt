@@ -1,0 +1,14 @@
+DATE            : 2023/04/12 12:27
+COMPOUND        : 0_BS_0907
+RUN TIME[s]     : 0.74
+MIN # FRAGMENTS : 3
+
+RESULTS (Total 1):
+>>> 0
+# fragments : 3
+Cut_bond_ID : [10, 14]
+0 : ['C16537']
+1 : ['C00058']
+2 : ['C00058']
+
+END

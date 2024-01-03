@@ -1,0 +1,169 @@
+Biarylitide YFH
+     RDKit          2D
+
+ 37 40  0  0  0  0  0  0  0  0999 V2000
+    1.9117   -6.2493    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0683   -5.0089    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4277   -5.1191    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7208   -3.6583    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8774   -2.4178    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5112   -2.9849    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0105   -2.9381    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3611   -2.2855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3296   -1.1400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9828   -2.5316    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4158   -3.9203    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9296   -4.1235    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4690   -2.3283    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.7484    0.3003    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.9338    1.2194    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4260    2.6308    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9267    2.5841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5079    1.1437    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5145    3.9049    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0383    4.1708    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4185    3.8133    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6039    2.8942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7494    3.8627    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3131    1.5724    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4232    0.0765    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9154   -1.3349    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1904   -2.1251    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7534    1.9912    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8363    0.9532    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4788   -0.5035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5616   -1.5415    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0020   -1.1227    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3595    0.3341    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2766    1.3720    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9915    5.6701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2665    6.4603    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3303    6.3792    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  2  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 10 13  1  0
+  9 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 17 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 22 23  2  0
+ 22 24  1  0
+ 24 25  1  0
+ 25 26  1  0
+ 26 27  2  0
+ 24 28  1  0
+ 28 29  1  0
+ 29 30  2  0
+ 30 31  1  0
+ 31 32  2  0
+ 32 33  1  0
+ 33 34  2  0
+ 20 35  1  0
+ 35 36  2  0
+ 35 37  1  0
+ 26  5  1  0
+ 12  7  1  0
+ 18 14  1  0
+ 34 29  1  0
+M  END
+
+>  <npaid>
+NPA033236
+
+>  <compound_name>
+Biarylitide YFH
+
+>  <compound_molecular_formula>
+C26H27N5O6
+
+>  <compound_molecular_weight>
+505.5310
+
+>  <compound_accurate_mass>
+505.1961
+
+>  <compound_m_plus_h>
+506.2034
+
+>  <compound_m_plus_na>
+528.1853
+
+>  <compound_inchi>
+InChI=1S/C26H27N5O6/c1-14(32)28-19-11-16-7-8-22(33)18(9-16)23-27-13-17(29-23)12-21(26(36)37)31-25(35)20(30-24(19)34)10-15-5-3-2-4-6-15/h2-9,13,19-21,33H,10-12H2,1H3,(H,27,29)(H,28,32)(H,30,34)(H,31,35)(H,36,37)
+
+>  <compound_inchikey>
+SDQMLBJBRCIBHM-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CC(=O)NC1CC2=CC(=C(O)C=C2)C2=NC=C(CC(C(=O)O)NC(=O)C(CC3=CC=CC=C3)NC1=O)[NH]2
+
+>  <compound_cluster_id>
+6641
+
+>  <compound_node_id>
+4570
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Planomonospora
+
+>  <origin_species>
+sp. ID107089
+
+>  <original_reference_author_list>
+Zdouc, Mitja M.; Alanjary, Mohammad M.; Zarazúa, Guadalupe S.; Maffioli, Sonia I.; Crüsemann, Max; Medema, Marnix H.; Donadio, Stefano; Sosio, Margherita
+
+>  <original_reference_year>
+2021
+
+>  <original_reference_issue>
+5
+
+>  <original_reference_volume>
+28
+
+>  <original_reference_pages>
+733-4,739
+
+>  <original_reference_doi>
+10.1016/j.chembiol.2020.11.009
+
+>  <original_reference_pmid>
+33321099
+
+>  <original_reference_title>
+A biaryl-linked tripeptide from Planomonospora reveals a widespread class of minimal RiPP gene clusters
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Cell Chemical Biology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

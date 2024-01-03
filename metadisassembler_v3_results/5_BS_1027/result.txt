@@ -1,0 +1,15 @@
+DATE            : 2023/04/12 12:28
+COMPOUND        : 5_BS_1027
+RUN TIME[s]     : 0.47
+MIN # FRAGMENTS : 4
+
+RESULTS (Total 1):
+>>> 0
+# fragments : 4
+Cut_bond_ID : [3, 4, 5]
+0 : ['C00033']
+1 : ['C16487']
+2 : ['C16487']
+3 : ['C16487']
+
+END

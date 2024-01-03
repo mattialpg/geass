@@ -1,0 +1,161 @@
+Isobongkrekic acid,
+     RDKit          2D
+
+ 35 34  0  0  0  0  0  0  0  0999 V2000
+   -2.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2500    3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.2500    3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0000    5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5000    5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7500    3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.0000   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7500   -1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  6
+  1  3  1  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 13 12  1  1
+ 13 14  1  0
+ 14 15  1  0
+ 13 16  1  0
+ 16 17  1  0
+ 16 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 20 22  1  0
+ 22 23  1  0
+ 22 24  2  0
+  1 25  1  0
+ 25 26  2  0
+ 26 27  1  0
+ 27 28  1  0
+ 28 29  1  0
+ 29 30  1  0
+ 29 31  2  0
+ 27 32  2  0
+ 32 33  1  0
+ 33 34  1  0
+ 33 35  2  0
+M  END
+
+>  <npaid>
+NPA017560
+
+>  <compound_name>
+Isobongkrekic acid,
+
+>  <compound_molecular_formula>
+C28H38O7
+
+>  <compound_molecular_weight>
+486.6050
+
+>  <compound_accurate_mass>
+486.2618
+
+>  <compound_m_plus_h>
+487.2691
+
+>  <compound_m_plus_na>
+509.2510
+
+>  <compound_inchi>
+InChI=1S/C28H38O7/c1-21(15-18-24(19-26(29)30)20-27(31)32)13-11-9-7-5-6-8-10-12-14-25(35-4)22(2)16-17-23(3)28(33)34/h6,8-12,15-19,21,25H,5,7,13-14,20H2,1-4H3,(H,29,30)(H,31,32)(H,33,34)/b8-6+,11-9+,12-10-,18-15+,22-16-,23-17+,24-19+/t21-,25+/m0/s1
+
+>  <compound_inchikey>
+SHCXABJSXUACKU-WUTQZGRKSA-N
+
+>  <compound_smiles>
+C[C@@H](C/C=C/CC/C=C/C=C\C[C@H](/C(=C\C=C(/C)\C(=O)O)/C)OC)/C=C/C(=C\C(=O)O)/CC(=O)O
+
+>  <compound_cluster_id>
+5975
+
+>  <compound_node_id>
+4168
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Pseudomonas
+
+>  <origin_species>
+cocovenenans
+
+>  <original_reference_author_list>
+Lauquin, Guy JM; Duplaa, Anne M; Klein, Gerard; Rousseau, Albert; Vignais, Pierre V
+
+>  <original_reference_year>
+1976
+
+>  <original_reference_issue>
+11
+
+>  <original_reference_volume>
+15
+
+>  <original_reference_pages>
+2323-2327
+
+>  <original_reference_doi>
+10.1021/bi00656a012
+
+>  <original_reference_pmid>
+1276139
+
+>  <original_reference_title>
+Isobongkrekic acid, a new inhibitor of mitochondrial ADP-ATP transport: radioactive labeling and chemical and biological properties
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Biochemistry
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000173
+
+>  <gnps_ids>
+

@@ -1,0 +1,13 @@
+DATE            : 2023/04/12 12:38
+COMPOUND        : 6_SF_0119
+RUN TIME[s]     : 0.62
+MIN # FRAGMENTS : 2
+
+RESULTS (Total 1):
+>>> 0
+# fragments : 2
+Cut_bond_ID : [6]
+0 : ['C00047']
+1 : ['C03687', 'C02311']
+
+END

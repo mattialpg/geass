@@ -1,0 +1,131 @@
+Collismycin A
+     RDKit          2D
+
+ 19 20  0  0  0  0  0  0  0  0999 V2000
+    1.1379   -3.8678    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9297   -2.5939    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2224   -1.2711    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2768   -1.2223    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9841    0.1005    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1922    1.3744    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3070    1.3256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0143    0.0028    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5135   -0.0460    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2208   -1.3688    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0989    2.5995    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5981    2.5507    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3054    1.2279    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4833    0.1493    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1906    1.4721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6898    1.5209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4817    0.2469    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.7744   -1.0758    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2752   -1.1246    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  1  0
+  7 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+  5 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+  8  3  1  0
+ 19 14  1  0
+M  END
+
+>  <npaid>
+NPA020595
+
+>  <compound_name>
+Collismycin A
+
+>  <compound_molecular_formula>
+C13H13N3O2S
+
+>  <compound_molecular_weight>
+275.3330
+
+>  <compound_accurate_mass>
+275.0728
+
+>  <compound_m_plus_h>
+276.0801
+
+>  <compound_m_plus_na>
+298.0620
+
+>  <compound_inchi>
+InChI=1S/C13H13N3O2S/c1-18-12-7-10(9-5-3-4-6-14-9)16-11(8-15-17)13(12)19-2/h3-8,17H,1-2H3/b15-8+
+
+>  <compound_inchikey>
+NQGMIPUYCWIEAW-OVCLIPMQSA-N
+
+>  <compound_smiles>
+COC1=CC(=NC(=C1SC)/C=N/O)C2=CC=CC=N2
+
+>  <compound_cluster_id>
+226
+
+>  <compound_node_id>
+212
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+sp. MQ22
+
+>  <original_reference_author_list>
+Shindo K; Yamagishi Y; Okada Y; Kawai H
+
+>  <original_reference_year>
+1994
+
+>  <original_reference_issue>
+9
+
+>  <original_reference_volume>
+47
+
+>  <original_reference_pages>
+1072-1074
+
+>  <original_reference_doi>
+10.7164/antibiotics.47.1072
+
+>  <original_reference_pmid>
+7928696
+
+>  <original_reference_title>
+COLLISMYCINS A AND B, NOVEL NON-STEROIDAL INHIBITORS OF DEXAMETHASONE-GLUCOCORTICOID RECEPTOR BINDING
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Antibiotics
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000973
+
+>  <gnps_ids>
+

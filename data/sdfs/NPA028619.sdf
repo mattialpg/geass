@@ -1,0 +1,127 @@
+Gaburedin C
+     RDKit          2D
+
+ 18 17  0  0  0  0  0  0  0  0999 V2000
+    2.7648    2.9840    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1113    2.3230    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2120    0.8263    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5584    0.1653    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9662   -0.0092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0669   -1.5058    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4134   -2.1669    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8212   -2.3413    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6198    0.6519    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3740   -0.1836    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4747   -1.6802    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9724    0.4775    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2182   -0.3581    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5647    0.3030    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8104   -0.5325    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1569    0.1286    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.2576    1.6252    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.4026   -0.7070    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  6
+  3  5  1  0
+  5  6  1  0
+  6  7  2  0
+  6  8  1  0
+  5  9  1  1
+  9 10  1  0
+ 10 11  2  0
+ 10 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 16 18  1  0
+M  END
+
+>  <npaid>
+NPA028619
+
+>  <compound_name>
+Gaburedin C
+
+>  <compound_molecular_formula>
+C11H20N2O5
+
+>  <compound_molecular_weight>
+260.2900
+
+>  <compound_accurate_mass>
+260.1372
+
+>  <compound_m_plus_h>
+261.1445
+
+>  <compound_m_plus_na>
+283.1264
+
+>  <compound_inchi>
+InChI=1S/C11H20N2O5/c1-3-7(2)9(10(16)17)13-11(18)12-6-4-5-8(14)15/h7,9H,3-6H2,1-2H3,(H,14,15)(H,16,17)(H2,12,13,18)/t7-,9-/m0/s1
+
+>  <compound_inchikey>
+WVJSFRYGZMBJOD-CBAPKCEASA-N
+
+>  <compound_smiles>
+CC[C@H](C)[C@H](NC(=O)NCCCC(=O)O)C(=O)O
+
+>  <compound_cluster_id>
+8700
+
+>  <compound_node_id>
+5873
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+venezuelae ATCC 10712
+
+>  <original_reference_author_list>
+John D. Sidda, Lijiang Song, Vincent Poon, Mahmoud Al-Bassam, Orestis Lazos, Mark J. Buttner, Gregory L. Challisa, Christophe Corre
+
+>  <original_reference_year>
+2014
+
+>  <original_reference_issue>
+None
+
+>  <original_reference_volume>
+5
+
+>  <original_reference_pages>
+86-89
+
+>  <original_reference_doi>
+10.1039/c3sc52536h
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Discovery of a family of γ-aminobutyrate ureas via rational derepression of a silent bacterial gene cluster
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Chemical Science
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

@@ -1,0 +1,139 @@
+Lecanoric acid
+     RDKit          2D
+
+ 23 24  0  0  0  0  0  0  0  0999 V2000
+   -3.2584   -2.7258    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7871   -1.3221    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2672   -1.0781    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7959    0.3256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8447    1.4853    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3646    1.2414    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8359   -0.1623    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3558   -0.4062    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8271   -1.8099    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4046    0.7536    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0755    0.5097    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6042   -0.8941    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0843   -1.1380    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0355    0.0218    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5067    1.4255    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0267    1.6694    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4580    2.5853    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5156   -0.2221    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0443   -1.6258    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4668    0.9377    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6130   -2.5417    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4134    2.4012    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2760    0.5695    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  8 10  1  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 15 17  1  0
+ 14 18  1  0
+ 18 19  2  0
+ 18 20  1  0
+ 13 21  1  0
+  6 22  1  0
+  4 23  1  0
+  7  2  1  0
+ 16 11  1  0
+M  END
+
+>  <npaid>
+NPA021170
+
+>  <compound_name>
+Lecanoric acid
+
+>  <compound_molecular_formula>
+C16H14O7
+
+>  <compound_molecular_weight>
+318.2810
+
+>  <compound_accurate_mass>
+318.0740
+
+>  <compound_m_plus_h>
+319.0813
+
+>  <compound_m_plus_na>
+341.0632
+
+>  <compound_inchi>
+InChI=1S/C16H14O7/c1-7-3-9(17)5-11(18)14(7)16(22)23-10-4-8(2)13(15(20)21)12(19)6-10/h3-6,17-19H,1-2H3,(H,20,21)
+
+>  <compound_inchikey>
+HEMSJKZDHNSSEW-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CC1=CC(=CC(=C1C(=O)OC2=CC(=C(C(=C2)C)C(=O)O)O)O)O
+
+>  <compound_cluster_id>
+46
+
+>  <compound_node_id>
+45
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Pyricularia
+
+>  <origin_species>
+fI-178
+
+>  <original_reference_author_list>
+Umezawa H; Shibamoto N; Naganawa H; Ayukawa S; Matsuzaki M; Takeuchi T; Kono K; Sakamoto T
+
+>  <original_reference_year>
+1974
+
+>  <original_reference_issue>
+8
+
+>  <original_reference_volume>
+27
+
+>  <original_reference_pages>
+587-596
+
+>  <original_reference_doi>
+10.7164/antibiotics.27.587
+
+>  <original_reference_pmid>
+4436144
+
+>  <original_reference_title>
+ISOLATION OF LECANORIC ACID, AN INHIBITOR OF HISTIDINE DECARBOXYLASE FROM A FUNGUS
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Antibiotics
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+CCMSLIB00004689582%3%Lecanoric&Acid;CCMSLIB00004689583%3%Lecanoric&Acid;CCMSLIB00004689584%3%Lecanoric&Acid;CCMSLIB00004689585%3%Lecanoric&Acid;CCMSLIB00004693785%3%Lecanoric&Acid;CCMSLIB00004693786%3%Lecanoric&Acid;CCMSLIB00004693787%3%Lecanoric&Acid;CCMSLIB00004693788%3%Lecanoric&Acid;CCMSLIB00004693789%3%Lecanoric&Acid;CCMSLIB00004693790%3%Lecanoric&Acid;CCMSLIB00004751251%Lecanoric acid%3

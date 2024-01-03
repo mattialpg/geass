@@ -1,0 +1,40 @@
+DATE            : 2023/04/12 12:46
+COMPOUND        : 3_SF_0658
+RUN TIME[s]     : 0.48
+MIN # FRAGMENTS : 2
+
+RESULTS (Total 5):
+>>> 0
+# fragments : 2
+Cut_bond_ID : [1]
+0 : ['C00189']
+1 : ['C00001']
+
+>>> 1
+# fragments : 2
+Cut_bond_ID : [0]
+0 : ['C00014']
+1 : ['C15588', 'C01380']
+
+>>> 2
+# fragments : 3
+Cut_bond_ID : [0, 3]
+0 : ['C00014']
+1 : ['C00469']
+2 : ['C00001']
+
+>>> 3
+# fragments : 3
+Cut_bond_ID : [1, 3]
+0 : ['C00001']
+1 : ['C00001']
+2 : ['C00797']
+
+>>> 4
+# fragments : 3
+Cut_bond_ID : [0, 2]
+0 : ['C00014']
+1 : ['C00132']
+2 : ['C00132']
+
+END

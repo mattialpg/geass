@@ -1,0 +1,121 @@
+xanthothricin
+     RDKit          2D
+
+ 14 15  0  0  0  0  0  0  0  0999 V2000
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  7  9  1  0
+  9 10  1  0
+  9 11  1  0
+ 11 12  2  0
+ 11 13  1  0
+ 13 14  2  0
+ 14  2  1  0
+ 14  6  1  0
+M  END
+
+>  <npaid>
+NPA004485
+
+>  <compound_name>
+Xanthothricin
+
+>  <compound_molecular_formula>
+C7H7N5O2
+
+>  <compound_molecular_weight>
+193.1660
+
+>  <compound_accurate_mass>
+193.0600
+
+>  <compound_m_plus_h>
+194.0673
+
+>  <compound_m_plus_na>
+216.0492
+
+>  <compound_inchi>
+InChI=1S/C7H7N5O2/c1-11-6(13)4-5(10-7(11)14)12(2)9-3-8-4/h3H,1-2H3
+
+>  <compound_inchikey>
+SLGRAIAQIAUZAQ-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CN1C2=NC(=O)N(C(=O)C2=NC=N1)C
+
+>  <compound_cluster_id>
+2364
+
+>  <compound_node_id>
+1866
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Unknown-fungus
+
+>  <origin_species>
+sp.
+
+>  <original_reference_author_list>
+Machlowitz, R a; Fisher, W p; Mckay, B s; Tytell, A a; Charney, J
+
+>  <original_reference_year>
+1954
+
+>  <original_reference_issue>
+3
+
+>  <original_reference_volume>
+4
+
+>  <original_reference_pages>
+259-261
+
+>  <original_reference_doi>
+10.5281/zenodo.3541198
+
+>  <original_reference_pmid>
+24542943
+
+>  <original_reference_title>
+Xanthothricin, a new antibiotic
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Antibiotics and Chemotherapy
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000929
+
+>  <gnps_ids>
+

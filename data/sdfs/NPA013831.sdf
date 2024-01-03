@@ -1,0 +1,161 @@
+17-hydroxy-8-desmethoxy-isomigrastatin
+     RDKit          2D
+
+ 34 35  0  0  0  0  0  0  0  0999 V2000
+    7.7057   -1.4489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4067   -2.1989    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1076   -1.4489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8086   -2.1989    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8086   -3.6989    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5095   -1.4489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8978    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5095    1.4489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8086    2.1989    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4489    2.5095    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    2.8978    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4489    2.5095    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5095    1.4489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8978    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5095   -1.4489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4489   -2.5095    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -2.8978    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -4.3978    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4489   -2.5095    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1989   -3.8086    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4067   -3.6989    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1076   -4.4489    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7057   -4.4489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7057   -5.9489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4067   -6.6989    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0047   -6.6989    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0047   -8.1989    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7057   -8.9489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7057  -10.4489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4067  -11.1989    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0047  -11.1989    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   10.3038  -10.4489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.6028  -11.1989    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.3038   -8.9489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  6
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  6  4  1  1
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  8 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  1  6
+ 17 19  1  0
+ 19 20  1  1
+  2 21  1  0
+ 21 22  2  0
+ 21 23  1  0
+ 23 24  1  0
+ 24 25  1  1
+ 24 26  1  0
+ 26 27  1  0
+ 27 28  1  0
+ 28 29  1  0
+ 29 30  2  0
+ 29 31  1  0
+ 31 32  1  0
+ 32 33  2  0
+ 32 34  1  0
+ 19  6  1  0
+ 34 27  1  0
+M  END
+
+>  <npaid>
+NPA013831
+
+>  <compound_name>
+17-hydroxy-8-desmethoxy-isomigrastatin
+
+>  <compound_molecular_formula>
+C26H37NO7
+
+>  <compound_molecular_weight>
+475.5820
+
+>  <compound_accurate_mass>
+475.2570
+
+>  <compound_m_plus_h>
+476.2643
+
+>  <compound_m_plus_na>
+498.2462
+
+>  <compound_inchi>
+InChI=1S/C26H37NO7/c1-16(22(30)15-20(28)12-19-13-23(31)27-24(32)14-19)11-17(2)26-18(3)21(29)9-7-5-4-6-8-10-25(33)34-26/h5,7-8,10-11,16,18-21,26,28-29H,4,6,9,12-15H2,1-3H3,(H,27,31,32)/b7-5+,10-8+,17-11+/t16-,18-,20+,21+,26-/m0/s1
+
+>  <compound_inchikey>
+IVFXTQLBVDABOI-DVYWRAFASA-N
+
+>  <compound_smiles>
+C[C@H]1[C@@H](C/C=C/CC/C=C/C(=O)O[C@H]1/C(=C/[C@H](C)C(=O)C[C@@H](CC2CC(=O)NC(=O)C2)O)/C)O
+
+>  <compound_cluster_id>
+1563
+
+>  <compound_node_id>
+1282
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+platensis
+
+>  <original_reference_author_list>
+Ju, Jianhua; Lim, Si-Kyu; Jiang, Hui; Seo, Jeong-Woo; Shen, Ben
+
+>  <original_reference_year>
+2005
+
+>  <original_reference_issue>
+34
+
+>  <original_reference_volume>
+127
+
+>  <original_reference_pages>
+11930-11931
+
+>  <original_reference_doi>
+10.1021/ja053118u
+
+>  <original_reference_pmid>
+16117518
+
+>  <original_reference_title>
+Iso-migrastatin congeners from Streptomyces platensis and generation of a glutarimide polyketide library featuring the dorrigocin, lactimidomycin, migrastatin, and NK30424 scaffolds
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of the American Chemical Society
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000083
+
+>  <gnps_ids>
+

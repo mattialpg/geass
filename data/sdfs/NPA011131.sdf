@@ -1,0 +1,154 @@
+thaxtomin C
+     RDKit          2D
+
+ 29 32  0  0  0  0  0  0  0  0999 V2000
+   -3.5757   -7.5908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8876   -9.0580    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3142   -9.5216    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4289   -8.5179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.8555   -8.9814    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.1673  -10.4486    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.0526  -11.4523    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.6260  -10.9888    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1491   -7.1273    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8373   -5.6601    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4107   -5.1965    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3786   -5.1199    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4933   -4.1162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6904   -6.5871    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1170   -7.0506    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  1
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  1  9  1  0
+  9 10  1  0
+ 10 11  2  0
+ 10 12  1  0
+ 12 13  1  1
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  2  0
+ 21 23  1  0
+ 23 24  1  0
+ 23 25  2  0
+ 12 26  1  0
+ 26 27  1  0
+ 26 28  1  0
+ 28 29  2  0
+ 28  1  1  0
+  8  3  1  0
+ 22 14  1  0
+ 22 17  1  0
+M  CHG  2  23   1  24  -1
+M  END
+
+>  <npaid>
+NPA011131
+
+>  <compound_name>
+Thaxtomin C
+
+>  <compound_molecular_formula>
+C21H20N4O4
+
+>  <compound_molecular_weight>
+392.4150
+
+>  <compound_accurate_mass>
+392.1485
+
+>  <compound_m_plus_h>
+393.1558
+
+>  <compound_m_plus_na>
+415.1377
+
+>  <compound_inchi>
+InChI=1S/C21H20N4O4/c1-24-18(11-14-12-22-15-8-5-9-17(19(14)15)25(28)29)20(26)23-16(21(24)27)10-13-6-3-2-4-7-13/h2-9,12,16,18,22H,10-11H2,1H3,(H,23,26)/t16-,18-/m0/s1
+
+>  <compound_inchikey>
+IAIWBAHUWORDTI-WMZOPIPTSA-N
+
+>  <compound_smiles>
+CN1[C@H](C(=O)N[C@H](C1=O)CC2=CC=CC=C2)CC3=CNC4=C3C(=CC=C4)[N+](=O)[O-]
+
+>  <compound_cluster_id>
+1010
+
+>  <compound_node_id>
+866
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+scabies
+
+>  <original_reference_author_list>
+King, Russell R; Lawrence, C Harold; Calhoun, Larry A
+
+>  <original_reference_year>
+1992
+
+>  <original_reference_issue>
+5
+
+>  <original_reference_volume>
+40
+
+>  <original_reference_pages>
+834-837
+
+>  <original_reference_doi>
+10.1021/jf00017a025
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Chemistry of phytotoxins associated with Streptomyces scabies the causal organism of potato common scab
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Agricultural and Food Chemistry
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

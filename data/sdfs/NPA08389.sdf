@@ -1,0 +1,157 @@
+Merochlorin D
+     RDKit          2D
+
+ 32 33  0  0  0  0  0  0  0  0999 V2000
+   -9.1356    3.3156    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6670    1.8906    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.6667    0.7723    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.1987    1.5840    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7300    0.1591    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2617   -0.1475    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.7930   -1.5724    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7927   -2.6907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3247   -1.8790    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3250   -0.7607    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8567   -1.0673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1430    0.0511    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6113   -0.2555    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0544   -1.6483    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8863   -1.0459    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2081   -0.3369    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4831   -1.1272    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8049   -0.4183    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0799   -1.2086    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8519    1.0810    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5770    1.8713    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6240    3.3706    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2551    1.1624    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9802    1.9527    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6583    1.2437    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1737    1.0296    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    1.1897    2.6686    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0272    3.4519    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8393   -2.5451    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3880   -2.4922    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3877   -3.6105    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0803   -2.7988    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  2  4  2  3
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  7  9  2  3
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  6
+ 13 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  1  0
+ 18 20  2  0
+ 20 21  1  0
+ 21 22  1  0
+ 21 23  2  0
+ 23 24  1  0
+ 24 25  1  0
+ 25 26  1  0
+ 25 27  1  6
+ 24 28  2  0
+ 15 29  2  0
+ 11 30  2  3
+ 30 31  1  0
+ 30 32  1  0
+ 25 13  1  0
+ 23 16  1  0
+M  END
+
+>  <npaid>
+NPA008389
+
+>  <compound_name>
+Merochlorin D
+
+>  <compound_molecular_formula>
+C26H33ClO5
+
+>  <compound_molecular_weight>
+460.9980
+
+>  <compound_accurate_mass>
+460.2017
+
+>  <compound_m_plus_h>
+461.2090
+
+>  <compound_m_plus_na>
+483.1909
+
+>  <compound_inchi>
+InChI=1S/C26H33ClO5/c1-15(2)8-7-9-17(5)10-11-18(16(3)4)14-26(32)23(30)20-12-19(28)13-21(29)22(20)24(31)25(26,6)27/h8,10,12-13,28-29,32H,7,9,11,14H2,1-6H3/t25-,26-/m0/s1
+
+>  <compound_inchikey>
+UUMRLFAHEFYGJM-UIOOFZCWSA-N
+
+>  <compound_smiles>
+CC(C)=CCCC(C)=CCC(C[C@]1(O)C(=O)C2=CC(O)=CC(O)=C2C(=O)[C@]1(C)Cl)=C(C)C
+
+>  <compound_cluster_id>
+2864
+
+>  <compound_node_id>
+1014
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+sp. strain CNH-189
+
+>  <original_reference_author_list>
+Kaysser, Leonard; Bernhardt, Peter; Nam, Sang-Jip; Loesgen, Sandra; Ruby, J. Graham; Skewes-Cox, Peter; Jensen, Paul R.; Fenical, William; Moore, Bradley S.
+
+>  <original_reference_year>
+2012
+
+>  <original_reference_issue>
+29
+
+>  <original_reference_volume>
+134
+
+>  <original_reference_pages>
+11988-11991
+
+>  <original_reference_doi>
+10.1021/ja305665f
+
+>  <original_reference_pmid>
+22784372
+
+>  <original_reference_title>
+Merochlorins A-D, cyclic meroterpenoid antibiotics biosynthesized in divergent pathways with vanadium-dependent chloroperoxidases
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of the American Chemical Society
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001083
+
+>  <gnps_ids>
+

@@ -1,0 +1,164 @@
+Phenalamide A2
+     RDKit          2D
+
+ 36 36  0  0  0  0  0  0  0  0999 V2000
+    5.3321    2.2144    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4939    1.2655    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8965    1.7973    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0583    0.8485    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4609    1.3802    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7017    2.8607    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1043    3.3924    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.2661    2.4436    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.0253    0.9631    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.6227    0.4314    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2531   -0.2150    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8505   -0.7467    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6887    0.2021    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6097   -2.2273    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2071   -2.7590    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9663   -4.2395    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0453   -1.8102    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6427   -2.3419    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4019   -3.8224    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5191   -1.3931    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9216   -1.9248    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0834   -0.9760    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4860   -1.5077    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.6478   -0.5589    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.0504   -1.0906    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.2122   -0.1418    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.6148   -0.6735    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.8556   -2.1541    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.7766    0.2753    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.1792   -0.2564    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.5358    1.7558    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.6975    2.7047    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.4567    4.1852    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.1001    2.1729    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -14.2619    3.1218    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7715   -3.1761    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  1
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+  2 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 12 14  1  0
+ 14 15  1  0
+ 15 16  1  6
+ 15 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 18 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 24 25  2  0
+ 25 26  1  0
+ 26 27  2  0
+ 27 28  1  0
+ 27 29  1  0
+ 29 30  2  0
+ 29 31  1  0
+ 31 32  1  0
+ 32 33  1  6
+ 32 34  1  0
+ 34 35  1  0
+ 14 36  1  6
+ 10  5  1  0
+M  END
+
+>  <npaid>
+NPA018050
+
+>  <compound_name>
+Phenalamide A2
+
+>  <compound_molecular_formula>
+C32H45NO3
+
+>  <compound_molecular_weight>
+491.7160
+
+>  <compound_accurate_mass>
+491.3399
+
+>  <compound_m_plus_h>
+492.3472
+
+>  <compound_m_plus_na>
+514.3291
+
+>  <compound_inchi>
+InChI=1S/C32H45NO3/c1-24(15-11-8-7-9-12-16-26(3)32(36)33-29(6)23-34)21-27(4)31(35)28(5)22-25(2)19-20-30-17-13-10-14-18-30/h7-18,21-22,25,27,29,31,34-35H,19-20,23H2,1-6H3,(H,33,36)/b8-7+,12-9+,15-11+,24-21+,26-16+,28-22+/t25-,27+,29-,31+/m0/s1
+
+>  <compound_inchikey>
+LCADVYTXPLBAGB-MBJKUHNJSA-N
+
+>  <compound_smiles>
+C[C@@H](CCC1=CC=CC=C1)/C=C(\C)/[C@@H]([C@H](C)/C=C(\C)/C=C/C=C/C=C/C=C(\C)/C(=O)N[C@@H](C)CO)O
+
+>  <compound_cluster_id>
+897
+
+>  <compound_node_id>
+771
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Myxococcus
+
+>  <origin_species>
+stipitatus Mx s40
+
+>  <original_reference_author_list>
+Trowitzsch-Kienast, Wolfram; Forche, Edgar; Wray, Victor; Reichenbach, Hans; Jurkiewicz, Elke; Hunsmann, Gerhard; Höfle, Gerhard
+
+>  <original_reference_year>
+1992
+
+>  <original_reference_issue>
+7
+
+>  <original_reference_volume>
+1992
+
+>  <original_reference_pages>
+659-664
+
+>  <original_reference_doi>
+10.1002/jlac.1992199201112
+
+>  <original_reference_pmid>
+25855820
+
+>  <original_reference_title>
+Antibiotics from Gliding Bacteria, 45. — Phenalamides, New HIV‐1 Inhibitors from Myxococcus stipitatus Mx s40
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Liebigs Annalen der Chemie
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001394
+
+>  <gnps_ids>
+

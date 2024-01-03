@@ -1,0 +1,41 @@
+DATE            : 2023/04/12 12:25
+COMPOUND        : 0_BS_0733
+RUN TIME[s]     : 0.49
+MIN # FRAGMENTS : 2
+
+RESULTS (Total 5):
+>>> 0
+# fragments : 2
+Cut_bond_ID : [1]
+0 : ['C00218']
+1 : ['C02457']
+
+>>> 1
+# fragments : 3
+Cut_bond_ID : [0, 4]
+0 : ['C00189']
+1 : ['C01438']
+2 : ['C00132']
+
+>>> 2
+# fragments : 3
+Cut_bond_ID : [1, 5]
+0 : ['C00218']
+1 : ['C05979']
+2 : ['C00001']
+
+>>> 3
+# fragments : 3
+Cut_bond_ID : [1, 4]
+0 : ['C00218']
+1 : ['C00132']
+2 : ['C00469']
+
+>>> 4
+# fragments : 3
+Cut_bond_ID : [2, 4]
+0 : ['C00132']
+1 : ['C00543']
+2 : ['C00132']
+
+END

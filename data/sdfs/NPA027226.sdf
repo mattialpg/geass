@@ -1,0 +1,138 @@
+Phenazin SB
+     RDKit          2D
+
+ 22 24  0  0  0  0  0  0  0  0999 V2000
+   -6.4448    1.3573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9615    1.5809    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0263    0.4082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5430    0.6318    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6078   -0.5409    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1245   -0.3173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8107   -1.4901    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2627   -2.8864    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2205   -3.1100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1558   -1.9373    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1980   -4.0591    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6500   -5.4554    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2940   -1.2665    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8419    0.1299    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3252    0.3534    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8732    1.7498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9379    2.9225    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4547    2.6989    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9067    1.3026    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4234    1.0790    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5194    3.8716    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4136    2.9772    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  3
+  3  4  1  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+  8 11  1  0
+ 11 12  1  0
+  7 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 18 21  1  0
+  2 22  1  0
+ 10  5  1  0
+ 20  6  1  0
+ 19 14  1  0
+M  END
+
+>  <npaid>
+NPA027226
+
+>  <compound_name>
+Phenazin SB
+
+>  <compound_molecular_formula>
+C18H18N2O2
+
+>  <compound_molecular_weight>
+294.3540
+
+>  <compound_accurate_mass>
+294.1368
+
+>  <compound_m_plus_h>
+295.1441
+
+>  <compound_m_plus_na>
+317.1260
+
+>  <compound_inchi>
+InChI=1S/C18H18N2O2/c1-11(2)7-8-12-9-10-15(22-3)18-16(12)20-17-13(19-18)5-4-6-14(17)21/h4-7,9-10,21H,8H2,1-3H3
+
+>  <compound_inchikey>
+LBSWBOAXOOJWCI-UHFFFAOYSA-N
+
+>  <compound_smiles>
+COC1=C2N=C3C=CC=C(O)C3=NC2=C(CC=C(C)C)C=C1
+
+>  <compound_cluster_id>
+3272
+
+>  <compound_node_id>
+2482
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+sp. NA04227
+
+>  <original_reference_author_list>
+HAN, Hao; GUO, Zhi-Kai; ZHANG, Bo; ZHANG, Mei; SHI, Jing; LI, Wei; JIAO, Rui-Hua; TAN, Ren-Xiang; GE, Hui-Ming
+
+>  <original_reference_year>
+2019
+
+>  <original_reference_issue>
+6
+
+>  <original_reference_volume>
+17
+
+>  <original_reference_pages>
+475-480
+
+>  <original_reference_doi>
+10.1016/S1875-5364(19)30055-X
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Bioactive phenazines from an earwig-associated Streptomyces sp.
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Chinese Journal of Natural Medicines
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

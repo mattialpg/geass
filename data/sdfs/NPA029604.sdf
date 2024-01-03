@@ -1,0 +1,121 @@
+Pyrroloformamide C
+     RDKit          2D
+
+ 14 15  0  0  0  0  0  0  0  0999 V2000
+   -3.3037   -0.5007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0257    0.2846    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0668    1.7840    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3859    2.4982    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7066   -0.4296    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6465    0.2178    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6803   -0.8690    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1384   -0.5171    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5627    0.9217    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5289    2.0085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0708    1.6566    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9661   -2.1881    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5091   -1.9165    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5959   -2.9503    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  2  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+  7 12  1  0
+ 12 13  1  0
+ 13 14  2  0
+ 13  5  1  0
+ 11  6  1  0
+M  END
+
+>  <npaid>
+NPA029604
+
+>  <compound_name>
+Pyrroloformamide C
+
+>  <compound_molecular_formula>
+C8H8N2O2S2
+
+>  <compound_molecular_weight>
+228.2980
+
+>  <compound_accurate_mass>
+228.0027
+
+>  <compound_m_plus_h>
+229.0100
+
+>  <compound_m_plus_na>
+250.9919
+
+>  <compound_inchi>
+InChI=1S/C8H8N2O2S2/c1-10(3-11)6-7-5(9-8(6)12)2-13-4-14-7/h2-3H,4H2,1H3,(H,9,12)
+
+>  <compound_inchikey>
+HGDYHOGWEAAXCS-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CN(C=O)C1=C2SCSC=C2NC1=O
+
+>  <compound_cluster_id>
+8865
+
+>  <compound_node_id>
+5973
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+sp. CB02980
+
+>  <original_reference_author_list>
+Cao, Danfeng; Duan, Yanwen; Huang, Yong; Ju, Jianhua; Liang, Haoyu; Qin, Xiangjing; Shen, Ben; Zhou, Wenqing; Zhu, Xiangcheng
+
+>  <original_reference_year>
+2020
+
+>  <original_reference_issue>
+2
+
+>  <original_reference_volume>
+83
+
+>  <original_reference_pages>
+202-209
+
+>  <original_reference_doi>
+10.1021/acs.jnatprod.9b00321
+
+>  <original_reference_pmid>
+32049520
+
+>  <original_reference_title>
+The Isolation of Pyrroloformamide Congeners and Characterization of Their Biosynthetic Gene Cluster
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Natural Products
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

@@ -1,0 +1,20 @@
+DATE            : 2023/04/12 12:17
+COMPOUND        : 3_BS_0423
+RUN TIME[s]     : 0.61
+MIN # FRAGMENTS : 2
+
+RESULTS (Total 2):
+>>> 0
+# fragments : 2
+Cut_bond_ID : [3]
+0 : ['C21390']
+1 : ['C13827']
+
+>>> 1
+# fragments : 3
+Cut_bond_ID : [3, 6]
+0 : ['C21390']
+1 : ['C01327']
+2 : ['C02271']
+
+END

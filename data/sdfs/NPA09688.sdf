@@ -1,0 +1,140 @@
+lymphostin
+     RDKit          2D
+
+ 23 25  0  0  0  0  0  0  0  0999 V2000
+    3.3802    9.0132    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0684    7.5459    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6418    7.0824    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3299    5.6152    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0967    5.1517    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2114    6.1554    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4086    3.6844    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8351    3.2209    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1470    1.7537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4606   -1.2299    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6174   -2.7217    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6741   -0.3482    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5173    1.1436    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.7308    2.0253    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1012    1.4152    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.3147    2.2968    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.2580   -0.0766    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7062    2.6807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  5  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 15 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 20 22  2  0
+ 11 23  2  0
+ 23  7  1  0
+ 18  9  1  0
+ 14 10  1  0
+M  END
+
+>  <npaid>
+NPA009688
+
+>  <compound_name>
+Lymphostin
+
+>  <compound_molecular_formula>
+C16H14N4O3
+
+>  <compound_molecular_weight>
+310.3130
+
+>  <compound_accurate_mass>
+310.1066
+
+>  <compound_m_plus_h>
+311.1139
+
+>  <compound_m_plus_na>
+333.0958
+
+>  <compound_inchi>
+InChI=1S/C16H14N4O3/c1-8(21)19-12-6-10(17)15-14-9(7-18-15)5-11(20-16(12)14)13(22)3-4-23-2/h3-7,17,20H,1-2H3,(H,19,21)/b4-3+,17-10?
+
+>  <compound_inchikey>
+CIKGKOXFNOXNHH-NDLWLLKHSA-N
+
+>  <compound_smiles>
+CC(=O)NC1=CC(=N)C2=NC=C3C2=C1NC(=C3)C(=O)/C=C/OC
+
+>  <compound_cluster_id>
+629
+
+>  <compound_node_id>
+560
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+sp. KY11783
+
+>  <original_reference_author_list>
+Nagata, Hiroyuki; Ochiai, Keiko; Aotani, Yumiko; Ando, Katsuhiko; Yoshida, Mayumi; Takahashi, Isami; Tamaoki, Tatsuya
+
+>  <original_reference_year>
+1997
+
+>  <original_reference_issue>
+7
+
+>  <original_reference_volume>
+50
+
+>  <original_reference_pages>
+537-542
+
+>  <original_reference_doi>
+10.7164/antibiotics.50.537
+
+>  <original_reference_pmid>
+9711243
+
+>  <original_reference_title>
+Lymphostin (LK6-A), a novel immunosuppressant from Streptomyces sp. KY11783: Taxonomy of the producing organism, fermentation, isolation and biological activities
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Antibiotics
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001006
+
+>  <gnps_ids>
+

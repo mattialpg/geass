@@ -1,0 +1,129 @@
+3-(2'-Hydroxy-3'-oxo-4'-methylhexyl)-indole
+     RDKit          2D
+
+ 18 19  0  0  0  0  0  0  0  0999 V2000
+    3.8876   -9.0580    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5757   -7.5908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6904   -6.5871    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1170   -7.0506    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3786   -5.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4933   -4.1162    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8373   -5.6601    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  3  5  1  0
+  5  6  2  0
+  5  7  1  0
+  7  8  1  0
+  7  9  1  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 14 10  1  0
+ 18 13  1  0
+M  END
+
+>  <npaid>
+NPA016111
+
+>  <compound_name>
+3-(2'-Hydroxy-3'-oxo-4'-methylhexyl)-indole
+
+>  <compound_molecular_formula>
+C15H19NO2
+
+>  <compound_molecular_weight>
+245.3220
+
+>  <compound_accurate_mass>
+245.1416
+
+>  <compound_m_plus_h>
+246.1489
+
+>  <compound_m_plus_na>
+268.1308
+
+>  <compound_inchi>
+InChI=1S/C15H19NO2/c1-3-10(2)15(18)14(17)8-11-9-16-13-7-5-4-6-12(11)13/h4-7,9-10,14,16-17H,3,8H2,1-2H3
+
+>  <compound_inchikey>
+GRVFODKSPHRUNC-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CCC(C)C(=O)C(CC1=CNC2=CC=CC=C21)O
+
+>  <compound_cluster_id>
+252
+
+>  <compound_node_id>
+235
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Xenorhabdus
+
+>  <origin_species>
+bovienii A2
+
+>  <original_reference_author_list>
+Li, Jianxiong; Chen, Genhui; Webster, John M.; Czyzewska, Eva
+
+>  <original_reference_year>
+1995
+
+>  <original_reference_issue>
+7
+
+>  <original_reference_volume>
+58
+
+>  <original_reference_pages>
+1081-1086
+
+>  <original_reference_doi>
+10.1021/np50121a016
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Antimicrobial Metabolites from a Bacterial Symbiont
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Natural Products
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000189
+
+>  <gnps_ids>
+

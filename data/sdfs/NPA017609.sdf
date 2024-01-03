@@ -1,0 +1,139 @@
+conidiogenone
+     RDKit          2D
+
+ 22 25  0  0  0  0  0  0  0  0999 V2000
+    0.3943    2.7135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8755   -2.2418    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3313   -0.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3313   -3.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0241   -0.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0241    0.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9294    1.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3313    0.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5142    2.9888    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9140    1.9635    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    3.1771    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3917    3.8110    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    4.6771    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    5.1406    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    3.9271    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3907    4.9307    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3907    2.9234    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  6
+  3  4  1  0
+  4  5  1  0
+  5  6  1  6
+  5  7  1  0
+  7  8  2  0
+  7  9  1  0
+  9 10  1  0
+ 10 11  1  1
+ 10 12  1  0
+ 12 13  1  6
+ 12 14  1  0
+ 14 15  1  6
+ 15 16  1  0
+ 16 17  1  6
+ 16 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 20 22  1  0
+ 16  1  1  0
+  1 20  1  1
+ 14  2  1  0
+ 14  5  1  0
+M  END
+
+>  <npaid>
+NPA017609
+
+>  <compound_name>
+Conidiogenone
+
+>  <compound_molecular_formula>
+C20H32O2
+
+>  <compound_molecular_weight>
+304.4740
+
+>  <compound_accurate_mass>
+304.2402
+
+>  <compound_m_plus_h>
+305.2475
+
+>  <compound_m_plus_na>
+327.2294
+
+>  <compound_inchi>
+InChI=1S/C20H32O2/c1-12-14(21)10-15(22)19(5)7-6-13-16-17(2,3)8-9-18(16,4)11-20(12,13)19/h12-14,16,21H,6-11H2,1-5H3/t12-,13-,14+,16+,18+,19-,20-/m0/s1
+
+>  <compound_inchikey>
+VXPSMCORCRBNAO-TYVLEIALSA-N
+
+>  <compound_smiles>
+C[C@H]1[C@@H](CC(=O)[C@]2([C@@]13C[C@]4(CCC([C@H]4[C@@H]3CC2)(C)C)C)C)O
+
+>  <compound_cluster_id>
+151
+
+>  <compound_node_id>
+143
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Penicillium
+
+>  <origin_species>
+cyclopium
+
+>  <original_reference_author_list>
+Roncal, Tomas; Cordobes, Shandra; Ugalde, Unai; He, Yanhong; Sterner, Olov
+
+>  <original_reference_year>
+2002
+
+>  <original_reference_issue>
+38
+
+>  <original_reference_volume>
+43
+
+>  <original_reference_pages>
+6799-6802
+
+>  <original_reference_doi>
+10.1016/s0040-4039(02)01493-4
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Novel diterpenes with potent conidiation inducing activity
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Tetrahedron Letters
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+10.1002/anie.201600529
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

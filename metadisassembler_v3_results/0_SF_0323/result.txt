@@ -1,0 +1,48 @@
+DATE            : 2023/04/12 12:41
+COMPOUND        : 0_SF_0323
+RUN TIME[s]     : 0.58
+MIN # FRAGMENTS : 2
+
+RESULTS (Total 6):
+>>> 0
+# fragments : 2
+Cut_bond_ID : [7]
+0 : ['C01387']
+1 : ['C20783']
+
+>>> 1
+# fragments : 3
+Cut_bond_ID : [5, 9]
+0 : ['C11271']
+1 : ['C21390']
+2 : ['C01438']
+
+>>> 2
+# fragments : 3
+Cut_bond_ID : [5, 6]
+0 : ['C11271']
+1 : ['C01438']
+2 : ['C21390']
+
+>>> 3
+# fragments : 3
+Cut_bond_ID : [3, 4]
+0 : ['C21390']
+1 : ['C01438']
+2 : ['C11271']
+
+>>> 4
+# fragments : 3
+Cut_bond_ID : [3, 7]
+0 : ['C20783']
+1 : ['C21390']
+2 : ['C21390']
+
+>>> 5
+# fragments : 3
+Cut_bond_ID : [3, 6]
+0 : ['C21390']
+1 : ['C21390']
+2 : ['C20783']
+
+END

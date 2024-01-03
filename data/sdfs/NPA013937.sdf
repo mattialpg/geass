@@ -1,0 +1,133 @@
+penifulvin a
+     RDKit          2D
+
+ 19 22  0  0  0  0  0  0  0  0999 V2000
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4589   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8488   -2.5838    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7579   -1.9635    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3405    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4589    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9261    1.5254    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7707    2.6807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6560    3.6844    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9679    5.1517    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2294    3.2209    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0824    1.7537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5497    2.0656    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2997    0.7665    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7914    0.6097    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  1
+  2  3  1  0
+  4  3  1  1
+  4  5  1  0
+  5  6  1  0
+  5  7  1  0
+  5  8  1  0
+  8  9  1  0
+  9 10  1  1
+  9 11  1  0
+ 11 12  1  0
+ 12 13  2  0
+ 12 14  1  0
+ 15 14  1  1
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  2  0
+ 19 15  1  6
+ 17  1  1  0
+ 19  1  1  0
+ 19  4  1  0
+ 19  9  1  0
+M  END
+
+>  <npaid>
+NPA013937
+
+>  <compound_name>
+Penifulvin A
+
+>  <compound_molecular_formula>
+C15H20O4
+
+>  <compound_molecular_weight>
+264.3210
+
+>  <compound_accurate_mass>
+264.1362
+
+>  <compound_m_plus_h>
+265.1435
+
+>  <compound_m_plus_na>
+287.1254
+
+>  <compound_inchi>
+InChI=1S/C15H20O4/c1-13(2)7-14(3)6-10(16)18-12-15(14)8(11(17)19-12)4-5-9(13)15/h8-9,12H,4-7H2,1-3H3/t8-,9-,12-,14-,15-/m0/s1
+
+>  <compound_inchikey>
+NGAMYGLHRNCUQC-AWPZLMCQSA-N
+
+>  <compound_smiles>
+C[C@@]12CC(=O)O[C@@H]3[C@@]14[C@@H](CC[C@H]4C(C2)(C)C)C(=O)O3
+
+>  <compound_cluster_id>
+2322
+
+>  <compound_node_id>
+1836
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Penicillium
+
+>  <origin_species>
+griseofulvum
+
+>  <original_reference_author_list>
+Shim, Sang Hee; Swenson, Dale C; Gloer, James B; Dowd, Patrick F; Wicklow, Donald T
+
+>  <original_reference_year>
+2006
+
+>  <original_reference_issue>
+6
+
+>  <original_reference_volume>
+8
+
+>  <original_reference_pages>
+1225-1228
+
+>  <original_reference_doi>
+10.1021/ol060107c
+
+>  <original_reference_pmid>
+16524309
+
+>  <original_reference_title>
+Penifulvin A: a sesquiterpenoid-derived metabolite containing a novel dioxa[5,5,5,6]fenestrane ring system from a fungicolous isolate of Penicillium griseofulvum
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Organic Letters
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+10.1021/ja8083048;10.1021/ol500768w
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

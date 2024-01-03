@@ -1,0 +1,138 @@
+lymphostinol
+     RDKit          2D
+
+ 22 24  0  0  0  0  0  0  0  0999 V2000
+   -3.7527    6.6955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6380    5.6918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2114    6.1554    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9499    4.2246    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8351    3.2209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4086    3.6844    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7062    2.6807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1328    3.1443    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1470    1.7537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4593    1.0134    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6161   -0.4784    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4026   -1.3601    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9864   -1.0885    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1432   -2.5803    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.2000   -0.2069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5703   -0.8170    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.7838    0.0647    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  2  4  1  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  1  0
+  7  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 16 18  1  0
+ 18 19  2  0
+ 18 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 14  5  1  0
+ 13  9  1  0
+ 17 12  2  0
+M  END
+
+>  <npaid>
+NPA000884
+
+>  <compound_name>
+Lymphostinol
+
+>  <compound_molecular_formula>
+C15H14N4O3
+
+>  <compound_molecular_weight>
+298.3020
+
+>  <compound_accurate_mass>
+298.1066
+
+>  <compound_m_plus_h>
+299.1139
+
+>  <compound_m_plus_na>
+321.0958
+
+>  <compound_inchi>
+InChI=1S/C15H14N4O3/c1-7(21)18-11-5-9(16)14-13-8(6-17-14)4-10(19-15(11)13)12(22)2-3-20/h4-6,16,19-20H,2-3H2,1H3,(H,18,21)
+
+>  <compound_inchikey>
+AMEMKCXKPKXSMD-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CC(=O)NC1=CC(=N)C2=NC=C3C2=C1NC(=C3)C(=O)CCO
+
+>  <compound_cluster_id>
+629
+
+>  <compound_node_id>
+560
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Salinispora
+
+>  <origin_species>
+arenicola CNS-205
+
+>  <original_reference_author_list>
+Miyanaga, Akimasa; Janso, Jeffrey E.; McDonald, Leonard; He, Min; Liu, Hongbo; Barbieri, Laurel; Eustaquio, Alessandra S.; Fielding, Elisha N.; Carter, Guy T.; Jensen, Paul R.; Feng, Xidong; Leighton, Margaret; Koehn, Frank E.; Moore, Bradley S.
+
+>  <original_reference_year>
+2011
+
+>  <original_reference_issue>
+34
+
+>  <original_reference_volume>
+133
+
+>  <original_reference_pages>
+13311-13313
+
+>  <original_reference_doi>
+10.1021/ja205655w
+
+>  <original_reference_pmid>
+21815669
+
+>  <original_reference_title>
+Discovery and assembly-line biosynthesis of the lymphostin pyrroloquinoline alkaloid family of mtor inhibitors in salinispora bacteria
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of the American Chemical Society
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001006
+
+>  <gnps_ids>
+

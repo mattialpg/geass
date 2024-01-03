@@ -1,0 +1,134 @@
+Pimara-8(14),15-diene
+     RDKit          2D
+
+ 20 22  0  0  0  0  0  0  0  0999 V2000
+    2.6491    0.9642    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6491   -0.9642    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7395    6.6734    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4095    5.7092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6700    7.1864    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  2  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  1
+  7  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  1  6
+ 12 14  1  0
+ 14 15  2  0
+ 12 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  1  0
+ 20 19  1  1
+ 20  2  1  0
+ 20  7  1  0
+ 17  9  1  0
+M  END
+
+>  <npaid>
+NPA002689
+
+>  <compound_name>
+Pimara-8(14),15-diene
+
+>  <compound_molecular_formula>
+C20H32
+
+>  <compound_molecular_weight>
+272.4760
+
+>  <compound_accurate_mass>
+272.2504
+
+>  <compound_m_plus_h>
+273.2577
+
+>  <compound_m_plus_na>
+295.2396
+
+>  <compound_inchi>
+InChI=1S/C20H32/c1-6-19(4)13-10-16-15(14-19)8-9-17-18(2,3)11-7-12-20(16,17)5/h6,14,16-17H,1,7-13H2,2-5H3/t16?,17-,19+,20+/m0/s1
+
+>  <compound_inchikey>
+XDSYKASBVOZOAG-KSRCZVEISA-N
+
+>  <compound_smiles>
+C[C@]1(CCC2C(=C1)CC[C@@H]3[C@@]2(CCCC3(C)C)C)C=C
+
+>  <compound_cluster_id>
+1599
+
+>  <compound_node_id>
+153
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Phoma
+
+>  <origin_species>
+betae
+
+>  <original_reference_author_list>
+Oikawa, Hideaki; Toshima, Hiroaki; Ohashi, Satoshi; König, Wilfried A; Kenmoku, Hiromichi; Sassa, Takeshi
+
+>  <original_reference_year>
+2001
+
+>  <original_reference_issue>
+12
+
+>  <original_reference_volume>
+42
+
+>  <original_reference_pages>
+2329-2332
+
+>  <original_reference_doi>
+10.1016/s0040-4039(01)00165-4
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Diversity of diterpene hydrocarbons in fungus Phoma betae
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Tetrahedron Letters
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000673
+
+>  <gnps_ids>
+

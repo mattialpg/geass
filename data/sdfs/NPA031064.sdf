@@ -1,0 +1,157 @@
+Woodybactin C
+     RDKit          2D
+
+ 33 32  0  0  0  0  0  0  0  0999 V2000
+   14.8001    2.1198    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.7086    1.0908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.2718    1.5215    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.1804    0.4925    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7436    0.9232    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6521   -0.1058    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2153    0.3249    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1239   -0.7041    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6871   -0.2734    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3416    1.1863    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5956   -1.3024    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1588   -0.8717    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0674   -1.9006    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3694   -1.4700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4609   -2.4989    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8977   -2.0682    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9891   -3.0972    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6437   -4.5569    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4259   -2.6665    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2431   -0.6086    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6800   -0.1779    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7714   -1.2068    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.0254    1.2818    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4622    1.7125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.8991    2.1432    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.9905    1.1142    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6450   -0.3455    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.4273    1.5449    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0315    3.1494    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5718    3.4948    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.0605    4.2408    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8929    0.2757    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9411   -2.7620    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  2  0
+  9 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 16 15  1  1
+ 16 17  1  0
+ 17 18  2  0
+ 17 19  1  0
+ 16 20  1  0
+ 20 21  1  0
+ 21 22  2  0
+ 21 23  1  0
+ 23 24  1  0
+ 24 25  1  0
+ 25 26  1  0
+ 26 27  2  0
+ 26 28  1  0
+ 24 29  1  0
+ 29 30  2  0
+ 29 31  1  0
+ 24 32  1  0
+ 11 33  1  0
+M  END
+
+>  <npaid>
+NPA031064
+
+>  <compound_name>
+Woodybactin C
+
+>  <compound_molecular_formula>
+C21H36N2O10
+
+>  <compound_molecular_weight>
+476.5230
+
+>  <compound_accurate_mass>
+476.2370
+
+>  <compound_m_plus_h>
+477.2443
+
+>  <compound_m_plus_na>
+499.2262
+
+>  <compound_inchi>
+InChI=1S/C21H36N2O10/c1-2-3-4-5-6-7-11-17(25)23(33)12-9-8-10-15(19(28)29)22-16(24)13-21(32,20(30)31)14-18(26)27/h15,32-33H,2-14H2,1H3,(H,22,24)(H,26,27)(H,28,29)(H,30,31)/t15-,21?/m0/s1
+
+>  <compound_inchikey>
+SKYVMRWYWWVZMN-ZDGMYTEDSA-N
+
+>  <compound_smiles>
+CCCCCCCCC(=O)N(O)CCCC[C@H](NC(=O)CC(O)(CC(=O)O)C(=O)O)C(=O)O
+
+>  <compound_cluster_id>
+2439
+
+>  <compound_node_id>
+1915
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Shewanella
+
+>  <origin_species>
+woodyi MS32
+
+>  <original_reference_author_list>
+Carmichael, JR; Zhou, H; Butler, A
+
+>  <original_reference_year>
+2019
+
+>  <original_reference_issue>
+None
+
+>  <original_reference_volume>
+198
+
+>  <original_reference_pages>
+110736
+
+>  <original_reference_doi>
+10.1016/j.jinorgbio.2019.110736
+
+>  <original_reference_pmid>
+31203087
+
+>  <original_reference_title>
+A suite of asymmetric citrate siderophores isolated from a marine Shewanella species.
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Inorganic Biochemistry
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

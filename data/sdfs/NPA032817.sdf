@@ -1,0 +1,127 @@
+5-DMAIAN
+     RDKit          2D
+
+ 17 18  0  0  0  0  0  0  0  0999 V2000
+    4.9158   -2.7294    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5807   -1.2673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1470   -0.8264    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8119    0.6357    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3782    1.0766    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2795    0.0554    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1543    0.4962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4893    1.9583    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3907    2.9795    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0431    2.5387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9834    2.0915    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5717    0.7117    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4413   -0.2742    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5744   -1.7683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9349   -2.4001    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2954   -3.0318    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6794   -0.2461    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  3
+  3  4  1  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+  8 11  1  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  3  0
+  2 17  1  0
+ 10  5  1  0
+ 13  7  1  0
+M  END
+
+>  <npaid>
+NPA032817
+
+>  <compound_name>
+5-DMAIAN
+
+>  <compound_molecular_formula>
+C15H16N2
+
+>  <compound_molecular_weight>
+224.3070
+
+>  <compound_accurate_mass>
+224.1313
+
+>  <compound_m_plus_h>
+225.1386
+
+>  <compound_m_plus_na>
+247.1205
+
+>  <compound_inchi>
+InChI=1S/C15H16N2/c1-11(2)3-4-12-5-6-15-14(9-12)13(7-8-16)10-17-15/h3,5-6,9-10,17H,4,7H2,1-2H3
+
+>  <compound_inchikey>
+OTLRZZMUVKJCDO-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CC(C)=CCC1=CC2=C(C=C1)[NH]C=C2CC#N
+
+>  <compound_cluster_id>
+1692
+
+>  <compound_node_id>
+1380
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+coelicolor A3(2)
+
+>  <original_reference_author_list>
+Ozaki, Taro; Nishiyama, Makoto; Kuzuyama, Tomohisa
+
+>  <original_reference_year>
+2013
+
+>  <original_reference_issue>
+14
+
+>  <original_reference_volume>
+288
+
+>  <original_reference_pages>
+9946-9956
+
+>  <original_reference_doi>
+10.1074/jbc.M112.436451
+
+>  <original_reference_pmid>
+23430264
+
+>  <original_reference_title>
+Novel tryptophan metabolism by a potential gene cluster that is widely distributed among actinomycetes
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Biological Chemistry
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

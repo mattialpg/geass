@@ -1,0 +1,123 @@
+Flaviolin
+     RDKit          2D
+
+ 15 16  0  0  0  0  0  0  0  0999 V2000
+   -1.1460   -1.6902    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5425   -1.1427    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7666    0.3404    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5942    1.2761    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1977    0.7286    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0264   -0.7545    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4230   -1.3020    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6471   -2.7852    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5953   -0.3663    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9919   -0.9138    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3712    1.1168    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9747    1.6643    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7506    3.1475    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8183    2.7593    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7149   -2.0784    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  7  9  1  0
+  9 10  2  0
+  9 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+  4 14  1  0
+  2 15  1  0
+  6  1  1  0
+ 12  5  1  0
+M  END
+
+>  <npaid>
+NPA032742
+
+>  <compound_name>
+Flaviolin
+
+>  <compound_molecular_formula>
+C10H6O5
+
+>  <compound_molecular_weight>
+206.1530
+
+>  <compound_accurate_mass>
+206.0215
+
+>  <compound_m_plus_h>
+207.0288
+
+>  <compound_m_plus_na>
+229.0107
+
+>  <compound_inchi>
+InChI=1S/C10H6O5/c11-4-1-5-9(6(12)2-4)7(13)3-8(14)10(5)15/h1-3,11-13H
+
+>  <compound_inchikey>
+XNPCAGMCQDGQKK-UHFFFAOYSA-N
+
+>  <compound_smiles>
+O=C1C=C(O)C2=C(C=C(O)C=C2O)C1=O
+
+>  <compound_cluster_id>
+9625
+
+>  <compound_node_id>
+21
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Aspergillus
+
+>  <origin_species>
+citricus
+
+>  <original_reference_author_list>
+Astill, B. D.; Roberts, John C.
+
+>  <original_reference_year>
+1953
+
+>  <original_reference_issue>
+0
+
+>  <original_reference_volume>
+None
+
+>  <original_reference_pages>
+3302-3307
+
+>  <original_reference_doi>
+10.1039/jr9530003302
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+654. Studies in mycological chemistry. Part I. Flaviolin, 2(or 3): 5: 7-trihydroxy-1: 4-naphthaquinone, a metabolic product of Aspergillus citricus(Wehmer) Mosseray.
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of the Chemical Society
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

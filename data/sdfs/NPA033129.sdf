@@ -1,0 +1,146 @@
+Stieleriacine C
+     RDKit          2D
+
+ 27 27  0  0  0  0  0  0  0  0999 V2000
+  -12.6776    1.4348    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.5050    0.4995    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.1086    1.0473    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.9360    0.1119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5396    0.6598    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3670   -0.2756    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9706    0.2722    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7980   -0.6631    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4016   -0.1153    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2289   -1.0507    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1674   -0.5028    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3401   -1.4382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1163   -2.9214    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7364   -0.8904    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9091   -1.8257    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3055   -1.2779    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5292    0.2053    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3566    1.1407    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5803    2.6239    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9767    3.1718    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1493    2.2364    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9256    0.7532    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2004    4.6550    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4077    3.5593    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6853   -3.3089    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8580   -4.2443    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2890   -3.8568    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  2  0
+ 12 14  1  0
+ 14 15  1  0
+ 15 16  1  1
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  2  0
+ 20 23  1  0
+ 19 24  1  0
+ 15 25  1  0
+ 25 26  2  0
+ 25 27  1  0
+ 22 17  1  0
+M  END
+
+>  <npaid>
+NPA033129
+
+>  <compound_name>
+Stieleriacine C
+
+>  <compound_molecular_formula>
+C22H35NO4
+
+>  <compound_molecular_weight>
+377.5250
+
+>  <compound_accurate_mass>
+377.2566
+
+>  <compound_m_plus_h>
+378.2639
+
+>  <compound_m_plus_na>
+400.2458
+
+>  <compound_inchi>
+InChI=1S/C22H35NO4/c1-3-4-5-6-7-8-9-10-11-12-21(25)23-19(22(26)27)16-18-13-14-20(24)17(2)15-18/h13-15,19,24H,3-12,16H2,1-2H3,(H,23,25)(H,26,27)/t19-/m0/s1
+
+>  <compound_inchikey>
+JGQLEDVVHJKAFB-IBGZPJMESA-N
+
+>  <compound_smiles>
+CCCCCCCCCCCC(=O)N[C@@H](CC1=CC(C)=C(O)C=C1)C(=O)O
+
+>  <compound_cluster_id>
+9706
+
+>  <compound_node_id>
+925
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Stieleria
+
+>  <origin_species>
+maiorica Mal15T
+
+>  <original_reference_author_list>
+Kallscheuer, Nicolai; Jeske, Olga; Sandargo, Birthe; Boedeker, Christian; Wiegand, Sandra; Bartling, Pascal; Jogler, Mareike; Rohde, Manfred; Petersen, Jörn; Medema, Marnix H.; Surup, Frank; Jogler, Christian
+
+>  <original_reference_year>
+2020
+
+>  <original_reference_issue>
+1
+
+>  <original_reference_volume>
+3
+
+>  <original_reference_pages>
+None
+
+>  <original_reference_doi>
+10.1038/s42003-020-0993-2
+
+>  <original_reference_pmid>
+32533057
+
+>  <original_reference_title>
+The planctomycete Stieleria maiorica Mal15T employs stieleriacines to alter the species composition in marine biofilms
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Communications Biology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

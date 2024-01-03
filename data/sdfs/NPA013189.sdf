@@ -1,0 +1,128 @@
+Sorbicillinol
+     RDKit          2D
+
+ 18 18  0  0  0  0  0  0  0  0999 V2000
+    8.2500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4895   -2.7762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1595   -1.8121    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  6  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  1  1
+ 10 12  1  0
+ 10 13  1  0
+ 13 14  2  0
+ 13 15  1  0
+ 15 16  1  0
+ 15 17  2  0
+ 17 18  1  0
+ 17  8  1  0
+M  END
+
+>  <npaid>
+NPA013189
+
+>  <compound_name>
+Sorbicillinol
+
+>  <compound_molecular_formula>
+C14H16O4
+
+>  <compound_molecular_weight>
+248.2780
+
+>  <compound_accurate_mass>
+248.1049
+
+>  <compound_m_plus_h>
+249.1122
+
+>  <compound_m_plus_na>
+271.0941
+
+>  <compound_inchi>
+InChI=1S/C14H16O4/c1-4-5-6-7-11(15)10-8-14(3,18)13(17)9(2)12(10)16/h4-8,16,18H,1-3H3/b5-4+,7-6+/t14-/m0/s1
+
+>  <compound_inchikey>
+SJEYUYPBCPRFNM-WQWHYOKSSA-N
+
+>  <compound_smiles>
+C/C=C/C=C/C(=O)C1=C[C@](C(=O)C(=C1O)C)(C)O
+
+>  <compound_cluster_id>
+4942
+
+>  <compound_node_id>
+944
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Trichoderma
+
+>  <origin_species>
+sp. USF-2690
+
+>  <original_reference_author_list>
+Abe, Naoki; Sugimoto, Osamu; Tanji, Ken-ichi; Hirota, Akira
+
+>  <original_reference_year>
+2001
+
+>  <original_reference_issue>
+10
+
+>  <original_reference_volume>
+65
+
+>  <original_reference_pages>
+2271-2279
+
+>  <original_reference_doi>
+10.1271/bbb.65.2271
+
+>  <original_reference_pmid>
+11758920
+
+>  <original_reference_title>
+Sorbicillinol, a Key Intermediate of Bisorbicillinoid Biosynthesis in Trichoderma sp. USF-2690
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Bioscience Biotechnology and Biochemistry
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

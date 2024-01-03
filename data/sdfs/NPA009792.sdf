@@ -1,0 +1,148 @@
+Unknown
+     RDKit          2D
+
+ 28 28  0  0  0  0  0  0  0  0999 V2000
+    6.2943    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7943    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5597   -1.4815    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8787   -2.8180    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8180   -3.8787    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6997   -5.0922    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4815   -4.5597    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9451   -5.9863    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -4.7943    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4815   -4.5597    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8180   -3.8787    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6997   -5.0922    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8787   -2.8180    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5597   -1.4815    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.7943    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.2943    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5597    1.4815    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8787    2.8180    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8180    3.8787    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6997    5.0922    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4815    4.5597    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9451    5.9863    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    4.7943    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4815    4.5597    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8180    3.8787    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6997    5.0922    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8787    2.8180    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5597    1.4815    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  5  7  1  0
+  7  8  2  0
+  7  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  2  0
+ 11 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 15 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 19 21  1  0
+ 21 22  2  0
+ 21 23  1  0
+ 23 24  1  0
+ 24 25  1  0
+ 25 26  2  0
+ 25 27  1  0
+ 27 28  1  0
+ 28  2  1  0
+M  END
+
+>  <npaid>
+NPA009792
+
+>  <compound_name>
+Alcaligin
+
+>  <compound_molecular_formula>
+C16H28N4O8
+
+>  <compound_molecular_weight>
+404.4200
+
+>  <compound_accurate_mass>
+404.1907
+
+>  <compound_m_plus_h>
+405.1980
+
+>  <compound_m_plus_na>
+427.1799
+
+>  <compound_inchi>
+InChI=1S/C16H28N4O8/c21-11-6-8-20(28)16(26)4-2-14(24)18-10-12(22)5-7-19(27)15(25)3-1-13(23)17-9-11/h11-12,21-22,27-28H,1-10H2,(H,17,23)(H,18,24)
+
+>  <compound_inchikey>
+OZZLZFXDNDCIOU-UHFFFAOYSA-N
+
+>  <compound_smiles>
+C1CN(C(=O)CCC(=O)NCC(CCN(C(=O)CCC(=O)NCC1O)O)O)O
+
+>  <compound_cluster_id>
+4079
+
+>  <compound_node_id>
+3025
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Alcaligenes
+
+>  <origin_species>
+denitrificans subsp. xylosoxydans KN 3-1
+
+>  <original_reference_author_list>
+Nishio, Takayuki; Tanaka, Nobuo; Hiratake, Jun; Katsube, Yukiteru; Ishida, Yuzaburo; Oda, Junichi
+
+>  <original_reference_year>
+1988
+
+>  <original_reference_issue>
+26
+
+>  <original_reference_volume>
+110
+
+>  <original_reference_pages>
+8733-8734
+
+>  <original_reference_doi>
+10.1021/ja00234a045
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Isolation and structure of the novel dihydroxamate siderophore alcaligin
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of the American Chemical Society
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

@@ -1,0 +1,158 @@
+epi-aszonalenin A
+     RDKit          2D
+
+ 31 35  0  0  0  0  0  0  0  0999 V2000
+    1.9635   -5.0339    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4271   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7548   -2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9520   -4.6564    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4635   -5.0339    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4717   -6.2066    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9341   -5.8729    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1379   -7.6690    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -8.3199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5650   -7.6690    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8988   -6.2066    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3612   -5.8729    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3256   -9.8157    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0863  -10.6606    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2652  -10.0098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3773   -8.5140    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4271   -1.8439    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3087   -3.0575    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9214   -0.5922    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6406   -0.9623    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0109   -1.5724    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  1
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 11 13  2  0
+ 14 10  1  1
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 16 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  2  0
+ 19 23  1  0
+ 23 24  2  0
+ 24 25  1  0
+ 25 26  2  0
+  3 27  1  6
+ 27 28  1  0
+ 27 29  1  0
+ 27 30  1  0
+ 30 31  2  0
+ 15  1  1  0
+ 26 18  1  0
+ 21  1  1  0
+ 14  3  1  0
+  9  4  1  0
+M  END
+
+>  <npaid>
+NPA008608
+
+>  <compound_name>
+Epi-aszonalenin A
+
+>  <compound_molecular_formula>
+C25H25N3O3
+
+>  <compound_molecular_weight>
+415.4930
+
+>  <compound_accurate_mass>
+415.1896
+
+>  <compound_m_plus_h>
+416.1969
+
+>  <compound_m_plus_na>
+438.1788
+
+>  <compound_inchi>
+InChI=1S/C25H25N3O3/c1-5-24(3,4)25-14-20-21(30)26-18-12-8-6-10-16(18)22(31)28(20)23(25)27(15(2)29)19-13-9-7-11-17(19)25/h5-13,20,23H,1,14H2,2-4H3,(H,26,30)/t20-,23+,25-/m0/s1
+
+>  <compound_inchikey>
+TXNJQKDZOVFCAQ-ZWSUVBHBSA-N
+
+>  <compound_smiles>
+CC(=O)N1[C@H]2[C@](C[C@@H]3N2C(=O)C4=CC=CC=C4NC3=O)(C5=CC=CC=C51)C(C)(C)C=C
+
+>  <compound_cluster_id>
+26
+
+>  <compound_node_id>
+25
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Aspergillus
+
+>  <origin_species>
+novofumigatus
+
+>  <original_reference_author_list>
+Rank, Christian; Phipps, Richard Kerry; Harris, Pernille; Frisvad, Jens Christian; Gotfredsen, Charlotte Held; Larsen, Thomas Ostenfeld
+
+>  <original_reference_year>
+2006
+
+>  <original_reference_issue>
+34
+
+>  <original_reference_volume>
+47
+
+>  <original_reference_pages>
+6099-6102
+
+>  <original_reference_doi>
+10.1016/j.tetlet.2006.06.086
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+epi-Aszonalenins A, B, and C from Aspergillus novofumigatus
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Tetrahedron Letters
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

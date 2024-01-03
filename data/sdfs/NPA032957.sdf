@@ -1,0 +1,131 @@
+Pyranoviolin A
+     RDKit          2D
+
+ 19 20  0  0  0  0  0  0  0  0999 V2000
+    6.9539   -1.1770    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4704   -1.3987    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5367   -0.2248    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0531   -0.4465    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1194    0.7275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6358    0.5058    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2979    1.6797    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7814    1.4580    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7152    2.6319    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3312    0.0624    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3974   -1.1116    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0861   -0.8899    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2254   -2.3624    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6708   -1.9615    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7362   -0.4629    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9870    0.3650    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7001   -3.7674    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2518    3.0753    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7354    3.2970    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  8 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 11 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  2  0
+ 13 17  1  1
+  7 18  1  0
+ 18 19  1  0
+ 12  6  1  0
+ 15 10  1  0
+M  END
+
+>  <npaid>
+NPA032957
+
+>  <compound_name>
+Pyranoviolin A
+
+>  <compound_molecular_formula>
+C13H15NO5
+
+>  <compound_molecular_weight>
+265.2650
+
+>  <compound_accurate_mass>
+265.0950
+
+>  <compound_m_plus_h>
+266.1023
+
+>  <compound_m_plus_na>
+288.0842
+
+>  <compound_inchi>
+InChI=1S/C13H15NO5/c1-3-4-5-6-7-10(18-2)9(15)8-11(19-7)13(17)14-12(8)16/h5-6,13,17H,3-4H2,1-2H3,(H,14,16)/b6-5+/t13-/m1/s1
+
+>  <compound_inchikey>
+BYLNZZOLIALCKQ-URWSZGRFSA-N
+
+>  <compound_smiles>
+CCC/C=C/C1=C(OC)C(=O)C2=C(O1)[C@@H](O)NC2=O
+
+>  <compound_cluster_id>
+825
+
+>  <compound_node_id>
+713
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Aspergillus
+
+>  <origin_species>
+violaceofuscus CBS 115571
+
+>  <original_reference_author_list>
+Wei, Xingxing; Chen, Lin; Tang, Jian-Wei; Matsuda, Yudai
+
+>  <original_reference_year>
+2020
+
+>  <original_reference_issue>
+None
+
+>  <original_reference_volume>
+11
+
+>  <original_reference_pages>
+562063
+
+>  <original_reference_doi>
+10.3389/fmicb.2020.562063
+
+>  <original_reference_pmid>
+33117309
+
+>  <original_reference_title>
+Discovery of Pyranoviolin A and Its Biosynthetic Gene Cluster in Aspergillus violaceofuscus.
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Frontiers in Microbiology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

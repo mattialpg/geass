@@ -1,0 +1,146 @@
+Acurin A
+     RDKit          2D
+
+ 27 27  0  0  0  0  0  0  0  0999 V2000
+   -8.4715   -2.8551    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.5210   -1.3559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2473   -0.5635    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.9243   -1.2703    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6507   -0.4779    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.7001    1.0212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3276   -1.1847    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0540   -0.3924    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7310   -1.0992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5427   -0.3068    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8657   -1.0136    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1393   -0.2212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0899    1.2780    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4624   -0.9280    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5118   -2.4271    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7360   -0.1356    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1257   -0.7002    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0921    0.4470    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2997    1.7206    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8435    1.3606    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6964    2.3270    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5882    0.3394    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.2431   -1.0101    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2968    0.9356    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0231    1.7280    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6198    1.6424    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6692    3.1416    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  5  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 12 14  1  0
+ 14 15  2  0
+ 16 14  1  6
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  2  0
+ 18 22  1  1
+ 22 23  1  0
+  3 24  1  0
+ 24 25  2  0
+ 24 26  1  0
+ 26 27  1  0
+ 20 16  1  0
+M  END
+
+>  <npaid>
+NPA032971
+
+>  <compound_name>
+Acurin A
+
+>  <compound_molecular_formula>
+C21H27NO5
+
+>  <compound_molecular_weight>
+373.4490
+
+>  <compound_accurate_mass>
+373.1889
+
+>  <compound_m_plus_h>
+374.1962
+
+>  <compound_m_plus_na>
+396.1781
+
+>  <compound_inchi>
+InChI=1S/C21H27NO5/c1-5-16(21(26)27-4)11-14(2)9-7-6-8-10-15(3)19(24)18-12-17(13-23)22-20(18)25/h5-11,17-18,23H,12-13H2,1-4H3,(H,22,25)/b8-6+,9-7+,14-11+,15-10+,16-5+/t17-,18-/m1/s1
+
+>  <compound_inchikey>
+JZIMOTIFZOTFPM-OJDRRNJJSA-N
+
+>  <compound_smiles>
+C/C=C(\C=C(C)\C=C\C=C\C=C(/C)C(=O)[C@H]1C[C@H](CO)NC1=O)C(=O)OC
+
+>  <compound_cluster_id>
+8960
+
+>  <compound_node_id>
+1747
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Aspergillus
+
+>  <origin_species>
+aculeatus
+
+>  <original_reference_author_list>
+Wolff, Peter B.; Nielsen, Maria L.; Slot, Jason C.; Andersen, Lasse N.; Petersen, Lene M.; Isbrandt, Thomas; Holm, Dorte K.; Mortensen, Uffe H.; Nødvig, Christina S.; Larsen, Thomas O.; Hoof, Jakob B.
+
+>  <original_reference_year>
+2020
+
+>  <original_reference_issue>
+None
+
+>  <original_reference_volume>
+139
+
+>  <original_reference_pages>
+None
+
+>  <original_reference_doi>
+10.1016/j.fgb.2020.103378
+
+>  <original_reference_pmid>
+32234543
+
+>  <original_reference_title>
+Acurin A, a novel hybrid compound, biosynthesized by individually translated PKS- and NRPS-encoding genes in Aspergillus aculeatus
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Fungal Genetics and Biology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

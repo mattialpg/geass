@@ -1,0 +1,120 @@
+2,4'-dihydroxy-3'-methoxypropiophenone
+     RDKit          2D
+
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+    4.2542   -0.7609    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7559   -0.6892    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0689    0.6442    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8801    1.9059    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5706    0.7159    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2406   -0.5459    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7389   -0.4742    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4260    0.8592    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6148    2.1209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1165    2.0493    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9243    0.9309    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5501   -1.7359    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8631   -3.0693    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9447   -1.9509    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  3  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+  8 11  1  0
+  7 12  1  0
+ 12 13  1  0
+  2 14  1  0
+ 10  5  1  0
+M  END
+
+>  <npaid>
+NPA033519
+
+>  <compound_name>
+2,4'-dihydroxy-3'-methoxypropiophenone
+
+>  <compound_molecular_formula>
+C10H12O4
+
+>  <compound_molecular_weight>
+196.2020
+
+>  <compound_accurate_mass>
+196.0736
+
+>  <compound_m_plus_h>
+197.0809
+
+>  <compound_m_plus_na>
+219.0628
+
+>  <compound_inchi>
+InChI=1S/C10H12O4/c1-6(11)10(13)7-3-4-8(12)9(5-7)14-2/h3-6,11-12H,1-2H3
+
+>  <compound_inchikey>
+XADGCRVOLDLTQY-UHFFFAOYSA-N
+
+>  <compound_smiles>
+COC1=C(O)C=CC(C(=O)C(C)O)=C1
+
+>  <compound_cluster_id>
+3955
+
+>  <compound_node_id>
+2948
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Aspergillus
+
+>  <origin_species>
+oryzae
+
+>  <original_reference_author_list>
+Kan, Eiichiro; Tomita, Hiroya; Katsuyama, Yohei; Maruyama, Jun-ichi; Koyama, Yasuji; Ohnishi, Yasuo
+
+>  <original_reference_year>
+2021
+
+>  <original_reference_issue>
+1
+
+>  <original_reference_volume>
+22
+
+>  <original_reference_pages>
+203-211
+
+>  <original_reference_doi>
+10.1002/cbic.202000505
+
+>  <original_reference_pmid>
+32885554
+
+>  <original_reference_title>
+Discovery of the 2,4′-Dihydroxy-3′-methoxypropiophenone Biosynthesis Genes in Aspergillus oryzae
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+ChemBioChem
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

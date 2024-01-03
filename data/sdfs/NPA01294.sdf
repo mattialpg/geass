@@ -1,0 +1,162 @@
+lobosamide A
+     RDKit          2D
+
+ 35 35  0  0  0  0  0  0  0  0999 V2000
+    7.7222    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2222    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0414   -1.4891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5095   -2.8916    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6574   -4.1261    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5346   -5.1207    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2064   -5.8178    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7383   -7.2204    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.1768    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -6.1768    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9308   -7.6659    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2064   -5.8178    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5346   -5.1207    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6574   -4.1261    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5095   -2.8916    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0414   -1.4891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.4978   -1.8480    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.2222    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0414    1.4891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.4978    1.8480    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5095    2.8916    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8376    3.5887    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6574    4.1261    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7801    5.1207    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5346    5.1207    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3867    6.3552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2064    5.8178    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    6.1768    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    6.1768    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2064    5.8178    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5346    5.1207    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6574    4.1261    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5095    2.8916    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8376    3.5887    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0414    1.4891    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  1
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  7  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 10 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  1  6
+ 16 18  1  0
+ 18 19  1  0
+ 19 20  1  6
+ 19 21  1  0
+ 21 22  1  1
+ 21 23  1  0
+ 23 24  1  6
+ 23 25  1  0
+ 25 26  1  1
+ 25 27  1  0
+ 27 28  2  0
+ 28 29  1  0
+ 29 30  2  0
+ 30 31  1  0
+ 31 32  2  0
+ 32 33  1  0
+ 33 34  2  0
+ 33 35  1  0
+ 35  2  1  0
+M  END
+
+>  <npaid>
+NPA001294
+
+>  <compound_name>
+Lobosamide A
+
+>  <compound_molecular_formula>
+C29H41NO5
+
+>  <compound_molecular_weight>
+483.6490
+
+>  <compound_accurate_mass>
+483.2985
+
+>  <compound_m_plus_h>
+484.3058
+
+>  <compound_m_plus_na>
+506.2877
+
+>  <compound_inchi>
+InChI=1S/C29H41NO5/c1-21-13-9-11-16-24(4)30-27(33)18-8-6-5-7-15-23(3)28(34)29(35)26(32)20-25(31)17-12-10-14-22(2)19-21/h5-15,17-19,23-26,28-29,31-32,34-35H,16,20H2,1-4H3,(H,30,33)/b6-5?,11-9?,14-10?,15-7?,17-12-,18-8?,21-13?,22-19?/t23-,24-,25-,26-,28+,29+/m0/s1
+
+>  <compound_inchikey>
+OXBKRYKWMRJSMZ-JCTAFSBOSA-N
+
+>  <compound_smiles>
+C[C@H]1CC=CC=C(C=C(C=C/C=C\[C@@H](C[C@@H]([C@H]([C@@H]([C@H](C=CC=CC=CC(=O)N1)C)O)O)O)O)C)C
+
+>  <compound_cluster_id>
+878
+
+>  <compound_node_id>
+755
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Micromonospora
+
+>  <origin_species>
+sp.
+
+>  <original_reference_author_list>
+Schulze, Christopher J.; Donia, Mohamed S.; Siqueira-Neto, Jair L.; Ray, Debalina; Raskatov, Jevgenij A.; Green, Richard E.; McKerrow, James H.; Fischbach, Michael A.; Linington, Roger G.
+
+>  <original_reference_year>
+2015
+
+>  <original_reference_issue>
+10
+
+>  <original_reference_volume>
+10
+
+>  <original_reference_pages>
+2373-2381
+
+>  <original_reference_doi>
+10.1021/acschembio.5b00308
+
+>  <original_reference_pmid>
+26270237
+
+>  <original_reference_title>
+Genome-Directed Lead Discovery: Biosynthesis, Structure Elucidation, and Biological Evaluation of Two Families of Polyene Macrolactams against Trypanosoma brucei
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+ACS Chemical Biology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001303
+
+>  <gnps_ids>
+

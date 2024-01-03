@@ -1,0 +1,148 @@
+BU-4704
+     RDKit          2D
+
+ 27 28  0  0  0  0  0  0  0  0999 V2000
+   -9.6447    0.3631    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.5739   -0.6874    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.1288   -0.2853    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7544    1.1672    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3093    1.5692    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2386    0.5187    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6129   -0.9338    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0581   -1.3358    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7935    0.9208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7227   -0.1297    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2776    0.2723    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7931   -0.7781    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2383   -0.3761    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3090   -1.4266    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7541   -1.0245    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1285    0.4280    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0578    1.4785    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6126    1.0764    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5736    0.8300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.6443   -0.2205    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5939   -1.2912    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6948    0.8503    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7151   -1.2709    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0968    1.7249    0.0000 N   0  0  0  0  0  4  0  0  0  0  0  0
+    0.4712    3.1774    0.0000 C   0  0  0  0  0  3  0  0  0  0  0  0
+   -2.0971   -1.5822    0.0000 N   0  0  0  0  0  4  0  0  0  0  0  0
+   -2.4715   -3.0348    0.0000 C   0  0  0  0  0  3  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  6  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 16 19  1  0
+ 19 20  1  0
+ 20 21  2  0
+ 20 22  2  0
+ 20 23  1  0
+ 11 24  1  0
+ 24 25  3  0
+ 10 26  1  0
+ 26 27  3  0
+  8  3  1  0
+ 18 13  1  0
+M  CHG  4  24   1  25  -1  26   1  27  -1
+M  END
+
+>  <npaid>
+NPA032787
+
+>  <compound_name>
+BU-4704
+
+>  <compound_molecular_formula>
+C19H14N2O5S
+
+>  <compound_molecular_weight>
+382.3970
+
+>  <compound_accurate_mass>
+382.0623
+
+>  <compound_m_plus_h>
+383.0696
+
+>  <compound_m_plus_na>
+405.0515
+
+>  <compound_inchi>
+InChI=1S/C19H14N2O5S/c1-20-18(12-14-4-8-16(25-3)9-5-14)19(21-2)13-15-6-10-17(11-7-15)26-27(22,23)24/h4-13H,3H3,(H,22,23,24)/b18-12-,19-13-
+
+>  <compound_inchikey>
+AFDVXUYMZKBPPT-BKHHGCLFSA-N
+
+>  <compound_smiles>
+[C-]#[N+]C(=C\C1=CC=C(OC)C=C1)/C(=C/C1=CC=C(OS(=O)(=O)O)C=C1)[N+]#[C-]
+
+>  <compound_cluster_id>
+1495
+
+>  <compound_node_id>
+1233
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Aspergillus
+
+>  <origin_species>
+sp. No. FA2692
+
+>  <original_reference_author_list>
+Tsunakawa; Ohkusa; Kobaru; Narita; Murata; Sawada; Oki
+
+>  <original_reference_year>
+1993
+
+>  <original_reference_issue>
+4
+
+>  <original_reference_volume>
+46
+
+>  <original_reference_pages>
+687-688
+
+>  <original_reference_doi>
+10.7164/antibiotics.46.687
+
+>  <original_reference_pmid>
+8501014
+
+>  <original_reference_title>
+BU-4704, a new member of the xanthocillin class
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Antibiotics
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

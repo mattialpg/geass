@@ -1,0 +1,172 @@
+hydroxycyclochlorotine A
+     RDKit          2D
+
+ 39 41  0  0  0  0  0  0  0  0999 V2000
+    2.3336    5.0196    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2159    3.5242    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5349    2.1877    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7129    1.2591    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7760    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8578   -2.6401    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5277    0.8677    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9348   -0.5760    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8642    1.5487    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.7928    0.3707    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.2773    0.5859    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8383    2.6893    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3019    4.1159    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7915    3.9396    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1842    5.6112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5032    6.9478    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3626    7.9219    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9360    8.3855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1123    9.8751    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4406    8.2678    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0335    9.7114    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4204   10.0807    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8959    7.5868    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8701    6.4462    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1788    7.1791    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.6812    7.8764    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4659    9.3609    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6439   10.2895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.0371    9.7337    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.2524    8.2492    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.0744    7.3206    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8232    5.1959    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7207    3.9940    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4153    6.5741    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  6
+  2  3  1  0
+  3  4  2  0
+  5  3  1  6
+  5  6  1  0
+  6  7  1  6
+  6  8  1  0
+  8  9  1  6
+  8 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  2  0
+ 12 14  1  0
+ 14 15  1  6
+ 15 16  1  0
+ 14 17  1  0
+ 17 18  1  0
+ 18 19  2  0
+ 18 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 22 23  1  0
+ 23 24  2  0
+ 23 25  1  0
+ 25 26  1  6
+ 26 27  1  0
+ 25 28  1  0
+ 28 29  1  0
+ 29 30  2  0
+ 21 31  1  6
+ 31 32  2  0
+ 32 33  1  0
+ 33 34  2  0
+ 34 35  1  0
+ 35 36  2  0
+  1 37  1  0
+ 37 38  1  6
+ 37 39  1  0
+ 29  1  1  0
+ 36 31  1  0
+ 11  5  1  0
+M  END
+
+>  <npaid>
+NPA015898
+
+>  <compound_name>
+Hydroxycyclochlorotine A
+
+>  <compound_molecular_formula>
+C24H31Cl2N5O8
+
+>  <compound_molecular_weight>
+588.4450
+
+>  <compound_accurate_mass>
+587.1550
+
+>  <compound_m_plus_h>
+588.1623
+
+>  <compound_m_plus_na>
+610.1442
+
+>  <compound_inchi>
+InChI=1S/C24H31Cl2N5O8/c1-11(34)19-22(37)29-15(9-32)21(36)28-14(12-5-3-2-4-6-12)7-17(35)27-16(10-33)24(39)31-8-13(25)18(26)20(31)23(38)30-19/h2-6,11,13-16,18-20,32-34H,7-10H2,1H3,(H,27,35)(H,28,36)(H,29,37)(H,30,38)/t11-,13-,14-,15+,16+,18-,19+,20+/m1/s1
+
+>  <compound_inchikey>
+SQOPWHUHNWXLMA-PQMJZOGWSA-N
+
+>  <compound_smiles>
+C[C@H]([C@H]1C(=O)N[C@H](C(=O)N[C@H](CC(=O)N[C@H](C(=O)N2C[C@H]([C@H]([C@H]2C(=O)N1)Cl)Cl)CO)C3=CC=CC=C3)CO)O
+
+>  <compound_cluster_id>
+26
+
+>  <compound_node_id>
+25
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Penicillium
+
+>  <origin_species>
+islandicum
+
+>  <original_reference_author_list>
+Mizutani, Kohei; Hirasawa, Yusuke; Sugita-Konishi, Yoshiko; Mochizuki, Naoki; Morita, Hiroshi
+
+>  <original_reference_year>
+2008
+
+>  <original_reference_issue>
+7
+
+>  <original_reference_volume>
+71
+
+>  <original_reference_pages>
+1297-1300
+
+>  <original_reference_doi>
+10.1021/np800150m
+
+>  <original_reference_pmid>
+18558744
+
+>  <original_reference_title>
+Structural and conformational analysis of hydroxycyclochlorotine and cyclochlorotine, chlorinated cyclic peptides from Penicillium islandicum
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Natural Products
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001402
+
+>  <gnps_ids>
+

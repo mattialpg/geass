@@ -1,0 +1,153 @@
+piscibactin
+     RDKit          2D
+
+ 29 32  0  0  0  0  0  0  0  0999 V2000
+   14.8662   -5.3670    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.4396   -5.8306    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.1278   -4.3633    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.6360   -4.2066    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   11.0259   -5.5769    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5586   -5.8887    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5549   -4.7740    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0185   -3.3474    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0877   -5.0859    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4776   -6.4562    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9858   -6.2994    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6740   -4.8322    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9730   -4.0822    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3037   -4.2221    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0046   -4.9721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8899   -3.9684    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9918   -2.7549    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1406   -6.5806    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   14.0497   -7.2009    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.1680   -8.4144    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5415   -7.3577    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  1
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  1
+  7  9  1  0
+  9 10  1  6
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  1  6
+ 12 14  1  0
+ 14 15  1  1
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  2  0
+ 17 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  2  0
+ 22 23  1  0
+ 23 24  2  0
+ 24 25  1  0
+  5 26  2  0
+  2 27  1  0
+ 27 28  1  0
+ 27 29  2  0
+ 26  2  1  0
+ 13  9  1  0
+ 18 14  1  0
+ 24 19  1  0
+M  END
+
+>  <npaid>
+NPA006148
+
+>  <compound_name>
+Piscibactin
+
+>  <compound_molecular_formula>
+C19H23N3O4S3
+
+>  <compound_molecular_weight>
+453.6110
+
+>  <compound_accurate_mass>
+453.0851
+
+>  <compound_m_plus_h>
+454.0924
+
+>  <compound_m_plus_na>
+476.0743
+
+>  <compound_inchi>
+InChI=1S/C19H23N3O4S3/c1-19(18(25)26)9-29-15(22-19)6-14(24)11-7-28-17(20-11)12-8-27-16(21-12)10-4-2-3-5-13(10)23/h2-5,11-12,14,17,20,23-24H,6-9H2,1H3,(H,25,26)/t11-,12+,14-,17+,19+/m0/s1
+
+>  <compound_inchikey>
+IHZPBBLBWDEMKS-PDEVRGGCSA-N
+
+>  <compound_smiles>
+C[C@@]1(CSC(=N1)C[C@@H]([C@@H]2CS[C@@H](N2)[C@H]3CSC(=N3)C4=CC=CC=C4O)O)C(=O)O
+
+>  <compound_cluster_id>
+2958
+
+>  <compound_node_id>
+918
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Photobacterium
+
+>  <origin_species>
+damselae subsp. piscicida
+
+>  <original_reference_author_list>
+Souto, Alba; Montaos, Marcos A.; Rivas, Amable J.; Balado, Miguel; Osorio, Carlos R.; Rodríguez, Jaime; Lemos, Manuel L.; Jiménez, Carlos
+
+>  <original_reference_year>
+2012
+
+>  <original_reference_issue>
+29
+
+>  <original_reference_volume>
+2012
+
+>  <original_reference_pages>
+5693-5700
+
+>  <original_reference_doi>
+10.1002/ejoc.201200818
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Structure and Biosynthetic Assembly of Piscibactin, a Siderophore from Photobacterium damselae subsp.piscicida, Predicted from Genome Analysis
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+European Journal of Organic Chemistry
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

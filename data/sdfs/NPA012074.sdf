@@ -1,0 +1,166 @@
+psychrophilin G
+     RDKit          2D
+
+ 35 39  0  0  0  0  0  0  0  0999 V2000
+   -5.2584   -6.1412    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3573   -4.9420    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8682   -5.1228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3363   -3.7203    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3456   -2.8237    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8221   -3.7203    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0565   -2.8682    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3540   -5.1228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1732   -6.6119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3211   -7.8464    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9929   -8.5435    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3519   -9.9999    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5071   -8.5435    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7596  -10.0220    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2439  -10.2388    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9087   -8.8941    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8353   -7.8464    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6874   -6.6119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0899   -7.1438    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3723   -7.5130    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7523   -6.9251    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9331   -5.4360    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7339   -4.5349    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9452   -3.5621    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4343   -3.3813    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2718   -2.3920    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  3  2  1  1
+  3  4  1  0
+  4  5  1  6
+  4  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+  8 15  1  0
+ 15 16  2  0
+ 15 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  2  0
+ 20 22  1  0
+ 22 23  1  6
+ 23 24  1  0
+ 24 25  1  0
+ 25 26  1  0
+ 26 27  1  0
+ 27 28  2  0
+ 18 29  1  0
+ 29 30  2  0
+ 30 31  1  0
+ 31 32  2  0
+  2 33  1  0
+ 33 34  1  0
+ 33 35  2  0
+ 27  3  1  0
+ 14  6  1  0
+ 32 17  1  0
+ 14  9  1  0
+ 26 22  1  0
+M  END
+
+>  <npaid>
+NPA012074
+
+>  <compound_name>
+Psychrophilin G
+
+>  <compound_molecular_formula>
+C26H26N4O5
+
+>  <compound_molecular_weight>
+474.5170
+
+>  <compound_accurate_mass>
+474.1903
+
+>  <compound_m_plus_h>
+475.1976
+
+>  <compound_m_plus_na>
+497.1795
+
+>  <compound_inchi>
+InChI=1S/C26H26N4O5/c1-15(31)28(2)22-23(32)18-14-30(20-11-6-4-8-16(18)20)25(34)17-9-3-5-10-19(17)27-24(33)21-12-7-13-29(21)26(22)35/h3-6,8-11,14,21-23,32H,7,12-13H2,1-2H3,(H,27,33)/t21-,22-,23+/m0/s1
+
+>  <compound_inchikey>
+IAYNRQBEAXFHSB-RJGXRXQPSA-N
+
+>  <compound_smiles>
+CC(=O)N(C)[C@H]1[C@@H](C2=CN(C3=CC=CC=C32)C(=O)C4=CC=CC=C4NC(=O)[C@@H]5CCCN5C1=O)O
+
+>  <compound_cluster_id>
+1698
+
+>  <compound_node_id>
+1386
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Aspergillus
+
+>  <origin_species>
+versicolor ZLN-60
+
+>  <original_reference_author_list>
+Peng, Jixing; Gao, Huquan; Zhang, Xiaomin; Wang, Shuai; Wu, Chongming; Gu, Qianqun; Guo, Peng; Zhu, Tianjiao; Li, Dehai
+
+>  <original_reference_year>
+2014
+
+>  <original_reference_issue>
+10
+
+>  <original_reference_volume>
+77
+
+>  <original_reference_pages>
+2218-2223
+
+>  <original_reference_doi>
+10.1021/np500469b
+
+>  <original_reference_pmid>
+25246036
+
+>  <original_reference_title>
+Psychrophilins E-H and versicotide C, cyclic peptides from the marine-derived fungus aspergillus versicolor ZLN-60
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Natural Products
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

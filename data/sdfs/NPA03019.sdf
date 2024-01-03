@@ -1,0 +1,151 @@
+indimicin D
+     RDKit          2D
+
+ 27 32  0  0  0  0  0  0  0  0999 V2000
+   -0.4086    3.6844    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2016    5.0548    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5484    6.3538    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6933    4.8980    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8081    5.9017    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2346    5.4381    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5465    3.9709    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9731    3.5074    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    3.4318    2.9672    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0052    3.4307    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7062    2.6807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9197    1.7991    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1470    1.7537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8351    3.2209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1342    3.9709    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2489    2.9672    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7407    3.1240    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6224    1.9105    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0122    0.5402    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8939   -0.6734    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5205    0.3834    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6388    1.5969    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  1
+  2  3  1  0
+  2  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  7  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  1  6
+ 11 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  2  0
+ 22 23  1  0
+ 23 24  2  0
+ 24 25  1  0
+ 24 26  1  0
+ 26 27  2  0
+ 11  1  1  0
+ 17 13  1  0
+ 27 18  1  0
+ 19  1  1  0
+ 27 21  1  0
+ 10  4  1  0
+M  END
+
+>  <npaid>
+NPA003019
+
+>  <compound_name>
+Indimicin D
+
+>  <compound_molecular_formula>
+C22H17Cl2N3
+
+>  <compound_molecular_weight>
+394.3050
+
+>  <compound_accurate_mass>
+393.0800
+
+>  <compound_m_plus_h>
+394.0873
+
+>  <compound_m_plus_na>
+416.0692
+
+>  <compound_inchi>
+InChI=1S/C22H17Cl2N3/c1-22-15-8-12(24)4-6-18(15)27(2)21(22)20-19(14-9-25-10-16(14)22)13-7-11(23)3-5-17(13)26-20/h3-10,21,25-26H,1-2H3/t21-,22+/m1/s1
+
+>  <compound_inchikey>
+LDQFIYNIQYYGSV-YADHBBJMSA-N
+
+>  <compound_smiles>
+C[C@@]12[C@@H](C3=C(C4=C(N3)C=CC(=C4)Cl)C5=CNC=C51)N(C6=C2C=C(C=C6)Cl)C
+
+>  <compound_cluster_id>
+1244
+
+>  <compound_node_id>
+1056
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+sp. SCSIO 03032
+
+>  <original_reference_author_list>
+Zhang, Wenjun; Ma, Liang; Li, Sumei; Liu, Zhong; Chen, Yuchan; Zhang, Haibo; Zhang, Guangtao; Zhang, Qingbo; Tian, Xinpeng; Yuan, Chengshan; Zhang, Si; Zhang, Weimin; Zhang, Changsheng
+
+>  <original_reference_year>
+2014
+
+>  <original_reference_issue>
+8
+
+>  <original_reference_volume>
+77
+
+>  <original_reference_pages>
+1887-1892
+
+>  <original_reference_doi>
+10.1021/np500362p
+
+>  <original_reference_pmid>
+25069084
+
+>  <original_reference_title>
+Indimicins A-E, bisindole alkaloids from the deep-sea-derived Streptomyces sp. SCSIO 03032
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Natural Products
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001782
+
+>  <gnps_ids>
+

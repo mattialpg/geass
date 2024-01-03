@@ -1,0 +1,141 @@
+Undecyltyrazolone
+     RDKit          2D
+
+ 24 25  0  0  0  0  0  0  0  0999 V2000
+  -12.1611    1.5284    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.0464    0.5247    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.6198    0.9882    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.5052   -0.0156    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.0786    0.4479    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.9639   -0.5558    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5373   -0.0924    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4226   -1.0961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9960   -0.6326    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8813   -1.6364    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5453   -1.1729    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7588   -2.0546    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9723   -1.1730    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3989   -1.6366    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5137   -0.6329    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9402   -1.0965    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0550   -0.0928    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7432    1.3744    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3166    1.8380    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2019    0.8343    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.8579    2.3780    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5089    0.2536    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3906    1.4671    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0089    0.2537    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  3
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 18 21  1  0
+ 13 22  1  0
+ 22 23  2  0
+ 22 24  1  0
+ 24 11  1  0
+ 20 15  1  0
+M  END
+
+>  <npaid>
+NPA033516
+
+>  <compound_name>
+Undecyltyrazolone
+
+>  <compound_molecular_formula>
+C20H27NO3
+
+>  <compound_molecular_weight>
+329.4400
+
+>  <compound_accurate_mass>
+329.1991
+
+>  <compound_m_plus_h>
+330.2064
+
+>  <compound_m_plus_na>
+352.1883
+
+>  <compound_inchi>
+InChI=1S/C20H27NO3/c1-2-3-4-5-6-7-8-9-10-19-21-18(20(23)24-19)15-16-11-13-17(22)14-12-16/h11-15,22H,2-10H2,1H3
+
+>  <compound_inchikey>
+JEAKQFBLRLFHPL-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CCCCCCCCCCC1=NC(=CC2=CC=C(O)C=C2)C(=O)O1
+
+>  <compound_cluster_id>
+9795
+
+>  <compound_node_id>
+6531
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Pseudoalteromonas
+
+>  <origin_species>
+rubra DSM 6842
+
+>  <original_reference_author_list>
+de Rond, Tristan; Asay, Julia E.; Moore, Bradley S.
+
+>  <original_reference_year>
+2021
+
+>  <original_reference_issue>
+7
+
+>  <original_reference_volume>
+17
+
+>  <original_reference_pages>
+794-799
+
+>  <original_reference_doi>
+10.1038/s41589-021-00808-4
+
+>  <original_reference_pmid>
+34099916
+
+>  <original_reference_title>
+Co-occurrence of enzyme domains guides the discovery of an oxazolone synthetase
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Nature Chemical Biology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+
