@@ -14,6 +14,9 @@ from rdkit.Chem.Draw import rdMolDraw2D
 from rdkit.Chem import rdChemReactions
 from IPython.display import clear_output
 
+def get_SMILES_length_from_mol(mol):
+    return len(Chem.MolToSmiles(mol))
+
 def disassembler_timeout_handler(signum, frame):
     print("Timeout of 60s reached. Skipping the fragment.")
     raise Exception("Timeout of 60s reached. Skipping the fragment.")
@@ -55,7 +58,7 @@ def run_fragmentation(mol_to_fragment, rxn, fragments_aux):
         fragments_aux.append(mol_to_fragment)
     return fragments_aux
 
-def create_graphs(mols, indexer_original_mols, PBU, BUL, brokenBondsDefs, reactants, reactions, fillingAtoms, BULnames, output_folder="./metadisassembler_v3_results"):
+def create_graphs(mols, indexer_original_mols, PBU, BUL, brokenBondsDefs, reactants, reactions, fillingAtoms, BULnames, output_folder="./metadisassembler_v3_results", old_version=False):
     signal.signal(signal.SIGALRM, disassembler_timeout_handler)
     start_time = time.time()
     result_graphs = {}
@@ -81,7 +84,10 @@ def create_graphs(mols, indexer_original_mols, PBU, BUL, brokenBondsDefs, reacta
             fragmentator.get_bonds_to_break()
             
             # Create graph
-            fragmentator.create_fragmentation_graph()
+            if old_version:
+                fragmentator.create_fragmentation_graph_old()
+            else:
+                fragmentator.create_fragmentation_graph()
             
             # Get not NP fragments
             graph_nodes = list(fragmentator.graph.nodes(data=True))
@@ -555,6 +561,7 @@ class Geass():
             full_molecule_list = [m for mol_sublist in current_reaction_mol_lists for m in mol_sublist]
         
         unindexed_fragments = full_molecule_list.copy()
+        unindexed_fragments.sort(key=get_SMILES_length_from_mol)
         # Align the fragments from FragmentOnBonds (without dummies) with the fragments from RunReactants
         for i, frag in enumerate(fragments_fill):
             for j, m in enumerate(unindexed_fragments):
@@ -646,7 +653,7 @@ class Geass():
         mol_f_dummies = Chem.FragmentOnBonds(self.mol, self.breakable_mol_bonds, addDummies=True,
                                      dummyLabels=[(x, x) for x in self.breakable_mol_bonds])
         # This creates the fragments without the dummies (these will be the nodes)
-        mol_f = Chem.FragmentOnBonds(self.mol, self.breakable_mol_bonds, addDummies=False)
+        # mol_f = Chem.FragmentOnBonds(self.mol, self.breakable_mol_bonds, addDummies=False)
 
         brokenSmiles = Chem.MolToSmiles(mol_f_dummies)  # Turns the fragmented molecule into smiles
         dummies = re.findall('[0-9]*\*', brokenSmiles)  # Finds all the dummies
