@@ -6,3 +6,6 @@ backups
 data/lipid_structures.sdf
 metadisassembler5/data/BUL_v2.pkl
 lipidmaps/lipid_structures.sdf
+result_graphs_Jan24.pkl
+similarity_matrix_SECRETed+peptides_v1_Jan24.csv
+similarity_matrix_peptides_v1_Jan24.csv
