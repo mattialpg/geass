@@ -58,6 +58,49 @@ def run_fragmentation(mol_to_fragment, rxn, fragments_aux):
         fragments_aux.append(mol_to_fragment)
     return fragments_aux
 
+def create_graphs_without_MD(mols, indexer_original_mols, brokenBondsDefs, reactants, reactions, fillingAtoms, BULnames, UCL, old_version=False):
+    start_time = time.time()
+    result_graphs = {}
+    unknown_occurrences = {}
+
+    for mol_idx, current_mol in enumerate(mols):
+        clear_output()
+        print(f'PROGRESS: [{mol_idx+1}/{len(mols)}]')
+        error_geass = False
+        try:
+            # Initialize Geass
+            fragmentator = Geass(current_mol, brokenBondsDefs, reactants, reactions, fillingAtoms, BULnames, UCL, verbose=0)
+
+            # Get bonds to break
+            fragmentator.get_bonds_to_break()
+            
+            # Create graph
+            if old_version:
+                fragmentator.create_fragmentation_graph_old()
+            else:
+                fragmentator.create_fragmentation_graph()
+
+            # Update the UCL
+            UCL = fragmentator.UCL
+            
+            # Get not NP fragments
+            graph_nodes = list(fragmentator.graph.nodes(data=True))
+            not_NP_fragments = {frag[0]: frag[1]['kegg_id'] for frag in graph_nodes if frag[1]['isNP'] == 'No'}
+        except:
+            error_geass = True
+
+        if not error_geass:
+            for j, unknown_fragment_ID in not_NP_fragments.items():
+                if unknown_fragment_ID not in unknown_occurrences:
+                    unknown_occurrences[unknown_fragment_ID] = []
+                unknown_occurrences[unknown_fragment_ID].append(indexer_original_mols[mol_idx])
+        
+        # Add the graph to the result graph list
+        result_graphs[indexer_original_mols[mol_idx]] = fragmentator
+    
+    print(f"Elapsed: {round(time.time() - start_time, 3)}s")    
+    return result_graphs, UCL, unknown_occurrences
+
 def create_graphs(mols, indexer_original_mols, PBU, BUL, brokenBondsDefs, reactants, reactions, fillingAtoms, BULnames, output_folder="./metadisassembler_v3_results", old_version=False):
     signal.signal(signal.SIGALRM, disassembler_timeout_handler)
     start_time = time.time()
@@ -322,7 +365,7 @@ def jaccard_similarity(g, h):
     return round(len(i) / divider,3)
 
 class Geass():
-    def __init__(self, mol, bonds, reactants, reactions, filling_atoms, BUL, verbose=0, mol_bonds=None, breakable_mol_bonds=None):
+    def __init__(self, mol, bonds, reactants, reactions, filling_atoms, BUL, UCL=None, verbose=0, mol_bonds=None, breakable_mol_bonds=None):
         """
 
         :param mol: the mol to analyse
@@ -354,6 +397,7 @@ class Geass():
         self.reactions = reactions
         self.filling_atoms = filling_atoms
         self.graph = nx.Graph()
+        self.UCL = UCL
         # Check if BUL is pandas data frame
         if isinstance(BUL, pd.core.frame.DataFrame):
             self.BUL = dict(zip(BUL['ID'], BUL['Molecule']))
@@ -643,6 +687,31 @@ class Geass():
                     NP = 'Yes'
                     kegg_id = name
                     break
+            if NP == 'No' and self.UCL is not None:
+                unknown_mol = self.mol
+                already_in_list = False
+                new_name = ""
+                if not self.UCL:
+                    # Create first id
+                    new_name = "UC_0001"
+                else:
+                    for name, structure in self.UCL.items():
+                        if len(unknown_mol.GetSubstructMatch(structure, )) == unknown_mol.GetNumAtoms():
+                            already_in_list = True
+                            new_name = name
+                            break
+                    if not already_in_list:
+                        # Get last UCL compound name
+                        last_name = list(self.UCL)[-1]
+                        # Get last id number
+                        last_id = int(last_name[3:])
+                        # Create string of new id with trailing zeroes
+                        new_id = str(last_id + 1).zfill(4)
+                        # Create new id with format UC_XXXX
+                        new_name = f"UC_{new_id}"
+                if new_name not in self.UCL:
+                    self.UCL[new_name] = unknown_mol
+                kegg_id = new_name
             self.graph.add_nodes_from(
                 [(0, {'SMILES': Chem.MolToSmiles(self.mol), 'img': smi2image(Chem.MolToSmiles(self.mol)), 'isNP': NP, 'kegg_id': kegg_id})])
             return None
