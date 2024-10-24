@@ -1,9 +1,0 @@
-DATE            : 2023/04/12 12:22
-COMPOUND        : 0_BS_0624
-RUN TIME[s]     : 0.44
-MIN # FRAGMENTS : -
-
-RESULTS (Total 0):
-No results
-
-END
