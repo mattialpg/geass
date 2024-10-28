@@ -1,0 +1,133 @@
+3-(2’-acetoxy-3’- oxo-4’-methylpentyl)-indole
+     RDKit          2D
+
+ 20 21  0  0  0  0  0  0  0  0999 V2000
+    6.1170   -7.0506    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6904   -6.5871    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5757   -7.5908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3786   -5.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4933   -4.1162    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7548   -2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2220   -2.4973    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9720   -1.1983    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9684   -0.0836    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5980   -0.6937    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3845    0.1880    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5413    1.6798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9116    2.2899    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1251    1.4082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8373   -5.6601    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4107   -5.1965    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7040   -6.2002    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0988   -3.7293    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  2  4  1  0
+  4  5  2  0
+  4  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+  6 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 18 20  2  0
+ 12  8  1  0
+ 16 11  1  0
+M  END
+
+>  <npaid>
+NPA003248
+
+>  <compound_name>
+3-(2’-acetoxy-3’- oxo-4’-methylpentyl)-indole
+
+>  <compound_molecular_formula>
+C16H19NO3
+
+>  <compound_molecular_weight>
+273.3320
+
+>  <compound_accurate_mass>
+273.1365
+
+>  <compound_m_plus_h>
+274.1438
+
+>  <compound_m_plus_na>
+296.1257
+
+>  <compound_inchi>
+InChI=1S/C16H19NO3/c1-10(2)16(19)15(20-11(3)18)8-12-9-17-14-7-5-4-6-13(12)14/h4-7,9-10,15,17H,8H2,1-3H3
+
+>  <compound_inchikey>
+MNIVLQOKRHODTM-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CC(C)C(=O)C(CC1=CNC2=CC=CC=C21)OC(=O)C
+
+>  <compound_cluster_id>
+252
+
+>  <compound_node_id>
+235
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Xenorhabdus
+
+>  <origin_species>
+bovienii A2
+
+>  <original_reference_author_list>
+Li, Jianxiong; Chen, Genhui; Webster, John M.; Czyzewska, Eva
+
+>  <original_reference_year>
+1995
+
+>  <original_reference_issue>
+7
+
+>  <original_reference_volume>
+58
+
+>  <original_reference_pages>
+1081-1086
+
+>  <original_reference_doi>
+10.1021/np50121a016
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Antimicrobial Metabolites from a Bacterial Symbiont
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Natural Products
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000189
+
+>  <gnps_ids>
+

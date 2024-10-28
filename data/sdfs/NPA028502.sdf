@@ -1,0 +1,133 @@
+Pyreudione E
+     RDKit          2D
+
+ 20 21  0  0  0  0  0  0  0  0999 V2000
+    0.7304   -2.0624    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6726   -0.8953    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1707   -0.9715    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7061    0.4297    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5390    1.3719    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2822    0.5530    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1190    1.0885    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3559    2.5696    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2833    0.1427    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6845    0.6781    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8487   -0.2676    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2499    0.2678    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4142   -0.6779    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.8154   -0.1425    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.9797   -1.0882    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6152    2.8699    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1164   -2.1358    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5976   -1.8989    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1330   -0.4977    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1873    0.6666    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  7  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+  5 16  2  0
+  3 17  1  1
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+  6  2  1  0
+ 20  4  1  0
+M  END
+
+>  <npaid>
+NPA028502
+
+>  <compound_name>
+Pyreudione E
+
+>  <compound_molecular_formula>
+C16H25NO3
+
+>  <compound_molecular_weight>
+279.3800
+
+>  <compound_accurate_mass>
+279.1834
+
+>  <compound_m_plus_h>
+280.1907
+
+>  <compound_m_plus_na>
+302.1726
+
+>  <compound_inchi>
+InChI=1S/C16H25NO3/c1-2-3-4-5-6-10-13(18)14-15(19)12-9-7-8-11-17(12)16(14)20/h12,18H,2-11H2,1H3/b14-13-/t12-/m0/s1
+
+>  <compound_inchikey>
+IPNWRFDCQUHSRD-JOLOJFPGSA-N
+
+>  <compound_smiles>
+CCCCCCC/C(O)=C1\C(=O)[C@@H]2CCCCN2C1=O
+
+>  <compound_cluster_id>
+7571
+
+>  <compound_node_id>
+5152
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Pseudomonas
+
+>  <origin_species>
+fluorescens HKI0770
+
+>  <original_reference_author_list>
+Klapper M, Braga D, Lackner G, Herbst R, Stallforth P
+
+>  <original_reference_year>
+2018
+
+>  <original_reference_issue>
+6
+
+>  <original_reference_volume>
+25
+
+>  <original_reference_pages>
+659-665.e9
+
+>  <original_reference_doi>
+10.1016/j.chembiol.2018.02.013
+
+>  <original_reference_pmid>
+29606578
+
+>  <original_reference_title>
+Bacterial Alkaloid Biosynthesis: Structural Diversity via a Minimalistic Nonribosomal Peptide Synthetase
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Cell Chemical Biology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

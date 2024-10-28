@@ -1,0 +1,144 @@
+chrysobactin
+     RDKit          2D
+
+ 26 26  0  0  0  0  0  0  0  0999 V2000
+    8.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5000   -5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500    3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  6
+  2  3  1  0
+  1  4  1  0
+  4  5  1  0
+  5  6  2  0
+  5  7  1  0
+  7  8  1  1
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+  7 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 14 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 17 19  1  0
+ 19 20  1  0
+ 19 21  2  0
+ 21 22  1  0
+ 22 23  2  0
+  1 24  1  0
+ 24 25  1  0
+ 24 26  2  0
+ 23 16  1  0
+M  END
+
+>  <npaid>
+NPA009561
+
+>  <compound_name>
+Chrysobactin
+
+>  <compound_molecular_formula>
+C16H23N3O7
+
+>  <compound_molecular_weight>
+369.3740
+
+>  <compound_accurate_mass>
+369.1536
+
+>  <compound_m_plus_h>
+370.1609
+
+>  <compound_m_plus_na>
+392.1428
+
+>  <compound_inchi>
+InChI=1S/C16H23N3O7/c17-7-2-1-5-10(15(24)19-11(8-20)16(25)26)18-14(23)9-4-3-6-12(21)13(9)22/h3-4,6,10-11,20-22H,1-2,5,7-8,17H2,(H,18,23)(H,19,24)(H,25,26)/t10-,11+/m1/s1
+
+>  <compound_inchikey>
+NNTXFOAPABMVEG-MNOVXSKESA-N
+
+>  <compound_smiles>
+C1=CC(=C(C(=C1)O)O)C(=O)N[C@H](CCCCN)C(=O)N[C@@H](CO)C(=O)O
+
+>  <compound_cluster_id>
+34
+
+>  <compound_node_id>
+33
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Erwinia
+
+>  <origin_species>
+chrysanthemi
+
+>  <original_reference_author_list>
+Persmark, M; Expert, D; Neilands, J b
+
+>  <original_reference_year>
+1989
+
+>  <original_reference_issue>
+6
+
+>  <original_reference_volume>
+264
+
+>  <original_reference_pages>
+3187-3193
+
+>  <original_reference_doi>
+10.5281/zenodo.3541262
+
+>  <original_reference_pmid>
+2914949
+
+>  <original_reference_title>
+Isolation, characterization, and synthesis of chrysobactin, a compound with siderophore activity from Erwinia chrysanthemi
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Biological Chemistry
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

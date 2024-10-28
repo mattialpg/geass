@@ -1,0 +1,176 @@
+Hancockiamide E
+     RDKit          2D
+
+ 40 44  0  0  0  0  0  0  0  0999 V2000
+    8.1771    3.0931    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7244    2.7194    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3217    1.2745    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8690    0.9008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4662   -0.5441    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5162   -1.6154    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9689   -1.2417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3717    0.2032    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.8244    0.5769    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0189   -2.3129    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.4716   -1.9393    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0135   -0.9178    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9636    0.1534    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3663    1.5984    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3163    2.6696    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1364    2.2959    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5391    0.8510    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5108   -0.2202    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1081   -1.6652    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1581   -2.7364    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3446   -2.0388    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7473   -3.4838    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2000   -3.8575    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2500   -2.7862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7027   -3.1599    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1055   -4.6048    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.0555   -5.6761    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6028   -5.3024    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1864    3.3672    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6391    2.9935    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6890    4.0647    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1417    3.6910    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5445    2.2461    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4945    1.1749    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0418    1.5486    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8973   -0.2700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8473   -1.3413    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.0431    2.1826    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5666    3.5883    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3915    4.5206    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  7 10  1  0
+ 10 11  1  0
+  5 12  1  0
+ 13 12  1  6
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  2  0
+ 19 21  1  0
+ 21 22  2  0
+ 22 23  1  0
+ 23 24  2  0
+ 24 25  1  0
+ 25 26  2  0
+ 26 27  1  0
+ 27 28  2  0
+ 16 29  1  6
+ 29 30  1  0
+ 30 31  2  0
+ 31 32  1  0
+ 32 33  2  0
+ 33 34  1  0
+ 34 35  2  0
+ 34 36  1  0
+ 36 37  1  0
+ 33 38  1  0
+ 38 39  1  0
+ 39 40  1  0
+  8  3  1  0
+ 18 13  1  0
+ 28 23  1  0
+ 35 30  1  0
+ 40 32  1  0
+M  END
+
+>  <npaid>
+NPA033183
+
+>  <compound_name>
+Hancockiamide E
+
+>  <compound_molecular_formula>
+C31H34N2O7
+
+>  <compound_molecular_weight>
+546.6200
+
+>  <compound_accurate_mass>
+546.2366
+
+>  <compound_m_plus_h>
+547.2439
+
+>  <compound_m_plus_na>
+569.2258
+
+>  <compound_inchi>
+InChI=1S/C31H34N2O7/c1-36-25-13-22(14-26(37-2)30(25)35)12-24-17-32-23(11-21-15-27(38-3)31-28(16-21)39-19-40-31)18-33(24)29(34)10-9-20-7-5-4-6-8-20/h4-10,13-16,23-24,32,35H,11-12,17-19H2,1-3H3/b10-9+/t23-,24-/m0/s1
+
+>  <compound_inchikey>
+DEAWAXPRULDTJW-AUDJJSHHSA-N
+
+>  <compound_smiles>
+COC1=CC(C[C@H]2CN[C@@H](CC3=CC4=C(OCO4)C(OC)=C3)CN2C(=O)/C=C/C2=CC=CC=C2)=CC(OC)=C1O
+
+>  <compound_cluster_id>
+3502
+
+>  <compound_node_id>
+2637
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Aspergillus
+
+>  <origin_species>
+hancockii
+
+>  <original_reference_author_list>
+Li, Hang; Lacey, Alastair E.; Shu, Si; Kalaitzis, John A.; Vuong, Daniel; Crombie, Andrew; Hu, Jinyu; Gilchrist, Cameron L. M.; Lacey, Ernest; Piggott, Andrew M.; Chooi, Yit-Heng
+
+>  <original_reference_year>
+2021
+
+>  <original_reference_issue>
+3
+
+>  <original_reference_volume>
+19
+
+>  <original_reference_pages>
+587-595
+
+>  <original_reference_doi>
+10.1039/d0ob02243h
+
+>  <original_reference_pmid>
+33242032
+
+>  <original_reference_title>
+Hancockiamides: phenylpropanoid piperazines from Aspergillus hancockii are biosynthesised by a versatile dual single-module NRPS pathway
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Organic & Biomolecular Chemistry
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

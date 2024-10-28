@@ -1,0 +1,143 @@
+rubiginone B2
+     RDKit          2D
+
+ 24 27  0  0  0  0  0  0  0  0999 V2000
+    3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+  9 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 12 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  1
+ 18 20  1  0
+ 20 21  1  0
+ 21 22  2  0
+ 16 23  1  0
+ 23 24  2  0
+  8  3  1  0
+ 24 11  1  0
+ 13  7  1  0
+ 21 15  1  0
+M  END
+
+>  <npaid>
+NPA013535
+
+>  <compound_name>
+Rubiginone B2
+
+>  <compound_molecular_formula>
+C20H16O4
+
+>  <compound_molecular_weight>
+320.3440
+
+>  <compound_accurate_mass>
+320.1049
+
+>  <compound_m_plus_h>
+321.1122
+
+>  <compound_m_plus_na>
+343.0941
+
+>  <compound_inchi>
+InChI=1S/C20H16O4/c1-10-8-11-6-7-13-18(16(11)14(21)9-10)20(23)12-4-3-5-15(24-2)17(12)19(13)22/h3-7,10H,8-9H2,1-2H3/t10-/m0/s1
+
+>  <compound_inchikey>
+ZUCWNLVDTXGGSU-JTQLQIEISA-N
+
+>  <compound_smiles>
+C[C@H]1CC2=C(C(=O)C1)C3=C(C=C2)C(=O)C4=C(C3=O)C=CC=C4OC
+
+>  <compound_cluster_id>
+46
+
+>  <compound_node_id>
+45
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+griseorubiginosus
+
+>  <original_reference_author_list>
+Oka; Kamei; Hamagishi; Tomita; Miyaki; Konishi; Oki
+
+>  <original_reference_year>
+1990
+
+>  <original_reference_issue>
+8
+
+>  <original_reference_volume>
+43
+
+>  <original_reference_pages>
+967-976
+
+>  <original_reference_doi>
+10.7164/antibiotics.43.967
+
+>  <original_reference_pmid>
+2211364
+
+>  <original_reference_title>
+Chemical and biological properties of rubiginone, a complex of new antibiotics with vincristine-cytotoxicity potentiating activity
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Antibiotics
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+10.1002/chem.201000804;10.1021/jo051444m
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

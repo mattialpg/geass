@@ -1,0 +1,151 @@
+Nocardiopsistin B
+     RDKit          2D
+
+ 28 31  0  0  0  0  0  0  0  0999 V2000
+   -6.5340   -0.6061    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1990    0.0777    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1237    1.5758    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9392   -0.7366    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0340   -1.9326    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5455   -1.7466    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6403   -2.9427    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9624   -0.3646    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5260   -0.1786    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1092    1.2034    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2039    2.3994    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2845    2.2134    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8677    0.8314    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3561    0.6454    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2614    1.8415    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7871    3.7814    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5976    1.3893    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1808    2.7713    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5029    0.1933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9197   -1.1887    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4313   -1.3747    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8482   -2.7567    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8250   -2.3847    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3134   -2.1987    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8966   -0.8167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9913    0.3793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5745    1.7613    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9599   -1.8358    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  2  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  2  0
+  6  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 11 16  1  0
+ 10 17  1  0
+ 17 18  2  0
+ 17 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  2  0
+ 20 23  1  0
+ 23 24  2  0
+ 24 25  1  0
+ 25 26  2  0
+ 26 27  1  0
+  4 28  1  0
+ 14  4  1  0
+ 13  8  1  0
+ 21  9  1  0
+ 26 19  1  0
+M  END
+
+>  <npaid>
+NPA030617
+
+>  <compound_name>
+Nocardiopsistin B
+
+>  <compound_molecular_formula>
+C21H16O7
+
+>  <compound_molecular_weight>
+380.3520
+
+>  <compound_accurate_mass>
+380.0896
+
+>  <compound_m_plus_h>
+381.0969
+
+>  <compound_m_plus_na>
+403.0788
+
+>  <compound_inchi>
+InChI=1S/C21H16O7/c1-8(2)21(28)7-13(24)14-10(20(21)27)6-12(23)16-17(14)18(25)9-4-3-5-11(22)15(9)19(16)26/h3-6,8,22-23,28H,7H2,1-2H3
+
+>  <compound_inchikey>
+QGYKATBWAIDMKB-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CC(C)C1(O)CC(=O)C2=C3C(=O)C4=C(C(=O)C3=C(O)C=C2C1=O)C(O)=CC=C4
+
+>  <compound_cluster_id>
+46
+
+>  <compound_node_id>
+45
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Nocardiopsis
+
+>  <origin_species>
+sp. HB-J378
+
+>  <original_reference_author_list>
+Xu, D; Nepal, KK; Chen, J; Harmody, D; Zhu, H; McCarthy, PJ; Wright, AE; Wang, G
+
+>  <original_reference_year>
+2018
+
+>  <original_reference_issue>
+4
+
+>  <original_reference_volume>
+3
+
+>  <original_reference_pages>
+246-251
+
+>  <original_reference_doi>
+10.1016/j.synbio.2018.10.008
+
+>  <original_reference_pmid>
+30417139
+
+>  <original_reference_title>
+Nocardiopsistins A-C: New angucyclines with anti-MRSA activity isolated from a marine sponge-derived Nocardiopsis sp. HB-J378.
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Synthetic and Systems Biotechnology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

@@ -1,0 +1,139 @@
+Pyreudione D
+     RDKit          2D
+
+ 23 24  0  0  0  0  0  0  0  0999 V2000
+    9.7705   -2.9639    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.3190   -2.5854    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9211   -1.1392    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4696   -0.7607    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0716    0.6855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6202    1.0640    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2222    2.5102    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7707    2.8887    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7172    1.8209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2658    2.1994    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7877    1.1316    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2392    1.5101    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6372    2.9563    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2927    0.4423    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0481   -1.0376    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3800   -1.7276    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.0520   -3.0687    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.5350   -2.8440    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7797   -1.3641    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4478   -0.6741    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.7758    0.6670    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4658    1.9989    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7070   -1.7096    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  2  0
+ 12 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  1  6
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  2  0
+ 15 23  1  0
+ 21 14  1  0
+ 20 16  1  0
+M  END
+
+>  <npaid>
+NPA024342
+
+>  <compound_name>
+Pyreudione D
+
+>  <compound_molecular_formula>
+C19H29NO3
+
+>  <compound_molecular_weight>
+319.4450
+
+>  <compound_accurate_mass>
+319.2147
+
+>  <compound_m_plus_h>
+320.2220
+
+>  <compound_m_plus_na>
+342.2039
+
+>  <compound_inchi>
+InChI=1S/C19H29NO3/c1-2-3-4-5-6-7-8-9-10-13-16(21)17-18(22)15-12-11-14-20(15)19(17)23/h7-8,15,22H,2-6,9-14H2,1H3/b8-7-/t15-/m0/s1
+
+>  <compound_inchikey>
+CEGXALHNHLDMPM-LZNQSLFOSA-N
+
+>  <compound_smiles>
+CCCCCC/C=C\CCCC(=O)C1=C(O)[C@@H]2CCCN2C1=O
+
+>  <compound_cluster_id>
+3922
+
+>  <compound_node_id>
+2924
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Pseudomonas
+
+>  <origin_species>
+fluorescens HKI0770
+
+>  <original_reference_author_list>
+Klapper, Martin; Götze, Sebastian; Barnett, Robert; Willing, Karsten; Stallforth, Pierre
+
+>  <original_reference_year>
+2016
+
+>  <original_reference_issue>
+31
+
+>  <original_reference_volume>
+55
+
+>  <original_reference_pages>
+8944-8947
+
+>  <original_reference_doi>
+10.1002/anie.201603312
+
+>  <original_reference_pmid>
+27294402
+
+>  <original_reference_title>
+Bacterial Alkaloids Prevent Amoebal Predation
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Angewandte Chemie International Edition
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

@@ -1,0 +1,113 @@
+4-formylaminooxyvinylglycine
+     RDKit          2D
+
+ 11 10  0  0  0  0  0  0  0  0999 V2000
+    0.0000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  6
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  2  0
+  2  9  1  0
+  9 10  1  0
+  9 11  2  0
+M  END
+
+>  <npaid>
+NPA018485
+
+>  <compound_name>
+4-formylaminooxyvinylglycine
+
+>  <compound_molecular_formula>
+C5H8N2O4
+
+>  <compound_molecular_weight>
+160.1290
+
+>  <compound_accurate_mass>
+160.0484
+
+>  <compound_m_plus_h>
+161.0557
+
+>  <compound_m_plus_na>
+183.0376
+
+>  <compound_inchi>
+InChI=1S/C5H8N2O4/c6-4(5(9)10)1-2-11-7-3-8/h1-4H,6H2,(H,7,8)(H,9,10)/b2-1+/t4-/m0/s1
+
+>  <compound_inchikey>
+BICCALWGKRVQAV-QPHDTYRISA-N
+
+>  <compound_smiles>
+C(=C/ONC=O)\[C@@H](C(=O)O)N
+
+>  <compound_cluster_id>
+6157
+
+>  <compound_node_id>
+4282
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Pseudomonas
+
+>  <origin_species>
+fluorescens WH6
+
+>  <original_reference_author_list>
+McPhail, Kerry L; Armstrong, Donald J; Azevedo, Mark D; Banowetz, Gary M; Mills, Dallice I
+
+>  <original_reference_year>
+2010
+
+>  <original_reference_issue>
+11
+
+>  <original_reference_volume>
+73
+
+>  <original_reference_pages>
+1853-1857
+
+>  <original_reference_doi>
+10.1021/np1004856
+
+>  <original_reference_pmid>
+20979386
+
+>  <original_reference_title>
+4-Formylaminooxyvinylglycine, an herbicidal germination-arrest factor from Pseudomonas rhizosphere bacteria
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Natural Products
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001488
+
+>  <gnps_ids>
+

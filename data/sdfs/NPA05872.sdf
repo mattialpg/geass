@@ -1,0 +1,137 @@
+vomitoxin
+     RDKit          2D
+
+ 21 24  0  0  0  0  0  0  0  0999 V2000
+    0.3170    2.0490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4330    3.3481    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9330    3.3481    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6830    4.6471    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1830    4.6471    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9330    5.9462    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9330    3.3481    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4330    3.3481    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1830    2.0490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6628    1.4124    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6830    2.0490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4330    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2242    0.6528    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9330    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6830   -0.5490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8183   -0.2537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4807    0.4963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8511   -0.1138    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4330    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8660    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4330   -0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  6
+  2  3  1  0
+  3  4  1  1
+  4  5  2  0
+  5  6  1  0
+  5  7  1  0
+  7  8  2  0
+  7  9  1  0
+  9 10  1  6
+  9 11  1  0
+ 11 12  1  6
+ 12 13  1  0
+ 11 14  1  0
+ 14 15  1  1
+ 14 16  1  0
+ 16 17  1  0
+ 17 18  1  6
+ 14 19  1  0
+ 19 20  1  6
+ 20 21  1  0
+ 17  1  1  0
+ 21 19  1  0
+ 19  1  1  0
+ 11  3  1  0
+M  END
+
+>  <npaid>
+NPA005872
+
+>  <compound_name>
+Vomitoxin
+
+>  <compound_molecular_formula>
+C15H20O6
+
+>  <compound_molecular_weight>
+296.3190
+
+>  <compound_accurate_mass>
+296.1260
+
+>  <compound_m_plus_h>
+297.1333
+
+>  <compound_m_plus_na>
+319.1152
+
+>  <compound_inchi>
+InChI=1S/C15H20O6/c1-7-3-9-14(5-16,11(19)10(7)18)13(2)4-8(17)12(21-9)15(13)6-20-15/h3,8-9,11-12,16-17,19H,4-6H2,1-2H3/t8-,9-,11-,12-,13-,14-,15-/m1/s1
+
+>  <compound_inchikey>
+LINOMUASTDIRTM-LZTLOYDTSA-N
+
+>  <compound_smiles>
+CC1=C[C@@H]2[C@]([C@@H](C1=O)O)([C@]3(C[C@H]([C@H]([C@]34CO4)O2)O)C)CO
+
+>  <compound_cluster_id>
+1774
+
+>  <compound_node_id>
+1437
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Fusarium
+
+>  <origin_species>
+graminearum
+
+>  <original_reference_author_list>
+Vesonder, R F; Ciegler, A; Jensen, A H
+
+>  <original_reference_year>
+1973
+
+>  <original_reference_issue>
+6
+
+>  <original_reference_volume>
+26
+
+>  <original_reference_pages>
+1008-1010
+
+>  <original_reference_doi>
+10.5281/zenodo.3541220
+
+>  <original_reference_pmid>
+4767291
+
+>  <original_reference_title>
+Isolation of the emetic principle from Fusarium-infected corn
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Applied Microbiology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001277
+
+>  <gnps_ids>
+CCMSLIB00004681484%3%Deoxynivalenol;CCMSLIB00000852088%NCGC00180572-02_C15H20O6_Trichothec-9-en-8-one, 12,13-epoxy-3,7,15-trihydroxy-, (2xi,3alpha,7alpha,1%1

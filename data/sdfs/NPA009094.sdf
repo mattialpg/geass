@@ -1,0 +1,160 @@
+thaxtomin A
+     RDKit          2D
+
+ 32 35  0  0  0  0  0  0  0  0999 V2000
+   -2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3786   -5.1199    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4933   -4.1162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6904   -6.5871    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1170   -7.0506    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5757   -7.5908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.7577   -8.5143    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8715   -8.9152    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6664  -10.1873    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1655  -10.1350    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.9603  -11.4070    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2561  -12.7315    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7571  -12.7838    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0528  -14.1082    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9622  -11.5117    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1491   -7.1273    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0344   -8.1310    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8373   -5.6601    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4107   -5.1965    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  1
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 10 12  1  0
+ 12 13  1  0
+ 12 14  2  0
+  1 15  1  0
+ 15 16  1  0
+ 15 17  1  0
+ 17 18  2  0
+ 17 19  1  0
+ 19 20  1  6
+ 19 21  1  0
+ 21 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 24 25  2  0
+ 25 26  1  0
+ 26 27  1  0
+ 26 28  2  0
+ 19 29  1  0
+ 29 30  1  0
+ 29 31  1  0
+ 31 32  2  0
+ 31  1  1  0
+ 11  3  1  0
+ 28 22  1  0
+ 11  6  1  0
+M  CHG  2  12   1  13  -1
+M  END
+
+>  <npaid>
+NPA009094
+
+>  <compound_name>
+Thaxtomin A
+
+>  <compound_molecular_formula>
+C22H22N4O6
+
+>  <compound_molecular_weight>
+438.4400
+
+>  <compound_accurate_mass>
+438.1539
+
+>  <compound_m_plus_h>
+439.1612
+
+>  <compound_m_plus_na>
+461.1431
+
+>  <compound_inchi>
+InChI=1S/C22H22N4O6/c1-24-18(10-14-12-23-16-7-4-8-17(19(14)16)26(31)32)20(28)25(2)22(30,21(24)29)11-13-5-3-6-15(27)9-13/h3-9,12,18,23,27,30H,10-11H2,1-2H3/t18-,22+/m0/s1
+
+>  <compound_inchikey>
+QRDNJYNIEGRRKV-PGRDOPGGSA-N
+
+>  <compound_smiles>
+CN1[C@H](C(=O)N([C@](C1=O)(CC2=CC(=CC=C2)O)O)C)CC3=CNC4=C3C(=CC=C4)[N+](=O)[O-]
+
+>  <compound_cluster_id>
+1010
+
+>  <compound_node_id>
+866
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+scabies
+
+>  <original_reference_author_list>
+King, Russell R; Lawrence, C Harold; Clark, Merv C; Calhoun, Larry A
+
+>  <original_reference_year>
+1989
+
+>  <original_reference_issue>
+13
+
+>  <original_reference_volume>
+None
+
+>  <original_reference_pages>
+849-850
+
+>  <original_reference_doi>
+10.1039/c39890000849
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Isolation and characterization of phytotoxins associated with Streptomyces scabies
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of the Chemical Society, Chemical Communications
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+10.1021/ol4026556
+
+>  <mibig_ids>
+BGC0000444
+
+>  <gnps_ids>
+

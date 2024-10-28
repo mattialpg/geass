@@ -1,0 +1,158 @@
+xenortide D
+     RDKit          2D
+
+ 32 34  0  0  0  0  0  0  0  0999 V2000
+  -10.5759   -3.0359    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.4612   -4.0396    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.0346   -3.5760    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.7227   -2.1088    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.8374   -1.1051    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.2961   -1.6453    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9199   -4.5797    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4933   -4.1162    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2317   -6.0469    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6583   -6.5105    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1170   -7.0506    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4289   -8.5179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.8555   -8.9814    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.9702   -7.9777    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.3968   -8.4412    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.7086   -9.9084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.5939  -10.9121    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.1673  -10.4486    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6904   -6.5871    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5757   -7.5908    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3786   -5.1199    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  3  2  1  1
+  3  4  1  0
+  4  5  1  0
+  4  6  1  0
+  3  7  1  0
+  7  8  2  0
+  7  9  1  0
+  9 10  1  0
+  9 11  1  0
+ 11 12  1  6
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 11 19  1  0
+ 19 20  2  0
+ 19 21  1  0
+ 21 22  1  0
+ 22 23  1  0
+ 23 24  1  0
+ 24 25  2  0
+ 25 26  1  0
+ 26 27  1  0
+ 27 28  2  0
+ 28 29  1  0
+ 29 30  2  0
+ 30 31  1  0
+ 31 32  2  0
+ 18 13  1  0
+ 32 24  1  0
+ 32 27  1  0
+M  END
+
+>  <npaid>
+NPA016799
+
+>  <compound_name>
+Xenortide D
+
+>  <compound_molecular_formula>
+C26H34N4O2
+
+>  <compound_molecular_weight>
+434.5840
+
+>  <compound_accurate_mass>
+434.2682
+
+>  <compound_m_plus_h>
+435.2755
+
+>  <compound_m_plus_na>
+457.2574
+
+>  <compound_inchi>
+InChI=1S/C26H34N4O2/c1-18(2)24(27-3)26(32)30(4)23(16-19-10-6-5-7-11-19)25(31)28-15-14-20-17-29-22-13-9-8-12-21(20)22/h5-13,17-18,23-24,27,29H,14-16H2,1-4H3,(H,28,31)/t23-,24-/m0/s1
+
+>  <compound_inchikey>
+JWACXIROMWTVRE-ZEQRLZLVSA-N
+
+>  <compound_smiles>
+CC(C)[C@@H](C(=O)N(C)[C@@H](CC1=CC=CC=C1)C(=O)NCCC2=CNC3=CC=CC=C32)NC
+
+>  <compound_cluster_id>
+252
+
+>  <compound_node_id>
+235
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Xenorhabdus
+
+>  <origin_species>
+nematophila
+
+>  <original_reference_author_list>
+Reimer, Daniela; Nollmann, Friederike I.; Schultz, Katharina; Kaiser, Marcel; Bode, Helge B.
+
+>  <original_reference_year>
+2014
+
+>  <original_reference_issue>
+8
+
+>  <original_reference_volume>
+77
+
+>  <original_reference_pages>
+1976-1980
+
+>  <original_reference_doi>
+10.1021/np500390b
+
+>  <original_reference_pmid>
+25080196
+
+>  <original_reference_title>
+Xenortide biosynthesis by entomopathogenic Xenorhabdus nematophila
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Natural Products
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000465
+
+>  <gnps_ids>
+

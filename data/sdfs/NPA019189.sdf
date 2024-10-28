@@ -1,0 +1,148 @@
+chejuenolide B
+     RDKit          2D
+
+ 28 28  0  0  0  0  0  0  0  0999 V2000
+    5.5816    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0816    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8060    1.4745    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2047    2.0163    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4348    3.4986    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8335    4.0404    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2662    4.4390    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0164    2.7498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8193    3.6537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4880    4.9965    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3766    4.0642    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1170    3.9258    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4597    3.2572    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3637    4.4542    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4703    2.1487    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0121    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0121   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4866   -1.0256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4703   -2.1487    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4597   -3.2572    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1170   -3.9258    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5275   -5.3686    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3766   -4.0642    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8193   -3.6537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0164   -2.7498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1249   -3.7603    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8060   -1.4745    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2047   -2.0163    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  6
+  2  3  1  0
+  3  4  1  6
+  4  5  1  0
+  5  6  1  0
+  5  7  2  0
+  3  8  1  0
+  8  9  2  0
+  9 10  1  0
+  9 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  1  1
+ 13 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 17 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  1  6
+ 21 23  1  0
+ 23 24  1  0
+ 24 25  2  0
+ 25 26  1  0
+ 25 27  1  0
+ 27 28  2  0
+ 27  2  1  0
+M  END
+
+>  <npaid>
+NPA019189
+
+>  <compound_name>
+Chejuenolide B
+
+>  <compound_molecular_formula>
+C23H33NO4
+
+>  <compound_molecular_weight>
+387.5200
+
+>  <compound_accurate_mass>
+387.2410
+
+>  <compound_m_plus_h>
+388.2483
+
+>  <compound_m_plus_na>
+410.2302
+
+>  <compound_inchi>
+InChI=1S/C23H33NO4/c1-15-6-10-20(26)12-8-16(2)14-22(24-19(5)25)18(4)23(28)17(3)9-13-21(27)11-7-15/h6-9,11-12,14,18,20-22,26-27H,10,13H2,1-5H3,(H,24,25)/b11-7+,12-8+,15-6+,16-14+,17-9+/t18-,20+,21+,22-/m0/s1
+
+>  <compound_inchikey>
+UTURGGMCWRWPTG-PFBVZISFSA-N
+
+>  <compound_smiles>
+C[C@H]1[C@H](/C=C(/C=C/[C@@H](C/C=C(/C=C/[C@H](C/C=C(/C1=O)\C)O)\C)O)\C)NC(=O)C
+
+>  <compound_cluster_id>
+5589
+
+>  <compound_node_id>
+1762
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Hahella
+
+>  <origin_species>
+chejuensis
+
+>  <original_reference_author_list>
+Choi, Yun-Hyeok; Sohn, Jae-Hak; Lee, Dongho; Kim, Joong Kyun; Kong, In Soo; Ahn, Soon Cheol; Oh, Hyuncheol
+
+>  <original_reference_year>
+2008
+
+>  <original_reference_issue>
+50
+
+>  <original_reference_volume>
+49
+
+>  <original_reference_pages>
+7128-7131
+
+>  <original_reference_doi>
+10.1016/j.tetlet.2008.09.143
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Chejuenolides A and B, new macrocyclic tetraenes from the marine bacterium Hahella chejuensis
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Tetrahedron Letters
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001543
+
+>  <gnps_ids>
+

@@ -1,0 +1,165 @@
+Gladiofungin A
+     RDKit          2D
+
+ 36 37  0  0  0  0  0  0  0  0999 V2000
+  -11.9869   -3.0740    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.0115   -1.5742    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.8125   -0.6728    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.2993    0.7460    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.4376    1.9738    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.7991    0.7215    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.2393   -0.7125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -14.6581   -1.1993    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.3786   -1.1129    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.0427   -2.5748    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.2804   -0.0911    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8464   -0.5312    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7483    0.4906    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3143    0.0505    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2162    1.0723    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7822    0.6322    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6840    1.6540    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7499    1.2138    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8481    2.2356    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2821    1.7955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3802    2.8173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0444    4.2792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8142    2.3772    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9123    3.3990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1500    0.9153    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5840    0.4751    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9198   -0.9868    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.3538   -1.4269    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.6896   -2.8888    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.1236   -3.3289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.4595   -4.7909    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.2218   -2.3071    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   11.8859   -0.8452    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.9841    0.1766    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4520   -0.4051    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6821    1.4969    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  4  6  1  0
+  6  7  1  0
+  7  8  1  0
+  3  9  1  0
+  9 10  2  0
+  9 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  1  6
+ 21 23  1  0
+ 23 24  2  0
+ 23 25  1  0
+ 25 26  1  0
+ 26 27  1  0
+ 27 28  1  0
+ 28 29  1  0
+ 29 30  1  0
+ 30 31  2  0
+ 30 32  1  0
+ 32 33  1  0
+ 33 34  2  0
+ 33 35  1  0
+ 26 36  1  6
+  7  2  1  0
+ 35 28  1  0
+M  END
+
+>  <npaid>
+NPA031554
+
+>  <compound_name>
+Gladiofungin A
+
+>  <compound_molecular_formula>
+C27H39NO8
+
+>  <compound_molecular_weight>
+505.6080
+
+>  <compound_accurate_mass>
+505.2676
+
+>  <compound_m_plus_h>
+506.2749
+
+>  <compound_m_plus_na>
+528.2568
+
+>  <compound_inchi>
+InChI=1S/C27H39NO8/c1-17(22(31)16-20(29)13-19-14-23(32)28-24(33)15-19)11-9-7-5-3-4-6-8-10-12-21(30)25-18(2)26(34)36-27(25)35/h9,11,17,19-20,26,29,34H,3-8,10,12-16H2,1-2H3,(H,28,32,33)/b11-9+/t17-,20+,26?/m0/s1
+
+>  <compound_inchikey>
+SYADJZZKJSIWKK-RAKBGESCSA-N
+
+>  <compound_smiles>
+CC1=C(C(=O)CCCCCCCC/C=C/[C@H](C)C(=O)C[C@H](O)CC2CC(=O)NC(=O)C2)C(=O)OC1O
+
+>  <compound_cluster_id>
+9337
+
+>  <compound_node_id>
+6250
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Burkholderia
+
+>  <origin_species>
+gladioli
+
+>  <original_reference_author_list>
+Nielhs, Sarah P.; Kumpfmüller, Jana; Dose, Benjamin; Little, Rory F.; Ishida, Keishi; Flórez, Laura V.; Kaltenpoth, Martin; Hertweck, Christian
+
+>  <original_reference_year>
+2020
+
+>  <original_reference_issue>
+51
+
+>  <original_reference_volume>
+59
+
+>  <original_reference_pages>
+23122-23126
+
+>  <original_reference_doi>
+10.1002/anie.202005711
+
+>  <original_reference_pmid>
+32588959
+
+>  <original_reference_title>
+Insect-Associated Bacteria Assemble the Antifungal Butenolide Gladiofungin by Non-Canonical Polyketide Chain Termination
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Angewandte Chemie International Edition
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

@@ -1,0 +1,135 @@
+Chlorosphaerolactylate D
+     RDKit          2D
+
+ 22 21  0  0  0  0  0  0  0  0999 V2000
+   -8.6452    1.4168    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.4208    0.5502    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5591   -0.9434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.9218   -1.5704    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3348   -1.8100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0582    1.1772    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8338    0.3107    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9721   -1.1830    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4712    0.9377    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2468    0.0711    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8842    0.6981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3402   -0.1684    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7029    0.4586    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9272   -0.4080    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2899    0.2190    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5142   -0.6475    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8769   -0.0205    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1012   -0.8871    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.4639   -0.2601    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.6882   -1.1266    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    9.6022    1.2335    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    1.8412    1.9522    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  3  5  1  0
+  2  6  1  0
+  6  7  1  0
+  7  8  2  0
+  7  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 19 21  1  0
+ 13 22  1  0
+M  END
+
+>  <npaid>
+NPA029291
+
+>  <compound_name>
+Chlorosphaerolactylate D
+
+>  <compound_molecular_formula>
+C15H25Cl3O4
+
+>  <compound_molecular_weight>
+375.7200
+
+>  <compound_accurate_mass>
+374.0818
+
+>  <compound_m_plus_h>
+375.0891
+
+>  <compound_m_plus_na>
+397.0710
+
+>  <compound_inchi>
+InChI=1S/C15H25Cl3O4/c1-11(15(20)21)22-14(19)10-6-5-8-12(16)7-3-2-4-9-13(17)18/h11-13H,2-10H2,1H3,(H,20,21)
+
+>  <compound_inchikey>
+ISBIDCLRYLGPPC-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CC(OC(=O)CCCCC(Cl)CCCCCC(Cl)Cl)C(=O)O
+
+>  <compound_cluster_id>
+8785
+
+>  <compound_node_id>
+5925
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Sphaerospermopsis
+
+>  <origin_species>
+sp. LEGE 00249
+
+>  <original_reference_author_list>
+Gutiérrez-Del-Río, Ignacio; de Fraissinette, Nelly Brugerolle; Castelo-Branco, Raquel; Oliveira, Flavio; Morais, Joaõ; Redondo-Blanco, Saul; Villar, Claudio J.; JoséIglesias, María; Soengas, Raquel; Cepas, Virginio; Cubillos, Yuly López; Sampietro, Giacomo; Rodolfi, Liliana; Lombo, Felipe; Soto Gonzaléz, Sara M.; Ortiz, Fernando López; Vasconcelos, Vitor; Reis, Mariana A.
+
+>  <original_reference_year>
+2020
+
+>  <original_reference_issue>
+6
+
+>  <original_reference_volume>
+83
+
+>  <original_reference_pages>
+1885-1890
+
+>  <original_reference_doi>
+10.1021/acs.jnatprod.0c00072
+
+>  <original_reference_pmid>
+32479093
+
+>  <original_reference_title>
+Chlorosphaerolactylates A−D: Natural lactylates of chlorinated fatty acids isolated from the cyanobacterium sphaerospermopsis sp. Lege 00249
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Natural Products
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

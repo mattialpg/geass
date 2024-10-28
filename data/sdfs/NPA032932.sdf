@@ -1,0 +1,146 @@
+Bacillopaline
+     RDKit          2D
+
+ 27 27  0  0  0  0  0  0  0  0999 V2000
+   -4.9915   -1.6913    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7998   -0.4278    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2513   -0.8061    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.3401   -2.3035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.9434   -2.8506    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2527    0.9689    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7696    1.1934    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2225    2.5901    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1585    3.7622    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7394    2.8146    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8336    0.0213    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3505    0.2458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4145   -0.9263    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0686   -0.7018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0046   -1.8739    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4575   -3.2706    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4877   -1.6494    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6157    0.6949    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0988    0.9194    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0348   -0.2527    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5179   -0.0282    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4539   -1.2004    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9068   -2.5970    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9370   -0.9758    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6459    2.3161    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7099    3.4882    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1290    2.5406    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  2  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  8 10  1  0
+  7 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  2  0
+ 15 17  1  0
+ 14 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 22 23  2  0
+ 22 24  1  0
+ 19 25  1  0
+ 25 26  2  0
+ 25 27  1  0
+  5  1  1  0
+M  END
+
+>  <npaid>
+NPA032932
+
+>  <compound_name>
+Bacillopaline
+
+>  <compound_molecular_formula>
+C15H22N4O8
+
+>  <compound_molecular_weight>
+386.3610
+
+>  <compound_accurate_mass>
+386.1438
+
+>  <compound_m_plus_h>
+387.1511
+
+>  <compound_m_plus_na>
+409.1330
+
+>  <compound_inchi>
+InChI=1S/C15H22N4O8/c20-12(21)2-1-9(13(22)23)19-10(14(24)25)3-4-17-11(15(26)27)5-8-6-16-7-18-8/h6-7,9-11,17,19H,1-5H2,(H,16,18)(H,20,21)(H,22,23)(H,24,25)(H,26,27)
+
+>  <compound_inchikey>
+RLSXUJSGKUUKFH-UHFFFAOYSA-N
+
+>  <compound_smiles>
+O=C(O)CCC(NC(CCNC(CC1=CN=C[NH]1)C(=O)O)C(=O)O)C(=O)O
+
+>  <compound_cluster_id>
+5395
+
+>  <compound_node_id>
+3815
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Paenibacillus
+
+>  <origin_species>
+mucilaginosus
+
+>  <original_reference_author_list>
+Laffont, Clémentine; Brutesco, Catherine; Hajjar, Christine; Cullia, Gregorio; Fanelli, Roberto; Ouerdane, Laurent; Cavelier, Florine; Arnoux, Pascal
+
+>  <original_reference_year>
+2019
+
+>  <original_reference_issue>
+15
+
+>  <original_reference_volume>
+476
+
+>  <original_reference_pages>
+2221-2233
+
+>  <original_reference_doi>
+10.1042/BCJ20190384
+
+>  <original_reference_pmid>
+31300464
+
+>  <original_reference_title>
+Simple rules govern the diversity of bacterial nicotianamine-like metallophores
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Biochemical Journal
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

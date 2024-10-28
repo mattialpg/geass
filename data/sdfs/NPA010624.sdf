@@ -1,0 +1,124 @@
+acaterin
+     RDKit          2D
+
+ 16 16  0  0  0  0  0  0  0  0999 V2000
+   10.2760   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5260   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0260   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2760   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7760   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0260   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5260   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5260    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2458    1.6317    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8578   -2.6401    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  1  6
+  8 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  6
+ 12 14  1  0
+ 14 15  1  0
+ 15 16  2  0
+ 15 10  1  0
+M  END
+
+>  <npaid>
+NPA010624
+
+>  <compound_name>
+Acaterin
+
+>  <compound_molecular_formula>
+C13H22O3
+
+>  <compound_molecular_weight>
+226.3160
+
+>  <compound_accurate_mass>
+226.1569
+
+>  <compound_m_plus_h>
+227.1642
+
+>  <compound_m_plus_na>
+249.1461
+
+>  <compound_inchi>
+InChI=1S/C13H22O3/c1-3-4-5-6-7-8-12(14)11-9-10(2)16-13(11)15/h9-10,12,14H,3-8H2,1-2H3/t10-,12-/m1/s1
+
+>  <compound_inchikey>
+YUMHJXLSSASJGN-ZYHUDNBSSA-N
+
+>  <compound_smiles>
+CCCCCCC[C@H](C1=C[C@H](OC1=O)C)O
+
+>  <compound_cluster_id>
+4291
+
+>  <compound_node_id>
+3157
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Pseudomonas
+
+>  <origin_species>
+sp. A92
+
+>  <original_reference_author_list>
+Naganuma; Sakai; Hasumi; Endo
+
+>  <original_reference_year>
+1992
+
+>  <original_reference_issue>
+8
+
+>  <original_reference_volume>
+45
+
+>  <original_reference_pages>
+1216-1221
+
+>  <original_reference_doi>
+10.7164/antibiotics.45.1216
+
+>  <original_reference_pmid>
+1399841
+
+>  <original_reference_title>
+Acaterin, a novel inhibitor of acyl-CoA: Cholesterol acyltransferase produced by Pseudomonas sp. A92
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Antibiotics
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

@@ -1,0 +1,153 @@
+Cephamycin C
+     RDKit          2D
+
+ 30 31  0  0  0  0  0  0  0  0999 V2000
+    3.0000   -4.0981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2500   -2.7990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -2.7990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -4.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5490   -5.0490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6675   -4.5743    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5490   -6.5490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8481   -7.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8481   -8.7990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1471   -9.5490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4462   -8.7990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1471  -11.0490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4462  -11.7990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8481  -11.7990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    6.4952    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -2.7990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7075   -3.5470    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  6
+  4  5  1  0
+  5  6  2  0
+  5  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 10 12  1  0
+ 12 13  1  0
+ 12 14  2  0
+  3 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 21 23  2  0
+ 18 24  2  0
+ 24 25  1  0
+ 25 26  1  0
+ 26 27  2  0
+ 24 28  1  0
+ 28 29  1  0
+ 28 30  2  0
+ 26  3  1  0
+ 25 15  1  0
+M  END
+
+>  <npaid>
+NPA008205
+
+>  <compound_name>
+Cephamycin C
+
+>  <compound_molecular_formula>
+C16H22N4O9S
+
+>  <compound_molecular_weight>
+446.4380
+
+>  <compound_accurate_mass>
+446.1107
+
+>  <compound_m_plus_h>
+447.1180
+
+>  <compound_m_plus_na>
+469.0999
+
+>  <compound_inchi>
+InChI=1S/C16H22N4O9S/c1-28-16(19-9(21)4-2-3-8(17)11(22)23)13(26)20-10(12(24)25)7(5-29-15(18)27)6-30-14(16)20/h8,14H,2-6,17H2,1H3,(H2,18,27)(H,19,21)(H,22,23)(H,24,25)/t8?,14?,16-/m0/s1
+
+>  <compound_inchikey>
+LXWBXEWUSAABOA-YQIDSGEHSA-N
+
+>  <compound_smiles>
+CO[C@@]1(C2N(C1=O)C(=C(CS2)COC(=O)N)C(=O)O)NC(=O)CCCC(C(=O)O)N
+
+>  <compound_cluster_id>
+3609
+
+>  <compound_node_id>
+2707
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Actinomyces
+
+>  <origin_species>
+sp.
+
+>  <original_reference_author_list>
+Stapley, E O; Jackson, M; Hernandez, S; Zimmerman, S B; Currie, S A; Mochales, S; Mata, J M; Woodruff, H B; Hendlin, D
+
+>  <original_reference_year>
+1972
+
+>  <original_reference_issue>
+3
+
+>  <original_reference_volume>
+2
+
+>  <original_reference_pages>
+122-131
+
+>  <original_reference_doi>
+10.1128/aac.2.3.122
+
+>  <original_reference_pmid>
+4790552
+
+>  <original_reference_title>
+Cephamycins, a new family of β-lactam antibiotics. I. Production by actinomycetes, including Streptomyces lactamdurans sp. n
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Antimicrobial Agents and Chemotherapy
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000319
+
+>  <gnps_ids>
+CCMSLIB00005435930%3%Cephamycin&C

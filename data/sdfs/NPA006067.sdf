@@ -1,0 +1,124 @@
+pimprinine
+     RDKit          2D
+
+ 15 17  0  0  0  0  0  0  0  0999 V2000
+    5.4853   -5.8293    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6036   -4.6157    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0672   -3.1891    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8536   -2.3075    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1036   -4.6157    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  5  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+  6  2  1  0
+ 11  7  1  0
+ 15 10  1  0
+M  END
+
+>  <npaid>
+NPA006067
+
+>  <compound_name>
+Pimprinine
+
+>  <compound_molecular_formula>
+C12H10N2O
+
+>  <compound_molecular_weight>
+198.2250
+
+>  <compound_accurate_mass>
+198.0793
+
+>  <compound_m_plus_h>
+199.0866
+
+>  <compound_m_plus_na>
+221.0685
+
+>  <compound_inchi>
+InChI=1S/C12H10N2O/c1-8-13-7-12(15-8)10-6-14-11-5-3-2-4-9(10)11/h2-7,14H,1H3
+
+>  <compound_inchikey>
+WZJPGCHCOHYLMB-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CC1=NC=C(O1)C2=CNC3=CC=CC=C32
+
+>  <compound_cluster_id>
+2249
+
+>  <compound_node_id>
+1787
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+pimprina
+
+>  <original_reference_author_list>
+Joshi, BS; Taylor, WI; Bhate, DS; Karmarkar, SS
+
+>  <original_reference_year>
+1963
+
+>  <original_reference_issue>
+9
+
+>  <original_reference_volume>
+19
+
+>  <original_reference_pages>
+1437-1439
+
+>  <original_reference_doi>
+10.1016/s0040-4020(01)98569-2
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+The structure and synthesis of pimprinine
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Tetrahedron
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

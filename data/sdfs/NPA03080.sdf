@@ -1,0 +1,139 @@
+15-deacetylcalonectrin
+     RDKit          2D
+
+ 22 25  0  0  0  0  0  0  0  0999 V2000
+    0.3170    2.0490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4330    3.3481    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9330    3.3481    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6830    4.6471    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1830    4.6471    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9330    5.9462    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9330    3.3481    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1830    2.0490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6830    2.0490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4330    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9330    0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9330    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6830   -0.5490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1905    0.9825    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2680    1.5199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8511   -0.1138    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0646    0.7679    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4349    0.1578    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9078    2.2597    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4330    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8660    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4330   -0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  1
+  2  3  1  0
+  3  4  1  1
+  4  5  2  0
+  5  6  1  0
+  5  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  6
+ 10 11  1  0
+  9 12  1  0
+ 12 13  1  6
+ 12 14  1  0
+ 14 15  1  0
+ 15 16  1  6
+ 16 17  1  0
+ 17 18  1  0
+ 17 19  2  0
+ 12 20  1  0
+ 20 21  1  1
+ 21 22  1  0
+ 15  1  1  0
+ 22 20  1  0
+ 20  1  1  0
+  9  3  1  0
+M  END
+
+>  <npaid>
+NPA003080
+
+>  <compound_name>
+15-deacetylcalonectrin
+
+>  <compound_molecular_formula>
+C17H24O5
+
+>  <compound_molecular_weight>
+308.3740
+
+>  <compound_accurate_mass>
+308.1624
+
+>  <compound_m_plus_h>
+309.1697
+
+>  <compound_m_plus_na>
+331.1516
+
+>  <compound_inchi>
+InChI=1S/C17H24O5/c1-10-4-5-16(8-18)13(6-10)22-14-12(21-11(2)19)7-15(16,3)17(14)9-20-17/h6,12-14,18H,4-5,7-9H2,1-3H3/t12-,13-,14-,15-,16-,17+/m1/s1
+
+>  <compound_inchikey>
+DFPPNUOWRKIOKO-KWRZAIAESA-N
+
+>  <compound_smiles>
+CC1=C[C@@H]2[C@](CC1)([C@]3(C[C@H]([C@H]([C@@]34CO4)O2)OC(=O)C)C)CO
+
+>  <compound_cluster_id>
+1774
+
+>  <compound_node_id>
+1437
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Calonectria
+
+>  <origin_species>
+nivalis
+
+>  <original_reference_author_list>
+Gardner, D; Glen, A T; Turner, W B
+
+>  <original_reference_year>
+1972
+
+>  <original_reference_issue>
+None
+
+>  <original_reference_volume>
+20
+
+>  <original_reference_pages>
+2576-2578
+
+>  <original_reference_doi>
+10.1039/p19720002576
+
+>  <original_reference_pmid>
+4674788
+
+>  <original_reference_title>
+Calonectrin and 15-deacetylcalonectrin, new trichothecanes from Calonectria nivalis
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of the Chemical Society, Perkin Transactions 1
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001277
+
+>  <gnps_ids>
+

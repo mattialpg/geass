@@ -1,0 +1,140 @@
+Actinospectacin
+     RDKit          2D
+
+ 23 25  0  0  0  0  0  0  0  0999 V2000
+   -3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  4  6  1  0
+  6  7  1  0
+  7  8  1  0
+  6  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 11 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 15 17  1  0
+ 17 18  1  0
+ 18 19  2  0
+ 13 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 22 23  1  0
+ 22  3  1  0
+ 21  9  1  0
+ 18 11  1  0
+M  END
+
+>  <npaid>
+NPA011641
+
+>  <compound_name>
+Actinospectacin
+
+>  <compound_molecular_formula>
+C14H24N2O7
+
+>  <compound_molecular_weight>
+332.3530
+
+>  <compound_accurate_mass>
+332.1584
+
+>  <compound_m_plus_h>
+333.1657
+
+>  <compound_m_plus_na>
+355.1476
+
+>  <compound_inchi>
+InChI=1S/C14H24N2O7/c1-5-4-6(17)14(20)13(21-5)22-12-10(19)7(15-2)9(18)8(16-3)11(12)23-14/h5,7-13,15-16,18-20H,4H2,1-3H3
+
+>  <compound_inchikey>
+UNFWWIHTNXNPBV-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CC1CC(=O)C2(C(O1)OC3C(C(C(C(C3O2)NC)O)NC)O)O
+
+>  <compound_cluster_id>
+4553
+
+>  <compound_node_id>
+3310
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+spectabilis
+
+>  <original_reference_author_list>
+Hoeksema, Herman; Argoudelis, Alexander D; Wiley, Paul F
+
+>  <original_reference_year>
+1962
+
+>  <original_reference_issue>
+16
+
+>  <original_reference_volume>
+84
+
+>  <original_reference_pages>
+3212-3213
+
+>  <original_reference_doi>
+10.1021/ja00875a053
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Chemistry of actinospectacin. II. The structure of actinospectacin
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of the American Chemical Society
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000715
+
+>  <gnps_ids>
+CCMSLIB00004689933%3%SPECTINOMYCIN;CCMSLIB00000206372%3%Massbank:&Spectinomycin;CCMSLIB00000206373%3%Massbank:&Spectinomycin;CCMSLIB00000206374%3%Massbank:&Spectinomycin;CCMSLIB00000206375%3%Massbank:&Spectinomycin;CCMSLIB00000206376%3%Massbank:&Spectinomycin;CCMSLIB00000220576%3%Massbank:KO004027&Specitinomycin|Spectinomycin;CCMSLIB00000220578%3%Massbank:KO004028&Specitinomycin|Spectinomycin;CCMSLIB00000220580%3%Massbank:KO004029&Specitinomycin|Spectinomycin;CCMSLIB00000220582%3%Massbank:KO004030&Specitinomycin|Spectinomycin;CCMSLIB00000220584%3%Massbank:KO004031&Specitinomycin|Spectinomycin;CCMSLIB00004689932%3%SPECTINOMYCIN;CCMSLIB00000567380%3%MoNA:2483539&Specitinomycin;CCMSLIB00000571824%3%MoNA:2504054&Spectinomycin&(INN);CCMSLIB00000574455%3%MoNA:2504054&Spectinomycin;CCMSLIB00004689934%3%SPECTINOMYCIN;CCMSLIB00004689935%3%SPECTINOMYCIN;CCMSLIB00004694478%3%SPECTINOMYCIN;CCMSLIB00004694479%3%SPECTINOMYCIN;CCMSLIB00004694480%3%SPECTINOMYCIN;CCMSLIB00004694481%3%SPECTINOMYCIN;CCMSLIB00004694482%3%SPECTINOMYCIN;CCMSLIB00004694483%3%SPECTINOMYCIN;CCMSLIB00000221358%3%Massbank:KO009242&Specitinomycin|Spectinomycin

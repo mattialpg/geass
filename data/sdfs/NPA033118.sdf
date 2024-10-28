@@ -1,0 +1,163 @@
+Guanipiperazine B
+     RDKit          2D
+
+ 33 38  0  0  0  0  0  0  0  0999 V2000
+   -7.2083   -1.0254    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3505    1.2574    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9351    0.7607    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7973    1.7381    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0748    3.2122    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6012    2.9320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3951    2.0401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6954    0.7133    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6407   -0.7857    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7242   -0.0832    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1138    1.3653    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0541    2.4270    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7839   -1.1448    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2332   -0.7580    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7720    0.6419    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2699    0.5620    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6568   -0.8872    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3980   -1.7030    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1053   -1.2768    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4922   -2.7261    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1669   -0.2171    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7801    1.2321    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3315    1.6217    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.8417    2.2918    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2419   -2.1600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3797   -3.1374    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8290   -3.5243    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3026   -3.2440    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.5086   -2.3522    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.0594   -1.9653    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5858   -2.2455    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4901    3.7089    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6280    2.7316    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  6
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 10 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 17 19  1  0
+ 19 20  2  0
+ 19 21  1  0
+ 21 22  1  0
+ 22 23  2  0
+ 22 24  1  0
+  9 25  1  0
+ 25 26  1  0
+ 26 27  2  0
+ 27 28  1  0
+ 28 29  2  0
+ 29 30  1  0
+ 30 31  2  0
+  5 32  1  6
+ 32 33  1  0
+ 29  1  1  0
+ 33  2  1  0
+ 12  7  2  0
+ 18 14  1  0
+ 23 16  1  0
+ 31 26  1  0
+M  END
+
+>  <npaid>
+NPA033118
+
+>  <compound_name>
+Guanipiperazine B
+
+>  <compound_molecular_formula>
+C23H23N7O3
+
+>  <compound_molecular_weight>
+445.4830
+
+>  <compound_accurate_mass>
+445.1862
+
+>  <compound_m_plus_h>
+446.1935
+
+>  <compound_m_plus_na>
+468.1754
+
+>  <compound_inchi>
+InChI=1S/C23H23N7O3/c24-22-28-20-19(21(31)30-22)27-23(29-20)33-17-6-3-13-8-15-11-25-14(10-26-15)7-12-1-4-16(5-2-12)32-18(17)9-13/h1-6,9,14-15,25-26H,7-8,10-11H2,(H4,24,27,28,29,30,31)/t14-,15-/m0/s1
+
+>  <compound_inchikey>
+IBOGMHPJDKMKDZ-GJZGRUSLSA-N
+
+>  <compound_smiles>
+NC1=NC2=C([NH]C(OC3=CC=C4C=C3OC3=CC=C(C=C3)C[C@H]3CN[C@H](CN3)C4)=N2)C(=O)[NH]1
+
+>  <compound_cluster_id>
+9705
+
+>  <compound_node_id>
+6478
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+chrestomyceticus
+
+>  <original_reference_author_list>
+Shi, Jing; Xu, Xiang; Liu, Pei Yi; Hu, Yi Ling; Zhang, Bo; Jiao, Rui Hua; Bashiri, Ghader; Tan, Ren Xiang; Ge, Hui Ming
+
+>  <original_reference_year>
+2021
+
+>  <original_reference_issue>
+8
+
+>  <original_reference_volume>
+12
+
+>  <original_reference_pages>
+2925-2930
+
+>  <original_reference_doi>
+10.1039/d0sc06135b
+
+>  <original_reference_pmid>
+34164059
+
+>  <original_reference_title>
+Discovery and biosynthesis of guanipiperazine from a NRPS-like pathway
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Chemical Science
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

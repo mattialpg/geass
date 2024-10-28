@@ -1,0 +1,133 @@
+4-epi-15-epi-brefeldin A
+     RDKit          2D
+
+ 20 21  0  0  0  0  0  0  0  0999 V2000
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8578   -2.6401    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5109    1.0025    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1099   -0.3727    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7027    1.9133    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3348    3.2736    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2624    4.7718    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.6997    5.2008    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5019    6.0648    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2277    6.8563    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6913    8.2828    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7317    6.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6435    6.3659    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5828    5.1963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8710    3.7243    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4421    2.2869    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  6
+  2  3  1  0
+  3  4  1  6
+  3  5  1  0
+  6  5  1  1
+  6  7  1  0
+  7  8  1  1
+  7  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 11 13  1  0
+ 13 14  1  0
+ 14 15  1  6
+ 14 16  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  2  0
+  6  1  1  0
+ 20  1  1  0
+M  END
+
+>  <npaid>
+NPA018651
+
+>  <compound_name>
+4-epi-15-epi-brefeldin A
+
+>  <compound_molecular_formula>
+C16H24O4
+
+>  <compound_molecular_weight>
+280.3640
+
+>  <compound_accurate_mass>
+280.1675
+
+>  <compound_m_plus_h>
+281.1748
+
+>  <compound_m_plus_na>
+303.1567
+
+>  <compound_inchi>
+InChI=1S/C16H24O4/c1-11-5-3-2-4-6-12-9-13(17)10-14(12)15(18)7-8-16(19)20-11/h4,6-8,11-15,17-18H,2-3,5,9-10H2,1H3/b6-4?,8-7+/t11-,12-,13+,14-,15+/m1/s1
+
+>  <compound_inchikey>
+KQNZDYYTLMIZCT-UOXFHOMOSA-N
+
+>  <compound_smiles>
+C[C@@H]1CCCC=C[C@@H]2C[C@@H](C[C@H]2[C@H](/C=C/C(=O)O1)O)O
+
+>  <compound_cluster_id>
+16
+
+>  <compound_node_id>
+16
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Penicillium
+
+>  <origin_species>
+sp. DT-F29
+
+>  <original_reference_author_list>
+Hu, Zhi-Fei; Qin, Le-Le; Ding, Wan-Jing; Liu, Yu; Ma, Zhong-Jun
+
+>  <original_reference_year>
+2016
+
+>  <original_reference_issue>
+20
+
+>  <original_reference_volume>
+30
+
+>  <original_reference_pages>
+2311-2315
+
+>  <original_reference_doi>
+10.1080/14786419.2016.1169414
+
+>  <original_reference_pmid>
+27067647
+
+>  <original_reference_title>
+New analogues of brefeldin A from sediment-derived fungus Penicillium sp. DT-F29.
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Natural Product Research
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001141
+
+>  <gnps_ids>
+CCMSLIB00000214418%3%Massbank:FIO00531&Brefeldin-A;CCMSLIB00000214420%3%Massbank:FIO00532&Brefeldin-A;CCMSLIB00000214422%3%Massbank:FIO00533&Brefeldin-A;CCMSLIB00000214424%3%Massbank:FIO00534&Brefeldin-A;CCMSLIB00000215902%3%Massbank:FIO00530&Brefeldin-A;CCMSLIB00000215904%3%Massbank:FIO00531&Brefeldin-A;CCMSLIB00000215907%3%Massbank:FIO00532&Brefeldin-A;CCMSLIB00000215909%3%Massbank:FIO00533&Brefeldin-A;CCMSLIB00000215911%3%Massbank:FIO00534&Brefeldin-A;CCMSLIB00004689142%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004689143%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004689144%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004689145%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713933%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713934%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713935%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713936%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713937%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713938%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713939%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713940%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713941%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713942%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713943%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713944%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713945%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713946%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00004713947%3%(1R,2E,7R,10E,12S,13S,15R)-12,15-dihydroxy-7-methyl-8-oxabicyclo[11.3.0]hexadeca-2,10-dien-9-one;CCMSLIB00000214415%3%Massbank:FIO00530&Brefeldin-A

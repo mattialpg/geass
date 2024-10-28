@@ -1,0 +1,124 @@
+Aminochelin
+     RDKit          2D
+
+ 16 16  0  0  0  0  0  0  0  0999 V2000
+    4.3070   -1.2237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8832   -1.6957    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7625   -0.6987    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0657    0.7703    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4894    1.2424    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6101    0.2453    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7926    2.7114    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9450    1.7674    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3387   -1.1707    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0356   -2.6398    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7819   -0.1737    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2057   -0.6457    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3264    0.3513    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.7502   -0.1207    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.8709    0.8763    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2947    0.4043    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  5  7  1  0
+  4  8  1  0
+  3  9  1  0
+  9 10  2  0
+  9 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+  6  1  1  0
+M  END
+
+>  <npaid>
+NPA033100
+
+>  <compound_name>
+Aminochelin
+
+>  <compound_molecular_formula>
+C11H16N2O3
+
+>  <compound_molecular_weight>
+224.2600
+
+>  <compound_accurate_mass>
+224.1161
+
+>  <compound_m_plus_h>
+225.1234
+
+>  <compound_m_plus_na>
+247.1053
+
+>  <compound_inchi>
+InChI=1S/C11H16N2O3/c12-6-1-2-7-13-11(16)8-4-3-5-9(14)10(8)15/h3-5,14-15H,1-2,6-7,12H2,(H,13,16)
+
+>  <compound_inchikey>
+FZYQWMMQZJYKMY-UHFFFAOYSA-N
+
+>  <compound_smiles>
+NCCCCNC(=O)C1=C(O)C(O)=CC=C1
+
+>  <compound_cluster_id>
+34
+
+>  <compound_node_id>
+33
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Azotobacter
+
+>  <origin_species>
+vinelandii
+
+>  <original_reference_author_list>
+PAGE, W. J.; TIGERSTROM, M. V.
+
+>  <original_reference_year>
+1988
+
+>  <original_reference_issue>
+2
+
+>  <original_reference_volume>
+134
+
+>  <original_reference_pages>
+453-460
+
+>  <original_reference_doi>
+10.1099/00221287-134-2-453
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Aminochelin, a Catecholamine Siderophore Produced by Azotobacter vinelandii.
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Microbiology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

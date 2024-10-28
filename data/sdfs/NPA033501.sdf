@@ -1,0 +1,126 @@
+8α-hydroxy-6-protoilludene
+     RDKit          2D
+
+ 16 18  0  0  0  0  0  0  0  0999 V2000
+   -3.3787    1.8835    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1259    1.0585    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2140   -0.4389    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0390   -1.6917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7863   -2.5167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9613   -1.2639    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3796   -0.5915    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7765   -1.1380    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7279    0.0216    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9190    1.2848    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4677    0.9059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7851    1.7309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6970    3.2283    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7817   -1.0458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8996    0.9581    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0353   -2.3851    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  6
+  8  9  1  0
+  9 10  1  0
+ 11 10  1  6
+ 11 12  1  0
+ 12 13  1  1
+  9 14  1  0
+  9 15  1  0
+  6 16  1  6
+ 12  2  1  0
+  6  3  1  0
+ 11  7  1  0
+M  END
+
+>  <npaid>
+NPA033501
+
+>  <compound_name>
+8α-hydroxy-6-protoilludene
+
+>  <compound_molecular_formula>
+C15H24O
+
+>  <compound_molecular_weight>
+220.3560
+
+>  <compound_accurate_mass>
+220.1827
+
+>  <compound_m_plus_h>
+221.1900
+
+>  <compound_m_plus_na>
+243.1719
+
+>  <compound_inchi>
+InChI=1S/C15H24O/c1-9-11-5-6-15(11,4)12-8-14(2,3)7-10(12)13(9)16/h10,12-13,16H,5-8H2,1-4H3/t10-,12+,13-,15+/m1/s1
+
+>  <compound_inchikey>
+XTXSLQPVMVDDTB-ZRQNBYAXSA-N
+
+>  <compound_smiles>
+CC1=C2CC[C@]2(C)[C@H]2CC(C)(C)C[C@H]2[C@@H]1O
+
+>  <compound_cluster_id>
+2092
+
+>  <compound_node_id>
+39
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Armillaria
+
+>  <origin_species>
+gallica
+
+>  <original_reference_author_list>
+Engels, Benedikt; Heinig, Uwe; McElroy, Christopher; Meusinger, Reinhard; Grothe, Torsten; Stadler, Marc; Jennewein, Stefan
+
+>  <original_reference_year>
+2021
+
+>  <original_reference_issue>
+1
+
+>  <original_reference_volume>
+105
+
+>  <original_reference_pages>
+211-224
+
+>  <original_reference_doi>
+10.1007/s00253-020-11006-y
+
+>  <original_reference_pmid>
+33191459
+
+>  <original_reference_title>
+Isolation of a gene cluster from Armillaria gallica for the synthesis of armillyl orsellinate–type sesquiterpenoids
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Applied Microbiology and Biotechnology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

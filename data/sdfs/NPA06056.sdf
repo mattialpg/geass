@@ -1,0 +1,151 @@
+Tryprostatin A
+     RDKit          2D
+
+ 28 31  0  0  0  0  0  0  0  0999 V2000
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1470    1.7537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5736    1.2902    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8351    3.2209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9499    4.2246    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6380    5.6918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2677    6.3019    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0314    5.5519    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3304    6.3019    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6294    5.5519    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9285    6.3019    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6294    4.0519    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4245    7.7937    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8917    8.1056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6417    6.8066    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1417    6.8066    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.8917    8.1056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1417    9.4046    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.8917   10.7037    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1417   12.0027    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6417    9.4046    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4086    3.6844    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7062    2.6807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1328    3.1443    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  6
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  2  0
+  6  8  1  0
+  8  9  1  6
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  2  3
+ 14 15  1  0
+ 14 16  1  0
+ 11 17  1  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  1  0
+ 23 24  1  0
+ 22 25  2  0
+  8 26  1  0
+ 26 27  1  0
+ 27 28  2  0
+  5  1  1  0
+ 19 10  1  0
+ 27  1  1  0
+ 25 18  1  0
+M  END
+
+>  <npaid>
+NPA006056
+
+>  <compound_name>
+Tryprostatin A
+
+>  <compound_molecular_formula>
+C22H27N3O3
+
+>  <compound_molecular_weight>
+381.4760
+
+>  <compound_accurate_mass>
+381.2052
+
+>  <compound_m_plus_h>
+382.2125
+
+>  <compound_m_plus_na>
+404.1944
+
+>  <compound_inchi>
+InChI=1S/C22H27N3O3/c1-13(2)6-9-17-16(15-8-7-14(28-3)11-18(15)23-17)12-19-22(27)25-10-4-5-20(25)21(26)24-19/h6-8,11,19-20,23H,4-5,9-10,12H2,1-3H3,(H,24,26)/t19-,20-/m0/s1
+
+>  <compound_inchikey>
+XNRPVPHNDQHWLJ-PMACEKPBSA-N
+
+>  <compound_smiles>
+CC(=CCC1=C(C2=C(N1)C=C(C=C2)OC)C[C@H]3C(=O)N4CCC[C@H]4C(=O)N3)C
+
+>  <compound_cluster_id>
+26
+
+>  <compound_node_id>
+25
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Aspergillus
+
+>  <origin_species>
+fumigatus BM939
+
+>  <original_reference_author_list>
+Cui, Cheng-Bin; Kakeya, Hideaki; Osada, Hiroyuki
+
+>  <original_reference_year>
+1996
+
+>  <original_reference_issue>
+6
+
+>  <original_reference_volume>
+49
+
+>  <original_reference_pages>
+534-540
+
+>  <original_reference_doi>
+10.7164/antibiotics.49.534
+
+>  <original_reference_pmid>
+8698635
+
+>  <original_reference_title>
+Novel mammalian cell cycle inhibitors, tryprostatins A, B and other diketopiperazines produced by Aspergillus fumigatus: II. physico-chemical properties and structures
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Antibiotics
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000356
+
+>  <gnps_ids>
+

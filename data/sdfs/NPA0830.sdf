@@ -1,0 +1,138 @@
+Oxyjavanicin
+     RDKit          2D
+
+ 22 24  0  0  0  0  0  0  0  0999 V2000
+    0.7500   -9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -7.7942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4895    2.7762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1595    1.8121    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  5  7  1  0
+  7  8  2  0
+  8  9  1  0
+  8 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 13 15  1  0
+ 13 16  1  0
+ 16 17  1  0
+ 11 18  1  0
+ 18 19  1  0
+ 18 20  2  0
+ 20 21  1  0
+ 21 22  2  0
+ 21  3  1  0
+ 20  7  1  0
+ 17 10  1  0
+M  END
+
+>  <npaid>
+NPA000830
+
+>  <compound_name>
+Oxyjavanicin
+
+>  <compound_molecular_formula>
+C15H14O7
+
+>  <compound_molecular_weight>
+306.2700
+
+>  <compound_accurate_mass>
+306.0740
+
+>  <compound_m_plus_h>
+307.0813
+
+>  <compound_m_plus_na>
+329.0632
+
+>  <compound_inchi>
+InChI=1S/C15H14O7/c1-15(20)4-6-7(5-22-15)13(18)10-8(16)3-9(21-2)14(19)11(10)12(6)17/h3,17-18,20H,4-5H2,1-2H3
+
+>  <compound_inchikey>
+FKJXMYJPOKQPSS-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CC1(CC2=C(C3=C(C(=O)C=C(C3=O)OC)C(=C2CO1)O)O)O
+
+>  <compound_cluster_id>
+595
+
+>  <compound_node_id>
+530
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Fusarium
+
+>  <origin_species>
+javanicum
+
+>  <original_reference_author_list>
+ARNSTEIN, H R V; COOK, A H
+
+>  <original_reference_year>
+1947
+
+>  <original_reference_issue>
+None
+
+>  <original_reference_volume>
+None
+
+>  <original_reference_pages>
+1021-1028
+
+>  <original_reference_doi>
+10.1039/jr9470001021
+
+>  <original_reference_pmid>
+20264584
+
+>  <original_reference_title>
+Production of antibiotics by fungi; javanicin; an antibacterial pigment from Fusarium javanicum
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of the Chemical Society
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001242
+
+>  <gnps_ids>
+

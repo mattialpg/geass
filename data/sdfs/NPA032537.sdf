@@ -1,0 +1,110 @@
+Orcinol
+     RDKit          2D
+
+  9  9  0  0  0  0  0  0  0  0999 V2000
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  6  8  1  0
+  4  9  1  0
+  7  2  1  0
+M  END
+
+>  <npaid>
+NPA032537
+
+>  <compound_name>
+Orcinol
+
+>  <compound_molecular_formula>
+C7H8O2
+
+>  <compound_molecular_weight>
+124.1390
+
+>  <compound_accurate_mass>
+124.0524
+
+>  <compound_m_plus_h>
+125.0597
+
+>  <compound_m_plus_na>
+147.0416
+
+>  <compound_inchi>
+InChI=1S/C7H8O2/c1-5-2-6(8)4-7(9)3-5/h2-4,8-9H,1H3
+
+>  <compound_inchikey>
+OIPPWFOQEKKFEE-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CC1=CC(O)=CC(O)=C1
+
+>  <compound_cluster_id>
+9598
+
+>  <compound_node_id>
+6412
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Colletotrichum
+
+>  <origin_species>
+gloeosporioides
+
+>  <original_reference_author_list>
+Masi, Marco; Zonno, Maria Chiara; Cimmino, Alessio; Reveglia, Pierluigi; Berestetskiy, Alexander; Boari, Angela; Vurro, Maurizio; Evidente, Antonio
+
+>  <original_reference_year>
+2018
+
+>  <original_reference_issue>
+13
+
+>  <original_reference_volume>
+32
+
+>  <original_reference_pages>
+1537-1547
+
+>  <original_reference_doi>
+10.1080/14786419.2017.1385020
+
+>  <original_reference_pmid>
+29027474
+
+>  <original_reference_title>
+On the metabolites produced by Colletotrichum gloeosporioides a fungus proposed for the Ambrosia artemisiifolia biocontrol; spectroscopic data and absolute configuration assignment of colletochlorin A.
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Natural Product Research
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

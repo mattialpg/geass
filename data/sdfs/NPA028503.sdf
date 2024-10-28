@@ -1,0 +1,124 @@
+4,5-didehydroacaterin
+     RDKit          2D
+
+ 16 16  0  0  0  0  0  0  0  0999 V2000
+    3.8868   -2.3957    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7152   -0.9056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8199    0.1092    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4088   -0.1685    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0446   -0.7922    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1776    0.0774    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5418   -0.5463    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7640    0.3233    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1282   -0.3004    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3504    0.5691    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7146   -0.0546    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.9369    0.8150    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9027   -2.2855    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7061    1.3017    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1962    1.4733    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9333    2.7798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  2  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+  5 13  1  6
+  4 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 15  3  1  0
+M  END
+
+>  <npaid>
+NPA028503
+
+>  <compound_name>
+4,5-didehydroacaterin
+
+>  <compound_molecular_formula>
+C13H20O3
+
+>  <compound_molecular_weight>
+224.3000
+
+>  <compound_accurate_mass>
+224.1412
+
+>  <compound_m_plus_h>
+225.1485
+
+>  <compound_m_plus_na>
+247.1304
+
+>  <compound_inchi>
+InChI=1S/C13H20O3/c1-3-4-5-6-7-8-12(14)11-9-10(2)16-13(11)15/h9,12,14H,2-8H2,1H3/t12-/m1/s1
+
+>  <compound_inchikey>
+MOUUOAIBUXWVBM-GFCCVEGCSA-N
+
+>  <compound_smiles>
+C=C1C=C([C@H](O)CCCCCCC)C(=O)O1
+
+>  <compound_cluster_id>
+8660
+
+>  <compound_node_id>
+3157
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Pseudomonas
+
+>  <origin_species>
+sp. A92
+
+>  <original_reference_author_list>
+Sekiyama, Y; Araya, H; Hasumi, K; Endo, A; Fukimoto, Y
+
+>  <original_reference_year>
+1997
+
+>  <original_reference_issue>
+1
+
+>  <original_reference_volume>
+11
+
+>  <original_reference_pages>
+61-66
+
+>  <original_reference_doi>
+10.1080/10575639708043758
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Biosynthesis of Acaterin: Isolation of 4,5-Didehydro-Acaterin and its Conversion Into Acaterin
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Natural Product Letters
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

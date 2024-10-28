@@ -1,0 +1,140 @@
+Epidechlorogriseofulvin
+     RDKit          2D
+
+ 23 25  0  0  0  0  0  0  0  0999 V2000
+    2.5200   -3.8007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6452   -2.5822    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2631   -1.2154    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3883    0.0032    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6310   -1.2916    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8345   -0.9714    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0530   -1.8462    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4198   -1.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6383   -2.1031    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0051   -1.4852    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5681    0.2643    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3496    1.1391    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4979    2.6317    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8648    3.2496    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9828    0.5212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3910    1.1236    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5162    2.4677    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7558   -1.0670    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3736    0.2998    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4988    1.5183    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0062    1.3700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3584    2.5544    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8663    0.4481    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  1
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+  8 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 12 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+  3 18  2  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  1  1
+ 19 23  2  0
+ 16  4  1  0
+ 21  4  1  0
+ 15  6  1  0
+M  END
+
+>  <npaid>
+NPA019749
+
+>  <compound_name>
+Epidechlorogriseofulvin
+
+>  <compound_molecular_formula>
+C17H18O6
+
+>  <compound_molecular_weight>
+318.3250
+
+>  <compound_accurate_mass>
+318.1103
+
+>  <compound_m_plus_h>
+319.1176
+
+>  <compound_m_plus_na>
+341.0995
+
+>  <compound_inchi>
+InChI=1S/C17H18O6/c1-9-5-10(18)6-14(22-4)17(9)16(19)15-12(21-3)7-11(20-2)8-13(15)23-17/h6-9H,5H2,1-4H3/t9-,17-/m0/s1
+
+>  <compound_inchikey>
+QPCYNIYZPDJCMB-XYZCENFISA-N
+
+>  <compound_smiles>
+COC1=CC(=O)C[C@H](C)[C@]12OC1=CC(OC)=CC(OC)=C1C2=O
+
+>  <compound_cluster_id>
+1486
+
+>  <compound_node_id>
+1228
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Memnoniella
+
+>  <origin_species>
+echinata
+
+>  <original_reference_author_list>
+Jarvis, Bruce B.; Zhou, Yihong; Jiang, Jian; Wang, Shengjun; Sorenson; Hintikka; Nikulin; Parikka; Etzel, Ruth A.; Dearborn, Dorr G.
+
+>  <original_reference_year>
+1996
+
+>  <original_reference_issue>
+6
+
+>  <original_reference_volume>
+59
+
+>  <original_reference_pages>
+553-554
+
+>  <original_reference_doi>
+10.1021/np960395t
+
+>  <original_reference_pmid>
+8786360
+
+>  <original_reference_title>
+Toxigenic molds in water-damaged buildings: Dechlorogriseofulvins from Memnoniella echinata
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Natural Products
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000070
+
+>  <gnps_ids>
+CCMSLIB00004684834%3%Dechlorogriseofulvin;CCMSLIB00004684835%3%Dechlorogriseofulvin;CCMSLIB00004691886%3%Dechlorogriseofulvin;CCMSLIB00004691887%3%Dechlorogriseofulvin;CCMSLIB00004691888%3%Dechlorogriseofulvin;CCMSLIB00004691889%3%Dechlorogriseofulvin;CCMSLIB00004691890%3%Dechlorogriseofulvin;CCMSLIB00004691891%3%Dechlorogriseofulvin;CCMSLIB00000853452%NCGC00169215-02_C17H18O6_(2S,6'R)-2',4,6-Trimethoxy-6'-methyl-3H,4'H-spiro[1-benzofuran-2,1'-cyclohe%1!CCMSLIB00000853453%NCGC00169215-02_C17H18O6_(2S,6'R)-2',4,6-Trimethoxy-6'-methyl-3H,4'H-spiro[1-benzofuran-2,1'-cyclohe%1;CCMSLIB00000079928%1%"MLS000877020-01!3',4,6-trimethoxy-5'-methylspiro[1-benzofuran-2,4'-cyclohex-2-ene]-1',3-dione"

@@ -1,0 +1,164 @@
+Epothilone B
+     RDKit          2D
+
+ 35 37  0  0  0  0  0  0  0  0999 V2000
+   -6.5176   -2.7809    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1486   -2.1676    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2801   -3.3906    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0097   -4.1882    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5308   -4.4388    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0686   -4.1045    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1544   -3.2360    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2951   -4.7294    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9520   -1.9656    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2026   -0.4866    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8683    0.9756    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9998    2.1986    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0298    3.2890    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2706    2.9961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7495    3.2468    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2118    2.9124    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4348    2.0439    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5252    3.0740    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2323    0.7735    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4830   -0.7054    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9824   -0.7481    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6339    1.3079    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9611    4.3913    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4822    3.7100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7922    4.7462    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7020   -0.4440    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4148    0.8759    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9142    0.9185    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7610    2.1567    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2002    1.7339    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2428    0.2345    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8300   -0.2694    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.4809   -0.6123    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4887   -1.7212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2220   -5.5966    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  6
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  7  9  1  6
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  2  0
+ 12 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  2  0
+ 17 19  1  0
+ 19 20  1  0
+ 20 21  1  6
+ 19 22  1  1
+ 16 23  1  0
+ 16 24  1  0
+ 15 25  1  1
+ 10 26  1  6
+ 26 27  2  0
+ 27 28  1  0
+ 28 29  2  0
+ 29 30  1  0
+ 30 31  1  0
+ 31 32  2  0
+ 31 33  1  0
+ 26 34  1  0
+  6 35  1  1
+ 20  2  1  0
+  8  6  1  0
+ 32 28  1  0
+M  END
+
+>  <npaid>
+NPA006085
+
+>  <compound_name>
+Epothilone B
+
+>  <compound_molecular_formula>
+C27H41NO6S
+
+>  <compound_molecular_weight>
+507.6930
+
+>  <compound_accurate_mass>
+507.2655
+
+>  <compound_m_plus_h>
+508.2728
+
+>  <compound_m_plus_na>
+530.2547
+
+>  <compound_inchi>
+InChI=1S/C27H41NO6S/c1-15-9-8-10-27(7)22(34-27)12-20(16(2)11-19-14-35-18(4)28-19)33-23(30)13-21(29)26(5,6)25(32)17(3)24(15)31/h11,14-15,17,20-22,24,29,31H,8-10,12-13H2,1-7H3/b16-11+/t15-,17+,20-,21-,22-,24-,27+/m0/s1
+
+>  <compound_inchikey>
+QXRSDHAAWVKZLJ-PVYNADRNSA-N
+
+>  <compound_smiles>
+C[C@H]1CCC[C@@]2([C@@H](O2)C[C@H](OC(=O)C[C@@H](C(C(=O)[C@@H]([C@H]1O)C)(C)C)O)/C(=C/C3=CSC(=N3)C)/C)C
+
+>  <compound_cluster_id>
+93
+
+>  <compound_node_id>
+90
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Sorangium
+
+>  <origin_species>
+cellulosum
+
+>  <original_reference_author_list>
+Höfle, Gerhard; Bedorf, Norbert; Steinmetz, Heinrich; Schomburg, Dietmar; Gerth, Klaus; Reichenbach, Hans
+
+>  <original_reference_year>
+1996
+
+>  <original_reference_issue>
+13-14
+
+>  <original_reference_volume>
+35
+
+>  <original_reference_pages>
+1567-1569
+
+>  <original_reference_doi>
+10.1002/anie.199615671
+
+>  <original_reference_pmid>
+25855820
+
+>  <original_reference_title>
+Epothilone A and B-Novel 16-Membered Macrolides with Cytotoxic Activity: Isolation, Crystal Structure, and Conformation in Solution
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Angewandte Chemie International Edition
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+10.1021/ol303148g;10.1021/ja010454b;10.1002/(SICI)1521-3773(19981016)37:19<2675::AID-ANIE2675>3.0.CO;2-O;10.1021/ol016173q;10.1002/1521-3765(20010518)7:10<2261::aid-chem2261>3.0.co;2-f;10.1021/ol990248x
+
+>  <mibig_ids>
+BGC0000988
+
+>  <gnps_ids>
+

@@ -1,0 +1,129 @@
+citrinin
+     RDKit          2D
+
+ 18 19  0  0  0  0  0  0  0  0999 V2000
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  6
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  1  0
+  6  8  2  0
+  8  9  1  0
+  9 10  1  0
+  9 11  2  0
+  8 12  1  0
+ 12 13  2  0
+ 12 14  1  0
+ 14 15  1  0
+ 14 16  2  0
+ 16 17  1  0
+ 17 18  1  1
+ 17  2  1  0
+ 16  5  1  0
+M  END
+
+>  <npaid>
+NPA014581
+
+>  <compound_name>
+Citrinin
+
+>  <compound_molecular_formula>
+C13H14O5
+
+>  <compound_molecular_weight>
+250.2500
+
+>  <compound_accurate_mass>
+250.0841
+
+>  <compound_m_plus_h>
+251.0914
+
+>  <compound_m_plus_na>
+273.0733
+
+>  <compound_inchi>
+InChI=1S/C13H14O5/c1-5-7(3)18-4-8-9(5)6(2)11(14)10(12(8)15)13(16)17/h4-5,7,14H,1-3H3,(H,16,17)/t5-,7-/m0/s1
+
+>  <compound_inchikey>
+CBGDIJWINPWWJW-FSPLSTOPSA-N
+
+>  <compound_smiles>
+C[C@H]1[C@@H](OC=C2C1=C(C(=C(C2=O)C(=O)O)O)C)C
+
+>  <compound_cluster_id>
+3495
+
+>  <compound_node_id>
+2635
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Penicillium
+
+>  <origin_species>
+sp.
+
+>  <original_reference_author_list>
+Heatherington, AC
+
+>  <original_reference_year>
+1931
+
+>  <original_reference_issue>
+None
+
+>  <original_reference_volume>
+220
+
+>  <original_reference_pages>
+169-295
+
+>  <original_reference_doi>
+10.1098/rstb.1931.0025
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Sutudies on the biochemistry of microorganisms. XIV. On the production and chemical constitution of a new yellow coloring matter, citrinin, produced from glucose by Penicillium citricum Thom
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Philosophical Transactions of the Royal Society B: Biological Sciences
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+10.1007/s12550-018-0308-3
+
+>  <mibig_ids>
+BGC0000894;BGC0001338
+
+>  <gnps_ids>
+CCMSLIB00004690958%3%Citrinin;CCMSLIB00004690959%3%Citrinin;CCMSLIB00004690960%3%Citrinin;CCMSLIB00004720870%3%Citrinin;CCMSLIB00004720871%3%Citrinin;CCMSLIB00004720872%3%Citrinin;CCMSLIB00004720873%3%Citrinin;CCMSLIB00004720874%3%Citrinin;CCMSLIB00004720882%3%Citrinin;CCMSLIB00004720876%3%Citrinin;CCMSLIB00004720877%3%Citrinin;CCMSLIB00004720878%3%Citrinin;CCMSLIB00004720879%3%Citrinin;CCMSLIB00004720880%3%Citrinin;CCMSLIB00004720881%3%Citrinin;CCMSLIB00004720883%3%Citrinin;CCMSLIB00004720884%3%Citrinin;CCMSLIB00004720875%3%Citrinin;CCMSLIB00000478087%2%Citrinin_120248

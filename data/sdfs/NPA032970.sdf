@@ -1,0 +1,150 @@
+Lijiquinone
+     RDKit          2D
+
+ 28 30  0  0  0  0  0  0  0  0999 V2000
+   -7.7292   -2.2904    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3749   -1.6454    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.2564   -0.1501    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.4921    0.7002    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9022    0.4949    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.7836    1.9902    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6665   -0.3554    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3122    0.2896    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9122   -1.1561    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9641   -2.2253    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4602   -1.5324    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5918   -0.4632    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0438   -0.8395    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0958    0.2297    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6957    1.6754    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2437    2.0518    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1917    0.9825    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2603    1.3589    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6603    2.8046    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5478   -0.1466    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9478   -1.5923    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3998   -1.9687    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4518   -0.8994    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0518    0.5463    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5997    0.9226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1997    2.3683    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8959   -2.6616    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1826    1.5113    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  6
+  3  5  1  0
+  5  6  2  0
+  5  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  2  0
+  9 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 20 14  1  1
+ 20 21  1  0
+ 21 22  1  0
+ 22 23  1  0
+ 23 24  2  0
+ 24 25  1  0
+ 25 26  2  0
+ 21 27  1  6
+  8 28  1  6
+ 18  8  1  0
+ 17 12  1  0
+ 25 20  1  0
+M  END
+
+>  <npaid>
+NPA032970
+
+>  <compound_name>
+Lijiquinone
+
+>  <compound_molecular_formula>
+C23H26O5
+
+>  <compound_molecular_weight>
+382.4560
+
+>  <compound_accurate_mass>
+382.1780
+
+>  <compound_m_plus_h>
+383.1853
+
+>  <compound_m_plus_na>
+405.1672
+
+>  <compound_inchi>
+InChI=1S/C23H26O5/c1-5-13(2)18(25)11-23(4)20(26)10-15-9-19(28-12-16(15)22(23)27)21-14(3)7-6-8-17(21)24/h6,8-10,12-14,21H,5,7,11H2,1-4H3/t13-,14-,21+,23+/m0/s1
+
+>  <compound_inchikey>
+BHDQPLTWVHUKNN-YTSVOPRBSA-N
+
+>  <compound_smiles>
+CC[C@H](C)C(=O)C[C@]1(C)C(=O)C=C2C=C([C@H]3C(=O)C=CC[C@@H]3C)OC=C2C1=O
+
+>  <compound_cluster_id>
+109
+
+>  <compound_node_id>
+106
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Muyocopron
+
+>  <origin_species>
+f53 (F53)
+
+>  <original_reference_author_list>
+Cain, Jesse W.; Miller, Kristin I.; Kalaitzis, John A.; Chau, Rocky; Neilan, Brett A.
+
+>  <original_reference_year>
+2020
+
+>  <original_reference_issue>
+5
+
+>  <original_reference_volume>
+13
+
+>  <original_reference_pages>
+1415-1427
+
+>  <original_reference_doi>
+10.1111/1751-7915.13568
+
+>  <original_reference_pmid>
+32281262
+
+>  <original_reference_title>
+Genome mining of a fungal endophyte of Taxus yunnanensis (Chinese yew) leads to the discovery of a novel azaphilone polyketide, lijiquinone
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Microbial Biotechnology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

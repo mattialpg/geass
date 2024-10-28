@@ -1,0 +1,133 @@
+Triticone B
+     RDKit          2D
+
+ 20 21  0  0  0  0  0  0  0  0999 V2000
+    3.6829   -1.4718    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2578   -1.0037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1399   -2.0039    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2852   -1.5359    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4031   -2.5360    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8282   -2.0680    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1354   -0.5998    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5606   -0.1318    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0176    0.4004    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5925   -0.0677    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7445    1.4246    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7125    2.1589    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6277    2.0304    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9442    3.4966    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6279    0.9125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8738   -0.3842    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4169   -1.0838    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1201    1.0646    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9980   -0.1517    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4095    1.5504    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  7  9  1  0
+  9 10  1  0
+ 10 11  1  1
+ 11 12  2  0
+ 11 13  1  0
+ 13 14  2  0
+ 13 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 15 18  1  0
+ 18 19  1  0
+  9 20  1  1
+ 10  4  1  0
+ 16 10  1  0
+M  END
+
+>  <npaid>
+NPA028983
+
+>  <compound_name>
+Triticone B
+
+>  <compound_molecular_formula>
+C14H15NO5
+
+>  <compound_molecular_weight>
+277.2760
+
+>  <compound_accurate_mass>
+277.0950
+
+>  <compound_m_plus_h>
+278.1023
+
+>  <compound_m_plus_na>
+300.0842
+
+>  <compound_inchi>
+InChI=1S/C14H15NO5/c1-4-5-9-6-7-10(16)12(18)14(9)11(17)8(2)15(20-3)13(14)19/h5-7,12,18H,2,4H2,1,3H3/b9-5-/t12-,14+/m1/s1
+
+>  <compound_inchikey>
+UVGXMQSQHURGBS-CMKQMZPSSA-N
+
+>  <compound_smiles>
+C=C1C(=O)[C@@]2(C(=O)N1OC)/C(=C\CC)C=CC(=O)[C@H]2O
+
+>  <compound_cluster_id>
+4016
+
+>  <compound_node_id>
+2984
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Drechslera
+
+>  <origin_species>
+tritici-repentis
+
+>  <original_reference_author_list>
+Fumio Sugawara, Nobutaka. Takahashi, Gary A. Strobel, Scott A. Strobel, Helen S. M. Lu, and Jon. Clardy
+
+>  <original_reference_year>
+1988
+
+>  <original_reference_issue>
+12
+
+>  <original_reference_volume>
+110
+
+>  <original_reference_pages>
+4086-4087
+
+>  <original_reference_doi>
+10.1021/ja00220a085
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Triticones A and B, novel phytotoxins from the plant pathogenic fungus Drechslera tritici-repentis
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of the American Chemical Society
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

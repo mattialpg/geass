@@ -1,0 +1,133 @@
+Botcinin H
+     RDKit          2D
+
+ 20 21  0  0  0  0  0  0  0  0999 V2000
+   -3.4297   -2.2573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6490   -0.9764    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3679    0.3401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5871    1.6209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0876    1.5852    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3687    0.2687    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1494   -1.0122    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4306   -2.3287    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0690   -2.3644    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7879   -3.6809    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8497   -1.0836    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1309    0.2330    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9116    1.5138    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4112    1.4781    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1300    0.1615    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1919    2.7589    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3493   -1.1193    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4120    1.5495    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3060    2.9374    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8674    0.3758    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  6
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  1
+  8  9  1  0
+  9 10  2  0
+  9 11  1  0
+ 11 12  1  0
+ 12 13  1  1
+ 13 14  1  0
+ 14 15  2  0
+ 14 16  1  0
+ 11 17  1  1
+  6 18  1  1
+  4 19  1  6
+  3 20  1  1
+  7  2  1  0
+ 12  6  1  0
+M  END
+
+>  <npaid>
+NPA033173
+
+>  <compound_name>
+Botcinin H
+
+>  <compound_molecular_formula>
+C14H22O6
+
+>  <compound_molecular_weight>
+286.3240
+
+>  <compound_accurate_mass>
+286.1416
+
+>  <compound_m_plus_h>
+287.1489
+
+>  <compound_m_plus_na>
+309.1308
+
+>  <compound_inchi>
+InChI=1S/C14H22O6/c1-6-10(16)8(3)20-14(5)11(6)19-13(17)7(2)12(14)18-9(4)15/h6-8,10-12,16H,1-5H3/t6-,7-,8+,10-,11+,12+,14+/m1/s1
+
+>  <compound_inchikey>
+LWOSIIPXAIJGAY-XXVCXOIQSA-N
+
+>  <compound_smiles>
+CC(=O)O[C@H]1[C@@H](C)C(=O)O[C@H]2[C@H](C)[C@@H](O)[C@H](C)O[C@]12C
+
+>  <compound_cluster_id>
+9716
+
+>  <compound_node_id>
+6486
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Botrytis
+
+>  <origin_species>
+cinerea B05.10
+
+>  <original_reference_author_list>
+Moraga, Javier; Izquierdo-Bueno Reina, Inmaculada; Pinedo, Cristina; Hernández-Galán, Rosario; Viaud, Muriel; Collado, Isidro G.
+
+>  <original_reference_year>
+2021
+
+>  <original_reference_issue>
+None
+
+>  <original_reference_volume>
+183
+
+>  <original_reference_pages>
+None
+
+>  <original_reference_doi>
+10.1016/j.phytochem.2020.112627
+
+>  <original_reference_pmid>
+33429353
+
+>  <original_reference_title>
+Impairment of botrydial production in Botrytis cinerea allows the isolation of undescribed polyketides and reveals new insights into the botcinins biosynthetic pathway
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Phytochemistry
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

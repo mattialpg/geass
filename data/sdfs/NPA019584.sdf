@@ -1,0 +1,128 @@
+SCB3
+     RDKit          2D
+
+ 18 18  0  0  0  0  0  0  0  0999 V2000
+    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5260    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5260   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0260   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7760   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2760   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0260   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5260   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2760   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0260   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8578    2.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3250    2.9520    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8578   -2.6401    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  6
+  2  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  1  0
+  8 10  1  0
+ 10 11  1  0
+  1 12  1  0
+ 12 13  1  1
+ 13 14  1  0
+ 12 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  2  0
+  1 17  1  6
+M  END
+
+>  <npaid>
+NPA019584
+
+>  <compound_name>
+SCB3
+
+>  <compound_molecular_formula>
+C14H26O4
+
+>  <compound_molecular_weight>
+258.3580
+
+>  <compound_accurate_mass>
+258.1831
+
+>  <compound_m_plus_h>
+259.1904
+
+>  <compound_m_plus_na>
+281.1723
+
+>  <compound_inchi>
+InChI=1S/C14H26O4/c1-3-10(2)6-4-5-7-12(16)13-11(8-15)9-18-14(13)17/h10-13,15-16H,3-9H2,1-2H3/t10?,11-,12-,13-/m1/s1
+
+>  <compound_inchikey>
+QZOCOXOCSGUGFC-KIGPFUIMSA-N
+
+>  <compound_smiles>
+CCC(C)CCCC[C@H]([C@H]1[C@@H](COC1=O)CO)O
+
+>  <compound_cluster_id>
+2551
+
+>  <compound_node_id>
+1997
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+coelicolor
+
+>  <original_reference_author_list>
+Hsiao, Nai-Hua; Nakayama, Satoshi; Merlo, Maria Elena; de Vries, Marcel; Bunet, Robert; Kitani, Shigeru; Nihira, Takuya; Takano, Eriko
+
+>  <original_reference_year>
+2009
+
+>  <original_reference_issue>
+9
+
+>  <original_reference_volume>
+16
+
+>  <original_reference_pages>
+951-960
+
+>  <original_reference_doi>
+10.1016/j.chembiol.2009.08.010
+
+>  <original_reference_pmid>
+19778723
+
+>  <original_reference_title>
+Analysis of two additional signaling molecules in Streptomyces coelicolor and the development of a butyrolactone-specific reporter system
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Chemistry & Biology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000849
+
+>  <gnps_ids>
+

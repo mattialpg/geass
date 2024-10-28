@@ -1,0 +1,163 @@
+Beauveriolide I
+     RDKit          2D
+
+ 35 36  0  0  0  0  0  0  0  0999 V2000
+    4.1967   -7.3530    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7485   -5.9215    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2847   -5.5939    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8365   -4.1625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3727   -3.8349    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6429   -4.9387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0754   -2.4034    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2072   -1.6256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9815   -0.3409    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4141   -0.7853    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0700    1.1565    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4525    2.5235    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2705    3.4470    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8843    4.8156    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2053    3.7154    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6368    3.2672    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6960    2.2051    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9807    2.9794    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1403    0.7724    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8679   -0.7027    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9413   -1.8822    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8648   -3.0642    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5726   -2.4960    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2350   -1.3201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4532   -0.4450    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.8202   -1.0624    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3044    1.0476    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4145    4.5498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6321    3.4501    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0244    2.8920    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2371    1.4071    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6294    0.8490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8089    1.7756    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5962    3.2605    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2039    3.8186    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  6
+  5  7  1  0
+  7  8  1  1
+  8  9  1  0
+  9 10  2  0
+  9 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  2  0
+ 13 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  2  0
+ 17 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  2  0
+ 21 23  1  0
+ 20 24  1  1
+ 24 25  1  0
+ 25 26  1  0
+ 25 27  1  0
+ 16 28  1  6
+ 12 29  1  6
+ 29 30  1  0
+ 30 31  2  0
+ 31 32  1  0
+ 32 33  2  0
+ 33 34  1  0
+ 34 35  2  0
+ 23  7  1  0
+ 35 30  1  0
+M  END
+
+>  <npaid>
+NPA006686
+
+>  <compound_name>
+Beauveriolide I
+
+>  <compound_molecular_formula>
+C27H41N3O5
+
+>  <compound_molecular_weight>
+487.6410
+
+>  <compound_accurate_mass>
+487.3046
+
+>  <compound_m_plus_h>
+488.3119
+
+>  <compound_m_plus_na>
+510.2938
+
+>  <compound_inchi>
+InChI=1S/C27H41N3O5/c1-6-7-11-18(4)23-16-24(31)29-21(15-20-12-9-8-10-13-20)26(33)28-19(5)25(32)30-22(14-17(2)3)27(34)35-23/h8-10,12-13,17-19,21-23H,6-7,11,14-16H2,1-5H3,(H,28,33)(H,29,31)(H,30,32)/t18-,19-,21-,22+,23-/m0/s1
+
+>  <compound_inchikey>
+ZKSLFHXTWGEITF-JIORRVSTSA-N
+
+>  <compound_smiles>
+CCCC[C@H](C)[C@@H]1CC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)O1)CC(C)C)C)CC2=CC=CC=C2
+
+>  <compound_cluster_id>
+26
+
+>  <compound_node_id>
+25
+
+>  <origin_type>
+Fungus
+
+>  <genus>
+Beauveria
+
+>  <origin_species>
+sp.
+
+>  <original_reference_author_list>
+Keiko Mochizuki, Ken Ohmori, Harumi Tamura, Yoshikazu Shizuri, Shigeru Nishiyama, Eiichi Miyoshi, Shosuke Yamamura
+
+>  <original_reference_year>
+1993
+
+>  <original_reference_issue>
+10
+
+>  <original_reference_volume>
+66
+
+>  <original_reference_pages>
+3041-3046
+
+>  <original_reference_doi>
+10.1246/bcsj.66.3041
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+The Structures of Bioactive Cyclodepsipeptides, Beauveriolides I and II, Metabolites of Entomopathogenic Fungi Beauveria sp
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Bulletin of the Chemical Society of Japan
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+CCMSLIB00000531480%3%Beauverolide&I

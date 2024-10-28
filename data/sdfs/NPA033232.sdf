@@ -1,0 +1,132 @@
+Myxofacycline E
+     RDKit          2D
+
+ 20 20  0  0  0  0  0  0  0  0999 V2000
+    7.3141   -2.8672    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6587   -1.5180    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4994   -0.2758    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1625   -1.4110    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5071   -0.0618    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0109    0.0452    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3554    1.3944    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8593    1.5014    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0185    0.2591    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4777    0.3661    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1331    1.7153    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2924    2.9576    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9478    4.3068    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2038    2.8506    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3184   -0.8761    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8146   -0.7691    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6553   -2.0114    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1515   -1.9044    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8069   -0.5552    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9922   -3.1466    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  2  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 12 14  1  0
+ 10 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  2  0
+ 18 20  1  0
+ 14  8  1  0
+M  END
+
+>  <npaid>
+NPA033232
+
+>  <compound_name>
+Myxofacycline E
+
+>  <compound_molecular_formula>
+C15H24N2O3
+
+>  <compound_molecular_weight>
+280.3680
+
+>  <compound_accurate_mass>
+280.1787
+
+>  <compound_m_plus_h>
+281.1860
+
+>  <compound_m_plus_na>
+303.1679
+
+>  <compound_inchi>
+InChI=1S/C15H24N2O3/c1-11(2)6-3-4-8-13-16-12(10-14(18)17-13)7-5-9-15(19)20/h10-11H,3-9H2,1-2H3,(H,19,20)(H,16,17,18)
+
+>  <compound_inchikey>
+VBRRCMRJQMTCRZ-UHFFFAOYSA-N
+
+>  <compound_smiles>
+CC(C)CCCCC1=NC(CCCC(=O)O)=CC(=O)[NH]1
+
+>  <compound_cluster_id>
+9737
+
+>  <compound_node_id>
+6494
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+prunicolor
+
+>  <original_reference_author_list>
+Popoff, Alexander; Hug, Joachim J.; Walesch, Sebastian; Garcia, Ronald; Keller, Lena; Müller, Rolf
+
+>  <original_reference_year>
+2021
+
+>  <original_reference_issue>
+67
+
+>  <original_reference_volume>
+27
+
+>  <original_reference_pages>
+16654-16661
+
+>  <original_reference_doi>
+10.1002/chem.202103095
+
+>  <original_reference_pmid>
+34617331
+
+>  <original_reference_title>
+Structure and Biosynthesis of Myxofacyclines: Unique Myxobacterial Polyketides Featuring Varing and Rare Heterocycles
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Chemistry - A European Journal
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

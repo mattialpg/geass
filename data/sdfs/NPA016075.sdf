@@ -1,0 +1,148 @@
+vanchrobactin
+     RDKit          2D
+
+ 28 28  0  0  0  0  0  0  0  0999 V2000
+   12.0000   -5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7500   -6.4952    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7500   -3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500    3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  2  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  8  7  1  1
+  8  9  1  0
+  9 10  1  0
+ 10 11  2  0
+ 10 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  1  0
+ 16 18  2  0
+ 18 19  1  0
+  8 20  1  0
+ 20 21  2  0
+ 20 22  1  0
+ 22 23  1  0
+ 23 24  1  6
+ 24 25  1  0
+ 23 26  1  0
+ 26 27  1  0
+ 26 28  2  0
+ 18 12  1  0
+M  END
+
+>  <npaid>
+NPA016075
+
+>  <compound_name>
+Vanchrobactin
+
+>  <compound_molecular_formula>
+C16H23N5O7
+
+>  <compound_molecular_weight>
+397.3880
+
+>  <compound_accurate_mass>
+397.1597
+
+>  <compound_m_plus_h>
+398.1670
+
+>  <compound_m_plus_na>
+420.1489
+
+>  <compound_inchi>
+InChI=1S/C16H23N5O7/c17-16(18)19-6-2-4-9(14(26)21-10(7-22)15(27)28)20-13(25)8-3-1-5-11(23)12(8)24/h1,3,5,9-10,22-24H,2,4,6-7H2,(H,20,25)(H,21,26)(H,27,28)(H4,17,18,19)/t9-,10+/m1/s1
+
+>  <compound_inchikey>
+LXNCWECCTQQXPQ-ZJUUUORDSA-N
+
+>  <compound_smiles>
+C1=CC(=C(C(=C1)O)O)C(=O)N[C@H](CCCN=C(N)N)C(=O)N[C@@H](CO)C(=O)O
+
+>  <compound_cluster_id>
+34
+
+>  <compound_node_id>
+33
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Vibrio
+
+>  <origin_species>
+anguillarum
+
+>  <original_reference_author_list>
+Soengas, Raquel G.; Anta, Cristina; Espada, Alfonso; Paz, Vanessa; Ares, Isabel R.; Balado, Miguel; Rodriguez, Jaime; Lemos, Manuel L.; Jimenez, Carlos
+
+>  <original_reference_year>
+2006
+
+>  <original_reference_issue>
+39
+
+>  <original_reference_volume>
+47
+
+>  <original_reference_pages>
+7113-7116
+
+>  <original_reference_doi>
+10.1016/j.tetlet.2006.07.104
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+Structural characterization of vanchrobactin, a new catechol siderophore produced by the fish pathogen Vibrio anguillarum serotype O2
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Tetrahedron Letters
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000454
+
+>  <gnps_ids>
+

@@ -1,0 +1,131 @@
+vazabitide A
+     RDKit          2D
+
+ 19 20  0  0  0  0  0  0  0  0999 V2000
+   -0.2391   -8.8374    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2428   -7.7227    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7100   -8.0346    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7793   -6.2961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6880   -5.9843    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7830   -5.1814    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2502   -5.4933    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3194   -3.7548    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3231   -2.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8596   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7413    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8596    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3231    2.6401    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4330    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8660    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4330   -0.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7903   -2.9520    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2539   -4.3786    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.7940   -1.8373    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  2  4  1  0
+  4  5  1  1
+  4  6  1  0
+  6  7  2  0
+  6  8  1  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 12 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+  9 17  1  0
+ 17 18  1  0
+ 17 19  2  0
+ 16 10  1  0
+ 16 14  1  0
+M  END
+
+>  <npaid>
+NPA012786
+
+>  <compound_name>
+Vazabitide A
+
+>  <compound_molecular_formula>
+C12H21N3O4
+
+>  <compound_molecular_weight>
+271.3170
+
+>  <compound_accurate_mass>
+271.1532
+
+>  <compound_m_plus_h>
+272.1605
+
+>  <compound_m_plus_na>
+294.1424
+
+>  <compound_inchi>
+InChI=1S/C12H21N3O4/c1-5(2)9(13)11(17)14-10(12(18)19)6-3-8(16)7-4-15(6)7/h5-10,16H,3-4,13H2,1-2H3,(H,14,17)(H,18,19)/t6?,7?,8?,9-,10?,15?/m0/s1
+
+>  <compound_inchikey>
+OWRDBHAORITUMQ-NUPLKXSGSA-N
+
+>  <compound_smiles>
+CC(C)[C@@H](C(=O)NC(C1CC(C2N1C2)O)C(=O)O)N
+
+>  <compound_cluster_id>
+4835
+
+>  <compound_node_id>
+3474
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+sp. SANK 60404
+
+>  <original_reference_author_list>
+Hasebe, Fumihito; Matsuda, Kenichi; Shiraishi, Taro; Futamura, Yushi; Nakano, Takeshi; Tomita, Takeo; Ishigami, Ken; Taka, Hikari; Mineki, Reiko; Fujimura, Tsutomu; Osada, Hiroyuki; Kuzuyama, Tomohisa; Nishiyama, Makoto
+
+>  <original_reference_year>
+2016
+
+>  <original_reference_issue>
+11
+
+>  <original_reference_volume>
+12
+
+>  <original_reference_pages>
+967-972
+
+>  <original_reference_doi>
+10.1038/nchembio.2181
+
+>  <original_reference_pmid>
+28288097
+
+>  <original_reference_title>
+Amino-group carrier-protein-mediated secondary metabolite biosynthesis in Streptomyces
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Nature Chemical Biology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0001818
+
+>  <gnps_ids>
+

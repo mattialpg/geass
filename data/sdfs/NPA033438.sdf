@@ -1,0 +1,144 @@
+Alazopeptin
+     RDKit          2D
+
+ 26 25  0  0  0  0  0  0  0  0999 V2000
+    6.3474    3.9913    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1434    2.5052    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7545    1.9388    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5505    0.4528    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1616   -0.1136    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9576   -1.5997    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5687   -2.1661    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3647   -3.6522    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5497   -4.5718    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0242   -4.2186    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2282   -5.7046    0.0000 N   0  0  0  0  0  4  0  0  0  0  0  0
+   -0.4322   -7.1907    0.0000 N   0  0  0  0  0  2  0  0  0  0  0  0
+    1.9766    0.8060    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1805    2.2921    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5876    0.2396    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5974    1.1593    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9863    0.5929    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1713    1.5126    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5603    0.9462    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.7642   -0.5399    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7453    1.8658    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.1342    1.2994    0.0000 N   0  0  0  0  0  4  0  0  0  0  0  0
+   -8.5232    0.7330    0.0000 N   0  0  0  0  0  2  0  0  0  0  0  0
+   -0.3934    2.6454    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9956    3.2118    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5784    3.5650    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  8 10  1  0
+ 10 11  2  0
+ 11 12  2  0
+  5 13  1  0
+ 13 14  2  0
+ 13 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  2  0
+ 19 21  1  0
+ 21 22  2  0
+ 22 23  2  0
+ 16 24  1  0
+ 24 25  2  0
+ 24 26  1  0
+M  CHG  4  11   1  12  -1  22   1  23  -1
+M  END
+
+>  <npaid>
+NPA033438
+
+>  <compound_name>
+Alazopeptin
+
+>  <compound_molecular_formula>
+C15H20N6O5
+
+>  <compound_molecular_weight>
+364.3620
+
+>  <compound_accurate_mass>
+364.1495
+
+>  <compound_m_plus_h>
+365.1568
+
+>  <compound_m_plus_na>
+387.1387
+
+>  <compound_inchi>
+InChI=1S/C15H20N6O5/c1-2-7-18-12(5-3-10(22)8-19-16)14(24)21-13(15(25)26)6-4-11(23)9-20-17/h2,8-9,12-13,18H,1,3-7H2,(H,21,24)(H,25,26)
+
+>  <compound_inchikey>
+LYUGICBKRYXVHJ-UHFFFAOYSA-N
+
+>  <compound_smiles>
+C=CCNC(CCC(=O)C=[N+]=[N-])C(=O)NC(CCC(=O)C=[N+]=[N-])C(=O)O
+
+>  <compound_cluster_id>
+9781
+
+>  <compound_node_id>
+6524
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+sp. OS-3256
+
+>  <original_reference_author_list>
+PETTERSON EL
+
+>  <original_reference_year>
+1965
+
+>  <original_reference_issue>
+None
+
+>  <original_reference_volume>
+5
+
+>  <original_reference_pages>
+115-118
+
+>  <original_reference_doi>
+10.5281/zenodo.7025992
+
+>  <original_reference_pmid>
+5883414
+
+>  <original_reference_title>
+Structure of the antitumor antibiotic alazopeptin
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Antimicrobial Agents and Chemotherapy
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

@@ -1,0 +1,136 @@
+Ammosester B
+     RDKit          2D
+
+ 21 23  0  0  0  0  0  0  0  0999 V2000
+   -3.1370   -3.2101    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9810   -2.2542    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0748   -0.7571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0465    0.3944    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6732    1.8472    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2283    2.2503    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1569    1.2006    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6800   -0.2053    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2758   -1.3612    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7549   -1.1114    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2781    0.2944    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3222    1.4504    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7571    0.5442    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2803    1.9500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7130   -0.6118    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1920   -0.3620    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5282   -2.6276    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0237   -4.0223    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8550    3.7031    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7447    2.8970    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4914   -0.0086    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 11 13  1  0
+ 13 14  2  0
+ 13 15  1  0
+ 15 16  1  0
+  9 17  1  0
+ 17 18  2  0
+  6 19  1  0
+  5 20  1  0
+  4 21  1  0
+ 17  2  1  0
+  8  3  1  0
+ 12  7  1  0
+M  END
+
+>  <npaid>
+NPA033059
+
+>  <compound_name>
+Ammosester B
+
+>  <compound_molecular_formula>
+C13H11ClN4O3
+
+>  <compound_molecular_weight>
+306.7090
+
+>  <compound_accurate_mass>
+306.0520
+
+>  <compound_m_plus_h>
+307.0593
+
+>  <compound_m_plus_na>
+329.0412
+
+>  <compound_inchi>
+InChI=1S/C13H11ClN4O3/c1-18-11-6-4(12(18)19)3-5(13(20)21-2)17-10(6)8(15)7(14)9(11)16/h3H,15-16H2,1-2H3
+
+>  <compound_inchikey>
+DVCQUDXXTKJSPL-UHFFFAOYSA-N
+
+>  <compound_smiles>
+COC(=O)C1=NC2=C3C(=C1)C(=O)N(C)C3=C(N)C(Cl)=C2N
+
+>  <compound_cluster_id>
+491
+
+>  <compound_node_id>
+443
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+uncialis SB18002
+
+>  <original_reference_author_list>
+Luo, Jun; Yang, Dong; ; Adhikari, Ajeeth; Dong, Liao-Bin; Ye, Fei; Yan, Xiaohui; Rader, Christoph; Shen, Ben
+
+>  <original_reference_year>
+2021
+
+>  <original_reference_issue>
+3-4
+
+>  <original_reference_volume>
+48
+
+>  <original_reference_pages>
+kuab027
+
+>  <original_reference_doi>
+10.1093/jimb/kuab027
+
+>  <original_reference_pmid>
+33982054
+
+>  <original_reference_title>
+Discovery of ammosesters by mining the Streptomyces uncialis DCA2648 genome revealing new insight into ammosamide biosynthesis.
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Journal of Industrial Microbiology and Biotechnology
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+

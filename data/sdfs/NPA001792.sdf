@@ -1,0 +1,199 @@
+nigericin
+     RDKit          2D
+
+ 51 56  0  0  0  0  0  0  0  0999 V2000
+    4.8726   -1.8188    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8763   -2.9335    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4054   -2.1306    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9419   -3.5572    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4017   -1.0159    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3361   -0.3922    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3324    0.7225    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7960    2.1491    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7923    3.2638    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3250    2.9520    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3213    4.0667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1459    3.7548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1496    4.8695    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6860    6.2961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6094    2.3282    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1037    2.1975    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6933   -1.9635    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3442    1.4772    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2158   -2.5838    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5342   -3.8829    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4695   -4.9976    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8398   -4.3875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3033   -5.8141    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6830   -2.8957    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3070   -4.0756    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4218   -5.0793    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7208   -4.3293    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4089   -2.8621    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9171   -2.7053    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1671   -1.4063    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.0911   -4.9394    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.3046   -4.0577    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.6750   -4.6679    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.0378   -3.2124    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.1713   -4.7725    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.0101   -3.5289    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.8318   -6.1596    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.2021   -6.7697    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6182   -7.0413    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2479   -6.4312    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0344   -7.3129    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8615    1.5254    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2632    2.4610    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2669    1.3463    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8034   -0.0803    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8071   -1.1950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  1
+  1  3  1  0
+  3  4  1  0
+  3  5  2  0
+  1  6  1  0
+  6  7  1  6
+  7  8  1  0
+  8  9  1  1
+ 10  9  1  1
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  1  6
+ 13 14  1  0
+ 12 15  1  0
+ 15 16  1  6
+ 15 17  1  0
+ 17 18  1  6
+ 18 19  1  0
+ 19 20  1  1
+ 19 21  1  0
+ 21 22  1  0
+ 22 23  1  1
+ 19 24  1  0
+ 24 25  1  1
+ 25 26  1  0
+ 26 27  1  0
+ 27 28  1  6
+ 27 29  1  0
+ 27 30  1  0
+ 30 31  1  6
+ 31 32  1  0
+ 32 33  1  1
+ 33 34  1  0
+ 34 35  1  6
+ 32 36  1  0
+ 36 37  1  6
+ 37 38  1  0
+ 38 39  1  1
+ 38 40  1  0
+ 40 41  1  0
+ 38 42  1  0
+ 42 43  1  1
+ 42 44  1  0
+ 44 45  1  0
+ 45 46  1  1
+ 17 47  1  0
+  8 48  1  0
+ 48 49  1  0
+ 49 50  1  0
+ 50 51  1  6
+ 50  6  1  0
+ 47 10  1  0
+ 22 17  1  0
+ 29 24  1  0
+ 34 30  1  0
+ 45 36  1  0
+M  END
+
+>  <npaid>
+NPA001792
+
+>  <compound_name>
+Nigericin
+
+>  <compound_molecular_formula>
+C40H68O11
+
+>  <compound_molecular_weight>
+724.9730
+
+>  <compound_accurate_mass>
+724.4762
+
+>  <compound_m_plus_h>
+725.4835
+
+>  <compound_m_plus_na>
+747.4654
+
+>  <compound_inchi>
+InChI=1S/C40H68O11/c1-21-11-12-28(46-33(21)26(6)36(42)43)17-29-18-30(45-10)27(7)40(48-29)25(5)19-38(9,51-40)32-13-14-37(8,49-32)35-23(3)16-31(47-35)34-22(2)15-24(4)39(44,20-41)50-34/h21-35,41,44H,11-20H2,1-10H3,(H,42,43)/t21-,22-,23-,24+,25+,26+,27+,28+,29+,30+,31+,32+,33+,34-,35+,37-,38-,39-,40+/m0/s1
+
+>  <compound_inchikey>
+DANUORFCFTYTSZ-SJSJOXFOSA-N
+
+>  <compound_smiles>
+C[C@H]1CC[C@@H](O[C@H]1[C@@H](C)C(=O)O)C[C@@H]2C[C@H]([C@H]([C@@]3(O2)[C@@H](C[C@@](O3)(C)[C@H]4CC[C@@](O4)(C)[C@H]5[C@H](C[C@@H](O5)[C@@H]6[C@H](C[C@H]([C@@](O6)(CO)O)C)C)C)C)C)OC
+
+>  <compound_cluster_id>
+639
+
+>  <compound_node_id>
+569
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+sp.
+
+>  <original_reference_author_list>
+Steinrauf, LK; Pinkerton, Mary; Chamberlin, JW
+
+>  <original_reference_year>
+1968
+
+>  <original_reference_issue>
+1
+
+>  <original_reference_volume>
+33
+
+>  <original_reference_pages>
+29-31
+
+>  <original_reference_doi>
+10.1016/0006-291x(68)90249-0
+
+>  <original_reference_pmid>
+None
+
+>  <original_reference_title>
+The structure of nigericin
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Biochemical and Biophysical Research Communications
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+BGC0000114
+
+>  <gnps_ids>
+CCMSLIB00000568403%3%MoNA:941547&2-{6-[(2-{5`-[6-hydroxy-6-(hydroxymethyl)-3,5-dimethyltetrahydro-2h-pyran-2-yl]-2,3`-dimethyloctahydro-2,2`-bifuran-5-yl}-9-methoxy-2,4,10-trimethyl-1,6-dioxaspiro[4.5]dec-7-yl)methyl]-3-methyltetrahydro-2h-pyran-2-yl}propanoic&acid;CCMSLIB00000568501%3%MoNA:964324&2-{6-[(2-{5`-[6-hydroxy-6-(hydroxymethyl)-3,5-dimethyltetrahydro-2h-pyran-2-yl]-2,3`-dimethyloctahydro-2,2`-bifuran-5-yl}-9-methoxy-2,4,10-trimethyl-1,6-dioxaspiro[4.5]dec-7-yl)methyl]-3-methyltetrahydro-2h-pyran-2-yl}propanoic&acid;CCMSLIB00000568533%3%MoNA:969501&2-{6-[(2-{5`-[6-hydroxy-6-(hydroxymethyl)-3,5-dimethyltetrahydro-2h-pyran-2-yl]-2,3`-dimethyloctahydro-2,2`-bifuran-5-yl}-9-methoxy-2,4,10-trimethyl-1,6-dioxaspiro[4.5]dec-7-yl)methyl]-3-methyltetrahydro-2h-pyran-2-yl}propanoic&acid;CCMSLIB00000568582%3%MoNA:940687&2-{6-[(2-{5`-[6-hydroxy-6-(hydroxymethyl)-3,5-dimethyltetrahydro-2h-pyran-2-yl]-2,3`-dimethyloctahydro-2,2`-bifuran-5-yl}-9-methoxy-2,4,10-trimethyl-1,6-dioxaspiro[4.5]dec-7-yl)methyl]-3-methyltetrahydro-2h-pyran-2-yl}propanoic&acid;CCMSLIB00000568790%3%MoNA:947090&2-{6-[(2-{5`-[6-hydroxy-6-(hydroxymethyl)-3,5-dimethyltetrahydro-2h-pyran-2-yl]-2,3`-dimethyloctahydro-2,2`-bifuran-5-yl}-9-methoxy-2,4,10-trimethyl-1,6-dioxaspiro[4.5]dec-7-yl)methyl]-3-methyltetrahydro-2h-pyran-2-yl}propanoic&acid;CCMSLIB00000564857%3%MoNA:946648&Nigericin;CCMSLIB00000568829%3%MoNA:941546&2-{6-[(2-{5`-[6-hydroxy-6-(hydroxymethyl)-3,5-dimethyltetrahydro-2h-pyran-2-yl]-2,3`-dimethyloctahydro-2,2`-bifuran-5-yl}-9-methoxy-2,4,10-trimethyl-1,6-dioxaspiro[4.5]dec-7-yl)methyl]-3-methyltetrahydro-2h-pyran-2-yl}propanoic&acid;CCMSLIB00000568878%3%MoNA:947077&2-{6-[(2-{5`-[6-hydroxy-6-(hydroxymethyl)-3,5-dimethyltetrahydro-2h-pyran-2-yl]-2,3`-dimethyloctahydro-2,2`-bifuran-5-yl}-9-methoxy-2,4,10-trimethyl-1,6-dioxaspiro[4.5]dec-7-yl)methyl]-3-methyltetrahydro-2h-pyran-2-yl}propanoic&acid;CCMSLIB00000569132%3%MoNA:946648&2-{6-[(2-{5`-[6-hydroxy-6-(hydroxymethyl)-3,5-dimethyltetrahydro-2h-pyran-2-yl]-2,3`-dimethyloctahydro-2,2`-bifuran-5-yl}-9-methoxy-2,4,10-trimethyl-1,6-dioxaspiro[4.5]dec-7-yl)methyl]-3-methyltetrahydro-2h-pyran-2-yl}propanoic&acid;CCMSLIB00000570429%3%MoNA:964324&2-{6-[(2-{5`-[6-hydroxy-6-(hydroxymethyl)-3,5-dimethyltetrahydro-2h-pyran-2-yl]-2,3`-dimethyloctahydro-2,2`-bifuran-5-yl}-9-methoxy-2,4,10-trimethyl-1,6-dioxaspiro[4.5]dec-7-yl)methyl]-3-methyltetrahydro-2h-pyran-2-yl}propanoic&acid;CCMSLIB00000568813%3%MoNA:947057&2-{6-[(2-{5`-[6-hydroxy-6-(hydroxymethyl)-3,5-dimethyltetrahydro-2h-pyran-2-yl]-2,3`-dimethyloctahydro-2,2`-bifuran-5-yl}-9-methoxy-2,4,10-trimethyl-1,6-dioxaspiro[4.5]dec-7-yl)methyl]-3-methyltetrahydro-2h-pyran-2-yl}propanoic&acid

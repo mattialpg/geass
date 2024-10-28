@@ -1,0 +1,160 @@
+Heronamide B
+     RDKit          2D
+
+ 33 35  0  0  0  0  0  0  0  0999 V2000
+   11.8707   -3.2625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.1478   -1.9482    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.6481   -1.9170    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9253   -0.6027    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4256   -0.5715    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7028    0.7428    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2031    0.7740    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4803    2.0884    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9806    2.1195    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2038    0.8364    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7041    0.8675    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6729   -0.6322    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1039   -1.9153    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4183   -2.6382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9179   -2.6070    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2011   -1.8302    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9780   -3.1133    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4776   -3.0822    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2005   -1.7678    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4236   -0.4846    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9240   -0.5158    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8928    0.9839    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1160    2.2670    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8016    2.9899    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3019    2.9587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0188    2.1819    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7581    3.4650    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0352    4.7794    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2577    3.4339    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3333    1.4021    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.1465    0.8297    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.7001   -1.7366    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0602   -4.0948    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  9  8  1  6
+  9 10  1  0
+ 11 10  1  6
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 16 15  1  6
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  1  1
+ 22 23  2  0
+ 23 24  1  0
+ 24 25  2  0
+ 26 25  1  1
+ 26 27  1  0
+ 27 28  2  0
+ 27 29  1  0
+ 22 30  1  0
+ 20 31  1  6
+ 19 32  1  6
+ 14 33  1  0
+ 29  9  1  0
+ 26 11  1  0
+ 21 16  1  0
+M  END
+
+>  <npaid>
+NPA032812
+
+>  <compound_name>
+Heronamide B
+
+>  <compound_molecular_formula>
+C29H39NO3
+
+>  <compound_molecular_weight>
+449.6350
+
+>  <compound_accurate_mass>
+449.2930
+
+>  <compound_m_plus_h>
+450.3003
+
+>  <compound_m_plus_na>
+472.2822
+
+>  <compound_inchi>
+InChI=1S/C29H39NO3/c1-4-5-6-7-8-9-12-24-19-22-15-14-20(2)18-23-16-17-26(31)28(32)27(23)21(3)11-10-13-25(22)29(33)30-24/h6-11,13-18,22-28,31-32H,4-5,12,19H2,1-3H3,(H,30,33)/b7-6+,9-8+,13-10+,15-14+,20-18+,21-11+/t22-,23-,24+,25+,26-,27-,28-/m0/s1
+
+>  <compound_inchikey>
+SBSRDDBYEIPHHD-DBJJYDABSA-N
+
+>  <compound_smiles>
+CCC/C=C/C=C/C[C@@H]1C[C@@H]2/C=C/C(C)=C/[C@@H]3C=C[C@H](O)[C@H](O)[C@H]3/C(C)=C/C=C/[C@H]2C(=O)N1
+
+>  <compound_cluster_id>
+6133
+
+>  <compound_node_id>
+4264
+
+>  <origin_type>
+Bacterium
+
+>  <genus>
+Streptomyces
+
+>  <origin_species>
+sp. (CMB-M0406)
+
+>  <original_reference_author_list>
+Raju, Ritesh; Piggott, Andrew M.; Conte, Melissa M.; Capon, Robert J.
+
+>  <original_reference_year>
+2010
+
+>  <original_reference_issue>
+20
+
+>  <original_reference_volume>
+8
+
+>  <original_reference_pages>
+4682-4689
+
+>  <original_reference_doi>
+10.1039/c0ob00267d
+
+>  <original_reference_pmid>
+20733977
+
+>  <original_reference_title>
+Heronamides A - C, new polyketide macrolactams from an Australian marine-derived Streptomyces sp. A biosynthetic case for synchronized tandem electrocyclization
+
+>  <original_reference_type>
+article
+
+>  <original_journal_title>
+Organic & Biomolecular Chemistry
+
+>  <reassignment_dois>
+
+
+>  <synthesis_dois>
+
+
+>  <mibig_ids>
+
+
+>  <gnps_ids>
+
