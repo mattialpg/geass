@@ -1,0 +1,13 @@
+DATE            : 2023/04/12 12:26
+COMPOUND        : 0_BS_0785
+RUN TIME[s]     : 0.59
+MIN # FRAGMENTS : 2
+
+RESULTS (Total 1):
+>>> 0
+# fragments : 2
+Cut_bond_ID : [6]
+0 : ['C01601']
+1 : ['C00001']
+
+END

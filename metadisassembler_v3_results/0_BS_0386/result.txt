@@ -1,0 +1,14 @@
+DATE            : 2023/04/12 12:16
+COMPOUND        : 0_BS_0386
+RUN TIME[s]     : 0.58
+MIN # FRAGMENTS : 3
+
+RESULTS (Total 1):
+>>> 0
+# fragments : 3
+Cut_bond_ID : [0, 6]
+0 : ['C01438']
+1 : ['C17714']
+2 : ['C01438']
+
+END

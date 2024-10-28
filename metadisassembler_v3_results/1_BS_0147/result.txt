@@ -1,0 +1,73 @@
+DATE            : 2023/04/12 12:10
+COMPOUND        : 1_BS_0147
+RUN TIME[s]     : 0.61
+MIN # FRAGMENTS : 2
+
+RESULTS (Total 10):
+>>> 0
+# fragments : 2
+Cut_bond_ID : [10]
+0 : ['C01633']
+1 : ['C00001']
+
+>>> 1
+# fragments : 2
+Cut_bond_ID : [9]
+0 : ['C14696']
+1 : ['C00132']
+
+>>> 2
+# fragments : 2
+Cut_bond_ID : [8]
+0 : ['C00756']
+1 : ['C00469']
+
+>>> 3
+# fragments : 3
+Cut_bond_ID : [0, 8]
+0 : ['C00469']
+1 : ['C00001']
+2 : ['C01387']
+
+>>> 4
+# fragments : 2
+Cut_bond_ID : [5]
+0 : ['C16834']
+1 : ['C16834']
+
+>>> 5
+# fragments : 3
+Cut_bond_ID : [0, 6]
+0 : ['C00001']
+1 : ['C11271']
+2 : ['C06142']
+
+>>> 6
+# fragments : 3
+Cut_bond_ID : [4, 10]
+0 : ['C00001']
+1 : ['C06142']
+2 : ['C11271']
+
+>>> 7
+# fragments : 3
+Cut_bond_ID : [4, 5]
+0 : ['C16834']
+1 : ['C06142']
+2 : ['C01438']
+
+>>> 8
+# fragments : 3
+Cut_bond_ID : [4, 7]
+0 : ['C06142']
+1 : ['C20783']
+2 : ['C05979']
+
+>>> 9
+# fragments : 3
+Cut_bond_ID : [4, 8]
+0 : ['C00469']
+1 : ['C06142']
+2 : ['C21390']
+
+END

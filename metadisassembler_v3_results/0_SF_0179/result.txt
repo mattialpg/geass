@@ -1,0 +1,30 @@
+DATE            : 2023/04/12 12:39
+COMPOUND        : 0_SF_0179
+RUN TIME[s]     : 0.73
+MIN # FRAGMENTS : 3
+
+RESULTS (Total 3):
+>>> 0
+# fragments : 3
+Cut_bond_ID : [6, 7]
+0 : ['C01672']
+1 : ['C00001']
+2 : ['C21390']
+
+>>> 1
+# fragments : 4
+Cut_bond_ID : [1, 5, 7]
+0 : ['C21390']
+1 : ['C00192']
+2 : ['C00218']
+3 : ['C21390']
+
+>>> 2
+# fragments : 4
+Cut_bond_ID : [2, 5, 7]
+0 : ['C21390']
+1 : ['C00797']
+2 : ['C00192']
+3 : ['C20783']
+
+END

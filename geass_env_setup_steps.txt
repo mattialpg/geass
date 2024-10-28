@@ -1,0 +1,28 @@
+crear cuenta github
+añadir usuario a organización idener y a equipo SECRETed
+instalar git https://gitforwindows.org/
+clonar el repositorio https://github.com/idener/geass-and-metabolic-disassembler
+instalar conda (https://repo.anaconda.com/archive/)
+Por ejemplo:
+$ wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
+asegurarse de que "C:\Users\Idener\anaconda3\Scripts" esté en el path
+instalar wsl
+$ wsl --install
+abrir powershell
+instalar conda (https://repo.anaconda.com/archive/)(o no, probar conda.exe en wsl a ntes)
+Por ejemplo:
+$ wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
+$ wsl
+navegar a la carpeta donde se haya descargado el repositorio de Geass
+$ code .
+instalar extensiones de python y jupyter
+abrir terminal en code (ctrl+ñ)
+$ conda create -n geass python=3.7.12
+si da error de OpenSSL, hacer lo que pone aquí https://stackoverflow.com/a/56934348
+$ conda activate geass
+si no funciona, ir a /home/USUARIO/anaconda3/bin y ejecutar $ source ./activate geass
+$ conda config --append channels conda-forge
+$ conda install --yes --file conda_dependencies_conda.txt
+$ python3 -m pip install -r conda_dependencies_pip.txt
+$ python3 -m pip install git+https://github.com/reymond-group/map4@v1.0
+$ conda install -c tmap tmap

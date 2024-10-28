@@ -1,0 +1,24 @@
+DATE            : 2023/04/12 12:12
+COMPOUND        : 0_BS_0240
+RUN TIME[s]     : 1.03
+MIN # FRAGMENTS : 4
+
+RESULTS (Total 2):
+>>> 0
+# fragments : 4
+Cut_bond_ID : [3, 7, 9, 23]
+0 : ['C01585_mod_0']
+1 : ['C00001']
+2 : ['C15584', 'C00146']
+3 : ['C02752']
+
+>>> 1
+# fragments : 5
+Cut_bond_ID : [3, 7, 9, 22, 23]
+0 : ['C01585_mod_0']
+1 : ['C00001']
+2 : ['C02752']
+3 : ['C00001']
+4 : ['C01407']
+
+END
