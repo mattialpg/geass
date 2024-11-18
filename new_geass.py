@@ -89,9 +89,9 @@ class Geass:
         # First use smiles to to search BUs (faster)
         bu_search = self.df_BUs[self.df_BUs['ISOSMILES'] == Chem.MolToSmiles(mol)]['ID']
 
-        isNP = 'No'; kegg_id = 'NA'
+        isNP = 'No'; bu_id = 'NA'
         if len(bu_search) > 0:
-            isNP = 'Yes'; kegg_id = bu_search.iloc[0][0]
+            isNP = 'Yes'; bu_id = bu_search.iloc[0]
         else:
             # Use SubstructMatch to search BUs (slower)
             bu_formula = self.df_BUs[self.df_BUs['Formula'] == CalcMolFormula(mol)]
@@ -99,11 +99,12 @@ class Geass:
             for row in bu_formula.itertuples():
                 match = mol.GetSubstructMatch(row.ROMol)
                 if len(match) == mol.GetNumAtoms():
-                    isNP = 'Yes'; kegg_id = row.ID[0]
+                    isNP = 'Yes'; bu_id = row.ID[0]
                     break
         
+        mol.SetProp('ISOMILES', Chem.MolToSmiles(mol))
         mol.SetProp('isNP', isNP)
-        mol.SetProp('kegg_id', kegg_id)
+        mol.SetProp('BU_ID', bu_id)
          
 
     def get_bonds_to_break(self):
@@ -198,7 +199,7 @@ class Geass:
         for i, frag_mol in enumerate(self.frag_mols):
             self.G.add_nodes_from([(i, {'SMILES': Chem.MolToSmiles(frag_mol),
                                         'isNP': frag_mol.GetProp('isNP'),
-                                        'kegg_id': frag_mol.GetProp('kegg_id'),
+                                        'BU_ID': frag_mol.GetProp('BU_ID'),
                                         'img': mol2svg(frag_mol)
                                         })])
         # Create a dictionary mapping query_mol to frag_mols atoms
