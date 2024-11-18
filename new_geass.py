@@ -123,6 +123,7 @@ class Geass:
             atom.SetIsotope(atom.GetIdx()+1)  # Without +1, atom #0 would not get labelled
 
         # Get reactions involved in the fragmentation
+        self.get_bonds_to_break()
         reactions_involved = {r: reactions[r] for r in set(self.bonds_to_break.values())}
 
         final_prods = []
