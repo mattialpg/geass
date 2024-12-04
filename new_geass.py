@@ -12,12 +12,12 @@ from rdkit.Chem import AllChem
 from rdkit.Chem.rdMolDescriptors import CalcMolFormula
 
 #* Nomenclature
-#* fragments: mols with dummy atom(s)
-#* (building) units: fragments with [*] replaced with correct atoms 
-#* (building) blocks: mols constituted by two or more units
+#* fragment        >  mol with dummy atom(s)
+#* building unit   >  fragment with [*] replaced with real atoms 
+#* building block  >  mol constituted by two or more units
 
-#* For consistency, reaction products must be written in parentheses and separate by a dot.
-#* The units in the resulting Mol object are then separated by Chem.GetMolFrags.
+#* For consistency, reaction products must be written in parentheses and separated by a dot.
+#* Molecules in the resulting Mol object are then separated by Chem.GetMolFrags.
 #* In the reaction smarts, the breaking bond must always be between atom 0 and 1.
 
 reactions = {
