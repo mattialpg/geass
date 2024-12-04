@@ -76,9 +76,9 @@ def create_graphs_without_MD(mols, indexer_original_mols, brokenBondsDefs, react
             
             # Create graph
             if old_version:
-                fragmentator.create_fragmentation_graph_old()
+                fragmentator.create_fragmentation_graph_old(check_unknowns=True)
             else:
-                fragmentator.create_fragmentation_graph()
+                fragmentator.create_fragmentation_graph(check_unknowns=True)
 
             # Update the UCL
             UCL = fragmentator.UCL
@@ -101,7 +101,7 @@ def create_graphs_without_MD(mols, indexer_original_mols, brokenBondsDefs, react
     print(f"Elapsed: {round(time.time() - start_time, 3)}s")    
     return result_graphs, UCL, unknown_occurrences
 
-def create_graphs(mols, indexer_original_mols, PBU, BUL, brokenBondsDefs, reactants, reactions, fillingAtoms, BULnames, output_folder="./metadisassembler_v3_results", old_version=False):
+def create_graphs(mols, indexer_original_mols, PBU, BUL, brokenBondsDefs, reactants, reactions, fillingAtoms, BULnames, UCL=None, output_folder="./metadisassembler_v3_results", old_version=False):
     signal.signal(signal.SIGALRM, disassembler_timeout_handler)
     start_time = time.time()
     result_graphs = {}
@@ -167,9 +167,37 @@ def create_graphs(mols, indexer_original_mols, PBU, BUL, brokenBondsDefs, reacta
                     fragment_names[j] = [disassembler.query_specific_bul.names[disassembler.match_bu_idx[k]] for aux, k in enumerate(disassembler.result[0]["target"])]
                     fragments[j] = [disassembler.query_specific_bul.cpds[disassembler.match_bu_idx[k]] for aux, k in enumerate(disassembler.result[0]["target"])]
                 except:
-                    print('Error')
-                    fragments[j] = 'Error'
-                    fragment_names[j] = 'Error'
+                    # fragments[j] = 'Error'
+                    # fragment_names[j] = 'Error'
+                    # Cancel the timer
+                    signal.alarm(0)
+                    if UCL is not None:
+                        print('Error in MD, adding to UCL')
+                        unknown_mol = molecule
+                        already_in_list = False
+                        new_name = ""
+                        if not UCL:
+                            # Create first id
+                            new_name = "UC_0001"
+                        else:
+                            for name, structure in UCL.items():
+                                if len(unknown_mol.GetSubstructMatch(structure, )) == unknown_mol.GetNumAtoms():
+                                    already_in_list = True
+                                    new_name = name
+                                    break
+                            if not already_in_list:
+                                # Get last UCL compound name
+                                last_name = list(UCL)[-1]
+                                # Get last id number
+                                last_id = int(last_name[3:])
+                                # Create string of new id with trailing zeroes
+                                new_id = str(last_id + 1).zfill(4)
+                                # Create new id with format UC_XXXX
+                                new_name = f"UC_{new_id}"
+                        if new_name not in UCL:
+                            UCL[new_name] = unknown_mol
+                        fragment_names[j] = new_name
+                        fragments[j] = molecule
 
             # Add the Kegg ids to the id list of current compound
             disassembled_ids[indexer_original_mols[mol_idx]] = []
@@ -182,18 +210,21 @@ def create_graphs(mols, indexer_original_mols, PBU, BUL, brokenBondsDefs, reacta
                 if 'Error' not in fragments.values():
                     # Add new nodes and edges
                     for not_NP_index in not_NP_fragments:
-                        # Creating new nodes list
-                        previous_graph_length = len(fragmentator.graph.nodes)
-                        new_nodes = [(i + previous_graph_length, {'SMILES': Chem.MolToSmiles(frag_mol.mol), 'img': smi2image(Chem.MolToSmiles(frag_mol.mol)), 'isNP': 'Yes', 'kegg_id': fragment_names[not_NP_index][i][0]}) for i, frag_mol in enumerate(fragments[not_NP_index])]
-                        # Adding the nodes to the Geass graph
-                        fragmentator.graph.add_nodes_from(new_nodes)
+                        if 'UC_' not in fragment_names[not_NP_index]:
+                            # Creating new nodes list
+                            previous_graph_length = len(fragmentator.graph.nodes)
+                            new_nodes = [(i + previous_graph_length, {'SMILES': Chem.MolToSmiles(frag_mol.mol), 'img': smi2image(Chem.MolToSmiles(frag_mol.mol)), 'isNP': 'Yes', 'kegg_id': fragment_names[not_NP_index][i][0]}) for i, frag_mol in enumerate(fragments[not_NP_index])]
+                            # Adding the nodes to the Geass graph
+                            fragmentator.graph.add_nodes_from(new_nodes)
 
-                        # Creating new edges list
-                        new_edges = []
-                        for fragment_index in range(len(fragments[not_NP_index])):
-                            new_edges.append((not_NP_index, fragment_index + previous_graph_length, {'reaction': 'unknown'}))
-                        # Adding the edges to the Geass graph
-                        fragmentator.graph.add_edges_from(new_edges)
+                            # Creating new edges list
+                            new_edges = []
+                            for fragment_index in range(len(fragments[not_NP_index])):
+                                new_edges.append((not_NP_index, fragment_index + previous_graph_length, {'reaction': 'unknown'}))
+                            # Adding the edges to the Geass graph
+                            fragmentator.graph.add_edges_from(new_edges)
+                        else:
+                            fragmentator.graph.nodes[not_NP_index]['kegg_id'] = fragment_names[not_NP_index]
                     # Add compound to corresponding no NP OK analytics list
                     if len(graph_nodes) == 1:
                         disassembled_ids[indexer_original_mols[mol_idx]] = [graph_nodes[0][1]['kegg_id']] + disassembled_ids[indexer_original_mols[mol_idx]]
@@ -361,8 +392,109 @@ def jaccard_similarity(g, h):
     if len(g) == 0 or len(h) == 0:
         return 0
     i = list((Counter(g) & Counter(h)).elements())
+    # self.mol.GetNumAtoms()
+    # peso_i = suma de los mínimos pesos de cada edge en i (peso de edge = peso_mol_1 + peso_mol_2) quizá peso de cada edge venga precalculado al crear conj. de edges
+    # divider = 2 - peso_i
+    # return round(peso_i/divider,3)
     divider = len(g) + len(h) - len(i)
     return round(len(i) / divider,3)
+
+def plot_graph(graph):
+        undirected = ipycytoscape.CytoscapeWidget()
+        undirected.wheel_sensitivity = 0.2
+        undirected.layout.height = '800px'
+        undirected.layout.width = '970px'
+        undirected.graph.add_graph_from_networkx(graph, directed=False)
+
+        undirected.set_layout(name='circle', nodeSpacing=200, edgeLengthVal=100)
+        undirected.set_style([
+            {
+                'selector': "node",
+                'css': {
+                    'content': 'data(count)',
+                    'text-valign': 'top',
+                    'color': 'white',
+                    'text-outline-width': 2,
+                    'text-outline-color': '#FFFFFF',
+                    'shape': 'rectangle',
+                    'width': 400,
+                    'height': 350,
+                    'border-width': 20,
+                    'background-color': '#FFFFFF',
+                    'background-fit': 'contain',
+                    'background-image': 'data(img)'
+                }
+            },
+            {
+                'selector': "node[isNP = 'Yes']",
+                'css': {
+                    'border-color': '#08d13e',
+                }
+            },
+            {
+                'selector': "node[isNP = 'No']",
+                'css': {
+                    'border-color': '#d10808',
+                }
+            },
+            {
+                'selector': "node[intersection='No']",
+                'css': {
+                    'border-style': 'dashed',
+                    'border-width': 10,
+                    'border-dash-pattern': [200, 100],
+                }
+            },
+            {
+                'selector': "node[origin_graph=1]",
+                'css': {
+                    'border-color': '#1976d2',
+                }
+            },
+            {
+                'selector': "node[origin_graph=2]",
+                'css': {
+                    'border-color': '#ef6c00',
+                }
+            },
+            {
+                'selector': "edge",
+                'css': {
+                    "curve-style": "bezier",
+                    'width': 20,
+                    'label': 'data(reaction)',
+                    'line-color': '#08d13e', 
+                }
+            },
+            {
+                'selector': "edge[reaction='unknown']",
+                'css': {
+                    'line-color': '#d10808',
+                }
+            },
+            {
+                'selector': "edge[intersection='No']",
+                'css': {
+                    'line-style': 'dashed',
+                    'line-dash-pattern': [30, 20],
+                    'width': 10
+                }
+            },
+            {
+                'selector': "edge[origin_graph=1]",
+                'css': {
+                    'line-color': '#1976d2',
+                }
+            },
+            {
+                'selector': "edge[origin_graph=2]",
+                'css': {
+                    'line-color': '#ef6c00',
+                }
+            },
+        ])
+
+        return undirected
 
 class Geass():
     def __init__(self, mol, bonds, reactants, reactions, filling_atoms, BUL, UCL=None, verbose=0, mol_bonds=None, breakable_mol_bonds=None):
@@ -524,7 +656,7 @@ class Geass():
 
         return mol, True
 
-    def create_fragmentation_graph(self):
+    def create_fragmentation_graph(self, check_unknowns=False):
 
         if len(self.breakable_mol_bonds) == 0:
 
@@ -538,6 +670,31 @@ class Geass():
                     NP = 'Yes'
                     kegg_id = name
                     break
+            if NP == 'No' and check_unknowns and self.UCL is not None:
+                unknown_mol = self.mol
+                already_in_list = False
+                new_name = ""
+                if not self.UCL:
+                    # Create first id
+                    new_name = "UC_0001"
+                else:
+                    for name, structure in self.UCL.items():
+                        if len(unknown_mol.GetSubstructMatch(structure, )) == unknown_mol.GetNumAtoms():
+                            already_in_list = True
+                            new_name = name
+                            break
+                    if not already_in_list:
+                        # Get last UCL compound name
+                        last_name = list(self.UCL)[-1]
+                        # Get last id number
+                        last_id = int(last_name[3:])
+                        # Create string of new id with trailing zeroes
+                        new_id = str(last_id + 1).zfill(4)
+                        # Create new id with format UC_XXXX
+                        new_name = f"UC_{new_id}"
+                if new_name not in self.UCL:
+                    self.UCL[new_name] = unknown_mol
+                kegg_id = new_name
             self.graph.add_nodes_from(
                 [(0, {'SMILES': Chem.MolToSmiles(self.mol), 'img': smi2image(Chem.MolToSmiles(self.mol)), 'isNP': NP, 'kegg_id': kegg_id})])
             return None
@@ -623,6 +780,31 @@ class Geass():
                 if len(molec.GetSubstructMatch(structure, )) == molec.GetNumAtoms():
                     isNP[i] = {'isNP': 'Yes', 'kegg_id': name}
                     break
+            if isNP[i]['isNP'] == 'No' and check_unknowns and self.UCL is not None:
+                unknown_mol = molec
+                already_in_list = False
+                new_name = ""
+                if not self.UCL:
+                    # Create first id
+                    new_name = "UC_0001"
+                else:
+                    for name, structure in self.UCL.items():
+                        if len(unknown_mol.GetSubstructMatch(structure, )) == unknown_mol.GetNumAtoms():
+                            already_in_list = True
+                            new_name = name
+                            break
+                    if not already_in_list:
+                        # Get last UCL compound name
+                        last_name = list(self.UCL)[-1]
+                        # Get last id number
+                        last_id = int(last_name[3:])
+                        # Create string of new id with trailing zeroes
+                        new_id = str(last_id + 1).zfill(4)
+                        # Create new id with format UC_XXXX
+                        new_name = f"UC_{new_id}"
+                if new_name not in self.UCL:
+                    self.UCL[new_name] = unknown_mol
+                isNP[i]['kegg_id'] = new_name
         self.graph.add_nodes_from([(i, {'SMILES': Chem.MolToSmiles(fragments_fill[i]), 'isNP': isNP[i]['isNP'], 'kegg_id': isNP[i]['kegg_id']}) for i in range(len(fragments_fill))])
         
         # The SMILES cannot be the node index because there may be identical fragments
@@ -673,7 +855,7 @@ class Geass():
         if self.verbose > 0:
             print("The generation of the fragmentation graph took --- %s seconds ---" % (time.time() - start_time))
 
-    def create_fragmentation_graph_old(self):
+    def create_fragmentation_graph_old(self, check_unknowns=False):
 
         if len(self.breakable_mol_bonds) == 0:
 
@@ -687,7 +869,7 @@ class Geass():
                     NP = 'Yes'
                     kegg_id = name
                     break
-            if NP == 'No' and self.UCL is not None:
+            if NP == 'No' and check_unknowns and self.UCL is not None:
                 unknown_mol = self.mol
                 already_in_list = False
                 new_name = ""
@@ -843,6 +1025,31 @@ class Geass():
                 if len(fragment.GetSubstructMatch(structure, )) == fragment.GetNumAtoms():
                     isNP[nodeKey] = {'isNP': 'Yes', 'kegg_id': name}
                     break
+            if isNP[nodeKey]['isNP'] == 'No' and check_unknowns and self.UCL is not None:
+                unknown_mol = fragment
+                already_in_list = False
+                new_name = ""
+                if not self.UCL:
+                    # Create first id
+                    new_name = "UC_0001"
+                else:
+                    for name, structure in self.UCL.items():
+                        if len(unknown_mol.GetSubstructMatch(structure, )) == unknown_mol.GetNumAtoms():
+                            already_in_list = True
+                            new_name = name
+                            break
+                    if not already_in_list:
+                        # Get last UCL compound name
+                        last_name = list(self.UCL)[-1]
+                        # Get last id number
+                        last_id = int(last_name[3:])
+                        # Create string of new id with trailing zeroes
+                        new_id = str(last_id + 1).zfill(4)
+                        # Create new id with format UC_XXXX
+                        new_name = f"UC_{new_id}"
+                if new_name not in self.UCL:
+                    self.UCL[new_name] = unknown_mol
+                isNP[nodeKey]['kegg_id'] = new_name
 
         nx.set_node_attributes(self.graph, isNP)
 
@@ -850,52 +1057,7 @@ class Geass():
             print("The generation of the fragmentation graph took --- %s seconds ---" % (time.time() - start_time))
 
     def plot_graph(self):
-        undirected = ipycytoscape.CytoscapeWidget()
-        undirected.layout.height = '800px'
-        undirected.layout.width = '970px'
-        undirected.graph.add_graph_from_networkx(self.graph, directed=False)
-
-        undirected.set_layout(name='circle', nodeSpacing=200, edgeLengthVal=100)
-        undirected.set_style([{'selector': "node[isNP = 'Yes']", 'css': {
-            'content': 'data(count)',
-            'text-valign': 'top',
-            'color': 'white',
-            'text-outline-width': 2,
-            'text-outline-color': '#FFFFFF',
-            'shape': 'rectangle',
-            'width': 400,
-            'height': 350,
-            'border-width': 20,
-            'border-color': '#08d13e',
-            'background-color': '#FFFFFF',
-            'background-fit': 'contain',
-            'background-image': 'data(img)'}},
-
-                              {'selector': "node[isNP = 'No']", 'css': {
-                                  'content': 'data(count)',
-                                  'text-valign': 'top',
-                                  'color': 'white',
-                                  'text-outline-width': 2,
-                                  'curve-style': 'straight',
-                                  'text-outline-color': '#FFFFFF',
-                                  'shape': 'rectangle',
-                                  'width': 400,
-                                  'height': 350,
-                                  'border-width': 20,
-                                  'border-color': '#d10808',
-                                  'background-color': '#FFFFFF',
-                                  'background-fit': 'contain',
-                                  'background-image': 'data(img)'}},
-                              {'selector': "edge", 'css': {
-                                  "curve-style": "bezier",
-                                  'width': 20,
-                                  'label': 'data(reaction)',
-                                  'line-color': '#08d13e', }},
-                              {'selector': "edge[reaction='unknown']", 'css': {
-                                  'line-color': '#d10808', }},
-                                  ])
-
-        return undirected
+        return plot_graph(self.graph)
 
     def get_all_NA_neighbours_names(self, node_id):
         names = []
