@@ -1,6 +1,8 @@
 # Folders
 database_unification_data
 backups
+__pycache__
+.vscode
 
 # Specific files
 data/lipid_structures.sdf

@@ -1,11 +1,12 @@
 import networkx as nx
+from utils import get_all_NA_neighbours_names
 
 # v3
-def get_graph_intersections(G_graph, H_graph):
-    G_nodes = [n for n in G_graph.graph.nodes(data=True)]
-    H_nodes = [n for n in H_graph.graph.nodes(data=True)]
-    G_edges_original = [e for e in G_graph.graph.edges(data=True)]
-    H_edges_original = [e for e in H_graph.graph.edges(data=True)]
+def get_graph_intersections(G_geass, H_geass):
+    G_nodes = [n for n in G_geass.G.nodes(data=True)]
+    H_nodes = [n for n in H_geass.G.nodes(data=True)]
+    G_edges_original = [e for e in G_geass.G.edges(data=True)]
+    H_edges_original = [e for e in H_geass.G.edges(data=True)]
 
     def backtrack(G_edges, H_edges, G_H_nodes_equivalences, G_edges_intersected, H_edges_intersected):
         if not G_edges:
@@ -20,18 +21,18 @@ def get_graph_intersections(G_graph, H_graph):
             G_edges_not_intersected = [e for e in G_edges_original if e not in G_edges_intersected]
             H_edges_not_intersected = [e for e in H_edges_original if e not in H_edges_intersected]
             intersection_graph = nx.Graph()
-            intersection_graph.add_nodes_from([(new_id, G_graph.graph.nodes[n_id]) for new_id, n_id in enumerate(G_nodes_aux)])
+            intersection_graph.add_nodes_from([(new_id, G_geass.G.nodes[n_id]) for new_id, n_id in enumerate(G_nodes_aux)])
             # Add the property 'intersection': True to the nodes that are in the intersection
             for n in intersection_graph.nodes:
                 intersection_graph.nodes[n]['intersection'] = 'Yes' 
-            intersection_graph.add_edges_from([(G_nodes_aux.index(e[0]), G_nodes_aux.index(e[1]), G_graph.graph.edges[e]) for e in G_edges_intersected])
+            intersection_graph.add_edges_from([(G_nodes_aux.index(e[0]), G_nodes_aux.index(e[1]), G_geass.G.edges[e]) for e in G_edges_intersected])
             # Add the property 'intersection': True to the edges that are in the intersection
             for e in intersection_graph.edges:
                 intersection_graph.edges[e]['intersection'] = 'Yes'
             # Add the nodes from G that are not in the intersection
-            intersection_graph.add_nodes_from([(new_id+len(G_nodes_aux), G_graph.graph.nodes[n_id]) for new_id, n_id in enumerate(G_nodes_not_intersected)])
+            intersection_graph.add_nodes_from([(new_id+len(G_nodes_aux), G_geass.G.nodes[n_id]) for new_id, n_id in enumerate(G_nodes_not_intersected)])
             # Add the nodes from H that are not in the intersection
-            intersection_graph.add_nodes_from([(new_id+len(G_nodes_aux)+len(G_nodes_not_intersected), H_graph.graph.nodes[n_id]) for new_id, n_id in enumerate(H_nodes_not_intersected)])
+            intersection_graph.add_nodes_from([(new_id+len(G_nodes_aux)+len(G_nodes_not_intersected), H_geass.G.nodes[n_id]) for new_id, n_id in enumerate(H_nodes_not_intersected)])
             # Add the property 'intersection': False to the nodes that are not in the intersection
             for n in range(len(G_nodes_aux), len(G_nodes_aux)+len(G_nodes_not_intersected)):
                 intersection_graph.nodes[n]['intersection'] = 'No'
@@ -65,16 +66,16 @@ def get_graph_intersections(G_graph, H_graph):
         
         for e1 in G_edges:
             source1_idx = e1[0]
-            source1 = G_graph.graph.nodes[source1_idx]['kegg_id'] if G_graph.graph.nodes[source1_idx]['kegg_id'] != 'NA' else G_graph.get_all_NA_neighbours_names(source1_idx)
+            source1 = G_geass.G.nodes[source1_idx]['BU_ID'] if G_geass.G.nodes[source1_idx]['BU_ID'] != 'NA' else get_all_NA_neighbours_names(G_geass, source1_idx)
             target1_idx = e1[1]
-            target1 = G_graph.graph.nodes[target1_idx]['kegg_id'] if G_graph.graph.nodes[target1_idx]['kegg_id'] != 'NA' else G_graph.get_all_NA_neighbours_names(target1_idx)
+            target1 = G_geass.G.nodes[target1_idx]['BU_ID'] if G_geass.G.nodes[target1_idx]['BU_ID'] != 'NA' else get_all_NA_neighbours_names(G_geass, target1_idx)
             reaction1 = e1[2]
 
             for e2 in H_edges:
                 source2_idx = e2[0]
-                source2 = H_graph.graph.nodes[source2_idx]['kegg_id'] if H_graph.graph.nodes[source2_idx]['kegg_id'] != 'NA' else H_graph.get_all_NA_neighbours_names(source2_idx)
+                source2 = H_geass.G.nodes[source2_idx]['BU_ID'] if H_geass.G.nodes[source2_idx]['BU_ID'] != 'NA' else get_all_NA_neighbours_names(H_geass, source2_idx)
                 target2_idx = e2[1]
-                target2 = H_graph.graph.nodes[target2_idx]['kegg_id'] if H_graph.graph.nodes[target2_idx]['kegg_id'] != 'NA' else H_graph.get_all_NA_neighbours_names(target2_idx)
+                target2 = H_geass.G.nodes[target2_idx]['BU_ID'] if H_geass.G.nodes[target2_idx]['BU_ID'] != 'NA' else get_all_NA_neighbours_names(H_geass, target2_idx)
                 reaction2 = e2[2]
 
                 if (source1 == source2 and target1 == target2 
@@ -121,18 +122,18 @@ def get_graph_intersections(G_graph, H_graph):
             G_edges_not_intersected = [e for e in G_edges_original if (e[0], e[1]) not in G_edges_intersected]
             H_edges_not_intersected = [e for e in H_edges_original if (e[0], e[1]) not in H_edges_intersected]
             intersection_graph = nx.Graph()
-            intersection_graph.add_nodes_from([(new_id, G_graph.graph.nodes[n_id]) for new_id, n_id in enumerate(G_nodes_aux)])
+            intersection_graph.add_nodes_from([(new_id, G_geass.G.nodes[n_id]) for new_id, n_id in enumerate(G_nodes_aux)])
             # Add the property 'intersection': True to the nodes that are in the intersection
             for n in intersection_graph.nodes:
                 intersection_graph.nodes[n]['intersection'] = 'Yes' 
-            intersection_graph.add_edges_from([(G_nodes_aux.index(e[0]), G_nodes_aux.index(e[1]), G_graph.graph.edges[e]) for e in G_edges_intersected])
+            intersection_graph.add_edges_from([(G_nodes_aux.index(e[0]), G_nodes_aux.index(e[1]), G_geass.G.edges[e]) for e in G_edges_intersected])
             # Add the property 'intersection': True to the edges that are in the intersection
             for e in intersection_graph.edges:
                 intersection_graph.edges[e]['intersection'] = 'Yes'
             # Add the nodes from G that are not in the intersection
-            intersection_graph.add_nodes_from([(new_id+len(G_nodes_aux), G_graph.graph.nodes[n_id]) for new_id, n_id in enumerate(G_nodes_not_intersected)])
+            intersection_graph.add_nodes_from([(new_id+len(G_nodes_aux), G_geass.G.nodes[n_id]) for new_id, n_id in enumerate(G_nodes_not_intersected)])
             # Add the nodes from H that are not in the intersection
-            intersection_graph.add_nodes_from([(new_id+len(G_nodes_aux)+len(G_nodes_not_intersected), H_graph.graph.nodes[n_id]) for new_id, n_id in enumerate(H_nodes_not_intersected)])
+            intersection_graph.add_nodes_from([(new_id+len(G_nodes_aux)+len(G_nodes_not_intersected), H_geass.G.nodes[n_id]) for new_id, n_id in enumerate(H_nodes_not_intersected)])
             # Add the property 'intersection': False to the nodes that are not in the intersection
             for n in range(len(G_nodes_aux), len(G_nodes_aux)+len(G_nodes_not_intersected)):
                 intersection_graph.nodes[n]['intersection'] = 'No'

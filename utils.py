@@ -1,19 +1,113 @@
+from ipycytoscape import CytoscapeWidget
+
 def create_compound_edges(result_graphs):
     compound_edges = {}
     for shared_name, rg in result_graphs.items():
         current_edges = []
         #print(shared_name)
         for edge in list(rg.G.edges(data=True)):
-            current_kegg_id_0 = rg.G.nodes[edge[0]]['kegg_id']
-            current_kegg_id_1 = rg.G.nodes[edge[1]]['kegg_id']
+            current_kegg_id_0 = rg.G.nodes[edge[0]]['BU_ID']
+            current_kegg_id_1 = rg.G.nodes[edge[1]]['BU_ID']
             if current_kegg_id_0 == 'NA':
-                edge0name = rg.get_all_NA_neighbours_names(edge[0])
+                edge0name = get_all_NA_neighbours_names(rg, edge[0])
             else:
                 edge0name = current_kegg_id_0[0] if type(current_kegg_id_0) == tuple else current_kegg_id_0
             if current_kegg_id_1 == 'NA':
-                edge1name = rg.get_all_NA_neighbours_names(edge[1])
+                edge1name = get_all_NA_neighbours_names(rg, edge[1])
             else:
                 edge1name = current_kegg_id_1[0] if type(current_kegg_id_1) == tuple else current_kegg_id_1
             current_edges.append((edge0name, edge1name, edge[2]['reaction']))
         compound_edges[shared_name] = tuple(current_edges)
     return compound_edges
+
+def get_all_NA_neighbours_names(geass_obj, node_id):
+    names = []
+    # Iterate over the edges of the selecetd node
+    for edge in list(geass_obj.G.edges(node_id, data=True)):
+        # Only include the name of the neighbour if the reaction is unknown (notNP)
+        if edge[2]['reaction'] == 'unknown':
+            # Check which one of the relation members is not the selected node
+            if edge[0] == node_id:
+                current_neighbour = geass_obj.G.nodes[edge[1]]
+            else:
+                current_neighbour = geass_obj.G.nodes[edge[0]]
+            # Add the name to the name list
+            names.append(current_neighbour['BU_ID'][0] if type(current_neighbour['BU_ID']) == tuple else current_neighbour['BU_ID'])
+    return '+'.join(names)
+
+def show_connections_graph(graph):
+    cyto = CytoscapeWidget()
+    cyto.layout.height = '500px'
+    cyto.layout.width = '1400px'
+    cyto.graph.add_graph_from_networkx(graph)
+    cyto.set_layout(name='cose')
+
+    cyto.set_style([{'selector': 'node',
+                        'css': {
+                        'content': 'data(count)',
+                        'width': 50,
+                        'height': 50,
+                        'border-width': 1.5,
+                        'background-color': '#FFFFFF',
+                        # 'background-fit': 'contain',
+                        'background-width': '90%',
+                        'background-height': '90%',
+                        'background-image': 'data(img)'}},
+                    {'selector': "node[isNP = 'Yes']",
+                        'css': {'border-color': '#009b73'}},
+                    {'selector': "node[isNP = 'No']",
+                        'css': {'border-color': '#d10808'}},
+                    {
+                        'selector': "node[intersection='No']",
+                        'css': {
+                            'border-style': 'dashed',
+                            'border-width': 0.5,
+                            'border-dash-pattern': [200, 100],
+                        }
+                    },
+                    {
+                        'selector': "node[origin_graph=1]",
+                        'css': {
+                            'border-color': '#1976d2',
+                        }
+                    },
+                    {
+                        'selector': "node[origin_graph=2]",
+                        'css': {
+                            'border-color': '#ef6c00',
+                        }
+                    },
+                    {'selector': 'edge',
+                        'css': {
+                        'curve-style': 'bezier',
+                        'width': 1.5,
+                        'label': 'data(reaction)',
+                        'font-family': 'helvetica',
+                        'font-size': '10px',
+                        'line-color': '#009b73'}},
+                    
+                    {'selector': "edge[reaction='']",
+                        'css': {'line-color': '#d10808'}},
+                    {
+                        'selector': "edge[intersection='No']",
+                        'css': {
+                            'line-style': 'dashed',
+                            'line-dash-pattern': [3, 2],
+                            'width': 0.5
+                        }
+                    },
+                    {
+                        'selector': "edge[origin_graph=1]",
+                        'css': {
+                            'line-color': '#1976d2',
+                        }
+                    },
+                    {
+                        'selector': "edge[origin_graph=2]",
+                        'css': {
+                            'line-color': '#ef6c00',
+                        }
+                    }
+                ])
+
+    return cyto
