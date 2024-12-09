@@ -68,6 +68,7 @@ class Geass:
         self.verbose = verbose
         self.bonds_to_break = {}
         self.G = nx.Graph()
+        self.UCL = None
 
         # Initialize BUL_dict and df_BUs once at the class level
         if Geass._df_BUs.empty:
@@ -85,7 +86,7 @@ class Geass:
             print(f"Error loading BU Library: {e}")
 
 
-    def check_bul(self, mol):
+    def check_bul(self, mol, check_unknowns=False):
         # First use smiles to to search BUs (faster)
         bu_search = self.df_BUs[self.df_BUs['ISOSMILES'] == Chem.MolToSmiles(mol)]['ID']
 
@@ -101,8 +102,33 @@ class Geass:
                 if len(match) == mol.GetNumAtoms():
                     isNP = 'Yes'; bu_id = row.ID[0]
                     break
+            if isNP == 'No' and check_unknowns and self.UCL is not None:
+                unknown_mol = mol
+                already_in_list = False
+                new_name = ""
+                if not self.UCL:
+                    # Create first id
+                    new_name = "UC_0001"
+                else:
+                    for name, structure in self.UCL.items():
+                        if len(unknown_mol.GetSubstructMatch(structure, )) == unknown_mol.GetNumAtoms():
+                            already_in_list = True
+                            new_name = name
+                            break
+                    if not already_in_list:
+                        # Get last UCL compound name
+                        last_name = list(self.UCL)[-1]
+                        # Get last id number
+                        last_id = int(last_name[3:])
+                        # Create string of new id with trailing zeroes
+                        new_id = str(last_id + 1).zfill(4)
+                        # Create new id with format UC_XXXX
+                        new_name = f"UC_{new_id}"
+                if new_name not in self.UCL:
+                    self.UCL[new_name] = unknown_mol
+                bu_id = new_name
         
-        mol.SetProp('ISOMILES', Chem.MolToSmiles(mol))
+        mol.SetProp('ISOSMILES', Chem.MolToSmiles(mol))
         mol.SetProp('isNP', isNP)
         mol.SetProp('BU_ID', bu_id)
          
@@ -116,7 +142,7 @@ class Geass:
         return self.bonds_to_break
 
 
-    def get_fragments(self):
+    def get_fragments(self, check_unknowns=False):
         reactant_list = [self.query_mol]
 
         # Set isotope to keep track of atoms during fragmentation
@@ -166,7 +192,7 @@ class Geass:
 
         if not final_prods:
             remove_isotopes(self.query_mol)
-            self.check_bul(self.query_mol)
+            self.check_bul(self.query_mol, check_unknowns)
             self.frag_mols = [self.query_mol]
             return self.frag_mols
 
@@ -189,7 +215,7 @@ class Geass:
 
         # Add BUL information
         for frag in self.frag_mols:
-            self.check_bul(frag)
+            self.check_bul(frag, check_unknowns)
 
         return self.frag_mols
 
@@ -229,7 +255,7 @@ class Geass:
 
     def show_connections_graph(self):
 
-        self.create_connections_graph()
+        # self.create_connections_graph()
         # nx.write_graphml(self.G, "graph.graphml")
 
         # #! ------------- Plot with yEd ------------!#
