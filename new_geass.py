@@ -2,13 +2,15 @@ import pandas as pd
 from urllib import parse
 from itertools import combinations
 from copy import deepcopy
+import threading
 
 import networkx as nx
 from ipycytoscape import CytoscapeWidget
 
 from rdkit import Chem
-from rdkit.Chem.Draw import rdMolDraw2D
 from rdkit.Chem import AllChem
+from rdkit.Chem.SaltRemover import SaltRemover
+from rdkit.Chem.Draw import rdMolDraw2D
 from rdkit.Chem.rdMolDescriptors import CalcMolFormula
 
 #* Nomenclature
@@ -27,9 +29,9 @@ reactions = {
     'thioester': "[SX2:0]-[C:1]=[O:2]>>([SX2:0].[C:1](=[O:2])-O)",
     'ether': "[#6;!$(C=O);!$([CH3]);!$([C;r5,r6](-[O;r5,r6])-O):0]-[OX2H0;!r;!$(O-[C;$([C;r5,r6](-[O;r5,r6])-O)]);!$(O-[CH3]):1]>>([#6:0]-O.[O:1])",
     'glycosidic': "[C;$([C;r5,r6](-[O;r5,r6])-O):0]-[OX2H0;!r;!$(O-[CH3]):1]>>([C:0]-O.[O:1])",
-    'N-alk': "[#7:0][CH3:1]>>([#7:0].[C:1])",
-    'O-alk': "[#8:0][CH3:1]>>([#8:0].[C:1])",
-    'iminol': "[NX2H0:0]=[C:1]-[O:2]>>([N:0].O-[C:1]=[O:2])",
+    'N-alk': "[#7:0][CH3:1]>>([#7H1:0].[C:1])",
+    'O-alk': "[#8:0][CH3:1]>>([#8H1:0].[C:1])",
+    'iminol': "[NX2H0;!R:0]=[C:1]-[O:2]>>([N:0].O[C:1]=[OX2H0:2])",
     }
 reactions = {k: AllChem.ReactionFromSmarts(v) for k, v in reactions.items()}
 
@@ -41,6 +43,23 @@ def flatten(list):
 def remove_isotopes(mol):
     for atom in mol.GetAtoms():
         atom.SetIsotope(0)
+
+def neutralize_atoms(mol):
+    """
+    https://baoilleach.blogspot.com/2019/12/no-charge-simple-approach-to.html
+    # +1 charged atoms must have a hydrogen, or we can't remove H+
+    # we must check neighbor atom charges to avoid altering groups
+    # with charge-separated representations (e.g. nitro).
+    """
+    pattern = Chem.MolFromSmarts("[+1!H0!$([-1,-2,-3,-4]),-1!$([+1,+2,+3,+4])]")
+    matches = [x[0] for x in mol.GetSubstructMatches(pattern)]
+    for match in matches:
+        atom = mol.GetAtomWithIdx(match)
+        atom.SetNumExplicitHs(atom.GetTotalNumHs() - atom.GetFormalCharge())
+        atom.SetFormalCharge(0)
+        atom.UpdatePropertyCache()
+    del mol.__sssAtoms
+    return mol
 
 def mol2svg(mol):
     try:
@@ -63,8 +82,7 @@ def mol2svg(mol):
 class Geass:
     _df_BUs = pd.DataFrame()
 
-    def __init__(self, query_mol, verbose=False):
-        self.query_mol = deepcopy(query_mol)
+    def __init__(self, verbose=False):
         self.verbose = verbose
         self.bonds_to_break = {}
         self.G = nx.Graph()
@@ -142,82 +160,137 @@ class Geass:
         return self.bonds_to_break
 
 
-    def get_fragments(self, check_unknowns=False):
+    def get_fragments(self, query_mol, check_unknowns=False):
+        # TODO: Instead of removing ions, add them to graph with special 'ionic' edge
+        self.query_mol = deepcopy(query_mol)
+        remover = SaltRemover()
+        self.query_mol = remover.StripMol(self.query_mol)
+        self.query_mol = neutralize_atoms(self.query_mol)
         reactant_list = [self.query_mol]
+        
+        # Remove multi-molecule objects
+        if len(Chem.MolToSmiles(self.query_mol).split('.')) > 1:
+            self.frag_mols = reactant_list
+            for frag in self.frag_mols:
+                self.check_bul(frag, check_unknowns)
+            return self.frag_mols
 
-        # Set isotope to keep track of atoms during fragmentation
+        # Use isotopes to keep track of atoms during fragmentation
         for atom in reactant_list[0].GetAtoms():
             atom.SetIsotope(atom.GetIdx()+1)  # Without +1, atom #0 would not get labelled
 
         # Get reactions involved in the fragmentation
         self.get_bonds_to_break()
         reactions_involved = {r: reactions[r] for r in set(self.bonds_to_break.values())}
+        if not reactions_involved:
+            self.frag_mols = [query_mol]
+            for frag in self.frag_mols:
+                self.check_bul(frag, check_unknowns)
+            return self.frag_mols
 
+        final_prods = self.fragment_molecule_with_timeout(reactant_list, reactions_involved, 8, check_unknowns)
+        # print(final_prods)
+
+        # Use dictionary {(idx): mol} to remove duplicated Mols
+        isotope_prods = {tuple(sorted([atom.GetIsotope() for atom in prod.GetAtoms()
+            if atom.GetIsotope() != 0])): prod for prod in final_prods}
+        
+        if len(isotope_prods) == 1:
+            self.frag_mols = list(isotope_prods.values())
+        else:
+            # Combine products to cover the whole query mol
+            self.combine_frags_with_timeout(isotope_prods, timeout=10)
+
+        # Add BUL information
+        for frag in self.frag_mols:
+            remove_isotopes(frag)
+            self.check_bul(frag, check_unknowns)
+
+        return self.frag_mols
+
+
+    def fragment_molecule(self, reactant_list, reactions_involved):
         final_prods = []
         for rxn_name, rxn in list(reactions_involved.items()):
             waiting_list = []
             while True:
                 intermediate_prods = []
                 for reactant in reactant_list:
-
                     prod_Mol = rxn.RunReactants((reactant,), maxProducts=1)
 
                     if not prod_Mol:
                         waiting_list.append(reactant)
                         continue
 
-                    # Retrieve broken bond info
                     prod_Mol = prod_Mol[0][0]
-                    # display(rxn_name, reactant, prod_Mol)
                     atom_pair = [atom.GetIdx() for atom in prod_Mol.GetAtoms()
                                  if atom.HasProp('old_mapno')]
-                                #  and not atom.HasProp('broken_bond')]
-                    
-                    # Mark all the atoms recognised by RunReactants with their original idx
-                    for idx in atom_pair:
-                        prod_Mol.GetAtomWithIdx(idx).SetProp('old_mapno',
-                            str(prod_Mol.GetAtomWithIdx(idx).GetIsotope()-1))
 
+                    for idx in atom_pair:
+                        prod_Mol.GetAtomWithIdx(idx).SetProp(
+                            'old_mapno',
+                            str(prod_Mol.GetAtomWithIdx(idx).GetIsotope() - 1))
+
+                    # print(rxn_name, prod_Mol)
                     prod_mols = Chem.GetMolFrags(prod_Mol, asMols=True)
                     intermediate_prods.extend(prod_mols)
 
                 if intermediate_prods:
                     reactant_list = waiting_list + intermediate_prods
                     reactant_list = [r for i, r in enumerate(reactant_list)
-                                    if Chem.MolToSmiles(r) not in {Chem.MolToSmiles(reactant_list[j])
-                                    for j in range(i)}]
+                                     if Chem.MolToSmiles(r) not in {Chem.MolToSmiles(reactant_list[j])
+                                     for j in range(i)}]
                 else:
                     final_prods = reactant_list
-                    break
+                    return final_prods
 
-        if not final_prods:
-            remove_isotopes(self.query_mol)
-            self.check_bul(self.query_mol, check_unknowns)
+    def fragment_molecule_with_timeout(self, reactant_list, reactions_involved, timeout, check_unknowns=False):
+        def target():
+            try:
+                self.fragment_molecule(reactant_list, reactions_involved)
+            except: pass
+
+        thread = threading.Thread(target=target)
+        timer = threading.Timer(timeout, lambda: None)
+
+        thread.start()
+        timer.start()
+
+        thread.join(timeout)
+        timer.cancel()
+
+        if thread.is_alive():
             self.frag_mols = [self.query_mol]
-            return self.frag_mols
+        else:
+            self.frag_mols = self.fragment_molecule(reactant_list, reactions_involved)
 
-        # Remove duplicated Mols
-        iso_prod = {tuple(sorted([atom.GetIsotope() for atom in prod.GetAtoms()
-            if atom.GetIsotope() != 0])): prod for prod in final_prods}
-        
-        iso_combo = []
-        for r in range(2, len(iso_prod.keys()) + 1):
-            for combo in combinations(iso_prod.keys(), r):
-                if sorted(flatten(combo)) == list(range(1, self.query_mol.GetNumAtoms()+1)):
-                    iso_combo.append(list(combo))
-        prod_combos = [[iso_prod[x] for x in combo] for combo in iso_combo]
-
-        for combo in prod_combos:
-            for prod in combo:
-                remove_isotopes(prod)
-
-        self.frag_mols = prod_combos[0]  #<-- Arbitrarily choosing the first combo
-
-        # Add BUL information
-        for frag in self.frag_mols:
-            self.check_bul(frag, check_unknowns)
+        remove_isotopes(self.query_mol)
+        self.check_bul(self.query_mol, check_unknowns)
 
         return self.frag_mols
+
+
+    def combine_frags_with_timeout(self, isotope_prods, timeout):
+        def target():
+            try:
+                for r in range(2, len(isotope_prods.keys()) + 1):
+                    for combo in combinations(isotope_prods.keys(), r):
+                        if sorted(flatten(combo)) == list(range(1, self.query_mol.GetNumAtoms() + 1)):
+                            return [isotope_prods[x] for x in combo]  #<-- Arbitrarily choosing the first combo; TODO: fix
+            except: pass
+
+        timer = threading.Timer(timeout, lambda: None)
+        thread = threading.Thread(target=target)
+
+        thread.start()
+        timer.start()
+
+        thread.join(timeout)
+        timer.cancel()
+
+        if thread.is_alive():
+            return []
+        return target()
 
 
     def create_connections_graph(self):
