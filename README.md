@@ -13,13 +13,11 @@ You need to have Anaconda installed on your system. If you don't have Anaconda i
 1. Clone the repository to your local machine:
     ```bash
     git clone https://github.com/idener/geass-and-metabolic-disassembler.git
-    cd geass-and-metabolic-disassembler
     ```
 
-2. Create and activate the conda environment using the `new_geass.yml` file:
+2. Create the conda environment using the `new_geass.yml` file:
     ```bash
     conda env create -f new_geass.yml
-    conda activate new_geass
     ```
 
 ## Usage
