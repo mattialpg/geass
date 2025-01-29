@@ -2,7 +2,7 @@
 
 ## Requirements
 
-This tool only works on Linux. Please ensure you are using a Linux-based operating system.
+This tool only works on Linux. Please ensure you are using a Linux-based operating system. In case you are using Windows, we recommend installing [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) to use this tool.
 
 ## Prerequisites
 
