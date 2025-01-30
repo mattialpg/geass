@@ -62,7 +62,7 @@ def get_graph_intersections(G_geass, H_geass, add_not_common=True):
                 # Add the edges not in intersection to intersection_graph
                 intersection_graph.add_edges_from(edges_not_intersected)
             # results.append(intersection_graph)
-            print("End condition reached (no edges left)")
+            # print("End condition reached (no edges left)")
             return [intersection_graph]
 
         current_level_results = []
@@ -166,7 +166,7 @@ def get_graph_intersections(G_geass, H_geass, add_not_common=True):
                 # Add the edges not in intersection to intersection_graph
                 intersection_graph.add_edges_from(edges_not_intersected)
             current_level_results.append(intersection_graph)
-            print("End condition reached (end of loop)")
+            # print("End condition reached (end of loop)")
         return current_level_results
 
     results = []
