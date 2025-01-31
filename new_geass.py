@@ -100,7 +100,7 @@ class Geass:
         self.bonds_to_break = {}
         self.frag_mols = []
         self.G = nx.Graph()
-        self.UCL = {'UC0000': ''}
+        self.UCL = None
 
         # Initialize BUL_dict and df_BUs once at the class level
         if Geass._df_BUs.empty:
@@ -140,22 +140,29 @@ class Geass:
                     break
 
         # Assign UC code to non-NP BUs
-        if isNP == 'No' and check_unknowns:
+        if isNP == 'No' and check_unknowns and self.UCL is not None:
             for uc_code, smile in self.UCL.items():
                 if smile == Chem.MolToSmiles(mol):
                     bu_id = uc_code
                     break
-            else:
-                # Executed if no match is found in the loop
-                last_uc_code = list(self.UCL)[-1]
-                uc_code = re.sub(R"\d{4}", lambda x: f"{int(x.group()) + 1:04}", last_uc_code)
-                self.UCL[uc_code] = Chem.MolToSmiles(mol)
-                bu_id = uc_code
+                else:
+                    # Executed if no match is found in the loop
+                    if not self.UCL:
+                        # Create first id
+                        uc_code = "UC_0001"
+                    else:
+                        last_uc_code = list(self.UCL)[-1]
+                        uc_code = re.sub(R"\d{4}", lambda x: f"{int(x.group()) + 1:04}", last_uc_code)
+                    self.UCL[uc_code] = Chem.MolToSmiles(mol)
+                    bu_id = uc_code
             
         mol.SetProp('ISOSMILES', Chem.MolToSmiles(mol))
         mol.SetProp('isNP', isNP)
         mol.SetProp('BU_ID', bu_id)
-        mol.SetProp('BRITE', brite)
+        if brite:
+            mol.SetProp('BRITE', brite)
+        else:
+            mol.SetProp('BRITE', 'NA')
          
 
     def get_bonds_to_break(self):
