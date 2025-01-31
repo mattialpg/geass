@@ -82,6 +82,15 @@ def mol2svg(mol):
 
     return impath
 
+from rdkit.Chem import rdDepictor
+def reset_view(mol):
+    """ Reset coordinates for display """
+    mol = deepcopy(mol)
+    rdDepictor.SetPreferCoordGen(True)
+    rdDepictor.Compute2DCoords(mol)
+    rdDepictor.StraightenDepiction(mol)
+    return mol
+
 
 class Geass:
     _df_BUs = pd.DataFrame()
@@ -506,7 +515,7 @@ class Geass:
         # new_prods = rxn_rev.RunReactants('.....')[0][0]
 
 
-    def replace_BUs(self, query_mol, bu_to_replace, new_bu, bu_class):
+    def replace_BUs(query_mol, bu_to_replace, new_bu, bu_class):
         
         def prepare_BUs(bu):
             replacements = {'aas': (Chem.MolFromSmiles('CC(N)C(=O)O'), Chem.MolFromSmiles('C')),  # Working from C-beta onwards
@@ -543,4 +552,4 @@ class Geass:
         chimera = Chem.RemoveHs(chimera)
         Chem.SanitizeMol(chimera)
 
-        return chimera
+        return reset_view(chimera)
