@@ -136,16 +136,16 @@ class Geass:
                 if smile == Chem.MolToSmiles(mol):
                     bu_id = uc_code
                     break
+            else:
+                # Executed if no match is found in the loop
+                if not self.UCL:
+                    # Create first id
+                    uc_code = "UC_0001"
                 else:
-                    # Executed if no match is found in the loop
-                    if not self.UCL:
-                        # Create first id
-                        uc_code = "UC_0001"
-                    else:
-                        last_uc_code = list(self.UCL)[-1]
-                        uc_code = re.sub(R"\d{4}", lambda x: f"{int(x.group()) + 1:04}", last_uc_code)
-                    self.UCL[uc_code] = Chem.MolToSmiles(mol)
-                    bu_id = uc_code
+                    last_uc_code = list(self.UCL)[-1]
+                    uc_code = re.sub(R"\d{4}", lambda x: f"{int(x.group()) + 1:04}", last_uc_code)
+                self.UCL[uc_code] = Chem.MolToSmiles(mol)
+                bu_id = uc_code
             
         mol.SetProp('ISOSMILES', Chem.MolToSmiles(mol))
         mol.SetProp('isNP', isNP)
