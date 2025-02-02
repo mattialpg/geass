@@ -82,15 +82,13 @@ def mol2svg(mol):
 
     return impath
 
-from rdkit.Chem import rdDepictor
 def reset_view(mol):
     """ Reset coordinates for display """
     mol = deepcopy(mol)
-    rdDepictor.SetPreferCoordGen(True)
-    rdDepictor.Compute2DCoords(mol)
-    rdDepictor.StraightenDepiction(mol)
+    Chem.rdDepictor.SetPreferCoordGen(True)
+    Chem.rdDepictor.Compute2DCoords(mol)
+    Chem.rdDepictor.StraightenDepiction(mol)
     return mol
-
 
 class Geass:
     _df_BUs = pd.DataFrame()
