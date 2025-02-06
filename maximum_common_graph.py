@@ -1,4 +1,5 @@
 import networkx as nx
+from functools import lru_cache
 from utils import get_all_NA_neighbours_names
 
 # v3
@@ -52,7 +53,17 @@ def get_graph_intersections(G_geass, H_geass, add_not_common=True):
             intersection_graph.add_edges_from(edges_not_intersected)
         return intersection_graph
 
-    def backtrack(G_edges, H_edges, G_H_nodes_equivalences, G_edges_intersected, H_edges_intersected):
+    def dict_to_frozenset(d):
+        return frozenset(d.items())
+
+    @lru_cache(maxsize=None)
+    def backtrack(G_edges_tuple, H_edges_tuple, G_H_nodes_equivalences_tuple, G_edges_intersected_tuple, H_edges_intersected_tuple):
+        G_edges = [(e[0], e[1], dict(e[2])) for e in G_edges_tuple]
+        H_edges = [(e[0], e[1], dict(e[2])) for e in H_edges_tuple]
+        G_H_nodes_equivalences = dict(G_H_nodes_equivalences_tuple)
+        G_edges_intersected = [(e[0], e[1]) for e in G_edges_intersected_tuple]
+        H_edges_intersected = [(e[0], e[1]) for e in H_edges_intersected_tuple]
+
         if not G_edges:
             G_nodes_intersected = set(item for sublist in G_edges_intersected for item in sublist)
             H_nodes_intersected = set(item for sublist in H_edges_intersected for item in sublist)
@@ -112,7 +123,13 @@ def get_graph_intersections(G_geass, H_geass, add_not_common=True):
                     new_G_edges_intersected.append((source1_idx, target1_idx))
                     new_H_edges_intersected.append((source2_idx, target2_idx))
 
-                    new_results = backtrack(G_edges[1:], [e for e in H_edges if e != e2], new_G_H_nodes_equivalences, new_G_edges_intersected, new_H_edges_intersected)
+                    new_results = backtrack(
+                        tuple((e[0], e[1], dict_to_frozenset(e[2])) for e in G_edges[1:]), 
+                        tuple((e[0], e[1], dict_to_frozenset(e[2])) for e in H_edges if e != e2), 
+                        tuple((k, v) for k, v in new_G_H_nodes_equivalences.items()), 
+                        tuple(new_G_edges_intersected), 
+                        tuple(new_H_edges_intersected)
+                    )
                     current_level_results = current_level_results + new_results
         # If there are no results yet, add the current result before returning
         if not current_level_results:
@@ -131,7 +148,13 @@ def get_graph_intersections(G_geass, H_geass, add_not_common=True):
         return current_level_results
 
     results = []
-    results = backtrack(G_edges_original, H_edges_original, {}, [], [])
+    results = backtrack(
+        tuple((e[0], e[1], dict_to_frozenset(e[2])) for e in G_edges_original), 
+        tuple((e[0], e[1], dict_to_frozenset(e[2])) for e in H_edges_original), 
+        tuple({}.items()), 
+        tuple([]), 
+        tuple([])
+    )
     return results
 
 def get_best_intersection(intersected_graphs):
