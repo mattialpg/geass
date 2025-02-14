@@ -44,7 +44,7 @@ def show_connections_graph(graph):
 
     cyto.set_style([{'selector': 'node',
                         'css': {
-                        'content': 'data(count)',
+                        'content': 'data(BU_ID)',  # Use BU_ID for labels
                         'width': 50,
                         'height': 50,
                         'border-width': 1.5,
@@ -52,7 +52,12 @@ def show_connections_graph(graph):
                         # 'background-fit': 'contain',
                         'background-width': '90%',
                         'background-height': '90%',
-                        'background-image': 'data(img)'}},
+                        'background-image': 'data(img)',
+                        'font-family': 'helvetica',
+                        'font-size': '10px',
+                        'text-halign': 'center',
+                        'text-valign': 'bottom',
+                        'text-margin-y': '8px'}},
                     {'selector': "node[isNP = 'Yes']",
                         'css': {'border-color': '#009b73'}},
                     {'selector': "node[isNP = 'No']",
@@ -84,7 +89,12 @@ def show_connections_graph(graph):
                         'label': 'data(reaction)',
                         'font-family': 'helvetica',
                         'font-size': '10px',
-                        'line-color': '#009b73'}},
+                        'line-color': '#009b73',
+                        'text-valign': 'center',
+                        'text-background-color': '#ffffff',
+                        'text-background-opacity': 1,
+                        'text-background-shape': 'roundrectangle',
+                        'padding': '50px'}},
                     
                     {'selector': "edge[reaction='']",
                         'css': {'line-color': '#d10808'}},
