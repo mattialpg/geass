@@ -100,7 +100,7 @@ class Geass:
         self.bonds_to_break = {}
         self.frag_mols = []
         self.G = nx.Graph()
-        self.UCL = None
+        self.UCL = {}
 
         # Initialize BUL_dict and df_BUs once at the class level
         if Geass._df_BUs.empty:
@@ -118,7 +118,7 @@ class Geass:
             print(f"Error loading BU Library: {e}")
 
 
-    def check_BUs(self, mol, check_unknowns=False):
+    def check_BUs(self, mol, check_unknowns):
         #TODO: arginine is not recognised. Probably for tautomers 
         # First use smiles to to search BUs (faster)
         bu_from_smiles = self.df_BUs[self.df_BUs['ISOSMILES'] == Chem.MolToSmiles(mol)]
@@ -140,29 +140,19 @@ class Geass:
                     break
 
         # Assign UC code to non-NP BUs
-        if isNP == 'No' and check_unknowns and self.UCL is not None:
-            for uc_code, smile in self.UCL.items():
-                if smile == Chem.MolToSmiles(mol):
-                    bu_id = uc_code
-                    break
-                else:
-                    # Executed if no match is found in the loop
-                    if not self.UCL:
-                        # Create first id
-                        uc_code = "UC_0001"
-                    else:
-                        last_uc_code = list(self.UCL)[-1]
-                        uc_code = re.sub(R"\d{4}", lambda x: f"{int(x.group()) + 1:04}", last_uc_code)
-                    self.UCL[uc_code] = Chem.MolToSmiles(mol)
-                    bu_id = uc_code
+        if isNP == 'No' and check_unknowns:
+            if len(self.UCL) == 0:
+                uc_code = "UC0001"  # Create first id
+            else:
+                last_uc_code = list(self.UCL)[-1]
+                uc_code = re.sub(R"\d{4}", lambda x: f"{int(x.group()) + 1:04}", last_uc_code)
+            self.UCL[uc_code] = Chem.MolToSmiles(mol)
+            bu_id = uc_code
             
         mol.SetProp('ISOSMILES', Chem.MolToSmiles(mol))
         mol.SetProp('isNP', isNP)
         mol.SetProp('BU_ID', bu_id)
-        if brite:
-            mol.SetProp('BRITE', brite)
-        else:
-            mol.SetProp('BRITE', 'NA')
+        mol.SetProp('BRITE', brite)
          
 
     def get_bonds_to_break(self):
@@ -174,7 +164,7 @@ class Geass:
         return self.bonds_to_break
 
 
-    def get_fragments(self, query_mol, check_unknowns=False):
+    def get_fragments(self, query_mol, check_unknowns=True):
         self.query_mol = deepcopy(query_mol)
         try:
             # TODO: Instead of removing ions, add them to graph with special 'ionic' edge
@@ -522,7 +512,7 @@ class Geass:
         # new_prods = rxn_rev.RunReactants('.....')[0][0]
 
 
-    def replace_BUs(query_mol, bu_to_replace, new_bu, bu_class):
+    def replace_BUs(self, query_mol, bu_to_replace, new_bu, bu_class):
         
         def prepare_BUs(bu):
             replacements = {'aas': (Chem.MolFromSmiles('CC(N)C(=O)O'), Chem.MolFromSmiles('C')),  # Working from C-beta onwards
@@ -545,13 +535,9 @@ class Geass:
 
         # Replace BU
         chimera = AllChem.ReplaceSubstructs(query_mol, bu_to_replace, new_bu, useChirality=True)[0]
-        
-        # display(bu_to_replace, new_bu)
-        # display(query_mol)
-        # display(chimera)
 
-        # #! BUG: ReplaceSubstructs automatically invert chirality even with useChirality=True.
-        # #! Revert to originl chirality
+        #! BUG: ReplaceSubstructs automatically invert chirality even with useChirality=True.
+        #! Revert to originl chirality
         # C_beta = query_mol.GetAtomWithIdx(query_mol.GetSubstructMatch(bu_to_replace)[0])
         # C_alpha_idx = C_beta.GetNeighbors()[0].GetIdx()
         # chimera.GetAtomWithIdx(C_alpha_idx).InvertChirality()
@@ -559,4 +545,5 @@ class Geass:
         chimera = Chem.RemoveHs(chimera)
         Chem.SanitizeMol(chimera)
 
-        return reset_view(chimera)
+        return chimera
+        # return reset_view(chimera)
