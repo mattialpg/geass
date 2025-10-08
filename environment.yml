@@ -11,7 +11,9 @@ dependencies:
   - scipy
   - pandas
   - scikit-learn
+  - networkx
   - matplotlib
+  - ipycytoscape
   - plotly
   - ipython
   - ipywidgets
