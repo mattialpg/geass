@@ -4,6 +4,7 @@ from rdkit.Chem import AllChem
 from urllib import parse
 import numpy as np
 import networkx as nx
+import plotly.graph_objects as go
 
 from utils import *
 
@@ -47,6 +48,8 @@ def mol2svg(mol):
     # Draw SVG
     mol = reset_view(mol)
     drawer = rdMolDraw2D.MolDraw2DSVG(600, 600)
+    opts = drawer.drawOptions()
+    opts.clearBackground = False
     rdMolDraw2D.PrepareAndDrawMolecule(drawer, mol)
     drawer.FinishDrawing()
     svg_string = drawer.GetDrawingText()
@@ -55,20 +58,20 @@ def mol2svg(mol):
 
 
 def create_connection_graph(self):
-
     for i, frag_mol in enumerate(self.frag_mols):
         self.G.add_nodes_from([(i, {'SMILES': Chem.MolToSmiles(frag_mol),
                                     'isNP': frag_mol.GetProp('isNP'),
-                                    'BU_ID': frag_mol.GetProp('BU_ID'),
+                                    'MU_ID': frag_mol.GetProp('MU_ID'),
+                                    # 'atoms': [k for k, v in self.atom_frag.items() if v == i],
                                     'img': mol2svg(frag_mol)
                                     })])
-
+    
     # Create edge/attributes dictionary
     edge_dict = {}
     for k, v in self.bonds_to_break.items():
-        if k[0] in self.atom_to_frag and k[1] in self.atom_to_frag:
-            f1 = self.atom_to_frag[k[0]]
-            f2 = self.atom_to_frag[k[1]]
+        if k[0] in self.atom_frag and k[1] in self.atom_frag:
+            f1 = self.atom_frag[k[0]]
+            f2 = self.atom_frag[k[1]]
             edge_dict[(f1, f2)] = v
             #<-- This last condition arises because, for symmetrical envs,
             #<-- only one of the two possible breakage contained in bonds_to_break
@@ -89,6 +92,7 @@ def show_connection_graph(self, method='cytoscape'):
     if method == 'yEd':
         import random
         from yfiles_jupyter_graphs import GraphWidget
+        import networkx as nx
 
         # --- Preprocess graph: random jitter to break symmetry ---
         for node in self.G.nodes():
@@ -97,10 +101,13 @@ def show_connection_graph(self, method='cytoscape'):
         # Optional: reorder nodes by degree to space hubs
         self.G = nx.Graph(sorted(self.G.degree, key=lambda x: -x[1]))
         
-        def custom_images(id, node):
-            label = list(self.G.nodes())[id]
-            img = self.G.nodes[label]['img']
-            return {'img': img}
+        def custom_images(node):
+            props = node.get('properties', {})
+            img = props.get('img')
+            print(img)
+            style = {'fill': 'transparent', 'stroke': 'transparent'}
+            style['image'] = img
+            return style
 
         w = GraphWidget(graph=self.G)
         w.node_label_mapping = ''  # Hide labels
@@ -110,80 +117,139 @@ def show_connection_graph(self, method='cytoscape'):
 
         # --- Enhanced organic layout configuration ---
         w.organic_layout(
-            preferred_edge_length=250,
-            node_overlaps_allowed=False,
-            node_size_consideration=True,
-            edge_crossing_avoidance=True,
-            deterministic=True,
-            consider_node_labels=True,
-            act_on_selection=False,
-            minimum_node_distance=40
+            # preferred_edge_length=250,
+            # node_overlaps_allowed=False,
+            # node_size_consideration=True,
+            # edge_crossing_avoidance=True,
+            # deterministic=True,
+            # consider_node_labels=True,
+            # act_on_selection=False,
+            # minimum_node_distance=40
         )
 
         # --- Optional: rerun layout twice to further relax edges ---
-        w.organic_layout(preferred_edge_length=150)
+        # w.organic_layout(preferred_edge_length=150)
 
         w.show()
 
     #! ------------- Plot with Plotly ------------!#
     if method == 'plotly':
-        import plotly.graph_objects as go
-        # Create positions for nodes using spring layout
-        pos = nx.spring_layout(self.G, k=1)
+        # --- Compute RDKit 2D coordinates ---
+        AllChem.Compute2DCoords(self.mol)
+        coords = self.mol.GetConformer().GetPositions()  # (n_atoms, 3)
 
-        # Extract the positions into separate x and y lists for Plotly
+        # --- Compute node positions as barycenters of their atoms ---
+        raw_pos = {}; scale = 40
+        for node in self.G.nodes():
+            atoms = self.G.nodes[node].get('atoms', [])
+            if atoms:
+                atom_coords = np.array([coords[i][:2] for i in atoms])
+                barycenter = atom_coords.mean(axis=0)
+                raw_pos[node] = barycenter * scale
+            else:
+                raw_pos[node] = np.array([1, 1])  # fallback
+
+        # --- Collect ranges for normalisation ---
+        xs = np.array([raw_pos[n][0] for n in self.G.nodes()])
+        ys = np.array([raw_pos[n][1] for n in self.G.nodes()])
+
+        xmin, xmax = xs.min(), xs.max()
+        ymin, ymax = ys.min(), ys.max()
+
+        # Avoid zero-division; if molecule collapsed to a point, widen artificially
+        if xmax == xmin:
+            xmax = xmin + 1.0
+        if ymax == ymin:
+            ymax = ymin + 1.0
+
+        # --- Normalise into [0,1] ---
+        norm_pos = {}
+        for n in self.G.nodes():
+            x, y = raw_pos[n]
+            nx = (x - xmin) / (xmax - xmin)
+            ny = (y - ymin) / (ymax - ymin)
+            norm_pos[n] = np.array([nx, ny])
+
+        # Optional: scale to plot-friendly size
+        plot_scale = 500
+        pos = {n: norm_pos[n] * plot_scale for n in self.G.nodes()}
+
+        # --- Extract coordinates for plotting ---
         x_vals = [pos[n][0] for n in self.G.nodes()]
         y_vals = [pos[n][1] for n in self.G.nodes()]
 
-        # Create node trace for Plotly
+        # --- Edges ---
+        edge_x = []
+        edge_y = []
+        for e in self.G.edges():
+            x0, y0 = pos[e[0]]
+            x1, y1 = pos[e[1]]
+            edge_x += [x0, x1, None]
+            edge_y += [y0, y1, None]
+
+        edge_trace = go.Scatter(
+            x=edge_x, y=edge_y,
+            line=dict(width=1.7, color='black'),
+            mode='lines',
+            hoverinfo='none'
+        )
+
+        # --- Nodes ---
+        node_colors = [
+            'green' if self.G.nodes[n].get('isNP') == 'Yes' else 'red'
+            for n in self.G.nodes()
+        ]
+
         node_trace = go.Scatter(
             x=x_vals, y=y_vals,
             mode='markers',
-            marker=dict(size=110, color='white',
-            line=dict(width=1.7, color=['green' if self.G.nodes[n].get('isNP') == 'Yes'
-                                            else 'red' for n in self.G.nodes()])),
-            text=[f'Node {n}' for n in self.G.nodes()],
-            hoverinfo='text')
+            marker=dict(
+                size=100,
+                color='white',
+                line=dict(width=1.7, color=node_colors)
+            ),
+            text=[
+                f"Node {n}<br>isNP: {self.G.nodes[n].get('isNP')}<br>"
+                f"Atoms: {self.G.nodes[n].get('atoms')}"
+                for n in self.G.nodes()
+            ],
+            hoverinfo='text'
+        )
 
-        # Create edge trace
-        edge_trace = go.Scatter(
-            x=sum([[pos[e[0]][0], pos[e[1]][0], None] for e in self.G.edges()], []),
-            y=sum([[pos[e[0]][1], pos[e[1]][1], None] for e in self.G.edges()], []),
-            line=dict(width=1.7, color='black'),
-            hoverinfo='none',
-            mode='lines')
-
-        # Create the figure with the node and edge traces
-        fig = go.Figure(data=[edge_trace, node_trace])
-
-        # Create list of images (SVG or PNG) to overlay on the graph
+        # --- Overlay images ---
         image_annotations = []
-        for node in self.G.nodes(data=True):
-            x, y = pos[node[0]]
-            image_url = node[1]['img']
-            image_annotations.append(
-                dict(
-                    source=image_url,
-                    xref="x", yref="y",
-                    x=x, y=y,
-                    sizex=.3, sizey=.3,
-                    xanchor="center", yanchor="middle",
-                    layer="above"))
+        for node, data in self.G.nodes(data=True):
+            x, y = pos[node]
+            if 'img' in data and data['img']:
+                image_annotations.append(
+                    dict(
+                        source=data['img'],
+                        xref="x", yref="y",
+                        x=x, y=y,
+                        sizex=200, sizey=200,
+                        xanchor="center", yanchor="middle",
+                        layer="above"
+                    )
+                )
 
-        # Add the images (SVGs or PNGs) to the layout
-        fig.update_layout(images=image_annotations)
-
-        # Configure layout
+        # --- Build figure ---
+        fig = go.Figure(data=[edge_trace, node_trace])
         fig.update_layout(
+            images=image_annotations,
             showlegend=False,
-            xaxis=dict(showgrid=False, zeroline=False, visible=False),  # Remove x-axis
-            yaxis=dict(showgrid=False, zeroline=False, visible=False),  # Remove y-axis
-            paper_bgcolor="white",     # Set background color to white
-            plot_bgcolor="white",      # Set plot background to white
-            margin=dict(t=0, b=0, l=0, r=0),  # Remove padding around plot
-            width=600,                 # Set width
-            height=600)                # Set height to be equal to width
-        
+            xaxis=dict(showgrid=False, zeroline=False, visible=False),
+            yaxis=dict(showgrid=False, zeroline=False, visible=False),
+            paper_bgcolor="white",
+            plot_bgcolor="white",
+            # margin=dict(t=0, b=0, l=0, r=0),
+            width=700, height=500)
+
+        fig.update_xaxes(constrain='domain', fixedrange=True)
+        fig.update_yaxes(scaleanchor="x", scaleratio=1)
+        fig.update_yaxes(fixedrange=True)
+        fig.update_layout(autosize=False)
+
+
         fig.show()
 
     #! ----------- Plot with Cytoscape -----------!#
@@ -192,19 +258,19 @@ def show_connection_graph(self, method='cytoscape'):
         #* and https://dash.plotly.com/cytoscape/layout
 
         cyto = CytoscapeWidget()
-        cyto.layout.height = '500px'
+        cyto.layout.height = '800px'
         cyto.layout.width = '1400px'
-        cyto.graph.add_graph_from_networkx(self.G)
         cyto.set_layout(name='cose')
+        cyto.graph.add_graph_from_networkx(self.G)
 
-        # Update node labels to use the 'BU_ID' attribute
+        # Update node labels to use the 'MU_ID' attribute
         for node in cyto.graph.nodes:
-            node.data['label'] = node.data.get('BU_ID', '')
+            node.data['label'] = node.data.get('MU_ID', '')
 
         cyto.set_style([{'selector': 'node',
                         'css': {
                             # 'content': 'data(count)',
-                            'content': 'data(BU_ID)',  # Use BU_ID for labels
+                            'content': 'data(MU_ID)',  # Use MU_ID for labels
                             'width': 50,
                             'height': 50,
                             'border-width': 1.5,
@@ -243,9 +309,15 @@ def show_connection_graph(self, method='cytoscape'):
                             'padding': '50px'}},
                         
                         {'selector': "edge[reaction='']",
-                        'css': {'line-color': '#d10808'}}
+                        'css': {'line-color': '#d10808'}},
+
+                        # {'selector': 'node:hover',
+                        #  'style': {'label': 'data(atoms)',
+                        #            'overlay-opacity': 0.1,
+                        #            'overlay-color': 'black'}}
                         ])
 
         # display(cyto)
         return cyto
         # return self.G
+

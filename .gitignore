@@ -6,10 +6,10 @@ __pycache__/
 
 # Specific files
 data/lipid_structures.sdf
-data/Database_BUL.pkl
+data/MUDB.pkl
 metadisassembler5/data/BUL_v2.pkl
 lipidmaps/lipid_structures.sdf
 result_graphs_Jan24.pkl
 similarity_matrix_SECRETed+peptides_v1_Jan24.csv
 similarity_matrix_peptides_v1_Jan24.csv
-data/Database_BUL.csv
+classifier/xgb_reaction_pairs.pkl
