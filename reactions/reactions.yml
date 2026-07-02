@@ -1,0 +1,58 @@
+ArCP cyclisation: >
+  [NR:0]=[CR:1]-[O,S;R:2]>>([N:0]-[C:1]=O.[O,S:2])
+
+
+# --- SPECIAL CASES --- #
+O-methyl: > # Methyltransferases 
+  [#8:0][CH3:1]>>([#8:0].[C:1])
+
+N-methyl: > # Methyltransferases
+  [#7:0][CH3:1]>>([#7H:0].[C:1])
+
+S-methyl: > # Methyltransferases 
+  [#16:0][CH3:1]>>([#16:0].[C:1])
+
+acetyl: > # Acetyltransferases
+  [N,O;$([N,O]([#6])([#6])):0]-[C;$(C(=O)[CH3]):1]>>([N,O:0].[C:1]-[#0])
+
+prenyl: >
+  [N,S:0]-[C!R;$(CC=C(C)C):1]>>([N,S:0].[C:1])
+
+sulphate: > # Sulfotransferases
+  [#6,#7:0]-[O;$(O[SX4]):1]>>([#6,#7:0]O.[O:1]-[#0])
+
+phosphate: > # Phosphotransferases
+  [#6:0]-[O;$(O[PX4]):1]>>([#6:0]O.[O:1]-[#0]) 
+
+
+# --- GENERAL REACTIONS --- #
+
+amide: >
+  [NX3;$(N([#6])[#6]);!$(NO):0]-[C:1]=[O:2]>>([N:0].[C:1](=[O:2])-O)
+
+ester: >
+  [OX2H0;$(O([#6])([#6]));!$(O-[CH3]):0]-[C;$(C(=O));!$([C;r5,r6](-[O;r5,r6]));!$(C(=O)[CH3]):1]>>([O:0].[C:1]-O)
+
+thioester: >
+  [SX2:0]-[C:1]=[O:2]>>([SX2:0].[C:1](=[O:2])-O)
+
+O-glycosidic: >
+  [CX4;$([C;r5,r6](-[O;r5,r6])-O):0]-[OX2H0;!r;!$(O-[CH3]):1]>>([C:0]-O.[O:1])
+
+N-glycosidic: >
+  [CX4;$([C;r5,r6](-[O;r5,r6])-[#7]):0]-[#7;!$([#7]-[CH3]):1]>>([C:0]-O.[#7X3;H1,H2:1])
+
+C-glycosidic: >
+  [CX4;$([C;r5,r6]-[O;r5,r6]):0]-[c:1]>>([C:0]-O.[c:1])
+
+iminol: >
+  [NX2H0;!R:0]=[C:1]-[O:2]>>([N:0].O[C:1]=[OX2H0:2])
+
+imine: >
+  [N;$(NO):0]=[C:1]>>([N:0].[C:1]=[OX2H0:2])
+
+cross-link-1: >
+  [c;$(c(cO)-ccO),$(c(cO)-cn),$(c(cO)-ncn):0]~[c,n;$(c(cO)-ccO),$(c(n)-ccO),$(n(cn)-ccO):1]>>([c:0].[c,nH:1])
+
+cross-link-2: >
+  [c;$(c(c[O,Cl])Occ(c)),$(c(n)Oc):0]~[O;$(Occ),$(O(cn)cn):1]>>([c:0].[O:1])

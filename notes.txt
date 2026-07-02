@@ -1,2 +1,0 @@
-#! Check: BS_0754, LTS0262572
-# sample = database3[database3['ID'] == 'LTS0262572']
