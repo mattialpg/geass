@@ -139,6 +139,10 @@ class FragmentationEngine:
                 if iso:
                     self.atom_frag[iso - 1] = i
 
+        for frag_mol in valid_frags:
+            for atom in frag_mol.GetAtoms():
+                atom.SetIsotope(0)
+
         self.frag_mols = valid_frags
 
         return self.frag_mols, self.atom_frag

@@ -16,5 +16,6 @@ classifier/xgb_reaction_pairs.pkl
 NPA_analysis/NPA_sim_matrix_*.pkl
 NPA_analysis/NPA_sim_matrix_*.npz
 NPA_analysis/NPA_sim_matrix_*_ids.npy
+NPA_analysis/NPA_map4.pkl
 data/MUDB_map4.npz
 data/MUDB_atompair.npz

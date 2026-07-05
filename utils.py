@@ -8,11 +8,6 @@ def flatten(list):
     flat_list = [item for sublist in list for item in sublist]
     return(flat_list)
 
-def remove_isotopes(mol):
-    for atom in mol.GetAtoms():
-        atom.SetIsotope(0)
-    return mol
-
 
 from rdkit import Chem
 from rdkit.Chem.MolStandardize import rdMolStandardize

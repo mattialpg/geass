@@ -70,16 +70,21 @@ def mol2svg(mol):
         return ''
 
 
+class NoBreakableBondError(ValueError):
+    pass
+
+
 class Geass:
     _resources_loaded = False
 
-    def __init__(self, annotate=True, sim_threshold=None, verbose=False, method="map4"):
+    def __init__(self, fp="map4", annotate=True, sim_threshold=None, verbose=False, as_dict=False):
         self.annotate = annotate
+        self.as_dict = as_dict
         if sim_threshold is None:
-            sim_threshold = 0.35 if method == "map4" else 0.76
+            sim_threshold = 0.35 if fp == "map4" else 0.76
         self.sim_threshold = sim_threshold
         self.verbose = verbose
-        self.method = method
+        self.method = fp
         self.mol = None
         self.bonds_to_break = {}
         self.frag_mols = []
@@ -97,7 +102,7 @@ class Geass:
         self.fragmenter = FragmentationEngine(workdir)
 
 
-    def get_fragments(self, query_mol, as_smiles=False):
+    def get_fragments(self, query_mol):
         """
         Fragment a molecule into potential metabolic units (MUs).
         Cleans, fragments, deduplicates, and classifies fragments.
@@ -110,16 +115,18 @@ class Geass:
 
         try:
             # --- Step 1: Prepare molecule ---
-            self.mol = Chem.Mol(query_mol)
             self.mol = utils.standardize_mol(Chem.Mol(query_mol))
 
             # --- Step 2: Determine which reaction applies ---
             self.bonds_to_break = self.fragmenter.get_bonds_to_break(self.mol)
-            if not self.bonds_to_break:
-                raise Exception
-
+            
             # --- Step 3: Run fragmentation ---
-            self.frag_mols, self.atom_frag = self.fragmenter.fragment_molecule(self.mol)
+            note = None
+            if self.bonds_to_break:
+                self.frag_mols, self.atom_frag = self.fragmenter.fragment_molecule(self.mol)
+            else:
+                self.frag_mols = [self.mol]
+                note = "No breakable bonds found"
 
             # # --- Step 4: Combine if isotopic coverage incomplete ---
             # total_isotopes = {atom.GetIsotope() for atom in self.mol.GetAtoms() if atom.GetIsotope()}
@@ -132,37 +139,29 @@ class Geass:
             #     if combined:
             #         self.frag_mols = combined
 
-            # --- Step 5: Clean and annotate ---
-            for i, frag_mol in enumerate(self.frag_mols):
-                frag_mol = utils.remove_isotopes(frag_mol)
-                # frag_mol = utils.standardize_mol(frag_mol)
+            # --- Step 5: Annotate ---
+            frag_dicts = []
+            for frag_mol in self.frag_mols:
                 if self.annotate:
-                    self.annotator.annotate_fragment(frag_mol, self.sim_threshold)
+                    frag_props = self.annotator.annotate_fragment(frag_mol, self.sim_threshold)
                 else:
-                    frag_mol.SetProp("ISOSMILES", Chem.MolToSmiles(frag_mol))
-                    frag_mol.SetProp("MUID", Chem.MolToInchiKey(frag_mol))
-                self.frag_mols[i] = frag_mol
+                    frag_props = {"ISOSMILES": Chem.MolToSmiles(frag_mol, canonical=True, isomericSmiles=True),
+                        "InChIKey": Chem.MolToInchiKey(frag_mol)}
+                frag_props['Note'] = note
 
-            if as_smiles:
-                return [Chem.MolToSmiles(m, kekuleSmiles=True) for m in self.frag_mols]
+                if self.as_dict:
+                    frag_dicts.append(frag_props)
+                    continue
+                
+                for key, value in frag_props.items():
+                    frag_mol.SetProp(key, str(value))
+
+            if self.as_dict:
+                return frag_dicts
             return self.frag_mols
-        
+
         except Exception as e:
-            # print(e)
-            self.bonds_to_break.clear()
-            self.atom_frag.clear()
-            frag_mol = Chem.Mol(self.mol)
-            frag_mol = utils.remove_isotopes(frag_mol)
-            if self.annotate:
-                self.annotator.annotate_fragment(frag_mol, self.sim_threshold)
-            else:
-                frag_mol.SetProp("ISOSMILES", Chem.MolToSmiles(frag_mol))
-                frag_mol.SetProp("MUID", Chem.MolToInchiKey(frag_mol))
-            self.frag_mols = [frag_mol]
-
-            if as_smiles:
-                return [Chem.MolToSmiles(frag_mol)]
-            return self.frag_mols
+            return ["ERROR: Other"]
 
 
     def create_connection_graph(self, img=True):

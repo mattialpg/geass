@@ -1,8 +1,6 @@
-ArCP cyclisation: >
-  [NR:0]=[CR:1]-[O,S;R:2]>>([N:0]-[C:1]=O.[O,S:2])
 
+# --- TAYLORING REACTIONS --- #
 
-# --- SPECIAL CASES --- #
 O-methyl: > # Methyltransferases 
   [#8:0][CH3:1]>>([#8:0].[C:1])
 
@@ -25,7 +23,7 @@ phosphate: > # Phosphotransferases
   [#6:0]-[O;$(O[PX4]):1]>>([#6:0]O.[O:1]-[#0]) 
 
 
-# --- GENERAL REACTIONS --- #
+# --- ASSEMBLY REACTIONS --- #
 
 amide: >
   [NX3;$(N([#6])[#6]);!$(NO):0]-[C:1]=[O:2]>>([N:0].[C:1](=[O:2])-O)
@@ -56,3 +54,6 @@ cross-link-1: >
 
 cross-link-2: >
   [c;$(c(c[O,Cl])Occ(c)),$(c(n)Oc):0]~[O;$(Occ),$(O(cn)cn):1]>>([c:0].[O:1])
+
+ArCP cyclisation: >
+  [NR:0]=[CR:1]-[O,S;R:2]>>([N:0]-[C:1]=O.[O,S:2])

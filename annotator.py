@@ -101,8 +101,15 @@ class AnnotationEngine:
 
     @classmethod
     def annotate_fragment(cls, mol, threshold):
-        """ Annotate RDKit mol with molecular properties """
-        smiles = Chem.MolToSmiles(mol)
+        """Return fragment annotation data."""
+        smiles = Chem.MolToSmiles(mol, canonical=True, isomericSmiles=True)
+        inchikey = Chem.MolToInchiKey(mol) if "*" not in smiles else ""
+        out = {"ISOSMILES": smiles,
+               "InChIKey": inchikey,
+               "MUID": "",
+               "isNP": "Yes",
+               "Annotation_status": "Direct",
+               "Similarity": "1.0"}
 
         # Hard-coded special fragments
         special = {
@@ -112,45 +119,39 @@ class AnnotationEngine:
             '*OP(=O)(O)O': 'C00002',
             '*OP(=O)(O)OP(=O)(O)O': 'C00002',
             '*OP(=O)(O)OP(=O)(O)OP(=O)(O)O': 'C00002',
-            }
-        if smiles in special.keys():
-            mol.SetProp("ISOSMILES", smiles)
-            mol.SetProp("isNP", "Yes")
-            mol.SetProp("MUID", special[smiles])
-            mol.SetProp("Similarity", "1.0")
-            mol.SetProp("Annotation", "Special")
-            return 
+        }
+        if smiles in special:
+            out["MUID"] = special[smiles]
+            out["Annotation_status"] = "Special"
+            return out
 
-        # Step 1: check MUDB for an exact InChIKey match
-        inchikey = Chem.MolToInchiKey(mol)
-        muid = cls.check_MUDB(inchikey)
-        isNP = "Yes"
-        sim = 1.0
-        ann = "Direct"
+        # Check MUDB for an exact InChIKey match
+        out["MUID"] = cls.check_MUDB(inchikey)
 
-        # Step 2: if not found, check UUDB for similarity
-        # if muid == "":
+        # If not found, check UUDB for similarity
+        # if out["MUID"] == "":
         #     muid = cls.checkUUDB(smiles, inchi, threshold)
         #     isNP = "Similar"
 
-        # Step 3: if still not found, use model to find best match
-        if muid == '':
-            muid, sim = cls.find_similar(mol)
-            ann = "Similarity"
-            if sim == 1:
-                isNP = 'Yes'
-            elif sim >= threshold:
-                isNP = 'Similar'
+        # If still not found, use model to find best match
+        if out["MUID"] == '':
+            if "*" not in smiles:
+                out["MUID"], sim = cls.find_similar(mol)
+                out["Annotation_status"] = "Similarity"
+                out["Similarity"] = str(sim)
+                if sim == 1:
+                    out["isNP"] = "Yes"
+                elif sim >= threshold:
+                    out["isNP"] = "Similar"
+                else:
+                    out["MUID"] = inchikey
+                    out["Similarity"] = "0.0"
+                    out["isNP"] = "No"
+                    out["Annotation_status"] = "None"
             else:
-                muid = inchikey
-                sim = 0.0
-                isNP = 'No'
-                ann = 'None'
+                out["MUID"] = ""
+                out["Similarity"] = "0.0"
+                out["isNP"] = "No"
+                out["Annotation_status"] = "None"
 
-        # Step 5: annotate RDKit Mol
-        mol.SetProp("ISOSMILES", smiles)
-        mol.SetProp("isNP", isNP)
-        mol.SetProp("MUID", muid)
-        mol.SetProp("Similarity", str(sim))
-        mol.SetProp("Annotation", ann)
-        # mol.SetProp("Original_atoms", self.atom_frag)
+        return out

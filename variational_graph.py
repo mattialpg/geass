@@ -1,58 +1,12 @@
 import networkx as nx
-import numpy as np
-from map4 import MAP4Calculator
 from rdkit import Chem
 
 from new_geass import mol2svg
 
 
-_MAP4_CALCULATOR = MAP4Calculator(dimensions=1024)
-_FP_CACHE = {}
-
-
-def _get_map4_fp(node_data):
-    fp = node_data.get("MAP4")
-    if fp is not None:
-        arr = np.asarray(fp)
-        if arr.size > 0:
-            return arr
-
-    smiles = node_data.get("SMILES") or ""
-    if not smiles:
-        return None
-
-    cached = _FP_CACHE.get(smiles)
-    if cached is not None:
-        return cached
-
-    mol = Chem.MolFromSmiles(smiles)
-    if mol is None:
-        return None
-
-    smiles0 = Chem.MolToSmiles(mol, isomericSmiles=False)
-    mol0 = Chem.MolFromSmiles(smiles0)
-    if mol0 is None:
-        return None
-
-    fp = np.asarray(_MAP4_CALCULATOR.calculate(mol0), dtype=np.uint32)
-    _FP_CACHE[smiles] = fp
-    return fp
-
-
-def _map4_sim(fp_a, fp_b):
-    if fp_a is None or fp_b is None:
-        return 0.0
-
-    a = np.asarray(fp_a)
-    b = np.asarray(fp_b)
-    if a.shape != b.shape or a.size == 0:
-        return 0.0
-
-    return float((a == b).mean())
-
-
-def _node_smiles(data):
-    return data.get("SMILES") or ""
+def _node_key(data):
+    key = data.get("MUID")
+    return str(key) if key else None
 
 
 def _update_representative_muid(V, v, graphs):
@@ -66,89 +20,44 @@ def _update_representative_muid(V, v, graphs):
         V.nodes[v]["MUID"] = max(muid_counts.items(), key=lambda kv: kv[1])[0]
 
 
-def _update_weighted_medoid(V, v, graphs):
-    members = V.nodes[v]["members"]
-    reps = []
-    for mgid, mnode in members:
-        data = graphs[mgid].nodes[mnode]
-        smiles = _node_smiles(data)
-        fp = _get_map4_fp(data)
-        if fp is None or not smiles:
-            continue
-        reps.append((smiles, fp, data.get("MUID", ""), mgid))
-
-    if not reps:
-        return
-
-    graph_weights = {}
-    for _, _, _, gid in reps:
-        graph_weights[gid] = graph_weights.get(gid, 0) + 1
-
-    best_idx = 0
-    best_score = -1.0
-    for i, (_, fp_i, _, _) in enumerate(reps):
-        score = 0.0
-        for _, fp_j, _, gid_j in reps:
-            score += float(graph_weights.get(gid_j, 1)) * _map4_sim(fp_i, fp_j)
-        if score > best_score:
-            best_score = score
-            best_idx = i
-
-    best_smiles, _, best_muid, _ = reps[best_idx]
-    V.nodes[v]["SMILES"] = best_smiles
-    if best_muid:
-        V.nodes[v]["MUID"] = best_muid
-
-
-def build_variational_graph(graphs, threshold=0.20):
+def build_variational_graph(graphs):
     V = nx.Graph()
     original_to_v = {}
+    key_to_vids = {}
     next_vid = 0
 
     for gid, G in enumerate(graphs):
         for n, data in G.nodes(data=True):
-            fp = _get_map4_fp(data)
-            if fp is None:
+            key = _node_key(data)
+            if key is None:
                 continue
 
             best_v = None
-            best_score = -1.0
+            for vid in key_to_vids.get(key, []):
+                member_gids = {member_gid for member_gid, _ in V.nodes[vid]["members"]}
+                if gid not in member_gids:
+                    best_v = vid
+                    break
 
-            for v, vdata in V.nodes(data=True):
-                member_gids = {member[0] for member in vdata.get("members", [])}
-                if gid in member_gids:
-                    continue
-
-                scores = []
-                for member_gid, member_node in vdata.get("members", []):
-                    member_data = graphs[member_gid].nodes[member_node]
-                    scores.append(_map4_sim(fp, _get_map4_fp(member_data)))
-                score = float(np.mean(scores)) if scores else 0.0
-
-                if score > best_score:
-                    best_score = score
-                    best_v = v
-
-            if best_v is not None and best_score > threshold:
-                original_to_v[(gid, n)] = best_v
-                V.nodes[best_v]["members"].append((gid, n))
-                member_gids = {x[0] for x in V.nodes[best_v]["members"]}
-                V.nodes[best_v]["is_support"] = "Yes" if len(member_gids) > 1 else "No"
-                _update_representative_muid(V, best_v, graphs)
-                _update_weighted_medoid(V, best_v, graphs)
-            else:
-                vid = next_vid
+            if best_v is None:
+                best_v = next_vid
                 next_vid += 1
-                smiles = _node_smiles(data)
+                key_to_vids.setdefault(key, []).append(best_v)
                 V.add_node(
-                    vid,
-                    members=[(gid, n)],
+                    best_v,
+                    members=[],
                     is_support="No",
-                    SMILES=smiles,
-                    MUID=data.get("MUID", ""),
+                    SMILES=data.get("SMILES", ""),
+                    MUID=str(data.get("MUID", "")),
                     img="",
+                    key=key,
                 )
-                original_to_v[(gid, n)] = vid
+
+            original_to_v[(gid, n)] = best_v
+            V.nodes[best_v]["members"].append((gid, n))
+            member_gids = {x[0] for x in V.nodes[best_v]["members"]}
+            V.nodes[best_v]["is_support"] = "Yes" if len(member_gids) > 1 else "No"
+            _update_representative_muid(V, best_v, graphs)
 
     for gid, G in enumerate(graphs):
         for u, v in G.edges():
@@ -183,7 +92,7 @@ def build_variational_graph(graphs, threshold=0.20):
     return V
 
 
-def show_variation_graph(V, highlight_gid=None):
+def show_variational_graph(V, highlight_gid=None):
         from ipycytoscape import CytoscapeWidget
         layout = 'cose'
 
