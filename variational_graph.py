@@ -20,7 +20,7 @@ def _update_representative_muid(V, v, graphs):
         V.nodes[v]["MUID"] = max(muid_counts.items(), key=lambda kv: kv[1])[0]
 
 
-def build_variational_graph(graphs):
+def build_variational_graph(graphs, threshold=0.20):
     V = nx.Graph()
     original_to_v = {}
     key_to_vids = {}
@@ -224,3 +224,7 @@ def show_variational_graph(V, highlight_gid=None):
         nx.write_graphml(V_plot, "V.graphml")
 
         return cyto
+
+
+def show_variation_graph(V, highlight_gid=None):
+    return show_variational_graph(V, highlight_gid=highlight_gid)

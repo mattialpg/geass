@@ -77,9 +77,11 @@ class NoBreakableBondError(ValueError):
 class Geass:
     _resources_loaded = False
 
-    def __init__(self, fp="map4", annotate=True, sim_threshold=None, verbose=False, as_dict=False):
+    def __init__(self, fp="map4", annotate=True, sim_threshold=None, verbose=False, as_dict=False, method=None):
         self.annotate = annotate
         self.as_dict = as_dict
+        if method is not None:
+            fp = method
         if sim_threshold is None:
             sim_threshold = 0.35 if fp == "map4" else 0.76
         self.sim_threshold = sim_threshold
@@ -102,7 +104,7 @@ class Geass:
         self.fragmenter = FragmentationEngine(workdir)
 
 
-    def get_fragments(self, query_mol):
+    def get_fragments(self, query_mol, as_smiles=False, check_unknowns=False):
         """
         Fragment a molecule into potential metabolic units (MUs).
         Cleans, fragments, deduplicates, and classifies fragments.
@@ -145,8 +147,14 @@ class Geass:
                 if self.annotate:
                     frag_props = self.annotator.annotate_fragment(frag_mol, self.sim_threshold)
                 else:
-                    frag_props = {"ISOSMILES": Chem.MolToSmiles(frag_mol, canonical=True, isomericSmiles=True),
-                        "InChIKey": Chem.MolToInchiKey(frag_mol)}
+                    frag_props = {
+                        "ISOSMILES": Chem.MolToSmiles(frag_mol, canonical=True, isomericSmiles=True),
+                        "InChIKey": Chem.MolToInchiKey(frag_mol),
+                        "MUID": Chem.MolToInchiKey(frag_mol),
+                        "isNP": "",
+                        "Annotation": "",
+                        "Similarity": "0.0",
+                    }
                 frag_props['Note'] = note
 
                 if self.as_dict:
@@ -158,10 +166,40 @@ class Geass:
 
             if self.as_dict:
                 return frag_dicts
+            if as_smiles:
+                return [Chem.MolToSmiles(m, canonical=True, isomericSmiles=True) for m in self.frag_mols]
             return self.frag_mols
 
         except Exception as e:
-            return ["ERROR: Other"]
+            self.bonds_to_break.clear()
+            self.atom_frag.clear()
+            if self.mol is None:
+                return []
+
+            frag_mol = Chem.Mol(self.mol)
+            frag_dict = None
+            if self.annotate:
+                frag_dict = self.annotator.annotate_fragment(frag_mol, self.sim_threshold)
+            else:
+                frag_dict = {
+                    "ISOSMILES": Chem.MolToSmiles(frag_mol, canonical=True, isomericSmiles=True),
+                    "InChIKey": Chem.MolToInchiKey(frag_mol),
+                    "MUID": Chem.MolToInchiKey(frag_mol),
+                    "isNP": "",
+                    "Annotation": "",
+                    "Similarity": "0.0",
+                }
+
+            if self.as_dict:
+                return [frag_dict]
+
+            for key, value in frag_dict.items():
+                frag_mol.SetProp(key, str(value))
+            self.frag_mols = [frag_mol]
+
+            if as_smiles:
+                return [Chem.MolToSmiles(frag_mol, canonical=True, isomericSmiles=True)]
+            return self.frag_mols
 
 
     def create_connection_graph(self, img=True):
