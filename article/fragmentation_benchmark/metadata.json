@@ -1,0 +1,28 @@
+{
+  "experiment": "NP Atlas fragmentation benchmark",
+  "provenance": "MIGRATED: existing article/fragmentation_benchmark.csv (no new fragmentation was executed)",
+  "source_path": "article/fragmentation_benchmark.csv",
+  "source_git_blob_sha": "e5247ae4ebe24034ef84c08a8ff1edd1082b4cc6",
+  "sample_size": 300,
+  "seed": 42,
+  "repeats": 1,
+  "methods": [
+    "GEASS",
+    "BRICS",
+    "MetaDi"
+  ],
+  "geass_annotate": false,
+  "metadi_time_limit_s": 20,
+  "save_fragments": false,
+  "runtime_definition": "method processing only, instantiation/setup time unavailable",
+  "brics_fragment_definition": "distinct terminal fragment types from BRICSDecompose",
+  "granularity_definition": "successful outputs only; original per-molecule mean atoms/fragment",
+  "unavailable_fields": [
+    "setup_s",
+    "total_s",
+    "heavy_atoms",
+    "mol_wt",
+    "fragment_smiles"
+  ],
+  "migration_note": "Replicate number 1 labels the sole observed execution per compound/method in the available CSV. It does not establish which configured notebook replicate was exported. No original raw fragment SMILES or setup measurements were supplied."
+}
