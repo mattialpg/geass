@@ -1,0 +1,563 @@
+[
+  {
+    "compound": "enterobactin",
+    "parent_smiles": "O=C(N[C@H]1COC(=O)[C@@H](NC(=O)c2cccc(O)c2O)COC(=O)[C@@H](NC(=O)c2cccc(O)c2O)COC1=O)c1cccc(O)c1O",
+    "method": "Geass",
+    "status": "ok",
+    "runtime_s": 2.9335,
+    "n_fragments": 6,
+    "error": "",
+    "candidate_count": "",
+    "fragments": [
+      {
+        "index": 1,
+        "smiles": "O=C(O)c1cccc(O)c1O",
+        "inchi_key": "GLDQAMYCGOIJDV-UHFFFAOYSA-N",
+        "heavy_atoms": 11,
+        "total_atoms": 11
+      },
+      {
+        "index": 2,
+        "smiles": "O=C(O)c1cccc(O)c1O",
+        "inchi_key": "GLDQAMYCGOIJDV-UHFFFAOYSA-N",
+        "heavy_atoms": 11,
+        "total_atoms": 11
+      },
+      {
+        "index": 3,
+        "smiles": "O=C(O)c1cccc(O)c1O",
+        "inchi_key": "GLDQAMYCGOIJDV-UHFFFAOYSA-N",
+        "heavy_atoms": 11,
+        "total_atoms": 11
+      },
+      {
+        "index": 4,
+        "smiles": "N[C@@H](CO)C(=O)O",
+        "inchi_key": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+        "heavy_atoms": 7,
+        "total_atoms": 7
+      },
+      {
+        "index": 5,
+        "smiles": "N[C@@H](CO)C(=O)O",
+        "inchi_key": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+        "heavy_atoms": 7,
+        "total_atoms": 7
+      },
+      {
+        "index": 6,
+        "smiles": "N[C@@H](CO)C(=O)O",
+        "inchi_key": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+        "heavy_atoms": 7,
+        "total_atoms": 7
+      }
+    ]
+  },
+  {
+    "compound": "enterobactin",
+    "parent_smiles": "O=C(N[C@H]1COC(=O)[C@@H](NC(=O)c2cccc(O)c2O)COC(=O)[C@@H](NC(=O)c2cccc(O)c2O)COC1=O)c1cccc(O)c1O",
+    "method": "BRICS",
+    "status": "ok",
+    "runtime_s": 0.0056,
+    "n_fragments": 4,
+    "error": "",
+    "candidate_count": "",
+    "fragments": [
+      {
+        "index": 1,
+        "smiles": "[15*][C@H]1COC(=O)[C@@H]([15*])COC(=O)[C@@H]([15*])COC1=O",
+        "inchi_key": null,
+        "heavy_atoms": 15,
+        "total_atoms": 18
+      },
+      {
+        "index": 2,
+        "smiles": "[16*]c1cccc(O)c1O",
+        "inchi_key": null,
+        "heavy_atoms": 8,
+        "total_atoms": 9
+      },
+      {
+        "index": 3,
+        "smiles": "[1*]C([6*])=O",
+        "inchi_key": null,
+        "heavy_atoms": 2,
+        "total_atoms": 4
+      },
+      {
+        "index": 4,
+        "smiles": "[5*]N[5*]",
+        "inchi_key": null,
+        "heavy_atoms": 1,
+        "total_atoms": 3
+      }
+    ]
+  },
+  {
+    "compound": "enterobactin",
+    "parent_smiles": "O=C(N[C@H]1COC(=O)[C@@H](NC(=O)c2cccc(O)c2O)COC(=O)[C@@H](NC(=O)c2cccc(O)c2O)COC1=O)c1cccc(O)c1O",
+    "method": "MetaDi",
+    "status": "ok",
+    "runtime_s": 33.0088,
+    "n_fragments": 12,
+    "error": "",
+    "candidate_count": 8,
+    "fragments": [
+      {
+        "index": 1,
+        "smiles": "O=Cc1ccccc1",
+        "inchi_key": "HUMNYLRZRPPJDN-UHFFFAOYSA-N",
+        "heavy_atoms": 8,
+        "total_atoms": 8
+      },
+      {
+        "index": 2,
+        "smiles": "O=Cc1ccccc1",
+        "inchi_key": "HUMNYLRZRPPJDN-UHFFFAOYSA-N",
+        "heavy_atoms": 8,
+        "total_atoms": 8
+      },
+      {
+        "index": 3,
+        "smiles": "O=Cc1ccccc1",
+        "inchi_key": "HUMNYLRZRPPJDN-UHFFFAOYSA-N",
+        "heavy_atoms": 8,
+        "total_atoms": 8
+      },
+      {
+        "index": 4,
+        "smiles": "N[C@@H](CO)C(=O)O",
+        "inchi_key": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+        "heavy_atoms": 7,
+        "total_atoms": 7
+      },
+      {
+        "index": 5,
+        "smiles": "C[C@H](N)C(=O)O",
+        "inchi_key": "QNAYBMKLOCPYGJ-REOHCLBHSA-N",
+        "heavy_atoms": 6,
+        "total_atoms": 6
+      },
+      {
+        "index": 6,
+        "smiles": "C[C@H](N)C=O",
+        "inchi_key": "QPMCUNAXNMSGTK-VKHMYHEASA-N",
+        "heavy_atoms": 5,
+        "total_atoms": 5
+      },
+      {
+        "index": 7,
+        "smiles": "O",
+        "inchi_key": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+        "heavy_atoms": 1,
+        "total_atoms": 1
+      },
+      {
+        "index": 8,
+        "smiles": "O",
+        "inchi_key": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+        "heavy_atoms": 1,
+        "total_atoms": 1
+      },
+      {
+        "index": 9,
+        "smiles": "O",
+        "inchi_key": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+        "heavy_atoms": 1,
+        "total_atoms": 1
+      },
+      {
+        "index": 10,
+        "smiles": "O",
+        "inchi_key": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+        "heavy_atoms": 1,
+        "total_atoms": 1
+      },
+      {
+        "index": 11,
+        "smiles": "O",
+        "inchi_key": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+        "heavy_atoms": 1,
+        "total_atoms": 1
+      },
+      {
+        "index": 12,
+        "smiles": "O",
+        "inchi_key": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+        "heavy_atoms": 1,
+        "total_atoms": 1
+      }
+    ]
+  },
+  {
+    "compound": "salmochelin_s4",
+    "parent_smiles": "O=C(N[C@H]1COC(=O)[C@@H](NC(=O)c2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c2O)COC(=O)[C@@H](NC(=O)c2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c2O)COC1=O)c1cccc(O)c1O",
+    "method": "Geass",
+    "status": "ok",
+    "runtime_s": 0.0106,
+    "n_fragments": 8,
+    "error": "",
+    "candidate_count": "",
+    "fragments": [
+      {
+        "index": 1,
+        "smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O",
+        "inchi_key": "WQZGKKKJIJFFOK-VFUOTHLCSA-N",
+        "heavy_atoms": 12,
+        "total_atoms": 12
+      },
+      {
+        "index": 2,
+        "smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O",
+        "inchi_key": "WQZGKKKJIJFFOK-VFUOTHLCSA-N",
+        "heavy_atoms": 12,
+        "total_atoms": 12
+      },
+      {
+        "index": 3,
+        "smiles": "O=C(O)c1cccc(O)c1O",
+        "inchi_key": "GLDQAMYCGOIJDV-UHFFFAOYSA-N",
+        "heavy_atoms": 11,
+        "total_atoms": 11
+      },
+      {
+        "index": 4,
+        "smiles": "O=C(O)c1cccc(O)c1O",
+        "inchi_key": "GLDQAMYCGOIJDV-UHFFFAOYSA-N",
+        "heavy_atoms": 11,
+        "total_atoms": 11
+      },
+      {
+        "index": 5,
+        "smiles": "O=C(O)c1cccc(O)c1O",
+        "inchi_key": "GLDQAMYCGOIJDV-UHFFFAOYSA-N",
+        "heavy_atoms": 11,
+        "total_atoms": 11
+      },
+      {
+        "index": 6,
+        "smiles": "N[C@@H](CO)C(=O)O",
+        "inchi_key": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+        "heavy_atoms": 7,
+        "total_atoms": 7
+      },
+      {
+        "index": 7,
+        "smiles": "N[C@@H](CO)C(=O)O",
+        "inchi_key": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+        "heavy_atoms": 7,
+        "total_atoms": 7
+      },
+      {
+        "index": 8,
+        "smiles": "N[C@@H](CO)C(=O)O",
+        "inchi_key": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+        "heavy_atoms": 7,
+        "total_atoms": 7
+      }
+    ]
+  },
+  {
+    "compound": "salmochelin_s4",
+    "parent_smiles": "O=C(N[C@H]1COC(=O)[C@@H](NC(=O)c2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c2O)COC(=O)[C@@H](NC(=O)c2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c2O)COC1=O)c1cccc(O)c1O",
+    "method": "BRICS",
+    "status": "ok",
+    "runtime_s": 0.0102,
+    "n_fragments": 7,
+    "error": "",
+    "candidate_count": "",
+    "fragments": [
+      {
+        "index": 1,
+        "smiles": "[15*][C@H]1COC(=O)[C@@H]([15*])COC(=O)[C@@H]([15*])COC1=O",
+        "inchi_key": null,
+        "heavy_atoms": 15,
+        "total_atoms": 18
+      },
+      {
+        "index": 2,
+        "smiles": "[13*][C@@H]1O[C@H]([13*])[C@@H](O)[C@H](O)[C@H]1O",
+        "inchi_key": null,
+        "heavy_atoms": 9,
+        "total_atoms": 11
+      },
+      {
+        "index": 3,
+        "smiles": "[16*]c1cc([16*])c(O)c(O)c1",
+        "inchi_key": null,
+        "heavy_atoms": 8,
+        "total_atoms": 10
+      },
+      {
+        "index": 4,
+        "smiles": "[16*]c1cccc(O)c1O",
+        "inchi_key": null,
+        "heavy_atoms": 8,
+        "total_atoms": 9
+      },
+      {
+        "index": 5,
+        "smiles": "[1*]C([6*])=O",
+        "inchi_key": null,
+        "heavy_atoms": 2,
+        "total_atoms": 4
+      },
+      {
+        "index": 6,
+        "smiles": "[8*]CO",
+        "inchi_key": null,
+        "heavy_atoms": 2,
+        "total_atoms": 3
+      },
+      {
+        "index": 7,
+        "smiles": "[5*]N[5*]",
+        "inchi_key": null,
+        "heavy_atoms": 1,
+        "total_atoms": 3
+      }
+    ]
+  },
+  {
+    "compound": "salmochelin_s4",
+    "parent_smiles": "O=C(N[C@H]1COC(=O)[C@@H](NC(=O)c2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c2O)COC(=O)[C@@H](NC(=O)c2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c2O)COC1=O)c1cccc(O)c1O",
+    "method": "MetaDi",
+    "status": "no_output",
+    "runtime_s": 49.6151,
+    "n_fragments": 0,
+    "error": "No fragments returned",
+    "candidate_count": 0,
+    "fragments": []
+  },
+  {
+    "compound": "cyclic_trichrysobactin",
+    "parent_smiles": "NCCCC[C@@H](NC(=O)c1cccc(O)c1O)C(=O)N[C@H]1COC(=O)[C@@H](NC(=O)[C@@H](CCCCN)NC(=O)c2cccc(O)c2O)COC(=O)[C@@H](NC(=O)[C@@H](CCCCN)NC(=O)c2cccc(O)c2O)COC1=O",
+    "method": "Geass",
+    "status": "ok",
+    "runtime_s": 0.0115,
+    "n_fragments": 9,
+    "error": "",
+    "candidate_count": "",
+    "fragments": [
+      {
+        "index": 1,
+        "smiles": "O=C(O)c1cccc(O)c1O",
+        "inchi_key": "GLDQAMYCGOIJDV-UHFFFAOYSA-N",
+        "heavy_atoms": 11,
+        "total_atoms": 11
+      },
+      {
+        "index": 2,
+        "smiles": "O=C(O)c1cccc(O)c1O",
+        "inchi_key": "GLDQAMYCGOIJDV-UHFFFAOYSA-N",
+        "heavy_atoms": 11,
+        "total_atoms": 11
+      },
+      {
+        "index": 3,
+        "smiles": "O=C(O)c1cccc(O)c1O",
+        "inchi_key": "GLDQAMYCGOIJDV-UHFFFAOYSA-N",
+        "heavy_atoms": 11,
+        "total_atoms": 11
+      },
+      {
+        "index": 4,
+        "smiles": "NCCCC[C@@H](N)C(=O)O",
+        "inchi_key": "KDXKERNSBIXSRK-RXMQYKEDSA-N",
+        "heavy_atoms": 10,
+        "total_atoms": 10
+      },
+      {
+        "index": 5,
+        "smiles": "NCCCC[C@@H](N)C(=O)O",
+        "inchi_key": "KDXKERNSBIXSRK-RXMQYKEDSA-N",
+        "heavy_atoms": 10,
+        "total_atoms": 10
+      },
+      {
+        "index": 6,
+        "smiles": "NCCCC[C@@H](N)C(=O)O",
+        "inchi_key": "KDXKERNSBIXSRK-RXMQYKEDSA-N",
+        "heavy_atoms": 10,
+        "total_atoms": 10
+      },
+      {
+        "index": 7,
+        "smiles": "N[C@@H](CO)C(=O)O",
+        "inchi_key": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+        "heavy_atoms": 7,
+        "total_atoms": 7
+      },
+      {
+        "index": 8,
+        "smiles": "N[C@@H](CO)C(=O)O",
+        "inchi_key": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+        "heavy_atoms": 7,
+        "total_atoms": 7
+      },
+      {
+        "index": 9,
+        "smiles": "N[C@@H](CO)C(=O)O",
+        "inchi_key": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+        "heavy_atoms": 7,
+        "total_atoms": 7
+      }
+    ]
+  },
+  {
+    "compound": "cyclic_trichrysobactin",
+    "parent_smiles": "NCCCC[C@@H](NC(=O)c1cccc(O)c1O)C(=O)N[C@H]1COC(=O)[C@@H](NC(=O)[C@@H](CCCCN)NC(=O)c2cccc(O)c2O)COC(=O)[C@@H](NC(=O)[C@@H](CCCCN)NC(=O)c2cccc(O)c2O)COC1=O",
+    "method": "BRICS",
+    "status": "ok",
+    "runtime_s": 0.0196,
+    "n_fragments": 5,
+    "error": "",
+    "candidate_count": "",
+    "fragments": [
+      {
+        "index": 1,
+        "smiles": "[15*][C@H]1COC(=O)[C@@H]([15*])COC(=O)[C@@H]([15*])COC1=O",
+        "inchi_key": null,
+        "heavy_atoms": 15,
+        "total_atoms": 18
+      },
+      {
+        "index": 2,
+        "smiles": "[1*]C(=O)[C@H]([4*])CCCCN",
+        "inchi_key": null,
+        "heavy_atoms": 8,
+        "total_atoms": 10
+      },
+      {
+        "index": 3,
+        "smiles": "[16*]c1cccc(O)c1O",
+        "inchi_key": null,
+        "heavy_atoms": 8,
+        "total_atoms": 9
+      },
+      {
+        "index": 4,
+        "smiles": "[1*]C([6*])=O",
+        "inchi_key": null,
+        "heavy_atoms": 2,
+        "total_atoms": 4
+      },
+      {
+        "index": 5,
+        "smiles": "[5*]N[5*]",
+        "inchi_key": null,
+        "heavy_atoms": 1,
+        "total_atoms": 3
+      }
+    ]
+  },
+  {
+    "compound": "cyclic_trichrysobactin",
+    "parent_smiles": "NCCCC[C@@H](NC(=O)c1cccc(O)c1O)C(=O)N[C@H]1COC(=O)[C@@H](NC(=O)[C@@H](CCCCN)NC(=O)c2cccc(O)c2O)COC(=O)[C@@H](NC(=O)[C@@H](CCCCN)NC(=O)c2cccc(O)c2O)COC1=O",
+    "method": "MetaDi",
+    "status": "no_output",
+    "runtime_s": 24.8058,
+    "n_fragments": 0,
+    "error": "No fragments returned",
+    "candidate_count": 0,
+    "fragments": []
+  },
+  {
+    "compound": "mirubactin",
+    "parent_smiles": "NC(=NCCC[C@@H](NC(=O)c1cccc(O)c1O)C(=O)N[C@H](CCCN(O)C=O)C(=O)O)NC(=O)c1cccc(O)c1O",
+    "method": "Geass",
+    "status": "ok",
+    "runtime_s": 0.0067,
+    "n_fragments": 4,
+    "error": "",
+    "candidate_count": "",
+    "fragments": [
+      {
+        "index": 1,
+        "smiles": "NC(N)=NCCC[C@@H](N)C(=O)O",
+        "inchi_key": "ODKSFYDXXFIFQN-SCSAIBSYSA-N",
+        "heavy_atoms": 12,
+        "total_atoms": 12
+      },
+      {
+        "index": 2,
+        "smiles": "N[C@H](CCCN(O)C=O)C(=O)O",
+        "inchi_key": "KORLZEIJSHHTDW-RXMQYKEDSA-N",
+        "heavy_atoms": 12,
+        "total_atoms": 12
+      },
+      {
+        "index": 3,
+        "smiles": "O=C(O)c1cccc(O)c1O",
+        "inchi_key": "GLDQAMYCGOIJDV-UHFFFAOYSA-N",
+        "heavy_atoms": 11,
+        "total_atoms": 11
+      },
+      {
+        "index": 4,
+        "smiles": "O=C(O)c1cccc(O)c1O",
+        "inchi_key": "GLDQAMYCGOIJDV-UHFFFAOYSA-N",
+        "heavy_atoms": 11,
+        "total_atoms": 11
+      }
+    ]
+  },
+  {
+    "compound": "mirubactin",
+    "parent_smiles": "NC(=NCCC[C@@H](NC(=O)c1cccc(O)c1O)C(=O)N[C@H](CCCN(O)C=O)C(=O)O)NC(=O)c1cccc(O)c1O",
+    "method": "BRICS",
+    "status": "ok",
+    "runtime_s": 0.0059,
+    "n_fragments": 5,
+    "error": "",
+    "candidate_count": "",
+    "fragments": [
+      {
+        "index": 1,
+        "smiles": "[4*][C@H](CCCN(O)C=O)C(=O)O",
+        "inchi_key": null,
+        "heavy_atoms": 11,
+        "total_atoms": 12
+      },
+      {
+        "index": 2,
+        "smiles": "[1*]C(=O)[C@H]([4*])CCCN=C(N)N[5*]",
+        "inchi_key": null,
+        "heavy_atoms": 10,
+        "total_atoms": 13
+      },
+      {
+        "index": 3,
+        "smiles": "[16*]c1cccc(O)c1O",
+        "inchi_key": null,
+        "heavy_atoms": 8,
+        "total_atoms": 9
+      },
+      {
+        "index": 4,
+        "smiles": "[1*]C([6*])=O",
+        "inchi_key": null,
+        "heavy_atoms": 2,
+        "total_atoms": 4
+      },
+      {
+        "index": 5,
+        "smiles": "[5*]N[5*]",
+        "inchi_key": null,
+        "heavy_atoms": 1,
+        "total_atoms": 3
+      }
+    ]
+  },
+  {
+    "compound": "mirubactin",
+    "parent_smiles": "NC(=NCCC[C@@H](NC(=O)c1cccc(O)c1O)C(=O)N[C@H](CCCN(O)C=O)C(=O)O)NC(=O)c1cccc(O)c1O",
+    "method": "MetaDi",
+    "status": "no_output",
+    "runtime_s": 29.4603,
+    "n_fragments": 0,
+    "error": "No fragments returned",
+    "candidate_count": 0,
+    "fragments": []
+  }
+]

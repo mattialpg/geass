@@ -1,0 +1,486 @@
+cyclic_trichrysobactin_Geass_01
+     RDKit          2D
+
+ 11 11  0  0  0  0  0  0  0  0999 V2000
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  1  3  1  0
+  1  4  1  0
+  4  5  2  0
+  6  4  1  0
+  5  7  1  0
+  5  8  1  0
+  9  6  2  0
+  7 10  2  0
+  7 11  1  0
+ 10  9  1  0
+M  END
+>  <ISOSMILES>  (1) 
+O=C(O)c1cccc(O)c1O
+
+>  <InChIKey>  (1) 
+GLDQAMYCGOIJDV-UHFFFAOYSA-N
+
+>  <MUID>  (1) 
+GLDQAMYCGOIJDV-UHFFFAOYSA-N
+
+>  <isNP>  (1) 
+
+
+>  <Annotation>  (1) 
+
+
+>  <Similarity>  (1) 
+0.0
+
+>  <Note>  (1) 
+None
+
+>  <compound>  (1) 
+cyclic_trichrysobactin
+
+>  <method>  (1) 
+Geass
+
+>  <fragment_index>  (1) 
+1
+
+$$$$
+cyclic_trichrysobactin_Geass_02
+     RDKit          2D
+
+ 11 11  0  0  0  0  0  0  0  0999 V2000
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  1  3  1  0
+  1  4  1  0
+  4  5  2  0
+  6  4  1  0
+  5  7  1  0
+  5  8  1  0
+  9  6  2  0
+  7 10  2  0
+  7 11  1  0
+ 10  9  1  0
+M  END
+>  <ISOSMILES>  (2) 
+O=C(O)c1cccc(O)c1O
+
+>  <InChIKey>  (2) 
+GLDQAMYCGOIJDV-UHFFFAOYSA-N
+
+>  <MUID>  (2) 
+GLDQAMYCGOIJDV-UHFFFAOYSA-N
+
+>  <isNP>  (2) 
+
+
+>  <Annotation>  (2) 
+
+
+>  <Similarity>  (2) 
+0.0
+
+>  <Note>  (2) 
+None
+
+>  <compound>  (2) 
+cyclic_trichrysobactin
+
+>  <method>  (2) 
+Geass
+
+>  <fragment_index>  (2) 
+2
+
+$$$$
+cyclic_trichrysobactin_Geass_03
+     RDKit          2D
+
+ 11 11  0  0  0  0  0  0  0  0999 V2000
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  1  3  1  0
+  1  4  1  0
+  4  5  2  0
+  6  4  1  0
+  5  7  1  0
+  5  8  1  0
+  9  6  2  0
+  7 10  2  0
+  7 11  1  0
+ 10  9  1  0
+M  END
+>  <ISOSMILES>  (3) 
+O=C(O)c1cccc(O)c1O
+
+>  <InChIKey>  (3) 
+GLDQAMYCGOIJDV-UHFFFAOYSA-N
+
+>  <MUID>  (3) 
+GLDQAMYCGOIJDV-UHFFFAOYSA-N
+
+>  <isNP>  (3) 
+
+
+>  <Annotation>  (3) 
+
+
+>  <Similarity>  (3) 
+0.0
+
+>  <Note>  (3) 
+None
+
+>  <compound>  (3) 
+cyclic_trichrysobactin
+
+>  <method>  (3) 
+Geass
+
+>  <fragment_index>  (3) 
+3
+
+$$$$
+cyclic_trichrysobactin_Geass_04
+     RDKit          2D
+
+ 10  9  0  0  0  0  0  0  0  0999 V2000
+   -1.2990    2.2500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2990    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5981    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8971    0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5981   -1.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5981   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8971    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1962   -0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  6
+  3  2  1  0
+  2  4  1  0
+  3  5  2  0
+  3  6  1  0
+  4  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+M  END
+>  <ISOSMILES>  (4) 
+NCCCC[C@@H](N)C(=O)O
+
+>  <InChIKey>  (4) 
+KDXKERNSBIXSRK-RXMQYKEDSA-N
+
+>  <MUID>  (4) 
+KDXKERNSBIXSRK-RXMQYKEDSA-N
+
+>  <isNP>  (4) 
+
+
+>  <Annotation>  (4) 
+
+
+>  <Similarity>  (4) 
+0.0
+
+>  <Note>  (4) 
+None
+
+>  <compound>  (4) 
+cyclic_trichrysobactin
+
+>  <method>  (4) 
+Geass
+
+>  <fragment_index>  (4) 
+4
+
+$$$$
+cyclic_trichrysobactin_Geass_05
+     RDKit          2D
+
+ 10  9  0  0  0  0  0  0  0  0999 V2000
+   -1.2990    2.2500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2990    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5981    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8971    0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5981   -1.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5981   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8971    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1962   -0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  6
+  3  2  1  0
+  2  4  1  0
+  3  5  2  0
+  3  6  1  0
+  4  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+M  END
+>  <ISOSMILES>  (5) 
+NCCCC[C@@H](N)C(=O)O
+
+>  <InChIKey>  (5) 
+KDXKERNSBIXSRK-RXMQYKEDSA-N
+
+>  <MUID>  (5) 
+KDXKERNSBIXSRK-RXMQYKEDSA-N
+
+>  <isNP>  (5) 
+
+
+>  <Annotation>  (5) 
+
+
+>  <Similarity>  (5) 
+0.0
+
+>  <Note>  (5) 
+None
+
+>  <compound>  (5) 
+cyclic_trichrysobactin
+
+>  <method>  (5) 
+Geass
+
+>  <fragment_index>  (5) 
+5
+
+$$$$
+cyclic_trichrysobactin_Geass_06
+     RDKit          2D
+
+ 10  9  0  0  0  0  0  0  0  0999 V2000
+   -1.2990    2.2500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2990    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5981    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8971    0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5981   -1.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5981   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8971    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1962   -0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  6
+  3  2  1  0
+  2  4  1  0
+  3  5  2  0
+  3  6  1  0
+  4  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+M  END
+>  <ISOSMILES>  (6) 
+NCCCC[C@@H](N)C(=O)O
+
+>  <InChIKey>  (6) 
+KDXKERNSBIXSRK-RXMQYKEDSA-N
+
+>  <MUID>  (6) 
+KDXKERNSBIXSRK-RXMQYKEDSA-N
+
+>  <isNP>  (6) 
+
+
+>  <Annotation>  (6) 
+
+
+>  <Similarity>  (6) 
+0.0
+
+>  <Note>  (6) 
+None
+
+>  <compound>  (6) 
+cyclic_trichrysobactin
+
+>  <method>  (6) 
+Geass
+
+>  <fragment_index>  (6) 
+6
+
+$$$$
+cyclic_trichrysobactin_Geass_07
+     RDKit          2D
+
+  7  6  0  0  0  0  0  0  0  0999 V2000
+   -1.2990    0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990    2.2500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5981   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8971    0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5981   -1.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  6
+  3  5  1  0
+  5  6  1  0
+  5  7  2  0
+M  END
+>  <ISOSMILES>  (7) 
+N[C@@H](CO)C(=O)O
+
+>  <InChIKey>  (7) 
+MTCFGRXMJLQNBG-REOHCLBHSA-N
+
+>  <MUID>  (7) 
+MTCFGRXMJLQNBG-REOHCLBHSA-N
+
+>  <isNP>  (7) 
+
+
+>  <Annotation>  (7) 
+
+
+>  <Similarity>  (7) 
+0.0
+
+>  <Note>  (7) 
+None
+
+>  <compound>  (7) 
+cyclic_trichrysobactin
+
+>  <method>  (7) 
+Geass
+
+>  <fragment_index>  (7) 
+7
+
+$$$$
+cyclic_trichrysobactin_Geass_08
+     RDKit          2D
+
+  7  6  0  0  0  0  0  0  0  0999 V2000
+    2.5981   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8971    0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5981   -1.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990    2.2500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2990    0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  3  1  1  0
+  1  4  2  0
+  5  3  1  0
+  3  6  1  6
+  7  5  1  0
+M  END
+>  <ISOSMILES>  (8) 
+N[C@@H](CO)C(=O)O
+
+>  <InChIKey>  (8) 
+MTCFGRXMJLQNBG-REOHCLBHSA-N
+
+>  <MUID>  (8) 
+MTCFGRXMJLQNBG-REOHCLBHSA-N
+
+>  <isNP>  (8) 
+
+
+>  <Annotation>  (8) 
+
+
+>  <Similarity>  (8) 
+0.0
+
+>  <Note>  (8) 
+None
+
+>  <compound>  (8) 
+cyclic_trichrysobactin
+
+>  <method>  (8) 
+Geass
+
+>  <fragment_index>  (8) 
+8
+
+$$$$
+cyclic_trichrysobactin_Geass_09
+     RDKit          2D
+
+  7  6  0  0  0  0  0  0  0  0999 V2000
+    2.5981   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8971    0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5981   -1.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990    2.2500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2990    0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  3  1  1  0
+  1  4  2  0
+  5  3  1  0
+  3  6  1  6
+  7  5  1  0
+M  END
+>  <ISOSMILES>  (9) 
+N[C@@H](CO)C(=O)O
+
+>  <InChIKey>  (9) 
+MTCFGRXMJLQNBG-REOHCLBHSA-N
+
+>  <MUID>  (9) 
+MTCFGRXMJLQNBG-REOHCLBHSA-N
+
+>  <isNP>  (9) 
+
+
+>  <Annotation>  (9) 
+
+
+>  <Similarity>  (9) 
+0.0
+
+>  <Note>  (9) 
+None
+
+>  <compound>  (9) 
+cyclic_trichrysobactin
+
+>  <method>  (9) 
+Geass
+
+>  <fragment_index>  (9) 
+9
+
+$$$$
