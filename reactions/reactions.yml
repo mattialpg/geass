@@ -1,28 +1,4 @@
 
-# --- TAYLORING REACTIONS --- #
-
-O-methyl: > # Methyltransferases 
-  [#8:0][CH3:1]>>([#8:0].[C:1])
-
-N-methyl: > # Methyltransferases
-  [#7:0][CH3:1]>>([#7H:0].[C:1])
-
-S-methyl: > # Methyltransferases 
-  [#16:0][CH3:1]>>([#16:0].[C:1])
-
-acetyl: > # Acetyltransferases
-  [N,O;$([N,O]([#6])([#6])):0]-[C;$(C(=O)[CH3]):1]>>([N,O:0].[C:1]-[#0])
-
-prenyl: >
-  [N,S:0]-[C!R;$(CC=C(C)C):1]>>([N,S:0].[C:1])
-
-sulphate: > # Sulfotransferases
-  [#6,#7:0]-[O;$(O[SX4]):1]>>([#6,#7:0]O.[O:1]-[#0])
-
-phosphate: > # Phosphotransferases
-  [#6:0]-[O;$(O[PX4]):1]>>([#6:0]O.[O:1]-[#0]) 
-
-
 # --- ASSEMBLY REACTIONS --- #
 
 amide: >
@@ -55,5 +31,29 @@ cross-link-1: >
 cross-link-2: >
   [c;$(c(c[O,Cl])Occ(c)),$(c(n)Oc):0]~[O;$(Occ),$(O(cn)cn):1]>>([c:0].[O:1])
 
-ArCP cyclisation: >
+heterocycle: >
   [NR:0]=[CR:1]-[O,S;R:2]>>([N:0]-[C:1]=O.[O,S:2])
+
+
+# --- TAYLORING REACTIONS --- #
+
+O-methyl: > # Methyltransferases 
+  [#8:0][CH3:1]>>([#8:0].[C:1])
+
+N-methyl: > # Methyltransferases
+  [#7:0][CH3:1]>>([#7H:0].[C:1])
+
+S-methyl: > # Methyltransferases 
+  [#16:0][CH3:1]>>([#16:0].[C:1])
+
+acetyl: > # Acetyltransferases
+  [N,O;$([N,O]([#6])([#6])):0]-[C;$(C(=O)[CH3]):1]>>([N,O:0].[C:1]-[#0])
+
+prenyl: >
+  [N,S:0]-[C!R;$(CC=C(C)C):1]>>([N,S:0].[C:1])
+
+sulphate: > # Sulfotransferases
+  [#6,#7:0]-[O;$(O[SX4]):1]>>([#6,#7:0]O.[O:1]-[#0])
+
+phosphate: > # Phosphotransferases
+  [#6:0]-[O;$(O[PX4]):1]>>([#6:0]O.[O:1]-[#0]) 
