@@ -35,7 +35,7 @@ def reset_view(mol):
 def mol2svg(mol):
     try:
         # Handle special cases
-        if mol.HasProp('Annotation') and mol.GetProp('Annotation') == 'Special':
+        if mol.HasProp('Annotation_status') and mol.GetProp('Annotation_status') == 'Special':
             atoms = list(mol.GetAtoms())
             if mol.GetProp('MUID') == 'C00019':
                 atom_C = next(a for a in atoms if a.GetAtomicNum() == 6)
@@ -212,8 +212,8 @@ class Geass:
                 'MUID': frag_mol.GetProp('MUID'),
                 'Similarity': float(frag_mol.GetProp('Similarity'))
                     if frag_mol.HasProp('Similarity') else 0.0,
-                'Annotation': frag_mol.GetProp('Annotation')
-                    if frag_mol.HasProp('Annotation') else '',
+                'Annotation': frag_mol.GetProp('Annotation_status')
+                    if frag_mol.HasProp('Annotation_status') else '',
                 'isNP': frag_mol.GetProp('isNP')
                     if frag_mol.HasProp('isNP') else ''}
             if img:

@@ -53,7 +53,7 @@ DISPLAY_NAMES = {
 }
 
 
-def decompose(method: str, mol: Chem.Mol, smiles: str, meta_time_limit: int):
+def decompose(method: str, mol: Chem.Mol, smiles: str):
     """Return (molecules, metadata) using the existing benchmark APIs."""
     if method == "Geass":
         from new_geass import Geass
@@ -67,7 +67,7 @@ def decompose(method: str, mol: Chem.Mol, smiles: str, meta_time_limit: int):
         from metadisassembler import MetaDisassembler
 
         md = MetaDisassembler()
-        md.time_limit = meta_time_limit
+        md.time_limit = math.inf
         if not md.input_query(smiles):
             raise ValueError("MetaDi rejected the input SMILES")
         inchis = md.disassemble(return_inchis=True, result_id=0, write_output=False) or []
@@ -80,7 +80,6 @@ def decompose(method: str, mol: Chem.Mol, smiles: str, meta_time_limit: int):
         metadata = {
             "candidate_count": len(md.result),
             "selected_candidate": 0 if md.result else None,
-            "time_limit_s": meta_time_limit,
         }
     else:
         raise ValueError(f"Unknown method: {method}")
@@ -204,14 +203,13 @@ def make_figure(results: dict, output: Path, per_row: int, tile: tuple[int, int]
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output-dir", type=Path, default=ARTICLE_DIR / "siderophore_fragmentation")
-    parser.add_argument("--meta-time-limit", type=int, default=20, help="MetaDi internal per-compound limit in seconds")
     parser.add_argument("--mols-per-row", type=int, default=3, help="RDKit fragment tiles per cell row")
     parser.add_argument("--tile-width", type=int, default=200)
     parser.add_argument("--tile-height", type=int, default=160)
     parser.add_argument("--methods", nargs="+", choices=METHODS, default=list(METHODS), help="Run subset of methods for diagnostics; other figure cells say Not run")
     args = parser.parse_args(argv)
-    if args.meta_time_limit < 1 or args.mols_per_row < 1 or min(args.tile_width, args.tile_height) < 80:
-        parser.error("Time limit and mols-per-row must be positive; tile dimensions must be at least 80 pixels")
+    if args.mols_per_row < 1 or min(args.tile_width, args.tile_height) < 80:
+        parser.error("Mols-per-row must be positive; tile dimensions must be at least 80 pixels")
 
     output = args.output_dir.expanduser().resolve()
     sdf_dir = output / "sdf"
@@ -229,7 +227,7 @@ def main(argv: list[str] | None = None) -> int:
             else:
                 start = time.perf_counter()
                 try:
-                    mols, metadata = decompose(method, parent, smiles, args.meta_time_limit)
+                    mols, metadata = decompose(method, parent, smiles)
                     status, error = ("ok", "") if mols else ("no_output", "No fragments returned")
                 except Exception as exc:
                     mols, metadata, status, error = [], {}, "error", f"{type(exc).__name__}: {exc}"
