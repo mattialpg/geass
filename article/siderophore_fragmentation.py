@@ -45,6 +45,7 @@ COMPOUNDS = {
     "mirubactin": "NC(=NCCC[C@@H](NC(=O)C1=C(O)C(O)=CC=C1)C(=O)N[C@H](CCCN(O)C=O)C(=O)O)NC(=O)C1=C(O)C(O)=CC=C1",
 }
 METHODS = ("Geass", "BRICS", "MetaDi")
+DEFAULT_TILE_SIZE = (165, 160)
 DISPLAY_NAMES = {
     "enterobactin": "Enterobactin",
     "salmochelin_s4": "Salmochelin S4",
@@ -66,8 +67,15 @@ def decompose(method: str, mol: Chem.Mol, smiles: str):
     elif method == "MetaDi":
         from metadisassembler import MetaDisassembler
 
-        md = MetaDisassembler()
+        class FixedLimitMetaDisassembler(MetaDisassembler):
+            def _initialize(self):
+                initialized = super()._initialize()
+                self.frag_limit = 30
+                return initialized
+
+        md = FixedLimitMetaDisassembler()
         md.time_limit = math.inf
+        md.stop_after_first = True
         if not md.input_query(smiles):
             raise ValueError("MetaDi rejected the input SMILES")
         inchis = md.disassemble(return_inchis=True, result_id=0, write_output=False) or []
@@ -119,10 +127,28 @@ def _font(size: int) -> ImageFont.ImageFont:
         return ImageFont.load_default()
 
 
-def _grid_images(fragments: list[Chem.Mol], per_row: int, tile: tuple[int, int]):
+def group_identical_fragments(fragments: list[Chem.Mol]):
+    grouped = {}
+    for mol in fragments:
+        smiles = Chem.MolToSmiles(mol, canonical=True, isomericSmiles=True)
+        if smiles in grouped:
+            grouped[smiles][1] += 1
+        else:
+            grouped[smiles] = [Chem.Mol(mol), 1]
+    return list(grouped.values())
+
+
+def _multiplicity_legends(multiplicities: list[int]) -> list[str]:
+    return [f"{count}x" for count in multiplicities]
+
+
+def _grid_images(
+    fragments: list[Chem.Mol], multiplicities: list[int],
+    per_row: int, tile: tuple[int, int],
+):
     if not fragments:
         return None, None
-    legends = [f"{i + 1}  ({m.GetNumHeavyAtoms()} atoms)" for i, m in enumerate(fragments)]
+    legends = _multiplicity_legends(multiplicities)
     options = dict(molsPerRow=per_row, subImgSize=tile, legends=legends)
     pil = Draw.MolsToGridImage(fragments, useSVG=False, **options).convert("RGB")
     vector = Draw.MolsToGridImage(fragments, useSVG=True, **options)
@@ -142,11 +168,18 @@ def make_figure(results: dict, output: Path, per_row: int, tile: tuple[int, int]
     label_w = 235
     col_w = per_row * tile[0] + 28
     header_h = 74
-    cell_top = 43
+    cell_top = 18
     width = label_w + len(METHODS) * col_w
+    grouped = {
+        compound: {
+            method: group_identical_fragments(results[compound][method]["mols"])
+            for method in METHODS
+        }
+        for compound in COMPOUNDS
+    }
     row_heights = []
     for compound in COMPOUNDS:
-        max_fragments = max(len(results[compound][method]["mols"]) for method in METHODS)
+        max_fragments = max(len(grouped[compound][method]) for method in METHODS)
         row_heights.append(cell_top + max(1, math.ceil(max_fragments / per_row)) * tile[1] + 14)
     height = header_h + sum(row_heights)
 
@@ -182,14 +215,12 @@ def make_figure(results: dict, output: Path, per_row: int, tile: tuple[int, int]
             x = label_w + col * col_w
             rect((x, row_y, x + col_w, row_y + rh), "#FFFFFF")
             entry = results[compound][method]
-            mols = entry["mols"]
+            fragments = grouped[compound][method]
             status = entry["status"]
-            note = f"{len(mols)} fragments" if status == "ok" else ("Not run" if status == "skipped" else "No valid output")
-            if method == "BRICS" and status == "ok":
-                note = f"{len(mols)} distinct fragments"
-            text(x + 14, row_y + 9, note, font_small, 15, "#596879")
-            if mols:
-                pil, native_svg = _grid_images(mols, per_row, tile)
+            if fragments:
+                mols = [mol for mol, _ in fragments]
+                multiplicities = [count for _, count in fragments]
+                pil, native_svg = _grid_images(mols, multiplicities, per_row, tile)
                 canvas.paste(pil, (x + 14, row_y + cell_top))
                 svg.append(_svg_embedded(native_svg, x + 14, row_y + cell_top))
             elif status == "error":
@@ -204,8 +235,8 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output-dir", type=Path, default=ARTICLE_DIR / "siderophore_fragmentation")
     parser.add_argument("--mols-per-row", type=int, default=3, help="RDKit fragment tiles per cell row")
-    parser.add_argument("--tile-width", type=int, default=200)
-    parser.add_argument("--tile-height", type=int, default=160)
+    parser.add_argument("--tile-width", type=int, default=DEFAULT_TILE_SIZE[0])
+    parser.add_argument("--tile-height", type=int, default=DEFAULT_TILE_SIZE[1])
     parser.add_argument("--methods", nargs="+", choices=METHODS, default=list(METHODS), help="Run subset of methods for diagnostics; other figure cells say Not run")
     args = parser.parse_args(argv)
     if args.mols_per_row < 1 or min(args.tile_width, args.tile_height) < 80:

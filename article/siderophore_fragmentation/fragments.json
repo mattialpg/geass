@@ -4,7 +4,7 @@
     "parent_smiles": "O=C(N[C@H]1COC(=O)[C@@H](NC(=O)c2cccc(O)c2O)COC(=O)[C@@H](NC(=O)c2cccc(O)c2O)COC1=O)c1cccc(O)c1O",
     "method": "Geass",
     "status": "ok",
-    "runtime_s": 2.9335,
+    "runtime_s": null,
     "n_fragments": 6,
     "error": "",
     "candidate_count": "",
@@ -58,7 +58,7 @@
     "parent_smiles": "O=C(N[C@H]1COC(=O)[C@@H](NC(=O)c2cccc(O)c2O)COC(=O)[C@@H](NC(=O)c2cccc(O)c2O)COC1=O)c1cccc(O)c1O",
     "method": "BRICS",
     "status": "ok",
-    "runtime_s": 0.0056,
+    "runtime_s": null,
     "n_fragments": 4,
     "error": "",
     "candidate_count": "",
@@ -98,10 +98,10 @@
     "parent_smiles": "O=C(N[C@H]1COC(=O)[C@@H](NC(=O)c2cccc(O)c2O)COC(=O)[C@@H](NC(=O)c2cccc(O)c2O)COC1=O)c1cccc(O)c1O",
     "method": "MetaDi",
     "status": "ok",
-    "runtime_s": 33.0088,
+    "runtime_s": null,
     "n_fragments": 12,
     "error": "",
-    "candidate_count": 8,
+    "candidate_count": 1,
     "fragments": [
       {
         "index": 1,
@@ -194,7 +194,7 @@
     "parent_smiles": "O=C(N[C@H]1COC(=O)[C@@H](NC(=O)c2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c2O)COC(=O)[C@@H](NC(=O)c2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c2O)COC1=O)c1cccc(O)c1O",
     "method": "Geass",
     "status": "ok",
-    "runtime_s": 0.0106,
+    "runtime_s": null,
     "n_fragments": 8,
     "error": "",
     "candidate_count": "",
@@ -262,7 +262,7 @@
     "parent_smiles": "O=C(N[C@H]1COC(=O)[C@@H](NC(=O)c2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c2O)COC(=O)[C@@H](NC(=O)c2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c2O)COC1=O)c1cccc(O)c1O",
     "method": "BRICS",
     "status": "ok",
-    "runtime_s": 0.0102,
+    "runtime_s": null,
     "n_fragments": 7,
     "error": "",
     "candidate_count": "",
@@ -322,19 +322,118 @@
     "compound": "salmochelin_s4",
     "parent_smiles": "O=C(N[C@H]1COC(=O)[C@@H](NC(=O)c2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c2O)COC(=O)[C@@H](NC(=O)c2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c2O)COC1=O)c1cccc(O)c1O",
     "method": "MetaDi",
-    "status": "no_output",
-    "runtime_s": 49.6151,
-    "n_fragments": 0,
-    "error": "No fragments returned",
-    "candidate_count": 0,
-    "fragments": []
+    "status": "ok",
+    "runtime_s": null,
+    "n_fragments": 14,
+    "error": "",
+    "candidate_count": 1,
+    "fragments": [
+      {
+        "index": 1,
+        "smiles": "OC[C@H]1OC[C@H](O)[C@@H](O)[C@@H]1O",
+        "inchi_key": "MPCAJMNYNOGXPB-SLPGGIOYSA-N",
+        "heavy_atoms": 11,
+        "total_atoms": 11
+      },
+      {
+        "index": 2,
+        "smiles": "OC[C@H]1OC[C@H](O)[C@@H](O)[C@@H]1O",
+        "inchi_key": "MPCAJMNYNOGXPB-SLPGGIOYSA-N",
+        "heavy_atoms": 11,
+        "total_atoms": 11
+      },
+      {
+        "index": 3,
+        "smiles": "O=Cc1ccccc1",
+        "inchi_key": "HUMNYLRZRPPJDN-UHFFFAOYSA-N",
+        "heavy_atoms": 8,
+        "total_atoms": 8
+      },
+      {
+        "index": 4,
+        "smiles": "O=Cc1ccccc1",
+        "inchi_key": "HUMNYLRZRPPJDN-UHFFFAOYSA-N",
+        "heavy_atoms": 8,
+        "total_atoms": 8
+      },
+      {
+        "index": 5,
+        "smiles": "O=Cc1ccccc1",
+        "inchi_key": "HUMNYLRZRPPJDN-UHFFFAOYSA-N",
+        "heavy_atoms": 8,
+        "total_atoms": 8
+      },
+      {
+        "index": 6,
+        "smiles": "N[C@@H](CO)C(=O)O",
+        "inchi_key": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+        "heavy_atoms": 7,
+        "total_atoms": 7
+      },
+      {
+        "index": 7,
+        "smiles": "C[C@H](N)C(=O)O",
+        "inchi_key": "QNAYBMKLOCPYGJ-REOHCLBHSA-N",
+        "heavy_atoms": 6,
+        "total_atoms": 6
+      },
+      {
+        "index": 8,
+        "smiles": "C[C@H](N)C=O",
+        "inchi_key": "QPMCUNAXNMSGTK-VKHMYHEASA-N",
+        "heavy_atoms": 5,
+        "total_atoms": 5
+      },
+      {
+        "index": 9,
+        "smiles": "O",
+        "inchi_key": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+        "heavy_atoms": 1,
+        "total_atoms": 1
+      },
+      {
+        "index": 10,
+        "smiles": "O",
+        "inchi_key": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+        "heavy_atoms": 1,
+        "total_atoms": 1
+      },
+      {
+        "index": 11,
+        "smiles": "O",
+        "inchi_key": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+        "heavy_atoms": 1,
+        "total_atoms": 1
+      },
+      {
+        "index": 12,
+        "smiles": "O",
+        "inchi_key": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+        "heavy_atoms": 1,
+        "total_atoms": 1
+      },
+      {
+        "index": 13,
+        "smiles": "O",
+        "inchi_key": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+        "heavy_atoms": 1,
+        "total_atoms": 1
+      },
+      {
+        "index": 14,
+        "smiles": "O",
+        "inchi_key": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+        "heavy_atoms": 1,
+        "total_atoms": 1
+      }
+    ]
   },
   {
     "compound": "cyclic_trichrysobactin",
     "parent_smiles": "NCCCC[C@@H](NC(=O)c1cccc(O)c1O)C(=O)N[C@H]1COC(=O)[C@@H](NC(=O)[C@@H](CCCCN)NC(=O)c2cccc(O)c2O)COC(=O)[C@@H](NC(=O)[C@@H](CCCCN)NC(=O)c2cccc(O)c2O)COC1=O",
     "method": "Geass",
     "status": "ok",
-    "runtime_s": 0.0115,
+    "runtime_s": null,
     "n_fragments": 9,
     "error": "",
     "candidate_count": "",
@@ -409,7 +508,7 @@
     "parent_smiles": "NCCCC[C@@H](NC(=O)c1cccc(O)c1O)C(=O)N[C@H]1COC(=O)[C@@H](NC(=O)[C@@H](CCCCN)NC(=O)c2cccc(O)c2O)COC(=O)[C@@H](NC(=O)[C@@H](CCCCN)NC(=O)c2cccc(O)c2O)COC1=O",
     "method": "BRICS",
     "status": "ok",
-    "runtime_s": 0.0196,
+    "runtime_s": null,
     "n_fragments": 5,
     "error": "",
     "candidate_count": "",
@@ -455,10 +554,10 @@
     "compound": "cyclic_trichrysobactin",
     "parent_smiles": "NCCCC[C@@H](NC(=O)c1cccc(O)c1O)C(=O)N[C@H]1COC(=O)[C@@H](NC(=O)[C@@H](CCCCN)NC(=O)c2cccc(O)c2O)COC(=O)[C@@H](NC(=O)[C@@H](CCCCN)NC(=O)c2cccc(O)c2O)COC1=O",
     "method": "MetaDi",
-    "status": "no_output",
-    "runtime_s": 24.8058,
+    "status": "interrupted",
+    "runtime_s": 299.81,
     "n_fragments": 0,
-    "error": "No fragments returned",
+    "error": "Interrupted after 300 seconds; no complete tree found",
     "candidate_count": 0,
     "fragments": []
   },

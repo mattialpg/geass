@@ -44,6 +44,7 @@ class MetaDisassembler(Library):
         self.time_limit = 20 # set a time limit [s]
         self.show_stereo = True # show stereochemistry
         self.output_color = False # output color allocation information
+        self.stop_after_first = False
 
 
     ### -*- Initial Settings -*- ###
@@ -463,6 +464,11 @@ class MetaDisassembler(Library):
             else:
                 return False
 
+        reject_unnatural_carbon = (
+            self.stop_after_first
+            and self.cpds[0].mol.HasSubstructMatch(Chem.MolFromSmiles("C=CO"))
+        )
+
         def replace_combi(seed_list):
             while len(seed_list):
                 dt_tmp = datetime.datetime.today()
@@ -477,12 +483,19 @@ class MetaDisassembler(Library):
                     continue
 
                 if cond_check(seed, goal_list):
-                    seed_list_optimized.append(seed_list[0])
+                    candidate = seed_list[0]
+                    if reject_unnatural_carbon and self._has_unnatural_carbon(candidate, valence=3):
+                        seed_list.pop(0)
+                        continue
+
+                    seed_list_optimized.append(candidate)
                     seed_list.pop(0)
 
                     tmp = min([len(lst["target"]) for lst in seed_list_optimized]) + 1
                     if tmp < self.frag_limit:
                         self.frag_limit = tmp
+                    if self.stop_after_first:
+                        break
                     continue
 
                 cut_bond_id_curr = deepcopy(seed_list[0]["cut_bond_id"])
@@ -521,24 +534,22 @@ class MetaDisassembler(Library):
 
     ## -*- Refine Result -*- ##
 
-    def _remove_unnatural_carbon(self, valence=4):
-        result_tmp = deepcopy(self.result)
-        result_new = []
-        for i, x in enumerate(result_tmp):
-            cond = True
-            for k in x["target"]:
-                n_atoms = self.cpds[k].n_atoms
-                if n_atoms == 1 and self.cpds[k].graph.nodes(data=True)[0]["symbol"] == "C":
-                    j = int(self.cpds[k].graph.nodes(data=True)[0]["row"][12]) - 1
-                    count = 0
-                    for edge in self.cpds[0].graph.edges(j, data = True):
-                        count += edge[2]["order"]
-                    if count >= valence:
-                        cond = False
-            if cond:
-                result_new.append(x)
+    def _has_unnatural_carbon(self, result, valence=4):
+        for fragment_id in result["target"]:
+            fragment = self.cpds[fragment_id]
+            node_data = fragment.graph.nodes(data=True)[0]
+            if fragment.n_atoms == 1 and node_data["symbol"] == "C":
+                atom_id = int(node_data["row"][12]) - 1
+                bond_order = sum(edge[2]["order"] for edge in self.cpds[0].graph.edges(atom_id, data=True))
+                if bond_order >= valence:
+                    return True
+        return False
 
-        self.result = result_new
+    def _remove_unnatural_carbon(self, valence=4):
+        self.result = [
+            result for result in self.result
+            if not self._has_unnatural_carbon(result, valence=valence)
+        ]
 
         return True
 
